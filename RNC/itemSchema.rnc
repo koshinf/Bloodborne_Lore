@@ -1,0 +1,33 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+#this format only allows for one item per xml document. I'm alright with it
+#but do we want to wrap "itemInfo" with a root element called "itemList"? - ND
+
+start = itemInfo
+
+itemInfo = element itemInfo{name, type, related, usage, description, location, price?, trivia?}
+
+    name = element name{text}
+
+    type = element type{consumable}
+    
+        consumable = attribute consumable{xsd:boolean}
+        #it seems as if almost every item is consumable... or just isn't. I can change this if you like - ND
+    
+    related = element related{text} # I put "notes" here. Am I doing it right? - ND
+
+    usage = element usage{text} # putting the "usage" part from the wiki here. - ND
+
+    description = element description{text}
+
+    location = element location{place+}
+
+        place = attribute place{xsd:ID} #some items are in multiple places - ND
+
+    price = element price{pVal*} #an optional element that shows the various prices it can be bought at - ND
+
+        pVal = attribute pVal{xsd:integer}
+
+    trivia = element trivia {text} #trivia is optional, as not all items have trivia. - ND
+    
+    
