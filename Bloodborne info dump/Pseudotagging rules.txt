@@ -1,0 +1,6 @@
+^d"  - description - regex: \^d".+\n
+^q" - dialogue
+^e"  - effect
+^n" - notes
+L@ - location
+H@ - header(item/attire/weapon name)
