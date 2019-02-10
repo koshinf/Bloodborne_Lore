@@ -1,0 +1,48 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+
+
+start = lore
+
+lore = element lore{equipment, area, npc, boss}
+equipment = element equipment{((caryllRune | attire | weapon | firearm | item )?)+}
+
+caryllRune = element caryllRune{runeName, description, location+, effect+, notes+, trivia+}
+runeName = element runeName{runeList, text}
+
+attire = element attire{text}
+#attire specific elements
+weapon = element weapon{text}
+#weapon specific elements
+firearm = element firearm{text}
+#firearm specific elements
+item = element item{text}
+#item specific elements
+area = element area{text}
+#area specific elements
+npc = element npc{text}
+#npc specific elements
+boss = element boss{text}
+#boss specific elements
+
+#universal(ish) elements
+description= element description{text}
+location = element location{place?, lamp?, text}
+effect = element effect{text}
+notes = element notes{text}
+trivia = element trivia{text}
+
+#List of everything's name for referencing
+runeList = attribute runeList { "Anti-Clockwise_Metamorphosis" | "Arcane_Lake" | "Beast" | "Beast's_Embrace" | "Blood_Rapture" | "Clawmark" | "Clear_Deep_Sea" | "Clockwise_Metamorphosis" | "Communion" | "Corruption" | "Deep_Sea" | "Dissipating_Lake" | "Eye" | "Fading_Lake" | "Formless_Oedon" | "Great_Deep_Sea" | "Great_Lake" | "Guidance" | "Heir" | "Hunter" | "Impurity" | "Lake" | "Milkweed" | "Moon" | "Murky_Deep_Sea" | "Oedon_Writhe" | "Radiance" | "Stunning_Deep_Sea" }
+attire_set = attribute attire_set { "Ashen_Hunter_Set" | "Black_Church_Set" | "Cainhurst_Set" | "Charred_Hunter_Set" | "Choir_Set" | "Crowfeather_Set" | "Executioner_Set" | "Foreign_Set" | "Gascoigne's_Set" | "Graveguard_Set" | "Hunter_Set(A)" | "Hunter_Set(B)" | "Knight's_Set" | "Student_Set(A)" | "Student_Set(B)" | "Tomb_Prospector_Set" | "White_Church_Set" | "Yharnam_Hunter_Set" | "Yahar'gul_Set(Hood)" | "Yahar'gul_Set(Helmet)" | "Bone_Ash_Set" | "Gehrman's_Hunter_Set" | "Doll_Set" | "Madman_Set" | "Henryk's_Hunter_Set" | "Shabby_Set" | "Butcher_Set" | "Brador's_Set" | "Constable_Set" | "Decorative_Old_Hunter_Set" | "Harrowed_Set" | "Maria_Hunter_Set" | "Old_Hunter_Set" | "Yamamura_Set" }
+attireList = attribute attireList { "Grey_Wolf_Cap" | "Ashen_Hunter_Garb" | "Ashen_Hunter_Gloves" | "Ashen_Hunter_Trousers" | "Black_Church_Hat" | "Black_Church_Garb" | "Surgical_Long_Gloves" | "Black_Church_Trousers/Dress" | "Cainhurst_Helment" | "Cainhurst_Armor" | "Cainhurst_Gauntlets" | "Cainhurst_Leggings" | "Charred_Hunter_Garb" | "Charred_Hunter_Gloves" | "Charred_Hunter_Trousers" | "Blindfold_Cap" | "Choir_Garb" | "Choir_Gloves" | "Choir_Trousers" | "Beak_Mask" | "Crowfeather_Garb" | "Crowfeather_Manchettes" | "Crowfeather_Trousers" | "Gold_Ardeo" | "Executioner_Garb" | "Executioner_Gauntlets" | "Executioner_Trousers" | "Black_Hood" | "Foreign_Garb" | "Sullied_Bandage" | "Foreign_Trousers" | "Gascoigne's_Cap" | "Gascoigne's_Garb" | "Gascoigne's_Gloves" | "Gascoigne's_Trousers" | "Graveguard_Mask" | "Graveguard_Robe" | "Graveguard_Manchettes" | "Graveguard_Kilt" | "Hunter_Hat" | "Top_Hat" | "Hunter_Garb" | "Hunter_Garb(Cape)" | "Hunter_Gloves" | "Hunter_Trousers" | "Knight's_Wig" | "Knight's_Garb" | "Knight's_Gloves" | "Knight's_Trousers/Dress" | "Student_Uniform(A)" | "Student_Uniform_Variant(B" | "Student_Trousers" | "Tomb_Prospector_Hood" | "Tomb_Prospector_Garb" | "Tomb_Prospector_Gloves" | "Tomb_Prospector's_Trousers" | "White_Church_Hat" | "White_Church_Garb" | "Surgical_Long_Gloves" | "White_Church_Trousers/Dress" | "Yharnam_Hunter_Cap" | "Yharnam_Hunter_Garb" | "Yharnam_Hunter_Gloves" | "Yharnam_Hunter_Trousers" | "Black_Hooded_Iron_Helm" | "Iron_Yahar'gul_Helm" | "Yahar'gul_Black_Garb" | "Yahar'gul_Black_Gloves" | "Yahar'gul_Black_Trousers" | "Bone_Ash_Mask" | "Bone_Ash_Armor" | "Bone_Ash_Gauntlets" | "Bone_Ash_Leggings" | "Gehrman's_Hunter_Cap" | "Gehrman's_Hunter_Garb" | "Gehrman's_Hunter_Trousers" | "Doll_Hat" | "Doll_Clothes" | "Doll_Gloves" | "Doll_Skirt" | "Madman_Hood" | "Madman_Garb" | "Madman_Manchettes" | "Madman_Leggings" | "Henryk's_Hunter_Cap" | "Henryk's_Hunter_Garb" | "Henryk's_Hunter_Gloves" | "Henryk's_Hunter_Trousers" | "Arianna's_Shoes" | "Crown_Of_Illusions" | "Mensis_Cage" | "Noble_Dress" | "Rumpled_Yharnam_Hat" | "Sweaty_Clothes" | "Butcher_Mask" | "Butcher_Garb" | "Butcher_Gloves" | "Butcher_Trousers" | "Bradors_Testimony" | "Beast_Hide_Garb" | "Bloodied_Arm_Bands" | "Bloodied_Trousers" | "Master's_Iron_Helm" | "Constable's_Garb" | "Constable_Gloves" | "Constable_Trousers" | "Decorative_Old_Hunter_Garb" | "Decorative_Old_Hunter_Trousers" | "Enlarged_Head" | "Harrowed_Hood" | "Harrowed_Garb" | "Harrowed_Gloves" | "Harrowed_Trousers" | "Maria_Hunter_Cap" | "Maria_Hunter_Garb" | "Maria_Hunter_Gloves" | "Maria_Hunter_Trousers" | "Old_Hunter_Cap" | "Old_Hunter_Top_Hat" | "Old_Hunter_Garb" | "Old_Hunter_Gloves" | "Old_Hunter_Trousers" | "Yamamura_Hunter_Hat" | "Khaki_Haori" | "Old_Hunter_Arm_Bands" | "Wine_Hakama" }
+weaponList = attribute weaponList { "Amygdalan_Arm" | "Beast_Claw" | "Beasthunter_Saif" | "Beast_Cutter" | "Blade_Of_Mercy" | "Bloodletter" | "Boom_Hammer" | "Burial_Blade" | "Chikage" | "Church_Pick" | "Holy_Moonlight_Sword" | "Hunter_Axe" | "Kirkhammer" | "Kos_Parasite" | "Logarius'_Wheel" | "Ludwig's_Holy_Blade" | "Rakuyo" | "Reiterpallasch" | "Rifle_Spear" | "Saw_Cleaver" | "Saw_Spear" | "Simon's_Bowblade" | "Stake_Driver" | "Threaded_Cane" | "Tonitrus" | "Whirligig_Saw" }
+firearmList = attribute firearmList { "Cannon" | "Church_Cannon" | "Evelyn" | "Fist_Of_Gratia" | "Flamesprayer" | "Gatling_Gun" | "Hunter_Blunderbuss" | "Hunter_Pistol" | "Hunter's_Torch" | "Loch_Shield" | "Ludwig's_Rifle" | "Piercing_Rifle" | "Repeating_Pistol" | "Rosmarinus" | "Torch" | "Wooden_Shield" }
+consumableList = attribute consumableList { "Antidote" | "Beast_Blood_Pellet" | "Blood_Dreg" | "Blood_Of_Adella" | "Blood_Of_Arianna" | "Blood_Vial" | "Blue_Elixir" | "Bold_Hunter's_Mark" | "Bolt_Paper" | "Bone_Marrow_Ash" | "Coldblood_Dew" | "Delayed_Molotov" | "Delayed_Rope_Molotov" | "Fire_Paper" | "Frenzied_Coldblood" | "Gold_Pendant" | "Great_One's_Wisdom" | "Great_One_Coldblood" | "Hand_Lantern" | "Iosefka's_Blood_Vial" | "Kin_Coldblood" | "Lead_Elixir" | "Madman's_Knowledge" | "Quicksilver_Bullets" | "Red_Jewled_Brooch" | "Sedative" | "Shaman_Bone_Blade" | "Shining_Coins" | "Thick_Coldblood" | "One_Third_Of_Umbilical_Cord" | "Tear_Stone" | "Vermin"| "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" }
+projectileList = attribute projectileList { "Molotov_Cocktail" | "Numbing_Mist" | "Oil_Urn" | "Pebble" | "Poison_Knife" | "Pungent_Blood_Cocktail" | "Rope_Molotov_Cocktail" | "Throwing_Knife" }
+chaliceList = attribute chaliceList { "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" }
+keyItemList = attribute keyItemList { "Astral_Clocktower_Key" | "Balcony_Key" | "Cainhurst_Summons" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" }
+place = attribute place { "Yharnam" | "Hunter's_Dream" | "Chalice_Dungeons" | "Iosefka's_Clinic" | "Central_Yharnam" | "Cathedral_Ward" | "Old_Yharnam" | "Healing_Church_Workshop" | "Upper_Cathedral_Ward" | "Forbidden_Woods" | "Byrgenwerth" | "Hemwick_Charnel_Lane" | "Yahar'gul Unseen_Village" | "Forsaken_Castle_Cainhurst" | "Abandoned_Old_Workshop" | "Nightmare_Frontier" | "Lecture_Building" | "Nightmare_Of_Mensis" | "The_Hunter's_Nightmare" | "Research_Hall" | "Fishing_Hamlet" | "Pthumeru_Labyrinth" | "Ailing_Loran" | "Isz" }
+lamp = attribute lamp { "1st_Floor_Sickroom" | "Central_Yharnam" | "Great_Bridge" | "Tomb_Of_Oedon" | "Cathedral_Ward" | "Grand_Cathedral" | "Old_Yharnam" | "Church_Of_The_Good_Chalice" | "Graveyard_Of_The_Darkbeast" | "Upper_Cathedral_Ward" | "Altar_Of_Despair" | "Lumenflower_Gardens" | "Forbiden_Woods" | "Forbidden_Grave" | "Bygenwerth" | "Moonside_Lake" | "Hemwick_Charnel_Lane" | "Witch's_Abode" | "Advent_Plaza" | "Hypogean_Gaol" | "Yahar'gul_Chapel" | "Logarius's_Seat" | "Vileblood_Queen's_Chamber" | "Abandoned_Old_Workshop" | "Nightmare_Frontier" | "Amygdala's_Chamber" | "Lecture_Building" | "Lecture_Building_2nd_Floor" | "Nightmare_Of_Mensis" | "Mergo's_Loft_Base" | "Mergo's_Loft_Middle" | "Wet_Nurse's_Lunarium" | "Hunter's_Nightmare" | "Nightmare_Church" | "Underground_Corpse_Pile" | "Nightmare_Grand_Cathedral" | "Lumenwood_Garden" | "Astral_Clocktower" | "Fishing_Hamlet" | "Lighthouse_Hut" | "Coast" }
+npcList = attribute npcList { "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" }
+bossList = attribute bossList { "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" | "" }
