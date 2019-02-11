@@ -10,14 +10,32 @@ equipment = element equipment{((caryllRune | attire | weapon | firearm | item )?
 caryllRune = element caryllRune{runeName, description, location+, effect+, notes+, trivia+}
 runeName = element runeName{runeList, text}
 
-attire = element attire{text}
-#attire specific elements
+attire = element attire{attireName, set, attireType, description, location, trivia?}
+
+    attireName = element attireName {attireList}
+
+    set = element set{attire_set}
+
+    attireType = element attireType{"head"|"chest"|"hands"|"legs"}
+#we could make the element ^here "type", couldn't we? so that we use the type tag under all hiearchies, but it has a different schema for every item type. I don't know if that's possible or desirable, though - ND
+    
 weapon = element weapon{text}
 #weapon specific elements
-firearm = element firearm{text}
-#firearm specific elements
-item = element item{text}
-#item specific elements
+
+firearm = element firearm{firearmName, firearmType, description, location, trivia} #I removed the "related" element from my original, I don't think it's necessary -ND
+
+    firearmName = element firearmName {firearmList}
+
+    firearmType = element firearmType {text}
+
+item = element item{itemName, itemType, usage, description, location, trivia?} #"related" and "price" were removed, not relevant to lore - ND
+
+    itemName = element itemName {consumableList|projectileList|chaliceList|keyItemList} # does chalice go in here?
+
+    itemType = attribute itemType{"consumable"|"key"|"projectile"|"chalice"} #made itemType an attribute - ND
+    
+    usage = element usage {text}
+
 area = element area{text}
 #area specific elements
 npc = element npc{text}
