@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<lore>
+<!-- Equipment start -->
+<equipment>
+    <!-- Caryll Rune start -->
+    <caryllRune>
+        <runeName runeList="Anti-Clockwise_Metamorphosis">Anti-Clockwise Metamorphosis</runeName>
+        <description>
+            "A secret symbol left by Caryll, caryllRunesmith of Byrgenwerth. 
+            The twisted cross means "metamorphosis."
+            
+            Rotated anti-clockwise, this caryllRune boosts stamina. The discovery of blood made their dream of evolution
+            a reality. Metamorphosis, and the excesses and deviation that followed, was only the beginning..
+        </description>
+        <locationArea>
+            (+10%) is found on a corpse behind two celestial mobs in the Forbidden Woods.
+            (+15%) is received after talking to Patches the Spider while in his room, no matter which dialogue option is chosen.
+            (+20%) is found in a large chest in the first bonus area of the first layer of Lower Ailing Loran Root Chalice. (h3up6y2d)
+        </locationArea>
+        <effect>
+            Boosts Max Stamina
+            Versions: +10% / +15% / +20%
+            The caryllRunes stack multiplicatively (110% x 115% x 120%)
+        </effect>
+        <notes>
+            To memorize this caryllRune, you must have the Rune Workshop Tool.
+            Dungeon h3up6y2d also contains a Lost Stake Driver on Layer 3 first bonus area.
+        </notes>
+        <trivia>
+            These caryllRunes can easily negate the stamina cost increase from cursed gems 
+            (if that is the negative effect you get).
+        </trivia>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Arcane_Lake">Arcane Lake</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices ripples like a watery reflection.
+            
+            This rune means "Lake", and those branded by it enjoy augmented defense.
+            Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            (+5%) found on a corpse in Yahar'gul, Unseen Village near the skeleton slug shooters, behind one of the burning corpses on the left wall leading down to the boss area.
+            (+7%) is found in Byrgenwerth to the left of the lamp, near the tree with the brainsucker.
+         (+10%) is found in Isz Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases arcane defense. Arcane damage reduction.
+            Versions: +5% / +7% / +10%
+            Increases in Arcane defenses are visible in the menu
+            Runes stack additively, with a system of diminishing returns.
+            When a rune stacks, its effect is reduced by 10% of "what's already there".
+            For instance if Arcane defense is already 200, then the increase will be reduced by 20 Arcane defense.
+            +10% Arcane defense = +100 Arcane defense, which will become +80 if Arcane defense is already 200.
+            
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            Arcane Lake + 10% - Chalice Glyph - ydknsnh4 (Layer 1)
+            ydknsnh4 (Layer 1) : Bonus Room before the boss (pre-lantern area also has Deep Sea +300 rune). Also 3 easy bosses leads to a Layer 4 main room with 3 Great One Coldblood. Also a Great Lake 5% (first bonus area 3rd layer) and Ludwig's Lost Holy Blade (Layer 4 pre-boss side area)
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Beast">Beast</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            A transcription of the roar of a labyrinth beast,
+            the bearer of the "Beast" rune has accentuated transformation effects.
+            
+            "Beast" is one of the early Caryll Runes. as well as one of the first to be deemed forbidden.
+            The discovery of blood entailed the discovery of undesirable beasts.
+        </description>
+        <locationArea>
+            (+20) is dropped by a creature (a weaker variety of Beast-possessed Soul) at the bottom of the Healing Church Workshop tower.
+            Starting from the lamp at Cathedral Ward: Enter the door to the right that is unlocked after beating the Blood-Starved Beast, take the elevator up and cross the bridge over to the Healing Church Workshop. Run around a walkway outside the tower and drop down where the ledge is broken to get inside. Descend to the bottom by carefully traversing the wooden platforms inside. At the bottom there is a beast (name unknown) that drops the rune. Can easily be killed with molotov cocktails.
+            (+50) is dropped by the Suspicious Beggar on top of the windmill in Forbidden Woods, who you can also send to the Oedon Chapel or Iosefka's Clinic.
+            If you engage him initially, you will have to fight him on the rooftop. You can then make him fall to death with the axe charge attack. Luring him to the door you came from also works as he is too big to fit through the door. Allowing you to hit him with longer-range weapons.
+            If you invite him back to Oedon Chapel he will start to kill the NPCs there. He is found outside the front entrance, and attacking him here will cause him to transform into a lightning-charged beast (similar to Abhorrent Beast). He drops the rune on death.
+            When invited to Iosefka's clinic, a celestial mob will spawn in the clinic who drops the rune. This essentially gives you the rune without having to fight him.
+            (+100) is obtained in a Lower Ailing Loran Root Chalice Dungeon. Rotted Lower Loran Root Chalice 2ufsqve2 ; Layer 1 Bonus area before the 1st boss
+        </locationArea>
+        <effect>
+            Boosts effect from transformation. Temporary boost to transform +20 / +50 / +100
+            This Rune increases your Beasthood stat.
+            This Rune also decreases fall damage. Each rune has a fixed reduction in percentage, and are not directly tied to beasthood.
+            (+20) = 50%, (+50) = 75%, and (+100) = 100% damage reduction. (+20) and (+50) can also be stacked for 87,5% damage reduction.
+        </effect>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Beast's_Embrace">Beast's Embrace</runeName>
+        <description>
+            After the repeated experiments in controlling the scourge of beasts, the gentle "Embrace" rune was discovered.
+            
+            When its implementation failed, the "Embrace" became a forbidden rune, but this knowledge became a foundation of the Healing Church.
+            Those who swear this oath take on a ghastly form and enjoy accentuated transformation effects, especially while wielding a beast weapon.
+        </description>
+        <locationArea>
+            Defeat Laurence, The First Vicar.
+        </locationArea>
+        <effect>
+            When equipped, it transforms the player into "The Ghastly Beast."
+            This is one of two Covenants that involves transforming the Hunter into a non-human form.
+            The other one is the Lumenwood Kin Covenant.
+            The Hunter receives a permanent Beasthood meter only when using the Beast Claw, transformed or not.
+            It also radically changes how the Hunter behaves, both in movement and when attacking, but only with the Beast Claw. (Backstep &amp; rolling looks quicker - needs testing)
+            Most noticeably, the Hunter will howl and screech like a beast when attacking and doing certain movements.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            The Hunter receives reduced fall damage while the rune is equipped.
+            Damage against Beast DOWN effect on cursed blood gem does not affect anyone equipped with the Beast's Embrace.
+            In general, gems that specialize against Beasts won't affect a user of the Beast's Embrace.
+        </notes>
+        <trivia>
+            The Beast form loosely resembles the Abhorrent Beast, possibly suggesting the origin of the Afflicted Begger.
+            It also resembles a Cleric Beast, similar to Laurence, the first vicar.
+            When the Hunter attacks while using the transformed Beast Claws (and you have this rune equipped), if the Hunter stands still suddenly, the idle animation is different than normal.
+            The image of the rune resembles a Beast Claw, an indicator of what you will become when you choose to be a part of this Covenant.
+            Since gems that effect damage against Beasts won't apply against users of the Beast's Embrace, it might mean the Hunter isn't quite yet a "true" beast.
+            This is similar to the citizens of Yharnam who haven't quite become beasts themselves.
+            However, it's very clear that the symptoms are progressing, making it possible that lore-wise the Hunter might become similar to the Afflicted Beggar if used for too long.
+        </trivia>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Blood_Rapture">Blood Rapture</runeName>
+        <description>
+            A Caryll rune that transcribes inhuman sounds. "Blood Rapture" is the raw euphoria of the warmth of blood.
+            
+            Restores HP with visceral attacks, one of the darker hunter techniques.
+            This rune resonates with servants of the Queen, carrier of the Child of Blood, who yearn for their Queen's blood with little hope of requitement.
+            For them, they find solace in "Blood Rapture", that serves as a surrogate for their desires.
+        </description>
+        <locationArea>
+            (+200) is dropped by the Shadow of Yharnam  boss.
+            (+250) is found on dungeons created with Cursed and Defiled Root Chalice (random chance).
+            (+300) is dropped by the second hunter in Eileen The Crow's Questline.
+        </locationArea>
+        <effect>
+            Visceral attacks restore health. 
+            Versions: +200 / +250/ +300
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            This rune is very effective when paired with the Oedon Writhe rune.
+            Blood Rapture + 250 - Chalice Glyph: 3zcvutw8, Layer 1, bonus area before boss room
+            Blood Rapture + 250 - Chalice Glyph: qs3z8hqa (Layer 3)
+            Blood Rapture +300 Chalice Glyph: bdexxpeg (Optional Area at the beginning of layer 2)(edit: this glyph only gave me a +250 rune. Someone confirm?) or dropped by The Bloody Crow
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Clawmark">Clawmark</runeName>
+        <description>
+            A Caryll rune that transcribes inhuman sounds.
+            The "Clawmark" is an impulse to seek the warmth of blood like a beast.
+            
+            It strengthens visceral attacks, one of the darker hunter techniques.
+            Although the difference is subtle, Runesmith Caryll describes the "Beast" as a horrific and unwelcome instinct deep within the hearts of men, while "Clawmark" is an alluring invitation to accept this very nature.
+        </description>
+        <locationArea>
+            (+10%) Dropped by the Beast Claw npc in Nightmare Yahar'Gul, Unseen Village after killing Rom, the Vacuous Spider.
+            (+20%) Dropped by a beast Gilbert near the Central Yarhnam Lamp after killing Rom, the Vacuous Spider.
+            (+30%) Lower Ailing Loran Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Strengthens Visceral Attacks
+            Runes stack multiplicatively (110% x 120% x 130%)
+            The Max = (171.6%), if  all Clawmark runes are equiped)
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            The runes stack multiplicatively (tested with the 10% and 20% which gave a 32% increase in damage combined).
+        </notes>
+        <trivia>
+            This rune is based on The Magician Tarot Card.
+        </trivia>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Clear_Deep_Sea">Clear Deep Sea</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices depicts downreaching currents.
+            
+            This rune means "Deep Sea," and grants augmented resistance.
+            Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours
+        </description>
+        <locationArea>
+            (+100) Found in Forbidden Woods behind the giant tombstone near the snake heads
+            (+200) Found in Nightmare Frontier behind a rock thrower on top of a hill
+            (+300) Lower Ailing Loran Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases slow poison resistance.
+            Versions: +100 / +200 / +300
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            Clear Deep Sea +300 - Chalice Glyph: 4jgecv28 (Layer 4), rvx9wya7 (Layer 1) First bonus room,ueh7uh88 (Layer 1) First bonus room
+        </notes>
+        <trivia>
+            In the 1.00 version of the game, this Caryll Rune was named "Murky Deep Sea". The reason for the change in name in later patches is unknown.
+        </trivia>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Clockwise_Metamorphosis">Clockwise Metamorphosis</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            The twisted cross means "metamorphosis."
+            
+            Rotated clockwise, this rune boosts HP.
+            The discovery of blood made their dream of evolution a reality.
+            Metamorphosis, and the excesses and deviation that followed, were only the beginning.
+        </description>
+        <locationArea>
+            Forbidden Woods (9 on map).
+            Nightmare Frontier in a cave across and to the right of the stone bridge. When facing the giant's back, take a right turn and go down.
+            Pthumeru Ihyll Root Chalice (random chance).
+        </locationArea>
+        <effect>
+            Boosts Max HP (+5%)
+            Boosts Max HP (+10%)
+            Boosts Max HP (+15%)
+            The runes stack multiplicatively (105% x 110% x 115%)
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Chalice Glyph: 9vb3tzza - Layer 1 pre-boss bonus area. Through the long corridor, then go down one stair and into the mid-level door. Run past the spiders and open the door on the left, the rune is in a big metal chest guarded by many spiders and a madman.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Communion">Communion</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            Several runes relate to "blood", including "Communion",
+            which raises the maximum number of blood vials one may carry.
+            
+            This rune represents the Healing Church and its ministers.
+            Blood ministration is, of course, the pursuit of communion.
+        </description>
+        <locationArea>
+            (+1) Cathedral Ward; in a chest directly through the door on your right. This door only opens after you have killed the Blood-starved Beast.
+            (+2) Lecture Building
+            (+3) Iosefka's Clinic, in a chest after entering from the secret passage in Forbidden Woods
+            (+4) Dropped by Celestial Emissary
+            (+5) Pthumeru Ihyll Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Higher Blood Vial Maximum
+            Versions: +1 / +2 / +3 / +4 / +5
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            One of only two runes to have five different versions (the other being Formless Oedon)
+            Chalice Glyph: rg56w9w8 (Layer 1 pre-area doorway) Rotted and Foetid Ihyll Chalice. Coffin is guarded by a Merciless Watcher.
+            Chalice Glyph: vn6snw4t (Layer 2 pre-area doorway) Foetid, Rotted, Cursed Ihyll Chalice. 
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Corruption">Corruption</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            Several runes contain a nuance of "Blood," including the rune of "Corruption," associated with the oath of the corrupt.
+            
+            Pledgers to this oath are Cainhurst Vilebloods, hunters of blood who find dregs for their Queen in coldblood, particularly in that of hunters.
+            Yet the corrupt are heretics in the eyes of the Church, and thus subject to the wrath of the Executioners
+        </description>
+        <locationArea>
+            Secret area after killing Martyr Logarius  at Cainhurst Castle. Wear the Crown of Illusions near the throne to gain access to the hidden room.
+        </locationArea>
+        <effect>
+            Continuous healing when near death (lower than 12.5% hp).
+            Makes enemy Hunters drop Blood Dregs. (NPC or player)
+            Wearing this rune will cause all players and enemy hunters to drop Blood Dregs when killed. This also applies when you are summoned, for example being summoned in Old Yharnam while Corruption is equipped could potentially net you two Blood Dregs: one for Djura, and one for the Saw Spear hunter below him. 
+            
+            While this Oath Rune is equipped, attempting to summon or be summoned by a player using the Radiance rune will cause the summoned player to spawn as a hostile summon. When the hostile summon effect triggers, the player who was summoned will spawn with a faintly purple glow instead of a blue one. This can be hard to notice if you aren't looking for it. Hostile summons occupy a summon slot, reducing the total number of other players the host can summon by one, but do not prevent an invader from also showing up. Hostile summons can attack invaders, normal summons, and the host. It is possible for a very unfortunate host to have two hostile summons, in which case the purple summons will be allied with each other and won't be able to attack each other, but can still attack the host and invader. If this happens, the host player will not be able to summon anyone else until one hostile summon is killed to free up the summon slot.
+        </effect>
+        <notes>
+            Associated covenant: Cainhurst Vilebloods
+            To memorize this rune, you must have the Rune Workshop Tool
+            If you summon an Executioner, they will turn into a Purple Adversary
+            For relevant lore theories see The Corruption Rune and The Devil. 
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Deep_Sea">Deep Sea</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices depicts downreaching currents.
+            
+            This rune means "Deep Sea" and grants augmented resistance. Great volumes of water serve as a bulwark
+            guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            (+100) Lower Hintertomb Root Chalice - Chalice Glyph: **kfwgav9g** (Layer 3),Treasure in | 2xe8g93y FR Lower Hintertomb L1, bonus area before layer boss | w8zxj7h5 (can't remember which layer, but I just found three runes in this chalice)
+            (+200) Forbidden Woods - behind two viper pits in a small cave, near the burning horse.
+            (+300) Isz Root Chalice - Chalice Glyph: ydknsnh4 (Layer 1 Pre-lamp). Pre-boss area also has Arcane Lake +10% rune.
+            (+300) Cursed Isz Root Chalice (Foetid &amp; Rotten) - Chalice Glyph qqc6wmvz (Layer 3): Bonus Room before the boss (Ebritas). There is also an Arcane Lake Rune in the Bonus Room at Layer 2 before the Boss (Undead Giant).
+        </locationArea>
+        <effect>
+            Increases frenzy resistance
+            Versions: +100 / +200 / +300
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Dissipating_Lake">Dissipating Lake</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices ripples like a watery reflection.
+            
+            This rune means "Lake," and those branded by it enjoy augmented defense.
+            Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            (+5%) Forbidden Woods, in a creek under some huge entangled roots near a pig. At the bottom of the final elevator shortcut, go down the path of stairs and take a left turn at the sparkling pond, then follow the creek.
+            (+7%) Ailing Loran Root Chalice (random chance)
+            (+10%) Lower Ailing Loran Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases Bolt defense. Bolt Damage Reduction
+            Versions: +5% / +7% / +10%
+            Increases in Bolt defenses are visible in the menu
+            Runes stack additively, with a system of diminishing returns.
+            When a rune stacks, its effect is reduced by 10% of "what's already there".
+            For instance if Bolt defense is already 200, then the increase will be reduced by 20 Bolt defense.
+            +10% Bolt defense = +100 Bolt defense, which will become +80 if Bolt defense is already 200.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Dissipating Lake + 7% - Chalice Glyph: r4qs4gux (Layer 1, before lamp / first bonus room), fddm4rz7 (layer 3 pre-boss bonus area)
+            Dissipating Lake + 10% - Chalice Glyph: kkqmduet (Layer 1, pre-boss bonus room - also contains max strength Fading Lake on Layer 2), 97zvbb6v (Layer 1, pre-boss / second bonus room)
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Eye">Eye</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            A transcription of "Eye," as spoken by left-behind Great Ones.
+            
+            Allows one to make additional discoveries.
+            Eyes symbolize the truth Master Willem sought in his research.
+            Disillusioned by the limits of human intellect, Master Willem looked
+            to beings from higher planes for guidance, and sought to line his brain with eyes in order to elevate his thoughts.
+        </description>
+        <locationArea>
+            (+50) is obtained in Nightmare of Mensis. Spawn at the first lamp and go directly northeast past the yetis and you will find it on a corpse next to the Mergo's Loft: Base Lamp. You can also spawn at the Mergo's Loft: Base Lamp if you have it unlocked and run back towards the yetis and pick it up.
+            (+70) is dropped by Ritual Master Willem in Byrgenwerth if killed at any point in the game.
+            (+100) is obtained from a Isz Root Chalice (random chance)
+            (+100) Can be acquired from a Pthumerian Labyrinth, from a chest in the Pre-Layer 1, Side Dungeon Area.
+        </locationArea>
+        <effect>
+            Make additional discoveries. Boost Discovery stat.
+            Versions: +50 / +70 / +100
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            (+100) Isz Root Chalice along with the use of Foetid, Rotted and Curse Offerings (p3umyztu, layer 1 first bonus room)
+            (+100) Isz Root Chalice along with the use of Rotted Offering (ji7y3vu8, layer 1 bonus room before boss)
+            (+100) Chalice Glyph: jmph3q6e (Sinister version Layer 1)
+            (+100) Chalice Glyph: 42hmimbm (Layer 1 bonus room before boss)
+            (+100) Chalice Glyph: rdvjjwhn no bonus offerings (Layer 1 first bonus room immediately to the left)
+            Apart from a higher chance of getting rare items, the Eye rune can also be used for more trivial farming, like for Blood Vials. Many mobs will drop more of their standard items, and a clean sweep of Central Yharnam can yield 50+ vials with high discovery.
+            Appearance is similar to a variation the Elder Sign from the Cthulhu Mythos.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Fading_Lake">Fading Lake</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices ripples like a watery reflection.
+            
+            This rune means "Lake," and those branded by it enjoy augmented defense.
+            Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            (+5%) Nightmare Frontier, slightly past where Chime Maiden is, climb a narrow cliff.
+            (+7%) Ailing Loran Root Chalice (random chance)
+            (+10%) Lower Ailing Loran Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases Fire defense. Fire DMG Reduction
+            Versions: +5% / +7% / +10%
+            Increases in Fire defenses are visible in the menu
+            Runes stack additively, with a system of diminishing returns.
+            When a rune stacks, its effect is reduced by 10% of "what's already there".
+            For instance if Fire defense is already 200, then the increase will be reduced by 20 Fire defense.
+            +10% Fire defense = +100 Fire defense, which will become +80 if Fire defense is already 200.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Fading Lake + 7% - Chalice Glyph: 9d6vhapi (Layer 1: pre-boss loot room; also Uncanny Tonitrus in Layer 1 pre-lamp side area), r4qs4gux (Layer 3), fddm4rz7 (layer 2, pre-boss bonus area)
+            Fading Lake + 10% - Chalice Glyph: kkqmduet (Layer 2), 2ufsqve2 (Layer 1, Loot room directly after Chamber of the Seal. Run straight through all the doors)
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Formless_Oedon">Formless Oedon</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            The Great One Oedon, lacking form, exists only in voice, and is symbolized by this rune.
+            
+            Those who memorize it enjoy a larger supply of Quicksilver Bullets.
+            Human or no, the oozing blood is a medium of the highest grade, and the essence of the formless Great One.
+            Both Oedon, and his inadvertent worshippers, surreptitiously seek the precious blood.
+        </description>
+        <locationArea>
+            (+1) Unlock Iosefka's Clinic as a safe haven and send the young Yharnam girl there. Enter the clinic through the back entrance via the Forbidden Woods and one of the Celestial Mobs will drop this item.
+            (+2) Can be obtained in Lower Pthumeru Root Chalice or Sinister Lower Pthumeru Root Chalice (random chance).
+            (+3) Dropped by Oedon Chapel Dweller in Cathedral Ward
+            (+4) After unlocking the elevator behind the door in Cathedral Ward, use it to go up and exit through the opening in the wall, opposite side of entering.
+            (+5) Can be obtained in Pthumeru Ihyll Root Chalice (random chance).
+        </locationArea>
+        <effect>
+            Higher Quicksilver Bullet max. Max QS bullets held UP.
+            Versions: +1, +2, +3, +4, +5
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            One of only two runes to have five different versions (the other being Communion)
+            Glyph (+2): vy8hiwxx (First Layer pre-boss side room) Sinister
+            Glyph (+2): 868i2ga3 (Third layer pre-boss side room) Fetid &amp; Rotted rites
+            Glyph (+5): wikifcsa (First layer) Fetid, Rotted &amp; Cursed rites
+            Glyph (+5): 6aima33e (First layer side-room, right after chamber of the seal) Cursed Rite, but no difficult enemies along the way
+            Glyph (+5): dm3dhxf5 (Layer 1 before the first lamp) Sinister Pthumeru Ihyll Chalice (Sinister Bell).
+            Stacking all three Runes allows one to have up to 4 shots for the Cannon combined with the use of Blood Bullets.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Great_Deep_Sea">Great Deep Sea</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of ByrgenwertThis transcription of the Great Ones' inhuman voices depicts downreaching currents.
+            
+            This rune means "Deep Sea" and grants augmented resistance. Great volumes of water serve as a bulwark
+            guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            +50 - Lower Hintertomb Root Chalice (random chance)
+            +100 - Nightmare Frontier, poison swamp before boss door.
+            +150 - Isz Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases all resistance types by +50/+100/+150
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Great Deep Sea +50 - Chalice Glyph: 2r8ghidm (Layer 2), Lower Hintertomb Glyph: nynpssra (Layer 1) First bonus room / w8zxj7h5 (can't remember which layer, but I just found three runes in this chalice)
+            Great Deep Sea +150 - Chalice Glyph: 5xe4d3ny Fetid+Rotted (Layer 1) - First bonus room, u97try9e (Layer 3), wcyfiszj (Layer 3) side passage before boss
+            Great Deep Sea +150 - Chalice Glyph: b9agc8f4 , Sinister Isz Gravestone (Layer 1) - Bonus area after opening boss gate.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Great_Lake">Great Lake</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices ripples like a watery reflection.
+            
+            This rune means "Lake", and those branded by it enjoy augmented defense.
+            Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours..
+        </description>
+        <locationArea>
+            3% - Lower Hintertomb Root Chalice (random chance)
+            4% - Upper Cathedral Ward, take a right turn at the top of the stairs above the Lamp.
+            5% - Isz Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases all defense types.
+            All DMG reduction +3%/ 4%/ 5%
+            Increases in defense are visible from the menu
+            Runes stack additively, with a system of diminishing returns.
+            When a Great Lake rune stacks, its effect is reduced by 5% of "what's already there".
+            For instance if Physical defense is already 200, then the increase will be reduced by 10 Physical defense.
+            +5% Physical defense = +50 Physical defense, which will become +40 if Physical defense is already 200.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Great Lake +3% - Chalice Glyph: 8jv9v6bc (Layer 1 - loot area after locked door)
+            Great Lake +3% - Chalice Glyph: qft7c6dw (Layer 2)
+            Great Lake +3% - Chalice Glyph: 3j22s3z6 (Layer 3)
+            Great Lake +3% - Chalice Glyph: w8zxj7h5 (can't remember which layer, but I just found three runes in this chalice)
+            Great Lake +5% - Chalice Glyph: 2tv8fwqa (Layer 1) Fetid+Rotted, bonus dungeon after opening the boss gate
+            Great Lake +5% - Chalice Glyph: 8bk4dtfk (Layer 3), Fetid+Rotted (Side Passage before Layer 2 Lantern)
+            Great Lake +5% - Chalice Glyph: 7zvhn7dw (Layer 1) Sinister Izs Root Chalice with SInsiter bell rite. 1° bonus room, go up the ladder.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Guidance">Guidance</runeName>
+        <description>
+            A Caryll rune discovered by the old hunter Ludwig along with the Holy Moonlight Sword.
+            Boosts amount of life recovered by rallying.
+            
+            When Ludwig closed his eyes, he saw darkness, or perhaps nothingness,
+            and that is where he discovered the tiny beings of light.
+            Ludwig was certain that these playful dancing sprites offered "guidance"
+            They could empty Ludwig of his fears at least in the midst of a hunt.
+        </description>
+        <locationArea>
+            10% Dropped by Carrion Crow on top floors of Research Hall
+            Once you raise the stairs and gain access to the very top part of the rafters, there will be a single crow on a ledge, with its back turned to you, close to the windows. It will drop down as you approach, seemingly escaping, to the platform below with the Enlarged Head NPC and two other crows.
+            This rune is the only rune in the game that drops more than once in each subsequent playthrough. In each new game, the crow will drop the same rune.
+            20% Dropped by Ludwig, The Holy Blade
+        </locationArea>
+        <effect>
+            Boost rally potential by +10%, +20% and +30%
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            A third guidance rune does exist (30%) in depth 5 root dungeons as listed in the dlc game guide, but no one has managed to discover it as of yet.
+            Lore theories can be found under Ebrietas Lore and The Fool.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Heir">Heir</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            
+            The "Heir" sees sentimentality in the warmth of blood, acknowledging this as one of the darker hunter techniques.
+            More Blood Echoes gained from visceral attacks.
+            Perhaps the "Heir" is a hunter who bears the echoing will of those before him.
+        </description>
+        <locationArea>
+            Tier 1 - 30% bonus - Encounter with Henryk and Eileen the Crow in Tomb of Oedon. Defeat Henryk together with Eileen the Crow and receive the rune. If Eileen the Crow dies during the encounter you need to defeat the hunter to receive the rune.
+            Tier 2 - A stronger version(~40%) of the Rune is found in Yahar'gul, The Unseen Village on a corpse near the second Chime Maiden.
+            Tier 3 - Pthumeru Ihyll Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            More Blood Echoes are gained from visceral attacks.
+            Other Versions: There are 3 versions of this rune:
+            Tier 1: Enemies killed with visceral attacks grant 30% increased Blood Echoes
+            Tier 2: Enemies killed with visceral attacks grant 40% increased Blood Echoes
+            Tier 3: Enemies killed with visceral attacks grant 50% increased Blood Echoes
+            The above values are estimates, the real values fluctuate quite a bit.
+            The lowests value measured for the tier 3 rune is 50% and the highest is 80%
+            Values vary by enemy (example: Scourge Beast = 50% but Huntsman = 80%)
+            If the tier 3 outcome is (50%), then the above values for tier 1 and tier 2 are correct.
+            If the tier 3 outcome is (80%), then the tier 1 and tier 2 values are 56% and 68%
+            For tier 3, the values (50%) and (80%) are common, and 25% is rare
+            Every rune stacks multiplicatively with other Heir and Moon runes.
+        </effect>
+        <notes>
+            The effects of these runes stack with each other multiplicatively. This means that using Tier 1 (30%) and Tier 2 (40%) together will net an 82% gain to echoes, not 70%.
+            It is sufficient to Visceral an enemy once to receive the bonus , the enemy must not necessarily die for the visceral attack but must die in a short space of time.  
+            Visceralling a chime maiden appears to also buff the echoes recieved from her summons dying. (confirmation needed)
+            The rune works on bosses as well, granted that the boss dies soon after the last visceral. 
+            Viscaral two times an enemy in a short space of time double the effects.
+            To memorize this rune, you must have the Rune Workshop Tool
+            Heir Tier 3 - Glyph: df235ysm ( Treasure room between Chamber of the Seal lantern and Layer One lantern)
+            Heir Tier 3 - Glyph: fp3kttda (First layer, first side room after Seal lamp)
+            Heir Tier 3 - Glyph: zziz2qbx (Side area after Layer 3 lamp)
+        </notes>
+        <trivia>
+            You can still receive the bonus blood effect from the runes if the target is (technically) already dead and you did not get a visceral attack off before-hand. But, the killing blow must put them in visceral state (charged R2 from behind or timed shot)
+        </trivia>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Hunter">Hunter</runeName>
+        <description>
+            A Caryll Rune that transcribes inhuman sounds.
+            This red-smudged rune means "Hunter", and has been adopted by those who have taken the Hunter of Hunters oath.
+            
+            These watchmen admonish those who have become addled with blood.
+            Be they men or beasts, anyone who has threatened the pledgers of the "Hunter" oath surely has an issue with blood.
+        </description>
+        <locationArea>
+            Earned by completing the Eileen the Crow questline.
+        </locationArea>
+        <effect>
+            Increases stamina recovery speed by 10%.
+            Members of the hunter covenant may be summoned into a blood-addled hunter's world without ringing the sinister bell as an invader.
+        </effect>
+        <notes>
+            Rune Workshop Tool  is required in order to memorize this rune.
+            The guidebook's information on the Hunter rune does not hold up under testing, unfortunately.
+            The design of this rune may be a reference to the "Mark of Sacrifice" that is seen in the manga/anime Berserk.
+            Relevant lore theories can be found under Moon Presence Lore and Tarot Cards and Bloodborne.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Impurity">Impurity</runeName>
+        <description>
+            A Caryll rune that transcribes inhuman sounds.
+            This rune, discovered inside the forbidden beast eater, came to symbolize "Impurity," and the oath of The League.
+            
+            Confederates of The League cooperate with hunters from other worlds, and hunt to discover vermin.
+            Vermin writhe within filth, and are the root of man's impurity. Crush all vermin without hesitation.
+        </description>
+        <locationArea>
+            Join The League via its leader Valtr, Forbidden Woods - In the hut to the right of the first lamp, that acts as a shortcut.
+        </locationArea>
+        <effect>
+            +2% max HP while co-operating.
+            Equipping this rune allies you to The League faction.
+            Successful co-op sessions while using this rune will grant a Vermin that can be crushed to rank up in the covenant.
+            Equipping the rune also changes the League Oath gesture by placing your left hand onto your chest.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+        </notes>
+        <trivia>
+            The Caryll Rune Impurity was inspired by "The Lovers" Tarot Card. 
+        </trivia>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Lake">Lake</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            This transcription of the Great Ones' inhuman voices ripples like a watery reflection.
+            
+            This rune means "Lake", and those branded by it enjoy augmented defense.
+            Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
+            Overcome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            3% - From the lamp at Hemwick Charnel Lane you need to go straight until you reach an iron door. If you didn't open it you need to go open it first. Looking at the iron door you need to go right and follow the path until you come back to the iron door from the other side. Then go straight again until you reach the end of the path and you see some kind of ocean. There will be a corpse on a small ledge with the Lake rune.
+            5% - Cursed and Defiled Root Chalice (random chance)
+            7% - Pthumeru Ihyll Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Increases defense. Physical DMG reduction by +3%/5%/7%
+            Increases in Physical defense are visible from the menu
+            Runes stack additively, with a system of diminishing returns.
+            When a rune stacks, its effect is reduced by 10% of "what's already there".
+            For instance if Physical defense is already 200, then the increase will be reduced by 20 Physical defense.
+            +10% Physical defense = +100 Physical defense, which will become +80 if Physical defense is already 200.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Lake + 5% - Chalice Glyph: aii8vj6a (Layer 1 bonus room before boss room
+            Lake + 5% - Chalice Glyph: vxnwjixk | Treasure in , F/R/C Cursed Pthumerian Defilement L1, side area before layer boss
+            Lake + 5% - Chalice Glyph: brkepzqq (Layer 4)
+            Lake + 7% - Chalice Glyph: qtpuhk46 (Layer 1) Before boss room. Also Communion Rune +5 on Layer 2
+            Lake + 7% - Chalice Glyph: 7yc94b3m (Layer 2)
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Milkweed">Milkweed</runeName>
+        <description>
+            A Caryll rune envisioned by Adeline, patient of the Research Hall.
+            
+            A translation of the inhuman, sticky whispers that reveal the nature of a celestial attendant.
+            Those who swear this oath become a Lumenwood that peers towards the sky, feeding phantasms
+            in its luscious bed. Phantasms guide us and lead us to further discoveries.
+        </description>
+        <locationArea>
+            Received from Saint Adeline in the Research Hall after finishing her quest line.
+        </locationArea>
+        <effect>
+            Transforms the player into a celestial Kin form as part of an oath.
+            With the Kos Parasite and milkweed rune, the player has unique dodge animations and a slight increase in dodge distance.
+            Caryll Rune of the Covenant: Lumenwood Kin
+            Small increase in item discovery +10 (Only adds +9 if one has 50 arc and 3 eye runes equipped)
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            Kos Parasite receives an enhanced moveset, but the rune is required to use it effectively.
+            Players receive reduced fall damage while rune is equipped.
+            Counterpart to the other transformation rune: Beast's Embrace.
+            If you go to the Madman NPC figure at the very start of the fishing hamlet with the milkweed rune equipped, he gives you Accursed Brew.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Moon">Moon</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            A transcription of "moon", as spoken by the Great Ones inhabiting the nightmare.
+            
+            Gain more Blood Echoes.
+            The Great Ones that inhabit the nightmare are sympathetic in spirit, and often answer when called upon.
+        </description>
+        <locationArea>
+            In Hypogean Gaol between 2 of the Snatchers near your lantern.
+            In Mergo's Loft at the bottom of the spiral staircase where you fought Micolash.
+            Stand in front of Mother Brain's eye in Nightmare of Mensis and use the "Make Contact" gesture. (Note: it takes around 25-35 seconds for the rune to appear). To get there, start at the Mergo's Loft Middle Lamp and run up the stairs past the crow dogs and ride the single cage elevator down. As you are riding it down, you will see an open window and you must roll-dive through it. Continue along this path past the enemies until you see a single green lever on a narrow walkway to the right of the little hole you drop through (don't drop down the hole). Pull the lever and a cut-scene will play out with Mother Brain falling through a pit. Now you must leave this area and go back to the first area past the spider mini-bosses and the hunter on the bridge. Once you get here, go down the stairs past the dwarves into the big hall will giant pits in the floor. Go past the single giant armored dwarf and you will see a single green elevator cage next to a huge pit in the ground. Climb the elevator all the way down to the black abyss. You can step out and you will not die. You will hear some breathing sounds and you will faintly see an outline of Mother Brain you dropped earlier. Go up to it and perform the "Make Contact" gesture. Stay in this pose for about 30 seconds, after which your hands will move position and you will receive the final and most powerful "Moon" rune. You are free to kill Mother Brain after this and you will receive a Living String (Chalice Dungeon
+        </locationArea>
+        <effect>
+            Tier 1: Increases Blood Echoes gain from slain enemies by 10%
+            Tier 2: Increases Blood Echoes gain from slain enemies by 20%
+            Tier 3: Increases Blood Echoes gain from slain enemies by 30%
+            The runes stack multiplicatively (110% x 120% x 130%)
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+            Also increases the amount of Blood Echoes gained from Bosses
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Oedon_Writhe">Oedon Writhe</runeName>
+        <description>
+            A Caryll rune that transcribes inhuman sounds.
+            "Writhe" sees a subtle mucous in the warmth of blood, and acknowledges visceral attacks as one of the darker hunter techniques.
+            
+            Visceral attacks restore Quicksilver Bullets.
+            Human or not, the oozing blood is a medium of the highest grade, and the essence of the formless Great One.
+            Both Oedon, and Oedon's inadvertent worshippers, surreptitiously seek the precious blood.
+        </description>
+        <locationArea>
+            (+1) is obtained by killing Adella the Nun at Hypogean Gaol or sending her to Oedon's Chapel and killing her there. A second method is to send her to Iosefka's Clinic and collecting the heir rune from a kin.
+            (+2) is obtained by killing Iosefka at Iosefka's Clinic, BEFORE the blood moon. (But you lose one third of the umbilical cord)
+            (+3) is obtained from a Pthumeru Ihyll Root Chalice (random chance)
+        </locationArea>
+        <effect>
+            Visceral Attacks grant Quicksilver Bullets.
+            Versions: +1 / +2 / +3
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            When you manually pick up bullets off of corpses and are already at the maximum capacity any extra are sent to your storage. (standard is 20 bullets max) The rune, Oedon Writhe, does not send extra bullets to your storage. The rune only grants bullets if your current bullet capacity is less than the maximum.
+            For those skilled in gun parries, using the Blood Rapture rune as well will let you replenish health, while also replenishing bullets with Oedon Writhe.
+            Stacking the two from Adella and Iosefka or having all three runes allows you to replenish up to 3-6 Quicksilver Bullets per Visceral Attack, extremely handy for both Firearm and Arcane build, it even has the potential to recharge the Cannon.
+            Chalice Glyph: 27fe7wh7 - Ehik123 on Reddit reports finding the +3 rune in the Fetid and Rotted dungeon. The rune is located in between the dungeon's Chamber of the Seal and the door to Layer 1. This glyph is still active as of December 1, 2016.
+            Chalice Glyph: 9vb3tzza (Layer 1 pre-lantern). Pre-boss area also has Clockwise Metamorphosis +15% rune.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Radiance">Radiance</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth.
+            The rune for "Radiance," adopted by the sworn Executioners under Logarius' command.
+            
+            The executioners despise the impure Vilebloods, and no matter what the circumstances,
+            would never cooperate with the bloodthirsty hunters who serve the undead queen, Annalise.
+        </description>
+        <locationArea>
+            If you revisit the statue in Cathedral Ward, outside the entrance to Old Yharnam where you first meet Alfred (after he has killed Annalise), you'll find his inexplicably dead body with the rune.
+            This rune can also be attained by killing Alfred after he has killed Annalise
+        </locationArea>
+        <effect>
+            Increases amount of HP recovered by blood vials.
+            Associated with covenant Executioners, which has multiplayer implications.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool.
+            Increases blood vial healing by 2%.
+            While this rune is equipped, you will not be able to cooperate with anyone wearing the Corruption rune, regardless of who summoned who. If the player wearing Radiance attempts to summon or is summoned by a player wearing Corruption, the summoned player will be a hostile summon instead of a regular summon. The players must fight each other instead of cooperate. When the hostile summon effect triggers, the player who was summoned will spawn with a faintly purple glow instead of a blue one. This can be hard to notice if you aren't looking for it. Hostile summons occupy a summon slot, reducing the total number of other players the host can summon by one, but do not prevent an invader from also showing up. Hostile summons can attack invaders, normal summons, and the host. It is possible for a very unfortunate host to have two hostile summons, in which case the purple summons will be allied with each other and won't be able to attack each other, but can still attack the host and invader. If this happens, the host player will not be able to summon anyone else until one hostile summon is killed to free up the summon slot.
+        </notes>
+    </caryllRune>
+    <caryllRune>
+        <runeName runeList="Stunning_Deep_Sea">Stunning Deep Sea</runeName>
+        <description>
+            A secret symbol left by Caryll, runesmith of Byrgenwerth. This transcription of the Great Ones' inhuman voices depicts downreaching currents.
+            
+            This rune means "Deep Sea" and grants augmented resistance.Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch TruthOvercome this hindrance, and seek what is yours.
+        </description>
+        <locationArea>
+            (+100) Lower Hintertomb Root Chalice dungeon. Glyph: qmu2iuhk (layer 1 loot room directly before boss),8jv9v6bc (Layer 1) First bonus room.
+            (+200) Nightmare Frontier
+            (+300) Lower Ailing Loran Root Chalice dungeon. Glyphs: rie8jhve (Layer 1 Pre-Lamp), s5jj9xs4 (Layer 2 pre-boss)
+        </locationArea>
+        <effect>
+            Increases rapid poison resistance. Adds rapid poison RES +100.
+            Increases rapid poison resistance. Adds rapid poison RES +200.
+            Increases rapid poison resistance. Adds rapid poison RES +300.
+        </effect>
+        <notes>
+            To memorize this rune, you must have the Rune Workshop Tool
+        </notes>
+    </caryllRune>
+    <!-- Caryll Rune end -->
+    <!-- Attire start -->
+    <attire>
+        
+    </attire>
+    <!-- Attire end -->
+    <!-- Weapon start -->
+    <weapon>
+        
+    </weapon>
+    <!-- Weapon end -->
+    <!-- Firearm start -->
+    <firearm>
+        
+    </firearm>
+    <!-- Firearm end -->
+    <!-- Item start -->
+    <item>
+        
+    </item>
+    <!-- Item end -->
+</equipment>
+<!-- Equipment end -->
+<!-- Area start -->
+<area>
+    
+</area>
+<!-- Area end -->
+<!-- Npc start -->
+<npc>
+    
+</npc>
+<!-- Npc end -->
+<!-- Boss start -->
+<boss>
+    
+</boss>
+<!-- Boss end -->
+</lore>
