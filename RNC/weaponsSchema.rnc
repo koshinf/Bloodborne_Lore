@@ -1,0 +1,10 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = weaponInfo
+weaponInfo = element weaponInfo {mixed{(name| type | description | location | trivia)*}}
+name = element name {text}
+type = element type{text}
+description = element description {text}
+location = element location {mixed{place}}
+place = attribute place{text}
+trivia = element trivia {text}
