@@ -1,0 +1,17 @@
+^d"  - description - regex: \^d".+\n
+^q" - dialogue
+^e"  - effect
+^n" - notes
+L@ - location
+H@ - header(item/attire/weapon name)
+
+Regex:
+^d" = 
+    "Find: \^d"(.+\n\s{8})+"
+    "Replace: <description>\n        \0</description>\n        "
+L@ = 
+    "Find: L@(.+\n\s{8})+"
+    "Replace: <locationArea>\n        \0</locationArea>\n        "
+^t" = 
+    "Find: \t"(.+\n\s{8})+"
+    "Replace: <trivia>\n        \0</trivia>\n        "
