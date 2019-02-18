@@ -1,0 +1,101 @@
+/*----------------- MAIN -----------------*/
+
+/* Header/logo Title */
+.header {
+  padding: 120px;
+  text-align: center;
+  background: url(../images/banner.jpg);
+}
+
+/* Body */
+body{
+    background-color:gray;
+	margin: 0;
+}
+
+/* Navbar */
+
+ul#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li.navButton {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 100%;
+  background-color: white;
+  padding: 20px;
+}
+/*----------------- INDEX -----------------*/
+
+.flex-container {
+    display: flex;
+}
+
+/* Main column */
+.main-index {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.linkImg {
+	background-color: gray;
+    width: 100%;
+    padding: 20px;
+}
+
+.linkImg:hover {
+	background-color: #fff;
+
+}
+/*----------------- ABOUT -----------------*/
+
+
+/*----------------- GALLERY -----------------*/
+
+.flex-container-gallery {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
