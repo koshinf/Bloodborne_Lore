@@ -1,0 +1,24 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+
+start = bossInfo
+
+bossInfo = element bossInfo{name, description, notes, location, dialogue?, trivia?}
+
+    name = element name{text}
+
+    description = element description{text} #put "general" here.
+    
+    notes = element notes{text} #put "(char. name) Information" here.
+    
+    location = element location{place+} 
+
+        place = attribute place{xsd:ID}
+
+    dialogue = element dialogue{line+} # the whole dialogue section
+        
+        line = element line{text} # each individual discourse
+
+    trivia = element trivia {text} #put "Other Notes" here
+    
+    
