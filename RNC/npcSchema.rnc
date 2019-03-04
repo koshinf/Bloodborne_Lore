@@ -1,7 +1,9 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 
-start = npcInfo
+start = npcs
+
+npcs = element npcs{npcInfo+}
 
 npcInfo = element npcInfo{name, description, notes, location, dialogue?, trivia?}
 

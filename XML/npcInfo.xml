@@ -1,96 +1,101 @@
-<!-- NPCs, "$" denotes the beginning of an entry.-->
+<?xml-model href="../RNC/mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<lore>
+<!-- NPCs, "</npc><npc>" denotes the beginning of an entry.-->
+<equipment></equipment> 
+<area></area>
+<npc>
+<name>Vileblood Queen Annalise is a non-player character in Bloodborne. </name>
 
-$
-H@Vileblood Queen Annalise is a non-player character in Bloodborne. 
+<description>Annalise is the queen and sole survivor of the Vilebloods, vampiric aristocrats born from forbidden blood who once lived in Cainhurst Castle. With the exception of Queen Annalise herself, the Vilebloods were murdered during a genocidal invasion by Logarius and his band of Executioners; Logarius then sealed the queen in an illusionary prison and assumed the role of its warden, repelling any who ventured into the castle and threatened to break the seal.</description>
 
-^d"Annalise is the queen and sole survivor of the Vilebloods, vampiric aristocrats born from forbidden blood who once lived in Cainhurst Castle. With the exception of Queen Annalise herself, the Vilebloods were murdered during a genocidal invasion by Logarius and his band of Executioners; Logarius then sealed the queen in an illusionary prison and assumed the role of its warden, repelling any who ventured into the castle and threatened to break the seal.
-
-^n"If you select "Kneel" in the circle of candles in front of her and swear an oath, you can join her Covenant: the Cainhurst Vilebloods.
+<notes>If you select "Kneel" in the circle of candles in front of her and swear an oath, you can join her Covenant: the Cainhurst Vilebloods.
 Upon joining the Covenant you'll receive the Cainhurst Badge, making the Cainhurst Set and Chikage available at the Bath Messenger shop in the Hunter's Dream.
 Offering 1 Blood Dreg awards the "Deep Respect" gesture.
 She will dismiss you if you try approaching and talking to her without kneeling, regardless of whether you are already a Vileblood or no.
 Drops: If killed, will give 4,200 Blood Echoes and Queenly Flesh.
 If killed, she can be revived by taking the Queenly Flesh to the Altar of Despair in Upper Cathedral Ward after defeating Ebrietas, Daughter of the Cosmos.
 Lady Maria and Annalise are distant relatives.
-In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.
+In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.</notes>
 
 
-L@Castle Cainhurst
+<location place="Forsaken_Castle_Cainhurst">Castle Cainhurst</location>
 
-^q"First time:
+<dialogue><line>First time:
 Visitor… I claim no subjects, but here lieth Our throne. Kneel afore us… …or get thee gone.
 (Not kneeling) Such impudence. Defiled, are We, yet still Queen. We shall not give audience to an ill-mannered beast. Get thee gone.
-(Kneeling) Visitor… Moon-scented hunter… I am Annalise, Queen of Castle Cainhurst. Ruler of the Vilebloods, and sworn enemy of the church. Yet, Our people are murdered, and We are prisoner to this wretched mask. What is it thou’rt in search of?
+(Kneeling) Visitor… Moon-scented hunter… I am Annalise, Queen of Castle Cainhurst. Ruler of the Vilebloods, and sworn enemy of the church. Yet, Our people are murdered, and We are prisoner to this wretched mask. What is it thou’rt in search of?</line>
 
-^q"Swear Oath to the Vilebloods:
+<line>Swear Oath to the Vilebloods:
 Well, well… An odd hunter thou art indeed… We’ve tired of these piteous nights… Share in Our plight, and take oath against the church. If thou wouldst this path walk… …I prithee partake of my rotted blood.
 (Swear Vileblood Oath) Very well. Drink deep of Our blood. Feel the spreading corruption burn. Now, thou’rt too a Vileblood. We two, the very last on this earth. We await thy return. For the honor of Cainhurst.
 (Refuse) "A wise choice...There is no more to be said...away from mine gaze.
 (Leaving, then returning) "Speak thy mind."
-(Not kneeling) Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.
+(Not kneeling) Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.</line>
 
-^q"Giving Blood Dregs:
+<line>Giving Blood Dregs:
 Closest of kin, last of Our kind. What is thy wish?
 (Offer Blood Dreg) Thy gift pleases Us. Let this reward be thine. Indulge thyself in Our tainted blood.
-(Leave) We await thy return. For the honour of Cainhurst.
+(Leave) We await thy return. For the honour of Cainhurst.</line>
 
-^q"Showing her the Ring of Betrothal:
+<line>Showing her the Ring of Betrothal:
 Closest of kin, bearer of Our blood. What is thy wish?
 (Propose Marriage) Speak not, those words. We have little need of a consort. Such a path would belike lead to further ruin. Thou'rt dear to Us. We would see no harm befall thee...
 (Propose again) Ahh, still thy honeyed tongue... The thought alone sufficeth. Thy worth is too great. Now, speak no more in the matter.
 (Propose again..again)Honestly!
-(Leave) We await thy return. For the honour of Cainhurst.
+(Leave) We await thy return. For the honour of Cainhurst.</line>
 
-^q"When attacking her:
+<line>When attacking her:
 Enough. If only Our life was so easily forfeit... Grieve not, for Us.
 How sad this is. If only Our life was so easily forfeit...
 (Not kneeling) Kneel.
-(Kneeling) Well, well. Thou wearest a second face. It matters not. Our flesh is undying. Speak thy mind.
+(Kneeling) Well, well. Thou wearest a second face. It matters not. Our flesh is undying. Speak thy mind.</line>
 
-^q"After reviving her (killed by player):
-Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.
+<line>After reviving her (killed by player):
+Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.</line>
 
-^q"After acquiring and creating the Great Pthumeru Ihyll Chalice:
+<line>After acquiring and creating the Great Pthumeru Ihyll Chalice:
 (Greeting) Closest of kin, last of our kind. I welcome thee. What is thy wish
 (Leaving) We await thy return. For the honour of Cainhurst.
-(Leaving if Blood Dreg was given) We await thy return... This chamber was made not for one alone... For the honour of Cainhurst.
+(Leaving if Blood Dreg was given) We await thy return... This chamber was made not for one alone... For the honour of Cainhurst.</line>
+</dialogue>
+</npc><npc>
+<name>Arianna, Woman of Pleasure is a non-player character in Bloodborne. </name>
 
-$
-H@Arianna, Woman of Pleasure is a non-player character in Bloodborne. 
+<description>A prostitute residing in one of the Cathedral Ward's darker corners. You can speak to her at her home in the Cathedral Ward as soon as you reach the area, but she won't seek sanctuary until you have defeated at least one boss from either Cathedral Ward, Old Yharnam, Hemwick Charnel Lane or Yahar' Gul the Unseen Village.</description>
 
-^d"A prostitute residing in one of the Cathedral Ward's darker corners. You can speak to her at her home in the Cathedral Ward as soon as you reach the area, but she won't seek sanctuary until you have defeated at least one boss from either Cathedral Ward, Old Yharnam, Hemwick Charnel Lane or Yahar' Gul the Unseen Village.
-
-^n"Arianna falls under the prophecy that is found in Byrgenwerth, "... And when the Great Ones descend, a womb will be blessed with child."
+<notes>Arianna falls under the prophecy that is found in Byrgenwerth, "... And when the Great Ones descend, a womb will be blessed with child."
 So, not only does Arianna give birth to a "Child of Blood" like the Queen, the Blood of Arianna also has special properties like the Queen's.
 Arianna wears the Noble Dress found in Castle Cainhurst indicating she is a descendant of the nobles that lived there. (Although it is strange that when the hunter accepts Vileblood rune Queen Annalise says there are only two Vilebloods now, the hunter and herself, never mentioning Arianna at all. Given the properties of her blood and the fact that she wears Noble Dress one may think she is closely related to Vilebloods bloodline. Or maybe only Vilebloods killing other hunters are considered to be true Vilebloods by the Queen and other Vilebloods are of no use and importance to her?)
 Arianna's Blood has a description alluding to her blood having "forbidden" properties (forbidden according to the Healing Church, ie Vileblood)
-In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.
+In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.</notes>
 
-L@Cathedral Ward
+<location place="Cathedral_Ward">Cathedral Ward</location>
 
-^q"Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts, so if that's what you're here for, I'll leave you to your own devices. If that doesn't do it, come back in the morning, darling." - for male hunter.
+<dialogue><line>Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts, so if that's what you're here for, I'll leave you to your own devices. If that doesn't do it, come back in the morning, darling." - for male hunter.
 "Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts and besides this is no place for ladies. Wouldn't want to drag you down too..." [laughs] - for female hunter.
 "Oh, thank goodness. You're a hunter, right? Might you know of a safe place? The night is long and I've very little of the incense left... Please, there must be some nice place to run off to?" (Gives option of telling her)
 "Oh, thank you, darling. Maybe I'll see you there!"
 "Oh, hello dear. You weren't lying, this is a safe place. Thank you. I am in your debt." (Gives Curtsy)
-"I'd like to tender my thanks, but I haven't much to offer...all I can give is my blood. But would you even take a whore's blood?"
+"I'd like to tender my thanks, but I haven't much to offer...all I can give is my blood. But would you even take a whore's blood?"</line>
 
-^q"(If refused, or already carrying special blood): "Oh, you. I'm sorry. I'm afraid I can't help you. Unless you've had a change of heart?"
+<line>(If refused, or already carrying special blood): "Oh, you. I'm sorry. I'm afraid I can't help you. Unless you've had a change of heart?"
 "Oh, hello. The whole town's turned, has it? Quite a big family, aren't we? Though I'm afraid I seem to be the black sheep... Back for my blood, I presume."
 "Oh, hello. Come closer. I'm always happy to help."
-(after killing Rom, the Vacuous Spider) [hunched over, clutching herself] "Oh, hello there. Forgive me, I'm a bit out of sorts. So, no blood today, okay?"
-"Oh...there's something wrong with me..." [moans]
-(After killing Micolash, host of the Nightmare, having given birth) "It can't be...this is a nightmare..." [sobs and laughs]
+</line>
+<line>(after killing Rom, the Vacuous Spider) [hunched over, clutching herself] "Oh, hello there. Forgive me, I'm a bit out of sorts. So, no blood today, okay?"
+"Oh...there's something wrong with me..." [moans]</line>
+    
+<line>(After killing Micolash, host of the Nightmare, having given birth) "It can't be...this is a nightmare..." [sobs and laughs]</line>
+</dialogue>
+</npc><npc>
+<name>Blood Minister is a non-player character in Bloodborne.</name> 
 
-$
-Blood Minister is a non-player character in Bloodborne. 
-
-^d"This enigmatic person gives you a contract to sign (which essentially sends you to character creation).
+<description>This enigmatic person gives you a contract to sign (which essentially sends you to character creation).
 Once the contract has been officialized, he begins a blood transfusion process using Yharnam blood.
 The process begins a strange, nightmare-like scenerio involving a Wolf Beast and the first sighting of the Messengers.
-Afterwards, the player character (now officially a Hunter) gets off the operating table, and the night of the hunt is about to begin...
+Afterwards, the player character (now officially a Hunter) gets off the operating table, and the night of the hunt is about to begin...</description>
 
-^n"Blood Minister corpse can be found in hunter's nightmare (DLC). You can locate him in first floor of the house, before you set foot in river of blood. (Dead hunter in wheelchair that explodes when you come near him) Everything checks out, the wheelchair, sleeves, his face and his hat.
+<notes>Blood Minister corpse can be found in hunter's nightmare (DLC). You can locate him in first floor of the house, before you set foot in river of blood. (Dead hunter in wheelchair that explodes when you come near him) Everything checks out, the wheelchair, sleeves, his face and his hat.
 As Gehrman suggested, there are multiple Blood Ministers throughout Yharnam.
 Who they serve, if there are any still alive, is unknown at this point.
 Gehrman also mentions that most Blood Ministers nowadays don't recall the Hunters anymore.
@@ -98,25 +103,26 @@ If the above is true, that would make this particular Blood Minister even more s
 This character is more or less identical to some wheelchair enemies encountered throughout Yharnam, although none of them wears the signature hat.
 One of the other distinguishing features is that the Blood Minister appears to have no eyes.
 This is a foreshadowing of future events to come.
-The hat worn by the Blood Minister has a similar appearance to what the Old Hunters wore in the past.
+The hat worn by the Blood Minister has a similar appearance to what the Old Hunters wore in the past.</notes>
 
-L@This character is located in Iosefka's Clinic though he disappears after the opening cinematic.
-Can be found in hunter's nightmare (DLC), dead hunter that explodes when you come near him
+<location place="Iosefka's_Clinic">This character is located in Iosefka's Clinic though he disappears after the opening cinematic.
+Can be found in hunter's nightmare (DLC), dead hunter that explodes when you come near him</location>
 
-^d"Upon Starting the Game:
-Oh, yes... Paleblood... Well, you've come to the right place. Yharnam is the home of blood ministration. You need only unravel its mystery. But, where's an outsider like yourself to begin? Easy, with a bit of Yharnam blood of your own... But first, you'll need a contract...
+<dialogue>
+<line>Upon Starting the Game:
+Oh, yes... Paleblood... Well, you've come to the right place. Yharnam is the home of blood ministration. You need only unravel its mystery. But, where's an outsider like yourself to begin? Easy, with a bit of Yharnam blood of your own... But first, you'll need a contract...</line>
 
-^d"Character Creation:
-Good. All signed and sealed. Now let's begin the transfusion. Oh, don't you worry. Whatever happens... You may think it all a mere bad dream... 
+<line>Character Creation:
+Good. All signed and sealed. Now let's begin the transfusion. Oh, don't you worry. Whatever happens... You may think it all a mere bad dream... </line>
+</dialogue>
+</npc><npc>
+<name>Iosefka is a non-player character in Bloodborne and owner of Iosefka's Clinic where the player begins their journey.</name>
 
-$
-H@Iosefka is a non-player character in Bloodborne and owner of Iosefka's Clinic where the player begins their journey.
-
-^d"There are, in fact, two Iosefkas: The real one and an imposter.
+<description>There are, in fact, two Iosefkas: The real one and an imposter.
 The real one is the one you first meet through the door. She is kind, compassionate and gentle. When the player attacks her door repeatedly she kindly pleads, "Please stop, you are not a beast." If the player manages to access the clinic later in the game through the forbidden woods, a blue alien creature drops Iosefka's blood vial; that is the real Iosefka, but she was changed/experimented on by the impostor. She as the blue alien will take a while to become agro on the hunter.
-Impostor Iosefka is much harsher in the way she speaks and laughs maniacally when she asks the hunter to bring people in. Later in the game if you attack the door, she starts spouting mean words to the player and refuses to talk with you in the aftermath.
+Impostor Iosefka is much harsher in the way she speaks and laughs maniacally when she asks the hunter to bring people in. Later in the game if you attack the door, she starts spouting mean words to the player and refuses to talk with you in the aftermath.</description>
 
-^n"Prior to discovering the Cathedral Ward, Iosefka will repeatedly provide the player with a Iosefka's Blood Vial consumable if the player does not have one. After discovering the Cathedral Ward, "Iosefka" (who is actually the imposter) will encourage the player to send people to her clinic.
+<notes>Prior to discovering the Cathedral Ward, Iosefka will repeatedly provide the player with a Iosefka's Blood Vial consumable if the player does not have one. After discovering the Cathedral Ward, "Iosefka" (who is actually the imposter) will encourage the player to send people to her clinic.
 Imposter Iosefka seems to experiment upon, and eventually transform or kill, any survivors sent to her. The number of "aliens" (Celestial Mob) in her clinic changes as survivors are sent. Aliens slain at her clinic will drop the corresponding loot from the NPC they were prior. She will reward the player with Numbing Mist (x2) or Lead Elixir for each NPC sent to her clinic, as well as 1 Insight. If the Suspicious Beggar is sent to her clinic, she will reward the player with 3 Blue Elixir and 2 insight.
 If Iosefka's Clinic is entered from the rear, through the ladder from the caverns in the Forbidden Woods, the imposter will be found in a small room up a flight of stairs. On approaching the base of the stairs, she will ask the player to leave. At this point, she may turn hostile depending on your choice of action:
 If the player climbs to the top of the top of the stairs and approaches her room, she will become hostile. Killing her will make her drop the rune "Oedon Writhe," and her quest line will end
@@ -130,130 +136,132 @@ The fake Iosefka, or "Fauxsefka," has taken up residence in the clinic in order 
 Tests were first performed on the real Iosefka and then anyone else the hunter sends to the clinic which result in their being transformed into Celestial Mobs, a type of kin (an elevated being that ranks above humans but below the Great Ones).
 Confronting her before killing Rom disrupts her plans and results in the hunter killing her.
 However, if the player comes after the Blood Moon appears, she will have succumbed to madness after imbibing a One Third of Umbilical Cord in a desperate attempt to evolve herself before the night ends.
-Ultimately it ends in failure as her blood remains red upon slaying her instead of the clear color of the the elevated kin.
+Ultimately it ends in failure as her blood remains red upon slaying her instead of the clear color of the the elevated kin.</notes>
 
-L@Iosefka is found behind a set of double doors, at the top of the steps behind the "1st Floor Sickroom" lantern.
+<location place="Iosefka's_Clinic" lamp="1st_Floor_Sickroom">Iosefka is found behind a set of double doors, at the top of the steps behind the "1st Floor Sickroom" lantern.</location>
 
-^d"Upon speaking with (real) Iosefka for the first time:
-Are you... out on the hunt? Then I'm very sorry, but... I cannot open this door. I am Iosefka. The patients here in my clinic must not be exposed to infection. I know that you hunt for us, for our town, but I'm sorry. Please. This is all that I can do." (Gives 'Iosefka's Blood Vial' x1) "Now, go. And good hunting."
+<dialogue>
+<line>Upon speaking with (real) Iosefka for the first time:
+Are you... out on the hunt? Then I'm very sorry, but... I cannot open this door. I am Iosefka. The patients here in my clinic must not be exposed to infection. I know that you hunt for us, for our town, but I'm sorry. Please. This is all that I can do." (Gives 'Iosefka's Blood Vial' x1) "Now, go. And good hunting."</line>
 
-^d"Upon speaking with Iosefka when in possession of Iosefka's Blood Vial:
-Are you still in need of something? But I have nothing more to offer. Please, try to understand my position. I can only pray, for a fruitful hunt."
+<line>Upon speaking with Iosefka when in possession of Iosefka's Blood Vial:
+Are you still in need of something? But I have nothing more to offer. Please, try to understand my position. I can only pray, for a fruitful hunt."</line>
 
-^d"Upon speaking with Iosefka when you are not in possession of Iosefka's Blood Vial:
-You are safe, thank goodness. But I’m afraid nothing will change. I cannot open the door. I’ll do what I can, of course. Perhaps this will help you, if only in some small way. (Gives 'Iosefka's Blood Vial' x1). Now, go. I pray for your safety.
+<line>Upon speaking with Iosefka when you are not in possession of Iosefka's Blood Vial:
+You are safe, thank goodness. But I’m afraid nothing will change. I cannot open the door. I’ll do what I can, of course. Perhaps this will help you, if only in some small way. (Gives 'Iosefka's Blood Vial' x1). Now, go. I pray for your safety.</line>
 
-^d"Upon receiving your fourth Iosefka's Blood Vial:
+<line>Upon receiving your fourth Iosefka's Blood Vial:
 Ah, you are safe. Thank goodness. But I'm afraid nothing will change my mind. I cannot open the door. I'll do what I can, of course. Perhaps this will help you, if only in some small way. (Gives 'Iosefka's Blood Vial' x1)
-This night is long, but morning always comes. Someone of your caliber won’t fail us, I am certain. And once the night of the hunt ends, we can speak face-to-face. Then I can finally see what you look like. I shouldn’t be thinking this but I am rather looking forward to it. So please, be careful out there.
+This night is long, but morning always comes. Someone of your caliber won’t fail us, I am certain. And once the night of the hunt ends, we can speak face-to-face. Then I can finally see what you look like. I shouldn’t be thinking this but I am rather looking forward to it. So please, be careful out there.</line>
 
-^d"Upon speaking with Iosefka after receiving your fourth Iosefka's Blood Vial, but you are still in possession of one
-I'm sorry...I have nothing else to offer you. I will pray for your safety. May light shine upon this night, and your fortunes.
+<line>Upon speaking with Iosefka after receiving your fourth Iosefka's Blood Vial, but you are still in possession of one
+I'm sorry...I have nothing else to offer you. I will pray for your safety. May light shine upon this night, and your fortunes.</line>
 
-^d"If you attack the door while Iosefka is still there:
+<line>If you attack the door while Iosefka is still there:
 Ahh! Ohh!
 [After attacking the door again] Please stop! It's beasts you hunt. Why are you behaving like one? This can't be the real you. Please, stop....
-[Talking to her again, but this time around not attacking the door once more] Are you calm again? Thank goodness. You mustn't let the hunt overcome you. Remember yourself. You are not a beast.
+[Talking to her again, but this time around not attacking the door once more] Are you calm again? Thank goodness. You mustn't let the hunt overcome you. Remember yourself. You are not a beast.</line>
 
-^d"If you ignore Iosefka's pleading and attack the door again:
-You are no more than a beast. I should've known....
+<line>If you ignore Iosefka's pleading and attack the door again:
+You are no more than a beast. I should've known....</line>
 
-^d"Impostor Iosefka (After reaching Cathedral Ward lamp)
+<line>Impostor Iosefka (After reaching Cathedral Ward lamp)
 Oh, well, hello....Splendid. Let me ask you a small kindness. You're soon off to hunt, I presume? Then, if you find any survivors, tell them to seek Iosefka's Clinic. Upon my Hippocratic oath, if they are yet human, I will look after them, perhaps even cure them. This sickness, these beasts, they are not to be feared. This time the night is long. I might be trapped here, but I should do something to help. I'll even offer a reward for your co-operation. Tempted? Well, off you go then.
 If you find anyone who’s still human, send them straight to Iosefka clinic. You can assure them, there’s no place safer. Please do me this service.
-Oh, hello. You made it. Find any survivors? Or only beasts? Tell anyone who's human about Iosefka's Clinic. I will take proper care of them. They're in your hands, and soon, mine....
+Oh, hello. You made it. Find any survivors? Or only beasts? Tell anyone who's human about Iosefka's Clinic. I will take proper care of them. They're in your hands, and soon, mine....</line>
 
-^d"If you send a female NPC to Iosefka's Clinic:
+<line>If you send a female NPC to Iosefka's Clinic:
 Oh hello...You're all right. Very good. She's safe with me now, I presume you're to thank? The treatment is going well, stabilized, for the most part. Fascinating, really....Here you are, as promised. (Receive Numbing Mist x2 normally or Lead Elixir x2 if you sent the little Yharnam girl).
-Oh, thank goodness you came....Be a dear, find me some more. [Sinister Laughter]
+Oh, thank goodness you came....Be a dear, find me some more. [Sinister Laughter]</line>
 
-^d"After sending at least one NPC, but talking to Imposter Iosefka again before sending another NPC:
-There may yet be humans out there. If you find them, send them to Iosefka's Clinic. I endeavor to treat every survivor there is. So please, be a saint.
+<line>After sending at least one NPC, but talking to Imposter Iosefka again before sending another NPC:
+There may yet be humans out there. If you find them, send them to Iosefka's Clinic. I endeavor to treat every survivor there is. So please, be a saint.</line>
 
-^d"If you send the Skeptical Man to Iosefka's Clinic:
-Oh hello.....You're safe. What a relief. He's safe with me now. I'm thrilled to have another. Here you are, as promised. (Receive Numbing Mist x2).
+<line>If you send the Skeptical Man to Iosefka's Clinic:
+Oh hello.....You're safe. What a relief. He's safe with me now. I'm thrilled to have another. Here you are, as promised. (Receive Numbing Mist x2).</line>
 
-^d"After sending three people to Iosefka's Clinic:
+<line>After sending three people to Iosefka's Clinic:
 What would I ever do without you? You're really making a difference. [Sinister Laughter]
-If you find any humans, bring them to me. I'm depending on you, brave hunter. [Sinister Laughter]
+If you find any humans, bring them to me. I'm depending on you, brave hunter. [Sinister Laughter]</line>
 
-^d"If you attack the door when Imposter Iosefka is there：
-Ahh! Can't anyone comprehend?! That'll be quite enough of you then. Isn't it time someone put you out of your misery?
+<line>If you attack the door when Imposter Iosefka is there：
+Ahh! Can't anyone comprehend?! That'll be quite enough of you then. Isn't it time someone put you out of your misery?</line>
 
-^d"Speaking to Imposter Iosefka inside the clinic after a set of doors before the moon is red:
-Ah, moonlit scents....How did you worm your way in here? Well, I won't make any excuses. Would you mind leaving us alone? Things need not change...You'll do the rescuing, and I'll do the saving. But, if you refuse to leave....Ah, well...I always wanted to try my hand on a hunter.... [Sinister Laughter]
+<line>Speaking to Imposter Iosefka inside the clinic after a set of doors before the moon is red:
+Ah, moonlit scents....How did you worm your way in here? Well, I won't make any excuses. Would you mind leaving us alone? Things need not change...You'll do the rescuing, and I'll do the saving. But, if you refuse to leave....Ah, well...I always wanted to try my hand on a hunter.... [Sinister Laughter]</line>
 
-^d"If you ignore Imposter Iosefka's warning and enter the room she is located in:
+<line>If you ignore Imposter Iosefka's warning and enter the room she is located in:
 This won't hurt a bit...I'll soon have you right as rain...
-Hush, hush....Stay still....This won't hurt a bit...I'll soon have you right as rain...Just.....Die.....ENOUGH OF YOU!!! Now, stop that
+Hush, hush....Stay still....This won't hurt a bit...I'll soon have you right as rain...Just.....Die.....ENOUGH OF YOU!!! Now, stop that</line>
 
-^d"If you kill Imposter Iosefka before the Blood Moon:
-[In a dying, pained voice] Curse this oblivious fool...
+<line>If you kill Imposter Iosefka before the Blood Moon:
+[In a dying, pained voice] Curse this oblivious fool...</line>
 
-^d"If Imposter Iosefka kills you while hostile:
-[Excited Sinister Laughter] Oh, how exciting! I've never worked on a hunter before...
+<line>If Imposter Iosefka kills you while hostile:
+[Excited Sinister Laughter] Oh, how exciting! I've never worked on a hunter before...</line>
 
-^d"Speaking to Impostor Iosefka through 1st Floor Sickroom doors after deciding to not make her hostile:
-Oh, hello... Still alive, are you? I need more patients... There aren't many humans left, I know, but find me every last one you can. We must find a way. To surpass our own stupidity. You're one of the bright ones. Don't you see how much this means? [Sinister Laughter] If you find any humans, bring them to me. I'm depending on you, brave hunter. [Exquisitely Sinister Laughter]
+<line>Speaking to Impostor Iosefka through 1st Floor Sickroom doors after deciding to not make her hostile:
+Oh, hello... Still alive, are you? I need more patients... There aren't many humans left, I know, but find me every last one you can. We must find a way. To surpass our own stupidity. You're one of the bright ones. Don't you see how much this means? [Sinister Laughter] If you find any humans, bring them to me. I'm depending on you, brave hunter. [Exquisitely Sinister Laughter]</line>
 
-^d"After sending the Suspicious Beggar to Iosefka's Clinic:
+<line>After sending the Suspicious Beggar to Iosefka's Clinic:
 Oh hello....You're alive. Good. I've received another patient. This time, I'll be trying old blood. I've achieved much. And I owe it all to you. Take this, as thanks. [Receive Blue Elixir x3]
 Custom made. And cheers, to the discovery of kinship. Doesn't it make you feel warm inside? [Sinister Laughter]
-[If you haven't sent every single NPC to Iosefka's Clinic] Please....find me some more. I'm depending on you, brave hunter. [Sinister Laughter]
+[If you haven't sent every single NPC to Iosefka's Clinic] Please....find me some more. I'm depending on you, brave hunter. [Sinister Laughter]</line>
 
-^d"After you've sent every single NPC to Iosefka's Clinic:
-Oh hello....You're still alive. But I suppose we're nearing the end. I don't imagine there are any left who haven't turned by now. Tragic, really, but what's to be done....
+<line>After you've sent every single NPC to Iosefka's Clinic:
+Oh hello....You're still alive. But I suppose we're nearing the end. I don't imagine there are any left who haven't turned by now. Tragic, really, but what's to be done....</line>
 
-^d"Speaking to Iosefka inside the clinic after the moon is red:
-God I'm nauseous... Have you ever felt this? It's progressing. I can see things... I knew it, I'm different. I'm no beast... I... Oh... God, it feels awful... but, it proves that I'm chosen. Don't you see? How they writhe, writhe inside my head... It's... rather... rapturous...'' [Pained yet still Sinister Laughter]
+<line>Speaking to Iosefka inside the clinic after the moon is red:
+God I'm nauseous... Have you ever felt this? It's progressing. I can see things... I knew it, I'm different. I'm no beast... I... Oh... God, it feels awful... but, it proves that I'm chosen. Don't you see? How they writhe, writhe inside my head... It's... rather... rapturous...'' [Pained yet still Sinister Laughter]</line>
+</dialogue>
+</npc><npc>
+<name>Eileen the Crow is a non-player character in Bloodborne. Wearing a Beak Mask, this hunter is a dual-wield "skill" hunter. </name>
 
-$
-H@Eileen the Crow is a non-player character in Bloodborne. Wearing a Beak Mask, this hunter is a dual-wield "skill" hunter. 
+<description>Eileen is an assassin whose sworn duty is to dispose of other hunters that have been corrupted by their lust for blood. Like the player, she hails from outside Yharnam and is a foreigner to the region, but her presence in the city is driven by an entirely different set of motives; she makes a point of keeping a low profile operating in the shadows, and you may never meet her in the first place if you don't go out of your way to explore. You can start her quest either on the Dry Dock - Rafters in Central Yharnam or to the left of the Oedon Chapel's front entrance in the Cathedral Ward, and your choices after that point will determine her fate. Helping her defeat Henryk in the Tomb of Oedon is the tipping point of her quest - failure to do so before entering the Forbidden Woods for the first time will sometimes result in her becoming your enemy, and will prevent you from receiving any of the successive rewards other than the Crow Hunter Badge. It is best to complete the Tomb of Oeden portion of the quest before progressing further.</description>
 
-^d"Eileen is an assassin whose sworn duty is to dispose of other hunters that have been corrupted by their lust for blood. Like the player, she hails from outside Yharnam and is a foreigner to the region, but her presence in the city is driven by an entirely different set of motives; she makes a point of keeping a low profile operating in the shadows, and you may never meet her in the first place if you don't go out of your way to explore. You can start her quest either on the Dry Dock - Rafters in Central Yharnam or to the left of the Oedon Chapel's front entrance in the Cathedral Ward, and your choices after that point will determine her fate. Helping her defeat Henryk in the Tomb of Oedon is the tipping point of her quest - failure to do so before entering the Forbidden Woods for the first time will sometimes result in her becoming your enemy, and will prevent you from receiving any of the successive rewards other than the Crow Hunter Badge. It is best to complete the Tomb of Oeden portion of the quest before progressing further.
-
-L@Location 1: the Central Yharnam Lamp; Location 2: the Cathedral Ward lamp; Location 3: The Tomb of Oedon; Location 4: Fighting the Bloody Crow of Cainhurst at the Grand Cathedral; Location 5: There is a pool of blood, where normally the top Chapel Giant stands -- if you have failed or talked to Eileen after killing the hostile hunter and received her rewards, you may see this blood stain here.
-
-^n"Eileen the Crow is the member of a covenant that hunts down hunters that begin to go insane from bloodlust or begin to turn into beasts themselves. It is unknown if other NPC characters are a part of this covenant.
+<notes>Eileen the Crow is the member of a covenant that hunts down hunters that begin to go insane from bloodlust or begin to turn into beasts themselves. It is unknown if other NPC characters are a part of this covenant.
 Eileen seems to have been a former hunter herself at some point. If you fight Eileen and are killed by her, her dialogue "You still have dreams? ...Tell the little doll I said hello..." indicates that she knows of both the Hunter's Dream and the Plain Doll, suggesting that she was a former hunter trapped in the Dream, much like the players themselves, who managed to break free from cycle of death and awakening. In the encounter with her at the foot of the Grand Cathedral, she mentions that she no longer dreams, and therefore that death is now permanent for her.
-The description of both the Crowfeather Set and the Crow Hunter Badge suggest that Eileen is from a foreign land, not a native Yharnamite; her unique accent may suggest this as well. Her Badge suggests that she is an "outsider from the hinterlands" - that is, areas of countryside away from civilization or beyond known geography, sparsely inhabited and traversed mostly by travelers. Note that this is the only mention of the hinterlands in the game.
+The description of both the Crowfeather Set and the Crow Hunter Badge suggest that Eileen is from a foreign land, not a native Yharnamite; her unique accent may suggest this as well. Her Badge suggests that she is an "outsider from the hinterlands" - that is, areas of countryside away from civilization or beyond known geography, sparsely inhabited and traversed mostly by travelers. Note that this is the only mention of the hinterlands in the game.</notes>
 
-^d"Upon speaking with her at the sewers:
+<location lamp="Grand_Cathedral">Location 1: the Central Yharnam Lamp; Location 2: the Cathedral Ward lamp; Location 3: The Tomb of Oedon; Location 4: Fighting the Bloody Crow of Cainhurst at the Grand Cathedral; Location 5: There is a pool of blood, where normally the top Chapel Giant stands -- if you have failed or talked to Eileen after killing the hostile hunter and received her rewards, you may see this blood stain here.</location>
+
+<dialogue>
+    <line>Upon speaking with her at the sewers:
 Oh, a hunter, are ya? And an outsider? What a mess you've been caught up in. And tonight, of all nights."
 Here, to welcome the new hunter." (Gives 'Bold Hunter's Mark' x4)
 Prepare yourself for the worst. There are no humans left. They're all flesh-hungry beasts, now."
 Still lingering about? What's wrong? A hunter, unnerved by a few beasts? Heh heh... No matter."
 "Without fear in our hearts, we're little different from the beasts themselves." (Gives 'Shake off Cape' expression)
-"What are you still doing here? Enough trembling in your boots. A hunter must hunt."
+"What are you still doing here? Enough trembling in your boots. A hunter must hunt."</line>
 
-^d"Outside Cathedral Ward:
+<line>Outside Cathedral Ward:
 Oh, hello there."
 "Perfect timing. I must warn you..."
 "...not to go near the tomb below Oedon Chapel in the Cathedral Ward."
 "Henryk, an old hunter, has gone mad."
 "And he's my mark..." (Gives Shh! gesture)
 "Don't go near the tomb below Oedon Chapel in the Cathedral Ward."
-"I have business there first..." (giggles)
+"I have business there first..." (giggles)</line>
 
-^d"After the Tomb of Oedon hunter fight:
+<line>After the Tomb of Oedon hunter fight:
 (Breathing Heavily) "That wasn't necessary of ya."
 "But you have my thanks."
 "We made it with our lives... You're not bad at all."
 "You must have killed Gascoigne as well then."
 "He was falling apart... I'm sure it had to be done."
 "But try to keep your hands clean... The Hunter should hunt Beasts."
-"Leave the hunting of Hunters, to me." (Laughs) (Gives Approval gesture) (Runs away)
+"Leave the hunting of Hunters, to me." (Laughs) (Gives Approval gesture) (Runs away)</line>
 
-^d"At the top of Grand Cathedral steps when friendly:
+<line>At the top of Grand Cathedral steps when friendly:
 "Oh, is that you again?"
 "I'm afraid I've made a bit of a blunder. I'm just going to have a short rest."
 "Oh, don't worry, I've taken blood. Enough to save an old woman."
 "No more dreams for me. This is my last chance."
 "What a fool I am. I'll have to tread carefully."
 "But that thing still lies in wait. Turn back. This is my score to settle." (Gives Wait gesture)
-"My prey lies in wait this way. Turn back. This is my score to settle."
+"My prey lies in wait this way. Turn back. This is my score to settle."</line>
 
-^d"
+<line>
 After the Grand Cathedral hunter fight:
 "Don't you ever listen to your elders? No matter, you did save my life."
 "I don't seem to be apt for this life anymore... My glory days were long ago now..."
@@ -261,9 +269,9 @@ After the Grand Cathedral hunter fight:
 "This too is hunters' work, but bears no honor. A burden you may choose to carry."
 "The decision is yours alone. Ahh, my eyes grow heavy..."
 "Let me rest a while... ...I'll be fine, just wait..."
-If slain by player, "You can't go on like this..."
+If slain by player, "You can't go on like this..."</line>
 
-^d"At the Grand Cathedral, when hostile and hunting the player:
+<line>At the Grand Cathedral, when hostile and hunting the player:
 (Laughter) "Few hunters can resist the intoxication of the hunt. Look at you, just the same as all the rest..."
 "The hunters must die... The nightmare must end..."
 "Only I can stop this madness!" (continued laughter)
@@ -271,81 +279,85 @@ When Eileen has been significantly injured, "The beasts cannot be stopped. What 
 (Yelling) "Your blood is mine! A hunter's blood for me! Your punishment is death! Death to hunters!"
 "Enough of this terrible dream!" (laughter)
 When Eileen is slain, "...Ahh... you monsters..."
-"All hunters must die!" (laughter as her body fades)
+"All hunters must die!" (laughter as her body fades)</line>
 
-$
-H@Gilbert is a non-player character in Bloodborne. You first meet him in Central Yharnam after ascending the ladder that lowers after pulling the lever. He is located just behind the first Lamp you will find. To speak with him you must approach the window there and press "X".
+</dialogue>
 
-^d"Gives Flamesprayer as a gift after killing Father Gascoigne. You have to talk to him before beating Amelia and starting night, as well as after visiting Cathedral Ward at least once. If you don´t obtain it from Gilbert, you can buy it from the Shop after obtaining the Radiant Sword Hunter Badge.
-After the moon turns red (upon killing Rom, the Vacuous Spider), you will find him as a hostile Old Yharnam Beast near his window, drops Clawmark Rune if killed.
+</npc><npc>
+<name>Gilbert is a non-player character in Bloodborne. You first meet him in Central Yharnam after ascending the ladder that lowers after pulling the lever. He is located just behind the first Lamp you will find. To speak with him you must approach the window there and press "X".</name>
 
-^n"Upon meeting Gilbert one will notice his odd cough. It is apparent he is sick. He will help the hunter with pieces of information and a weapon until he eventually turns into a beast and becomes hostile.
+<description>Gives Flamesprayer as a gift after killing Father Gascoigne. You have to talk to him before beating Amelia and starting night, as well as after visiting Cathedral Ward at least once. If you don´t obtain it from Gilbert, you can buy it from the Shop after obtaining the Radiant Sword Hunter Badge.
+After the moon turns red (upon killing Rom, the Vacuous Spider), you will find him as a hostile Old Yharnam Beast near his window, drops Clawmark Rune if killed.</description>
+
+<notes>Upon meeting Gilbert one will notice his odd cough. It is apparent he is sick. He will help the hunter with pieces of information and a weapon until he eventually turns into a beast and becomes hostile.
 Gilbert describes himself as a "fellow outsider" to the player hunter. This suggests that he traveled from another land to Yharnam, in hopes of finding a cure for his incurable ailment. According to him, the "strange blood" bought him time but his incurable disease is slowly taking its toll on him.
 From the description of the Flame Sprayer, which is given to the player hunter by Gilbert throughout his quest line, we can assume that Gilbert once worked for the Healing Church as a hunter or huntsman
-Gilbert may have been one of the hunters that burned Old Yharnam to the ground since he gives the player hunter the Flame Sprayer. During the blood moon phase that occurs after killing Rom, Gilbert transforms into a beast similar to the beasts that plague Old Yharnam and the Loran Chalice dungeon. From the description of the Antidote found all over Old Yharnam, the antidote counteracts poison offering short-term relief from the Ashen Blood disease that ravaged Old Yharnam long ago. Ashen blood is similar to poison and the antidote is used by hunters in an attempt to combat the ailment; all beasts from Old Yharnam are capable of poisoning. It is speculated that Gilbert caught this incurable Ashen Blood ailment during the burning of Old Yharnam. This would explain why he transforms into a beast similar to the beasts located in Old Yharnam. As a beast, he is not afraid of flame like the other beasts.
+Gilbert may have been one of the hunters that burned Old Yharnam to the ground since he gives the player hunter the Flame Sprayer. During the blood moon phase that occurs after killing Rom, Gilbert transforms into a beast similar to the beasts that plague Old Yharnam and the Loran Chalice dungeon. From the description of the Antidote found all over Old Yharnam, the antidote counteracts poison offering short-term relief from the Ashen Blood disease that ravaged Old Yharnam long ago. Ashen blood is similar to poison and the antidote is used by hunters in an attempt to combat the ailment; all beasts from Old Yharnam are capable of poisoning. It is speculated that Gilbert caught this incurable Ashen Blood ailment during the burning of Old Yharnam. This would explain why he transforms into a beast similar to the beasts located in Old Yharnam. As a beast, he is not afraid of flame like the other beasts.</notes>
 
-L@Gilbert is found in Central Yharnam, right in front of the Lamp.
+<location place="Central_Yharnam">Gilbert is found in Central Yharnam, right in front of the Lamp.</location>
 
-^q"Upon speaking with him (First time)：
-"Oh you must be a Hunter, and not one from around here either. I'm Gilbert, a fellow outsider. You must have had a fine time of it. Yarnham has a special way of treating guests. I don't think I can stand if I wanted to, but I'm willing to help, if there's anything that can be done (coughs). This town is cursed. Whatever your reasons might be you should plan a swift exit. Whatever can be gained from this place, it will do more harm than good."
+<dialogue><line>Upon speaking with him (First time)：
+"Oh you must be a Hunter, and not one from around here either. I'm Gilbert, a fellow outsider. You must have had a fine time of it. Yarnham has a special way of treating guests. I don't think I can stand if I wanted to, but I'm willing to help, if there's anything that can be done (coughs). This town is cursed. Whatever your reasons might be you should plan a swift exit. Whatever can be gained from this place, it will do more harm than good."</line>
 
-^q"Upon speaking with him (Second time)：
-"Paleblood, you say? Hmm... Never heard of it. But if it's blood you're interested in, you should try the Healing Church. The church controls all knowledge on blood ministration, and all varieties of blood. Across the valley to the East of Yharnam lies the town of the Healing Church, known as the Cathedral Ward. And deep within the Cathedral Ward is the old grand cathedral. ...the birthplace of the Healing Church's special blood, or so they say. *coughs* Yharnamites don't share much with outsiders. Normally, they wouldn't let you near this place, but... The hunt is on tonight. This might be your chance..."
+<line>Upon speaking with him (Second time)：
+"Paleblood, you say? Hmm... Never heard of it. But if it's blood you're interested in, you should try the Healing Church. The church controls all knowledge on blood ministration, and all varieties of blood. Across the valley to the East of Yharnam lies the town of the Healing Church, known as the Cathedral Ward. And deep within the Cathedral Ward is the old grand cathedral. ...the birthplace of the Healing Church's special blood, or so they say. *coughs* Yharnamites don't share much with outsiders. Normally, they wouldn't let you near this place, but... The hunt is on tonight. This might be your chance..."</line>
 
-^q"Upon speaking with him (Third time)：
-"Yes, I see... But the great bridge is the only way to the Cathedral Ward. And during the hunt, the bridge is closed... Hmm... You could try the aqueduct? There's a rather, how shall I put it, colorful area south of the great bridge. From there, an aqueduct leads to the Cathedral Ward. *coughs* Not a place you'd normally want to visit, but... I don't imagine you have much of a choice. Do you?"
+<line>Upon speaking with him (Third time)：
+"Yes, I see... But the great bridge is the only way to the Cathedral Ward. And during the hunt, the bridge is closed... Hmm... You could try the aqueduct? There's a rather, how shall I put it, colorful area south of the great bridge. From there, an aqueduct leads to the Cathedral Ward. *coughs* Not a place you'd normally want to visit, but... I don't imagine you have much of a choice. Do you?"</line>
 
-^q"If you ask again, he will repeat:
-" *coughing* An aqueduct leads from the town, south of the main bridge to the Cathedral Ward. Not a place you'd normally choose to visit, but... Not much of a choice, with the bridge closed.*heavy coughing*"
+<line>If you ask again, he will repeat:
+" *coughing* An aqueduct leads from the town, south of the main bridge to the Cathedral Ward. Not a place you'd normally choose to visit, but... Not much of a choice, with the bridge closed.*heavy coughing*"</line>
 
-^q"Speaking with him after entering Oedon Chapel and furthering the Phase to evening (Fourth time)：
-Ahh, you needn’t concern yourself with me. I’m afraid I’m of little help now. But before I… Take this…(he gives you the Flamesprayer) I made no use of it, but perhaps you… What inflicted me was incurable, but this town gave me hope… Their strange blood bought me time. I was most fortunate. Unharmed by the plague of beasts, I can even die human. *coughing* "
+<line>Speaking with him after entering Oedon Chapel and furthering the Phase to evening (Fourth time)：
+Ahh, you needn’t concern yourself with me. I’m afraid I’m of little help now. But before I… Take this…(he gives you the Flamesprayer) I made no use of it, but perhaps you… What inflicted me was incurable, but this town gave me hope… Their strange blood bought me time. I was most fortunate. Unharmed by the plague of beasts, I can even die human. *coughing* "</line>
 
-^q"Speaking with him later (Fifth time)：
+<line>Speaking with him later (Fifth time)：
 " coughing
 Why... me... why...
 Dear gods, what have I done?
 Save me, please...
 Save me...
-*coughing* "
+*coughing* "</line></dialogue>
 
-$
-H@The Lonely Old Woman is an NPC in Bloodborne. 
+</npc><npc>
+<name>The Lonely Old Woman is an NPC in Bloodborne. </name>
 
-^d"Old Woman found in Central Yharnam area. Bitter and alone, she seems to begrudge the Hunter.
+<description>Old Woman found in Central Yharnam area. Bitter and alone, she seems to begrudge the Hunter.</description>
 
-^n"She blames some events on the hunters/outsiders at first. She can be sent to either Iosefka's Clinic or Oedon Chapel after they have been unlocked as safe locations.
+<notes>She blames some events on the hunters/outsiders at first. She can be sent to either Iosefka's Clinic or Oedon Chapel after they have been unlocked as safe locations.
 She has gradual changes in attitude towards the player. She is initially ungrateful, continuing to blame the Hunter for the bad things that have been happening. During the grey sky/night/overcast, she seems to be in a state of despair or madness, eventually only responding with panicked sobs/hysteria. After beating seven bosses[unconfirmed], she is very kind. If you answer "I have my woes" at this point, she will give the Hunter an increasing amount of Sedatives. 1 the first time, 2 the second, 3 the third.
-Upon using the "I have my woes" option 3 times, she will go out and look for more Sedatives, leaving a note to the player on her chair. When she comes back if the same option is used again she will give the player another Sedative and venture off again to find more. Upon returning again to the chapel, the Oedon Chapel Dweller will remark how she was murdered outside. You can venture through the door to the left of the lamp to find her body with remarkable bloodstains around her and one more Sedative on her corpse.
+Upon using the "I have my woes" option 3 times, she will go out and look for more Sedatives, leaving a note to the player on her chair. When she comes back if the same option is used again she will give the player another Sedative and venture off again to find more. Upon returning again to the chapel, the Oedon Chapel Dweller will remark how she was murdered outside. You can venture through the door to the left of the lamp to find her body with remarkable bloodstains around her and one more Sedative on her corpse.</notes>
 
-^q"Upon killing dog outside her house:
-Oh, you're a hunter, aren't ya? Then, well, do you know of any safe places?"
+<location place="Central_Yharnam">Central Yharnam</location>
 
-^q"Upon knocking on her door:
+<dialogue><line>Upon killing dog outside her house:
+Oh, you're a hunter, aren't ya? Then, well, do you know of any safe places?"</line>
+
+<line>Upon knocking on her door:
 I've heard, I have. Shutting up indoors isn't always enough. If you hunters got off your arses, we wouldn't be in this mess. You're obligated to help me, you hear? So what'll it be? Are you gonna tell me, or not? "
-"What is it now? I've much better ways to pass the time. Unless... you've found me a nice, safe place?"
+"What is it now? I've much better ways to pass the time. Unless... you've found me a nice, safe place?"</line>
 
-^q"Choosing 'No':
-Yeah, I should've known. Ya good-for-nothing... No respect for the elderly is what that is! Yeah, fat lot of good you outsiders do. Go on, admit it, you think we're all mad, don't ya? Well, go and stuff it! I know all yer tricks!"
+<line>Choosing 'No':
+Yeah, I should've known. Ya good-for-nothing... No respect for the elderly is what that is! Yeah, fat lot of good you outsiders do. Go on, admit it, you think we're all mad, don't ya? Well, go and stuff it! I know all yer tricks!"</line>
 
-^q"After going to Oedon Chapel:
+<line>After going to Oedon Chapel:
 Oh, How did we ever get into this mess *sobs*"
-"Stay away from me. I know all your tricks."
+"Stay away from me. I know all your tricks."</line>
 
-^q"Sedative Dialogue:
+<line>Sedative Dialogue:
 "Hehehehheh... Oh, Welcome home dear. What's wrong? Anything you'd like to tell me? Oh, whats the matter? Are you in a bind again?
 (Choosing 'I have my share of woes.') "Oh, my. You poor thing. But don't you worry. heh... h-heh... This will help you forget. Forget your troubles, forget your cares.... hehehmm heh heh..."
-(Choosing "No") "Oh good. What a relief. But you cant bottle everything up inside. You musn't be afraid to share."
+(Choosing "No") "Oh good. What a relief. But you cant bottle everything up inside. You musn't be afraid to share."</line>
 
-^q"If the Player kills her
-"It's your father's blood..."
+<line>If the Player kills her
+"It's your father's blood..."</line></dialogue>
 
-$
-H@Provost Willem is a non-player character in Bloodborne. 
+</npc><npc>
+<name>Provost Willem is a non-player character in Bloodborne. </name>
 
-^d"Provost Willem is the head of Byrgenwerth, an academic institute from which the Healing Church originated. He and others scholars discovered a holy medium, deep within the tomb of the gods. Willem's aim is to advance the evolution of humankind and achieve higher planes of thought. Despite Willem's central role in the foundation of the Healing Church and particularly the Choir, their paths ultimately diverged and Byrgenwerth was abandoned by all but a few loyal scholars. Now, at the end of his days and barely even able to speak, he can only sit in his favorite chair and await the arrival of one who can unlock the lake's secret.
+<description>Provost Willem is the head of Byrgenwerth, an academic institute from which the Healing Church originated. He and others scholars discovered a holy medium, deep within the tomb of the gods. Willem's aim is to advance the evolution of humankind and achieve higher planes of thought. Despite Willem's central role in the foundation of the Healing Church and particularly the Choir, their paths ultimately diverged and Byrgenwerth was abandoned by all but a few loyal scholars. Now, at the end of his days and barely even able to speak, he can only sit in his favorite chair and await the arrival of one who can unlock the lake's secret.</description>
 
-^n"Talk" to him to gain 2 Insight.
+<notes>Talk" to him to gain 2 Insight.
 You cannot speak with Provost Willem, he simply points to the lake.
 Drops 2545 Blood Echoes and Eye Rune if killed, or a Madman's Knowledge if you already have the Rune.
 Master Willem's most important teaching is the adage "Fear the Old Blood". He encourages all the scholars of his college to seek enlightenment and ascension through other methods except using the Old Blood. Laurence wanted to use The Old Blood, which  he believed to be key to mankind's ascension. Master Willem felt betrayed since Laurence didn't follow the "Fear the Old Blood" adage. Laurence later founded the Healing Church and made blood ministration/blood healing the cornerstone of the church.
@@ -358,162 +370,176 @@ If the Beast Roar is used within distance of him he will jerk and turn towards w
 If he is talked to after the above is done he will no longer point towards Rom, The Vacuous Spider.
 The growths that appear on his back are similar to that of cordyceps fungi, a type of fungus that can affect the brain of its host insects.
 Also these growths are similar to - and may be a primitive form of - what Ebrietas, Daughter of the Cosmos grows on her head. 
-If you kill him, he seems to be aggressively cursing someone or something, without saying a word, of course.
+If you kill him, he seems to be aggressively cursing someone or something, without saying a word, of course.</notes>
 
-L@This character can be found at Byrgenwerth College, in a rocking chair at the Lunarium.
+<location place="Byrgenwerth">This character can be found at Byrgenwerth College, in a rocking chair at the Lunarium.</location>
 
-^d"Laurence: “Master Willem, I've come to bid you farewell.”
+<dialogue>
+    <line>Laurence: “Master Willem, I've come to bid you farewell.”
 Master Willem: “Oh, I know, I know. You think now, to betray me.”
 Laurence:“No, but you will never listen. I tell you, I will not forget our adage.”
 Master Willem: “...We are born of the blood, made men by the blood, undone by the blood. Our eyes are yet to open..."
-Master Willem & Laurence: "Fear the old blood."
+Master Willem &amp; Laurence: "Fear the old blood."
 Laurence: “I must take my leave.”
-Master Willem: “By the gods, fear it, Laurence."
+Master Willem: “By the gods, fear it, Laurence."</line>
+</dialogue>
 
-$
-H@Narrow Minded Man or Skeptical Man is an NPC in Bloodborne. 
+</npc>
+<npc>
+<name>Narrow Minded Man or Skeptical Man is an NPC in Bloodborne. </name>
 
-^d"A skeptical man situated in the building directly across from Arianna's home, is incredibly distrustful of hunters."
+<description>A skeptical man situated in the building directly across from Arianna's home, is incredibly distrustful of hunters."</description>
 
-^n"After Arianna has asked for somewhere safe to go and is sent to the location provided the Skeptical Man will ask the Hunter what their deal is and what location they should go to. The Skeptical Man will go to the location OPPOSITE of what he is told. For example if the Hunter tells him to go to the Oedon Chapel  he will go to Iosefka's Clinic.
+<notes>After Arianna has asked for somewhere safe to go and is sent to the location provided the Skeptical Man will ask the Hunter what their deal is and what location they should go to. The Skeptical Man will go to the location OPPOSITE of what he is told. For example if the Hunter tells him to go to the Oedon Chapel  he will go to Iosefka's Clinic.
 If you wish for him to survive safely with the other NPC's tell him to go to Iosefka's Clinic and he will arrive at the Oedon Chapel instead.
 Once in Oedon Chapel, he frequently dispenses bits of advice that are all hints. However, the truth is usually the exact opposite of what he says, with the exception of the advice he dispenses about the Suspicious Beggar. 
 Drops 118 Blood Echoes and 3x Pungent Blood Cocktail if killed.
-Drops 3x Pungent Blood Cocktail when changed into a Passive Celestial Emissary in Iosefka Clinic
+Drops 3x Pungent Blood Cocktail when changed into a Passive Celestial Emissary in Iosefka Clinic</notes>
 
-^q"Ah you, the swindlin' offcomer. Did you really think that'd work? There's no fooling me. Now, off with ya, you heard me? Go away! I can't stand the stench of your lyin' breath."
+<location lamp="Tomb_Of_Oedon">Oedon Chapel</location>
 
-^q"I'll spare you one nugget of advice. Beware the lady of the night. I can see it in her eyes. She deeply resents the young saint. She hears people whisper. She knows what people think of her. Yes, she despises the saint for having what she doesn't. Bloody wench, they shoulda moved her on ages ago."
+<dialogue><line>Ah you, the swindlin' offcomer. Did you really think that'd work? There's no fooling me. Now, off with ya, you heard me? Go away! I can't stand the stench of your lyin' breath."</line>
 
-^q"I'll spare you one nugget of advice. Beware the blind man. They're the biggest seeds at the bottom of the bloody food chain. And he's here acting like he owns the place! He's not to be trusted. What's he want with all those people anyway? That little weasel has a murky past, I'm tellin' ya!"
+<line>I'll spare you one nugget of advice. Beware the lady of the night. I can see it in her eyes. She deeply resents the young saint. She hears people whisper. She knows what people think of her. Yes, she despises the saint for having what she doesn't. Bloody wench, they shoulda moved her on ages ago."</line>
 
-$
-H@The Oedon Chapel Dweller is a friendly NPC that lives in the Cathedral Ward. 
+<line>I'll spare you one nugget of advice. Beware the blind man. They're the biggest seeds at the bottom of the bloody food chain. And he's here acting like he owns the place! He's not to be trusted. What's he want with all those people anyway? That little weasel has a murky past, I'm tellin' ya!"</line>
+</dialogue>
+</npc><npc>
+<name>The Oedon Chapel Dweller is a friendly NPC that lives in the Cathedral Ward. </name>
 
-^d"He is blind. Upon speaking to him, he tells the Hunter that the incense in the Chapel Ward keeps the beasts away, and he compels the Hunter to advise anybody looking for a safe place to stay the night to come to the Oedon Chapel. Once survivors start arriving, he comments on what he makes of their character, and how willing they are to converse with him.
+<description>He is blind. Upon speaking to him, he tells the Hunter that the incense in the Chapel Ward keeps the beasts away, and he compels the Hunter to advise anybody looking for a safe place to stay the night to come to the Oedon Chapel. Once survivors start arriving, he comments on what he makes of their character, and how willing they are to converse with him.</description>
 
-L@Next to the first lamp in Cathedral Ward
+<notes></notes>
 
-^q"Upon Meeting
-"...Hmm? Oh... you must be... a hunter. Very sorry, the incense must've masked your scent. Good, good. I've been waiting for one of your ilk. These hunts have everyone all locked up inside. Waiting for it to end... It always does, always has, y'know. Since forever. But it won't end very nicely, not this time. Even some folks hiding inside are going'bad. The screams of womenfolk, the stench of blood, the snarls of beasts... none of em's too uncommon now. Yharnam's done fer. I tell ya. But if you spot anyone with their wits about 'em... Tell'em about this here Oedon Chapel. They'll be safe here. The incense wards off the beasts. Spread the word... tell 'em to come on over. If you wouldn't mind... Hee hee..."
+<location lamp="Cathedral_Ward">Next to the first lamp in Cathedral Ward</location>
+<dialogue>
 
-^q"Talk x2
-"I know I shouldn't be askin' you, but... If you happen upon someone while hunting, tell'em about this here Oedon Chapel. If they seem worth being told, that is... Oh, and I do sincerely hope they are... hee hee hee hee hee..."
+<line>Upon Meeting
+"...Hmm? Oh... you must be... a hunter. Very sorry, the incense must've masked your scent. Good, good. I've been waiting for one of your ilk. These hunts have everyone all locked up inside. Waiting for it to end... It always does, always has, y'know. Since forever. But it won't end very nicely, not this time. Even some folks hiding inside are going'bad. The screams of womenfolk, the stench of blood, the snarls of beasts... none of em's too uncommon now. Yharnam's done fer. I tell ya. But if you spot anyone with their wits about 'em... Tell'em about this here Oedon Chapel. They'll be safe here. The incense wards off the beasts. Spread the word... tell 'em to come on over. If you wouldn't mind... Hee hee..."</line>
 
-^q"Talk x3
-"Ahh, the hunter. Alive and well, are ya? This here's a safe place. Stay as long as you like. But... next time you're out on a hunt, remember what I asked. If you find any sane survivors, tell'em to seek shelter at Oedon Chapel. 'Cause there's nothing to fear here... Ha hah ha!"
+<line>Talk x2
+"I know I shouldn't be askin' you, but... If you happen upon someone while hunting, tell'em about this here Oedon Chapel. If they seem worth being told, that is... Oh, and I do sincerely hope they are... hee hee hee hee hee..."</line>
 
-^q"Talk x4	
-"If you find any sane survivors, well, send them along to Oedon Chapel, will ya? Hee hee hee..."
+<line>Talk x3
+"Ahh, the hunter. Alive and well, are ya? This here's a safe place. Stay as long as you like. But... next time you're out on a hunt, remember what I asked. If you find any sane survivors, tell'em to seek shelter at Oedon Chapel. 'Cause there's nothing to fear here... Ha hah ha!"</line>
 
-^q"After Lonely Old Dear arrive to Oedon Chapel
-"Ahh, kind hunter. Thank you. So, that lady, you told'er about this place? Well, she.. she actually talks to me! Well, only now and then, and she don't mince words... But... she's a kind one, I can tell. A good woman! Hee hee..."
+<line>Talk x4	
+"If you find any sane survivors, well, send them along to Oedon Chapel, will ya? Hee hee hee..."</line>
 
-^q"After Arianna arrive to Oedon Chapel
-"Ahh, kind hunter. Thank you. So, that lady, you told'er about this place? Well, she.. she actually talks to me! Well, only now and then, and she don't mince words... But... she's a kind one, I can tell. A good woman! Hee hee..."
+<line>After Lonely Old Dear arrive to Oedon Chapel
+"Ahh, kind hunter. Thank you. So, that lady, you told'er about this place? Well, she.. she actually talks to me! Well, only now and then, and she don't mince words... But... she's a kind one, I can tell. A good woman! Hee hee..."</line>
 
-^q"After Narrow Minded Man arrive to Oedon Chapel
-"Ahh, the hunter! Thank you. So, that old man, you told'im about this place, right? Well, he don't offer me much in the way of conversation, but still... I'd rather see'im alive anyhow..."
+<line>After Arianna arrive to Oedon Chapel
+"Ahh, kind hunter. Thank you. So, that lady, you told'er about this place? Well, she.. she actually talks to me! Well, only now and then, and she don't mince words... But... she's a kind one, I can tell. A good woman! Hee hee..."</line>
 
-^q"After Sister Adella arrive to Oedon Chapel
-"Ahh, the hunter! Thank you. So, that 'oly woman, you told'er about this  place, right? Well, she don't offer me much in the way of conversation, but still... I'd rather see'er alive anyhow..."
+<line>After Narrow Minded Man arrive to Oedon Chapel
+"Ahh, the hunter! Thank you. So, that old man, you told'im about this place, right? Well, he don't offer me much in the way of conversation, but still... I'd rather see'im alive anyhow..."</line>
 
-^q"After all four above NPCs made it to the Oedon Chapel
-"And...I sort of hoped that, my asking you, turned out to, you know, help 'em out in the end... I've never been of any use to anyone, you see... Just, happy about it, is all... ha, ha!"
+<line>After Sister Adella arrive to Oedon Chapel
+"Ahh, the hunter! Thank you. So, that 'oly woman, you told'er about this  place, right? Well, she don't offer me much in the way of conversation, but still... I'd rather see'er alive anyhow..."</line>
 
-^q"Talking after sending everyone to the Chapel
+<line>After all four above NPCs made it to the Oedon Chapel
+"And...I sort of hoped that, my asking you, turned out to, you know, help 'em out in the end... I've never been of any use to anyone, you see... Just, happy about it, is all... ha, ha!"</line>
+
+<line>Talking after sending everyone to the Chapel
 "Ahh, the hunter. Alive and well, at that! Another one you sent made it here safe and sound. This place is a haven now, for so many. Thanks to you. I'm...overjoyed, really. That you'd even give me the time o' day! I don't suppose there's anybody out there worth savin' anymore. But you did all ya could, and so many owe you so much. Amazing, really. Not'cause you're a hunter, but because you're you. Hee hee hee... Makes me think, once dawn breaks, maybe I can just, you know, start-over. Makes it easier to bear all o'this, you see? You've made life easier. Thank you."
-"If you please, kind hunter... When the night of the hunt passes, s'pose, we could be friends, maybe? Now, I know I hardly deserve it, but... Well, I had to just, ask, you know? Heh... Out of line, yes, perhaps so, but, well... Give it a throught, if you wouldn't mind, o'course... Hee hee hee..."
+"If you please, kind hunter... When the night of the hunt passes, s'pose, we could be friends, maybe? Now, I know I hardly deserve it, but... Well, I had to just, ask, you know? Heh... Out of line, yes, perhaps so, but, well... Give it a throught, if you wouldn't mind, o'course... Hee hee hee..."</line>
 
-^q"After Afflicted Beggar arrive to Oedon Chapel
-"Ahh, the hunter. Alive and well, at that! Another one you sent made it here safe and sound. This place is a haven now, for so many. Thanks to you. I'm... overjoyed, really. That you'd even give me the time o'day!"
+<line>After Afflicted Beggar arrive to Oedon Chapel
+"Ahh, the hunter. Alive and well, at that! Another one you sent made it here safe and sound. This place is a haven now, for so many. Thanks to you. I'm... overjoyed, really. That you'd even give me the time o'day!"</line>
 
-^q"When Lonely Old Dear dies
-"Oh, kind hunter... The old girl, the old girl you sent over... She's dead... Killed stone dead... Why... Musta been a beast, right? ...Or, d'ya think someone out there could've... I... I... just don't... ahh... Well, I do know. It's my fault. All mine..."
+<line>When Lonely Old Dear dies
+"Oh, kind hunter... The old girl, the old girl you sent over... She's dead... Killed stone dead... Why... Musta been a beast, right? ...Or, d'ya think someone out there could've... I... I... just don't... ahh... Well, I do know. It's my fault. All mine..."</line>
 
-^q"Talking after someone has died
-"Was it a beast? ...Or, could someone from outside've come in and...? I just... don't... know..."
+<line>Talking after someone has died
+"Was it a beast? ...Or, could someone from outside've come in and...? I just... don't... know..."</line>
 
-^q"When Arianna dies
-"Oh, kind hunter... The lady, the lady you sent over... She's dead... Killed stone dead..."
+<line>When Arianna dies
+"Oh, kind hunter... The lady, the lady you sent over... She's dead... Killed stone dead..."</line>
 
-^q"When Narrow Minded Man dies
-"Oh, kind hunter... The old man, the old man you sent over... He's dead... Killed stone dead..."
+<line>When Narrow Minded Man dies
+"Oh, kind hunter... The old man, the old man you sent over... He's dead... Killed stone dead..."</line>
 
-^q"When Sister Adella dies
-"Oh, kind hunter... The 'oly women, the 'oly women you sent over... She's dead...Killed stone dead..."
+<line>When Sister Adella dies
+"Oh, kind hunter... The 'oly women, the 'oly women you sent over... She's dead...Killed stone dead..."</line>
 
-^q"When all NPCs die
-"Oh, kind hunter... How did this happen? A beast, here... why...? It's my fault. Savaged and eaten, every one, and it's all my fault... Gods, please, I'm sorry, so sorry..."
+<line>When all NPCs die
+"Oh, kind hunter... How did this happen? A beast, here... why...? It's my fault. Savaged and eaten, every one, and it's all my fault... Gods, please, I'm sorry, so sorry..."</line>
 
-^q"Talking after NPCs die
-"I only wanted to help... Just once in my life... They told me it would never work... My mum always told me, everybody kept telling me... I should've know, I should've... Gods, please, I'm sorry, so sorry..."
+<line>Talking after NPCs die
+"I only wanted to help... Just once in my life... They told me it would never work... My mum always told me, everybody kept telling me... I should've know, I should've... Gods, please, I'm sorry, so sorry..."</line>
 
-^q"Talk to him during Blood moon phase
-"There ain't a peep to be heard, not in the whole town... I doubt there's any more out there... God save us... Yharnam's done for..."
+<line>Talk to him during Blood moon phase
+"There ain't a peep to be heard, not in the whole town... I doubt there's any more out there... God save us... Yharnam's done for..."</line>
 
-^q"Talking after Blood Moon phase
-"There ain't no more survivors, there can't be... Yharnam's done for..."
+<line>Talking after Blood Moon phase
+"There ain't no more survivors, there can't be... Yharnam's done for..."</line>
 
-^q"Attacking him
-"Uuuh! Eek! Please, no more! It's my fault, I know, so... help me, please... Please, just stop... Stop, please!"
+<line>Attacking him
+"Uuuh! Eek! Please, no more! It's my fault, I know, so... help me, please... Please, just stop... Stop, please!"</line>
 
-^q"Continue attacking him
+<line>Continue attacking him
 "Stop! Please!
 "I'm beggin' ya stop..."
 "What's the- Why!"
-"Please, good hunter!"
+"Please, good hunter!"</line>
 
-^q"Upon death
-I just wanted to help... people...
+<line>Upon death
+I just wanted to help... people...</line>
+</dialogue>
+</npc><npc>
+<name>Gehrman is an NPC in Bloodborne. </name>
 
-$
-H@Gehrman is an NPC in Bloodborne. 
+<description>"An old hunter who welcomes and guides new hunters in the dream, what secrets does he hide?."</description>
 
-^d""An old hunter who welcomes and guides new hunters in the dream, what secrets does he hide?."
+<notes></notes>
 
-L@Gehrman is typically found within the Workshop of the Hunter's Dream
+<location place="Hunter's_Dream">Gehrman is typically found within the Workshop of the Hunter's Dream</location>
 
-^q"Upon first speaking with him:
+<dialogue><line>Upon first speaking with him:
 Ah-hah, you must be the new hunter. Welcome to the Hunter's Dream. This will be your home, for now. I am... Gehrman, friend to you hunters. You're sure to be in a fine haze about now, but don't think too hard about all of this. Just go out and kill a few beasts. It's for your own good. You know, it's just what hunters do! You'll get used to it..."
-"This was once a safe haven for hunters. A workshop where hunters used blood to enhance their weapons and flesh. We don't have as many tools as we once did, but... You're welcome to use whatever you find. (Whispers) ...Even the doll, should it please you..."
+"This was once a safe haven for hunters. A workshop where hunters used blood to enhance their weapons and flesh. We don't have as many tools as we once did, but... You're welcome to use whatever you find. (Whispers) ...Even the doll, should it please you..."</line>
 
-^q"After killing Father Gascoigne:
+<line>After killing Father Gascoigne:
 The moon is close. It will be a long hunt tonight. If the beasts loom large, and threaten to crush your spirits, seek the Holy Chalice. As every hunter before you has. A Holy Chalice will reveal the tomb of the gods, ...where hunters partake in communion..."
-"Most of the Holy Chalices lie deep within the tomb of the gods. And the few that found their way to the surface... Were lost again in the hands of men. But if the old hunter tales remain true... ...one of the Holy Chalices is worshipped in the valley hamlet. Yet the town is in disarray... It was burned and abandoned, for fear of the scourge, home now only to beasts. The perfect place for a hunter, wouldn't you say?"
+"Most of the Holy Chalices lie deep within the tomb of the gods. And the few that found their way to the surface... Were lost again in the hands of men. But if the old hunter tales remain true... ...one of the Holy Chalices is worshipped in the valley hamlet. Yet the town is in disarray... It was burned and abandoned, for fear of the scourge, home now only to beasts. The perfect place for a hunter, wouldn't you say?"</line>
 
-^q"Outside his house if one has 15 Insight or above and Amelia is met:
-Oh, Laurence... what's taking you so long... I've grown too old for this, of little use now, I'm afraid..."
+<line>Outside his house if one has 15 Insight or above and Amelia is met:
+Oh, Laurence... what's taking you so long... I've grown too old for this, of little use now, I'm afraid..."</line>
 
-^q"After defeating the Blood-starved Beast and recovering the Pthumeru Chalice:
-The Healing Church, and the Blood Ministers who belong to it...were once guardians of the hunters, in the times of the hunter...Ludwig. They worked, and forged weapons, in their unique workshop. Today, most ministers don't recall the hunters. And so, heed the message of your forebears. Ascend to Oedon Chapel."
+<line>After defeating the Blood-starved Beast and recovering the Pthumeru Chalice:
+The Healing Church, and the Blood Ministers who belong to it...were once guardians of the hunters, in the times of the hunter...Ludwig. They worked, and forged weapons, in their unique workshop. Today, most ministers don't recall the hunters. And so, heed the message of your forebears. Ascend to Oedon Chapel."</line>
 
-^q"Outside his house after defeating Rom, The Vacuous Spider:
-Oh, Laurence... Master Willem... Somebody help me... Unshackle me please, anybody... I've had enough of this dream... The night blocks all sight... Oh, somebody, please... "
+<line>Outside his house after defeating Rom, The Vacuous Spider:
+Oh, Laurence... Master Willem... Somebody help me... Unshackle me please, anybody... I've had enough of this dream... The night blocks all sight... Oh, somebody, please... "</line>
 
-^q"After killing Mergo's Wet Nurse:
-Good Hunter, you've done well, the night is near its end. Now I will show you mercy. You will die, forget the dream, and awake under the morning sun. You will be freed from this terrible Hunter's Dream."
+<line>After killing Mergo's Wet Nurse:
+Good Hunter, you've done well, the night is near its end. Now I will show you mercy. You will die, forget the dream, and awake under the morning sun. You will be freed from this terrible Hunter's Dream."</line>
 
-^q"If accepted his request:
-Farewell, my keen hunter. Fear the blood."
+<line>If accepted his request:
+Farewell, my keen hunter. Fear the blood."</line>
 
-^q"If refused his request or attacked him at the Great Tree:
-Dear, oh dear. What was it? The Hunt? The Blood? Or the horrible dream? Oh, it doesn't matter... It always comes down to the Hunter's helper to clean up after these sort of messes. Tonight, Gehrman joins the hunt..."
+<line>If refused his request or attacked him at the Great Tree:
+Dear, oh dear. What was it? The Hunt? The Blood? Or the horrible dream? Oh, it doesn't matter... It always comes down to the Hunter's helper to clean up after these sort of messes. Tonight, Gehrman joins the hunt..."</line>
 
-^q"If killed by Gehrman:
-You must accept your death, be freed from the night."
+<line>If killed by Gehrman:
+You must accept your death, be freed from the night."</line>
 
-^q"Upon Death:
+<line>Upon Death:
 The night, and the dream, were long..."
-$
-H@Patches the Spider is a recurring non-player character in the Souls games (called Patches the Hyena and Trusty Patches in previous games), who makes an appearance as a Nightmare Apostle in Bloodborne. 
+</line></dialogue>
+</npc>
+<npc>
+<name>Patches the Spider is a recurring non-player character in the Souls games (called Patches the Hyena and Trusty Patches in previous games), who makes an appearance as a Nightmare Apostle in Bloodborne. </name>
 
-^d"Patches the Spider, like all his Souls counterparts, is an NPC that promises the player character some form of treasure, only to betray them and put them in extreme peril. Once the Hunter escapes that peril (or dies), and confronts Patches, he will beg for forgiveness, and become a merchant. 
-"Remember: no matter the circumstances, there will always be people willing to push you down a hole."
+<description>Patches the Spider, like all his Souls counterparts, is an NPC that promises the player character some form of treasure, only to betray them and put them in extreme peril. Once the Hunter escapes that peril (or dies), and confronts Patches, he will beg for forgiveness, and become a merchant. 
+"Remember: no matter the circumstances, there will always be people willing to push you down a hole."</description>
 
-L@Lecture Hall
+<notes></notes>
 
-^q"Behind a lantern( Any house w a resident will be temporarily replaced, see location information):
+<location place="Lecture_Building">Lecture Hall</location>
+
+<dialogue><line>Behind a lantern( Any house w a resident will be temporarily replaced, see location information):
 ...Oh, a hunter of beasts, are you? Glory be. You know not the value you possess.
 ...But, more's the pity...
 The hours of the night are many, and the beasts more than I can count. A veritable hunt unending!
@@ -521,74 +547,74 @@ Not even death offers solace, and the blood imbibes you. Ha, a most frightful fa
 But I'm willing to do you a kindness.
 Step lightly round to the right of the great cathedral, and seek an ancient, shrouded church.
 ...The gift of the godhead will grant you strength...
-Yes, I'm unquestionably certain, heheh...(gives Tonsil stone)
+Yes, I'm unquestionably certain, heheh...(gives Tonsil stone)</line>
 
-^q"Talk again:
-Not even death offers solace, and the blood imbibes you. Seek you the ancient, shrouded church hidden to the right of the main cathedral. ...The gift of the godhead will grant you strength...
+<line>Talk again:
+Not even death offers solace, and the blood imbibes you. Seek you the ancient, shrouded church hidden to the right of the main cathedral. ...The gift of the godhead will grant you strength...</line>
 
-^q"Cutscene in the shrouded church:
+<line>Cutscene in the shrouded church:
 Heh heh heh heh...Oh Amygdala, oh Amygdala...
-Have mercy on the poor bastard...Hah hah hah!
+Have mercy on the poor bastard...Hah hah hah!</line>
 
-^q"Behind the door in Lecture Building 1F:
+<line>Behind the door in Lecture Building 1F:
 (laughs)
 What a joy it is, to behold the divine.
 It must be such a pleasure. You're in my debt, you know.
-You're in nigh on a beast of the field, but here you are, treading a measure with the gods.
+You're in nigh on a beast of the field, but here you are, treading a measure with the gods.</line>
 
-^q"Talk again:
+<line>Talk again:
 Heh heh...Are your feet as fat as your wits?
-Oh, cease this dithering! Take the plunge! Throw yourself to the wolves!...Heh heh heh...
+Oh, cease this dithering! Take the plunge! Throw yourself to the wolves!...Heh heh heh...</line>
 
-^q"Talk again:
+<line>Talk again:
 Hah hah hah! Don't dally, you lucky scamp! The gift of the godhead
-cometh! Heh heh heh... yes... Ha hah!
+cometh! Heh heh heh... yes... Ha hah!</line>
 
-^q"When confronted from behind after being ambushed by him and killing Amygdala (Even if still alive he says this):
+<line>When confronted from behind after being ambushed by him and killing Amygdala (Even if still alive he says this):
 Oh, this cannot be, you cannot be... No, you didn't... ...How did this come to pass?
-Hmph! Now, wait just a moment... Do you think ill of me, me?
+Hmph! Now, wait just a moment... Do you think ill of me, me?</line>
 
-^q"No":
-Indeed, I should think not! I shared with you a thing most secret. Now you're witness to a miracle, and all the stronger for it! You should appreciate it, if you've a grain of gratitude in you! Heh heh... yes, appreciate it! Hah hah hah!
+<line>No":
+Indeed, I should think not! I shared with you a thing most secret. Now you're witness to a miracle, and all the stronger for it! You should appreciate it, if you've a grain of gratitude in you! Heh heh... yes, appreciate it! Hah hah hah!</line>
 
-^q"Of course I think ill of you!":
-Oh, it pains me to hear it. You've made yourself a misreckoning. I shared with you a thing most secret. Now you're witness to a miracle, and all the stronger for it! It's plain as a pikestaff. Now, say in my heart, you were as a lamb to my God. Well, you weren't to know, and it wasn't for you to know. All's well, that ends well, I say. laughs
+<line>Of course I think ill of you!":
+Oh, it pains me to hear it. You've made yourself a misreckoning. I shared with you a thing most secret. Now you're witness to a miracle, and all the stronger for it! It's plain as a pikestaff. Now, say in my heart, you were as a lamb to my God. Well, you weren't to know, and it wasn't for you to know. All's well, that ends well, I say. laughs</line>
 
-^q"Either way he gives a Rune as a peace offering of sorts:
+<line>Either way he gives a Rune as a peace offering of sorts:
 No matter. Such details are trifling. We're fast friends by now. Let this express what words cannot.*gives Anti-Clockwise Metamorphosis rune*Oh, doubt me not, sweet compeer. What is friendship, but a chance encounter? laughs
-Ah, well met. My apologies, but I feel a profound thought occurring... On the good grace of a certain god, and the way he meted out his love. *laughs*
+Ah, well met. My apologies, but I feel a profound thought occurring... On the good grace of a certain god, and the way he meted out his love. *laughs*</line>
 
-^q"After killing Amygdala new dialogue appears:
+<line>After killing Amygdala new dialogue appears:
 Ahh, well met. This is a most pleasing encounter. You see, I must depart
 erelong. My god is lost to me, so I must away to find another.
 If the fates are kind, out paths may cross again. Sooner still, if you were
-to take the leap... Heh heh heh... Hah hah hah!
+to take the leap... Heh heh heh... Hah hah hah!</line>
 
-^q"Talk again:
+<line>Talk again:
 Oh, think not of poor Amygdala. Upon that piteous bastard, you
-bestowed salvation. Heh heh... All's well, that ends well... Heh heh heh...
+bestowed salvation. Heh heh... All's well, that ends well... Heh heh heh...</line>
 
-^q"Talk again:
-Oh, think not of poor Amygdala. Upon that piteous bastard, you bestowed salvation.
+<line>Talk again:
+Oh, think not of poor Amygdala. Upon that piteous bastard, you bestowed salvation.</line>
 
-^q"Upon Dying:
-Ergh, that was uncharitably done... That was uncharitably done, dear friend...
+<line>Upon Dying:
+Ergh, that was uncharitably done... That was uncharitably done, dear friend...</line>
 
-^q"Encounter in Chalice Dungeons:
+<line>Encounter in Chalice Dungeons:
 Aah! The sight of you is as balm to my eyes!
 Truly, you are an indubitable, irrefutable friend!
-And, my dear compeer, I vow once more to ease your burden!
+And, my dear compeer, I vow once more to ease your burden!</line>
 
-^q"Leave:
+<line>Leave:
 The time has come again I fear. But if the fates smile upon us, we'll soon meet again.
-Farewell, dear friend.
+Farewell, dear friend.</line></dialogue>
 
-$
-H@Plain Doll is a friendly NPC character in Bloodborne who allows you to level up your stats.
+</npc><npc>
+<name>Plain Doll is a friendly NPC character in Bloodborne who allows you to level up your stats.</name>
 
-^d"Just a plain doll."
+<description>Just a plain doll."</description>
 
-^n"The plain doll comes to life, and can be interacted with after you gain 1 Insight.
+<notes>The plain doll comes to life, and can be interacted with after you gain 1 Insight.
 If your insight drops back down to zero she will turn back into an inanimate doll. You can still level up but not talk to her.
 If given the Small Hair Ornament the doll will shed a Tear Stone, which may be used to gain a droplet that can fit in any gem slot.
 She will gesture back if you do a gesture in front of her. Different gestures yield different responses.
@@ -599,141 +625,143 @@ Near a grave to the right and slightly behind of where you spawn, on a small cle
 Only in NG+ and beyond, if you've submitted to Gehrman and witnessed the Yharnam Sunrise.
 That grave is the player's grave from a previous NG cycle; the Doll will mention a hunter she previously knew lies there (will say he or she depending on your character's gender).
 The plain doll is a man-made contraption void of life, but in the Hunter's Dream she is alive and appears to be inhabited by some kind of eldritch being.
-Maria Hunter Set  hints that the Doll, who was made by Gherman, is meant to resemble Lady Maria of the Astral Clocktower. Furthermore, the set states Maria held great admiration for Gehrman, but is unaware of his mania.
+Maria Hunter Set  hints that the Doll, who was made by Gherman, is meant to resemble Lady Maria of the Astral Clocktower. Furthermore, the set states Maria held great admiration for Gehrman, but is unaware of his mania.</notes>
 
-^q"When Interacted with:
-Welcome home, good hunter. What is it you desire?"
+<location place="Hunter's_Dream">Hunter's Dream</location>
 
-^q"Awakened from sleep:
-Ahh, Welcome home, good hunter. I must have drifted off... What is it you desire?"
+<dialogue><line>When Interacted with:
+Welcome home, good hunter. What is it you desire?"</line>
 
-^q"Upon channeling:
-Very well, let the echoes become your strength. Let me stand close. Now shut your eyes..."
+<line>Awakened from sleep:
+Ahh, Welcome home, good hunter. I must have drifted off... What is it you desire?"</line>
 
-^q"Leaving:
-Farewell, good hunter. May you find your worth in the waking world."
+<line>Upon channeling:
+Very well, let the echoes become your strength. Let me stand close. Now shut your eyes..."</line>
 
-^q"Talk during beginning:
+<line>Leaving:
+Farewell, good hunter. May you find your worth in the waking world."</line>
+
+<line>Talk during beginning:
 Hello, good hunter. I am a doll, here in this dream to look after you. Honorable hunter, pursue the echoes of blood, and I will channel them into your strength. You will hunt beasts... and I will be here for you, to embolden your sickly spirit."
 "Did you speak with Gehrman? He was a hunter long, long ago, but now serves only to advise them. He is obscure, unseen in the dreaming world. Still, he stays here, in this dream... ...such is his purpose..."
-"Ahh, the little ones, inhabitants of the dream... They find hunters like yourself, worship, and serve them. Speak words, they do not, but still, aren't they sweet?"
+"Ahh, the little ones, inhabitants of the dream... They find hunters like yourself, worship, and serve them. Speak words, they do not, but still, aren't they sweet?"</line>
 
-^q"Talk during early-game:
-"Over time, countless hunters have visited this dream. The graves here stand in their memory. It all seems so long ago now..."
+<line>Talk during early-game:
+"Over time, countless hunters have visited this dream. The graves here stand in their memory. It all seems so long ago now..."</line>
 
-^q"Talk during mid-game:
-"Hunters have told me about the church. About the gods, and their love. But... do the gods love their creations? I am a doll, created by you humans. Would you ever think to love me? Of course... I do love you. Isn't that how you've made me?"
+<line>Talk during mid-game:
+"Hunters have told me about the church. About the gods, and their love. But... do the gods love their creations? I am a doll, created by you humans. Would you ever think to love me? Of course... I do love you. Isn't that how you've made me?"</line>
 
-^q"Talk after Yharnam Sunrise ending(At lone gravestone)
-This grave stands in memory of a hunter I once knew. Though enchanted by the dream, he/she remain strong, and eventually saw the light of dawn. …I pray you have found meaning, and comfort, in the waking world."
+<line>Talk after Yharnam Sunrise ending(At lone gravestone)
+This grave stands in memory of a hunter I once knew. Though enchanted by the dream, he/she remain strong, and eventually saw the light of dawn. …I pray you have found meaning, and comfort, in the waking world."</line>
 
-^q"Talk during late-game:
-Good hunter... Your presence somehow soothes... I sense the ancient echoes, they course your veins..."
+<line>Talk during late-game:
+Good hunter... Your presence somehow soothes... I sense the ancient echoes, they course your veins..."</line>
 
-^q"Talk at end-game:
-Good hunter, you have come... Dawn will soon break... This night, and this dream, will end. Gehrman awaits you, at the foot of the great tree. Go on, good hunter..."
+<line>Talk at end-game:
+Good hunter, you have come... Dawn will soon break... This night, and this dream, will end. Gehrman awaits you, at the foot of the great tree. Go on, good hunter..."</line>
 
-^q"Gifting a Small Hair Ornament:
-What... what is this? I-I can't remember, not a thing, only... I feel... A yearning... something I've never felt before... What's happening to me? Ahh... Tell me hunter, could this be joy? Ahh..."
+<line>Gifting a Small Hair Ornament:
+What... what is this? I-I can't remember, not a thing, only... I feel... A yearning... something I've never felt before... What's happening to me? Ahh... Tell me hunter, could this be joy? Ahh..."</line>
 
-^q"After defeating Lady Maria (The Old Hunters DLC) after reloading the Hunter's Dream twice:
+<line>After defeating Lady Maria (The Old Hunters DLC) after reloading the Hunter's Dream twice:
 Good hunter. This may sound strange, but... Have I somehow changed? Moments ago, from some place, perhaps deep within, I sensed a liberation from heavy shackles. Not that I would know... How passing strange... [chuckle]"
 After defeating Orphan of Kos (The Old Hunters DLC) but before attacking the black shadow:
-Oh, good hunter. I can hear Gehrman sleeping. On any other night, he'd be restless. But on this night, he sounds so very calm. ...perhaps something has eased his suffering"
+Oh, good hunter. I can hear Gehrman sleeping. On any other night, he'd be restless. But on this night, he sounds so very calm. ...perhaps something has eased his suffering"</line>
 
-^q"Yharnam Sunrise:
-Farewell, good hunter. May you find your worth in the waking world."
+<line>Yharnam Sunrise:
+Farewell, good hunter. May you find your worth in the waking world."</line>
 
-^q"Honouring Wish:
-And so, the hunt begins."
+<line>Honouring Wish:
+And so, the hunt begins."</line>
 
-^q"Moon Presence:
-Are you cold? Oh, Good Hunter."
+<line>Moon Presence:
+Are you cold? Oh, Good Hunter."</line>
 
-^q"Hidden message:
+<line>Hidden message:
 The plain doll will sometimes utter a prose that blesses the hunter when they pass by, without being interacted with. This may happen either when she's in front of the house or at the back of the house.
 If interacted with afterwards, the plain doll will say the very same lines as when she's waked by the hunter, as if she were unconscious while uttering the prose. One can tell since she also makes the noise as when her sleep is disturbed.
 The criteria for triggering this event is unknown.(Seems like coming back to the Hunter's Dream with a vast amount of echos can help on getting this dialogue)
-"O Flora, of the moon, of the dream. O little ones, O fleeting will of the ancients... Let the hunter be safe, let him(her) find comfort. And let this dream, his(her) captor... foretell a pleasant awakening... be, one day, a fond, distant memory..."
+"O Flora, of the moon, of the dream. O little ones, O fleeting will of the ancients... Let the hunter be safe, let him(her) find comfort. And let this dream, his(her) captor... foretell a pleasant awakening... be, one day, a fond, distant memory..."</line></dialogue>
 
-$
-H@Djura is a non-player character in Bloodborne, found in Old Yharnam. 
+</npc><npc>
+<name>Djura is a non-player character in Bloodborne, found in Old Yharnam. </name>
 
-^d""An old veteran hunter who is said to possess amazing skill. No one has seen him in many years, and he looks like he's been on his own for some time." 
+<description>"An old veteran hunter who is said to possess amazing skill. No one has seen him in many years, and he looks like he's been on his own for some time." </description>
 
-L@Old Yharnam
-
-^n"Djura, to some extent, caters to the beasts that inhabit Old Yharnam.
+<notes>Djura, to some extent, caters to the beasts that inhabit Old Yharnam.
 Djura's dialogue suggests that as a hunter, he struggles with an ethical dilemma regarding beasts, and the slaying of them, in general.
 It is a Hunter's job to slay beasts, but Djura more than likely had an epiphany at some point in his career in which he realized that every beast was once a person, and thus, killing beasts is akin to killing humans.
 It can be assumed that Djura does not associate with Old Yharnam for any particular emotional reasons. It is likely that he chooses to defend this place, of all other places, because it is remote and unimportant in the world. In his dialogue, he suggests that the beasts here do not bother anyone, and thus shouldn't be bothered in return.
 In some ways, you could consider Old Yharnam to be Djura's utopia of sorts. And he, quite literally, aims to maintain the peace here.
-which raises an important question: who set fire to the crosses at the beginning of the area and around the church?
+which raises an important question: who set fire to the crosses at the beginning of the area and around the church?</notes>
 
-^q"When entering Old Yharnam:
+<location place="Old_Yharnam">Old Yharnam</location>
+
+<dialogue><line>When entering Old Yharnam:
 "You there, hunter. Didn't you see the warning? Turn back at once."
 "Old Yharnam, burned and abandoned by men, is now home only to beasts."
 "They are of no harm to those above. Turn back..."
-"...or the hunter will face the hunt."
+"...or the hunter will face the hunt."</line>
 
-^q"When progressing through Old Yharnam:
+<line>When progressing through Old Yharnam:
 "...You are a skilled hunter."
 "Adept, merciless, half-cut with blood. As the best hunters are."
-"Which is why I must stop you!"
+"Which is why I must stop you!"</line>
 
-^q"When friendly:
+<line>When friendly:
 "Well, well... How did you get in here? Ah, it's no matter."
 "What brings you to Old Yharnam? I've no interest in matters further up, but you must not disturb this place."
 "The beasts do not venture above, and mean no harm to anyone."
-"If you still insist on hunting them, then I will hunt you first. You understand me?"
+"If you still insist on hunting them, then I will hunt you first. You understand me?"</line>
 
-^q"When the player chooses to spare the beasts:
+<line>When the player chooses to spare the beasts:
 "Yes, very good. I no longer dream, but I was once a hunter, too."
 "There's nothing more horrific than a hunt. In case you've failed to realize..."
 "The things you hunt, they're not beasts. They're people."
 "One day, you will see... Hmm, it's time you got going..."
 "But first, a farewell gift. I have no use for it anyway." (Gives Powder Keg Hunter Badge, Brush Off Dust gesture)
 "What is it? Surely I need not repeat myself. Go, I say."
-"You have the whole night to dream. Make the best of it."
+"You have the whole night to dream. Make the best of it."</line>
 
-^q"When the player attacks an enemy in the area in front of the tower after sparing the beasts:
+<line>When the player attacks an enemy in the area in front of the tower after sparing the beasts:
 "Heheh, you devious rat! The makings of a true hunter, this lass!"
-"Very well. Then there's no need to hold back! The beasts will feast tonight!"
+"Very well. Then there's no need to hold back! The beasts will feast tonight!"</line>
 
-^q"When the player chooses to hunt the beasts:
+<line>When the player chooses to hunt the beasts:
 "Of course, I thought as much."
-"You are a true hunter. Which is why I must stop you!"
+"You are a true hunter. Which is why I must stop you!"</line>
 
-^q"When the player attacks him while he is friendly:
+<line>When the player attacks him while he is friendly:
 "Is it the blood, or are you just raving mad?"
-"When the frail of heart join the fray...the hunter becomes the hunted!"
+"When the frail of heart join the fray...the hunter becomes the hunted!"</line>
 
-^q"Upon killing you:
-"I should think you still have dreams? Well, next time you dream, give some thought to the hunt, and its purpose."
+<line>Upon killing you:
+"I should think you still have dreams? Well, next time you dream, give some thought to the hunt, and its purpose."</line>
 
-^q"Upon death:
-"It's you... You're the beast... Can't you see what you're doing? It's madness..."
+<line>Upon death:
+"It's you... You're the beast... Can't you see what you're doing? It's madness..."</line>
+</dialogue>
+</npc><npc>
+<name>Adella, Nun of the Healing Church is a non-player character in Bloodborne. </name>
 
-$
-H@Adella, Nun of the Healing Church is a non-player character in Bloodborne. 
+<description>A nun of the Healing Church, kidnapped from outside the Cathedral Ward and taken to Yahar-Gul by the sack-toting beasts known as Snatchers on the night of the Hunt.</description>
 
-^d"A nun of the Healing Church, kidnapped from outside the Cathedral Ward and taken to Yahar-Gul by the sack-toting beasts known as Snatchers on the night of the Hunt.
-
-L@Hypogean Gaol
-
-^n"Is unavailable anytime after the paleblood moon occurs. ( Before the one reborn boss fight )
+<notes>Is unavailable anytime after the paleblood moon occurs. ( Before the one reborn boss fight )
 She is known to kill other rescued NPCs, such as Arianna, if you accept Arianna's blood more than 3 times while Adella is in the church.
 Whenever you talk to Arianna while Adella is also in the Chapel Adella will look over to the two of you talking.
 Adella may suddenly disappear from Oedon Chapel after sending her there. It is currently unknown why this can happen.
 Requires healing church clothes to send to Oedon chapel but if you sell, do not fear Gascoigne clothes also work
 Adella will disappear from the game entirely after killing Rom, therefore missing out on a potential caryll rune and gesture. Make sure to talk to her/kill her BEFORE killing Rom.
-If you do not consume 3 vials of Arianna's Blood and talk to her after the Moon is red, she will just giggle manically. (tested on 2 playthroughs)
+If you do not consume 3 vials of Arianna's Blood and talk to her after the Moon is red, she will just giggle manically. (tested on 2 playthroughs)</notes>
 
-^q"Upon entering the room and standing on the stair case, the young woman can be heard saying:
+<location place="Yahar'gul Unseen_Village">Hypogean Gaol</location>
+
+<dialogue><line>Upon entering the room and standing on the stair case, the young woman can be heard saying:
 Please, Leave me be... Don't Take me... Please... Oh, please, dear gods."
-"Oh, merciful gods, help me..."/ "In the name of the Healing Church, cleanse us of this horrible dream..."
+"Oh, merciful gods, help me..."/ "In the name of the Healing Church, cleanse us of this horrible dream..."</line>
 
-^q"While telling her about a safe place:
+<line>While telling her about a safe place:
 Ahh, by your garb... the Healing Church...
 You've come to save me...Ahh!
 Thank you, dear saint!
@@ -752,9 +780,9 @@ Do you know somehwhere that might take me in?
 Oh, thank you so much.
 I'll set out as soon as I can.
 I pray for success on your hunt.
-Kind hunter.
+Kind hunter.</line>
 
-^q"Talk in the Cathedral Ward:
+<line>Talk in the Cathedral Ward:
 Oh, brave hunter, you are alive.
 Thank you very much.
 The town is in disarray, but there are still people here.
@@ -763,51 +791,51 @@ I cannot begin to express my gratitude to you.
 The only thing I can offer... Is my own lowly blood.
 If it would suffice...
 (Refuse) Forgive me, I... I should have known better. What would a brave hunter do with lowly blood like mine? Please, forget I even asked.
-(Receive) Yes, of course. Come in close... Now, take my blood...
+(Receive) Yes, of course. Come in close... Now, take my blood...</line>
 
-^q"After the moon turns red (and if you consumed Blood of Arianna 4 or more times):
+<line>After the moon turns red (and if you consumed Blood of Arianna 4 or more times):
 "Tee hee... My sweet hunter..."
 "Your blood is tainted..."
-"I can't ha... I can't help myself... hahaha haha..."
+"I can't ha... I can't help myself... hahaha haha..."</line>
 
-^q"After Killing the Player：
-I'll never leave your side..."
+<line>After Killing the Player：
+I'll never leave your side..."</line>
 
-^q"Upon death:
-What have I done..." (does not speak if the moon turned red)
+<line>Upon death:
+What have I done..." (does not speak if the moon turned red)</line></dialogue>
 
-$
-H@Transformed Man or The Suspicious Beggar is an NPC in Bloodborne. He can be sent to Iosefka's Clinic or Oedon Chapel. 
+</npc><npc>
+<name>Transformed Man or The Suspicious Beggar is an NPC in Bloodborne. He can be sent to Iosefka's Clinic or Oedon Chapel. </name>
 
-^d"The Suspicious Beggar is first discovered, breathless, standing above several mauled bodies and eating one of them. He asks the Hunter if they were responsible for killing the Wolf Beast below the balcony, then thanks them and asks if they know of any safe places. He'll give you two Pungent Blood Cocktails upon answering with a yes. The Suspicious Beggar is a massive Abhorrent Beast in disguise, and when attacked he will transform into his true form.
+<description>The Suspicious Beggar is first discovered, breathless, standing above several mauled bodies and eating one of them. He asks the Hunter if they were responsible for killing the Wolf Beast below the balcony, then thanks them and asks if they know of any safe places. He'll give you two Pungent Blood Cocktails upon answering with a yes. The Suspicious Beggar is a massive Abhorrent Beast in disguise, and when attacked he will transform into his true form.</description>
 
-L@The Suspicious Beggar can be found in the Forbidden Woods.
-
-^n"If sent to the Oedon Chapel:
+<notes>If sent to the Oedon Chapel:
 He will slowly murder each of the NPCs that the Hunter sends there, although if you talk to him afterward, he'll give you Beast Blood Pellets.
-On arrival, he will kill the first NPC. Afterwards, for every boss you defeat (Chalice bosses included), he will kill another NPC. With each NPC he kills, he will reward you with Beast Blood Pellets when spoken to. The NPCs killed will also drop the items they would have dropped if you had killed them yourself. After killing the last NPC, and talking to him to receive your rewards/gifts, he will vanish when you reload the area. (have not been able to find him after he left). Aggroing him will not change the system by which he kills the survivors.
+On arrival, he will kill the first NPC. Afterwards, for every boss you defeat (Chalice bosses included), he will kill another NPC. With each NPC he kills, he will reward you with Beast Blood Pellets when spoken to. The NPCs killed will also drop the items they would have dropped if you had killed them yourself. After killing the last NPC, and talking to him to receive your rewards/gifts, he will vanish when you reload the area. (have not been able to find him after he left). Aggroing him will not change the system by which he kills the survivors.</notes>
 
-^q"Forbidden Woods Encounter:
+<location place="Forbidden_Woods">The Suspicious Beggar can be found in the Forbidden Woods.</location>
+
+<dialogue><line>Forbidden Woods Encounter:
 "Blimey! Don't scare me like that. On a night like this... I took you for a monster."
 "Oh, thank the stars, you're fairly normal... Was it you put down that awful beast?"
 "Oh, that thing had me be trembling, frozen in me boots. And then you came along."
 "Well... if you're a hunter... then..."
-"Would you know of any safe havens?"
+"Would you know of any safe havens?"</line>
 
-^q"If sent to Oedon Chapel or Iosefka's Clinic:
+<line>If sent to Oedon Chapel or Iosefka's Clinic:
 "Well... I will be! Thank you!"
 "It's about time I made a move. I can't very well stay out on me own..."
 "Oh you've given me hope... Terribly kind of you."
 "Take this. It's all I can offer as thanks." (gives Pungent Blood Cocktail)
 "Thank you. It's about time I made a move."
-"I can't very well stay out on me own..."
+"I can't very well stay out on me own..."</line>
 
-^q"If withheld locations:
+<line>If withheld locations:
 "Oh yeah, of course not... I should've known."
 "This whole place's falling apart, once again..."
-"It's the curse of Yharnam..."
+"It's the curse of Yharnam..."</line>
 
-^q"Oedon Chapel Encounter:
+<line>Oedon Chapel Encounter:
 "Ah, hello again."
 "I owe this to you. It's a wonderful place."
 "They even let beggars like myself in!"
@@ -819,104 +847,106 @@ On arrival, he will kill the first NPC. Afterwards, for every boss you defeat (C
 "I really do owe you a terrible lot."
 "Finding me such a nice place to live."
 "This is a smashing place."
-"it's everything Yharnam ever had, and more!"
+"it's everything Yharnam ever had, and more!"</line>
 
-^q"After the transformation:
+<line>After the transformation:
 "Oh, you are a sick puppy! You drink the blood of half the town, and now this! And you talk of beasts? You hunters are the real killers!"
 "Have you got a screw loose? Or is it your... animal intuition"
 "You hunters have got more blood on your hands."
 "Die! Die, die! Hunters are killers, nothing less! You call ME a beast? A Beast!? What would you know? I didn't ask for this!"
-"Rancid beasts, every last one of us..."
+"Rancid beasts, every last one of us..."</line>
+</dialogue>
+</npc><npc>
+<name>Alfred is a non-playable character in Bloodborne. </name>
 
-$
-H@Alfred is a non-playable character in Bloodborne. 
+<description>Although Alfred is a hunter he is wearing the Executioner Garb which suggests that executioners were once used as hunters. Alfred may be an Executioner and a hunter; or the Executioner order was disbanded after Logarius' martyrdom, (there is no chance that Alfred left the order willingly as he expresses deep love for his master and he is willing to take over his duty and hunt down the last Vileblood). In any case, Executioners were used to hunt down individuals possessing the "tainted" blood of the Cainhurst Vilebloods.</description>
 
-^d"Although Alfred is a hunter he is wearing the Executioner Garb which suggests that executioners were once used as hunters. Alfred may be an Executioner and a hunter; or the Executioner order was disbanded after Logarius' martyrdom, (there is no chance that Alfred left the order willingly as he expresses deep love for his master and he is willing to take over his duty and hunt down the last Vileblood). In any case, Executioners were used to hunt down individuals possessing the "tainted" blood of the Cainhurst Vilebloods.
-
-^n"Alfred completely tears the queen's body to pieces and this is most likely because he knew that she was undead and would not die from normal wounds.
+<notes>Alfred completely tears the queen's body to pieces and this is most likely because he knew that she was undead and would not die from normal wounds.
 When summoned to fight the Blood-Starved Beast, he wields a Kirkhammer. However, when he murders the Queen, he uses a Logarius' Wheel
 When you find him he is praying in front of a statue that seems to be wearing Executioner's set.
 He has performed a strange ritual and there is blood on the altar in front of him.
-A close-up of his eyes reveals that his pupils are beginning to "collapse". This is a sign that he will soon fall to beasthood.
+A close-up of his eyes reveals that his pupils are beginning to "collapse". This is a sign that he will soon fall to beasthood.</notes>
 
-L@This character can first be found at the Cathedral Ward
+<location place="Cathedral_Ward">This character can first be found at the Cathedral Ward</location>
 
-^q"Talk:
+<dialogue><line>Talk:
 You're a hunter, aren't you? I knew it. That's precisely how I started out! Oh, beg pardon, you may call me Alfred. Protege of Master Logarius, hunter of Vilebloods. So, what say you? Our prey might differ, but we are hunters, the both of us. Why not cooperate, and discuss the things we've learned?
 Cooperate:
-"Oh-hoh! Very good, very good indeed! Take this, to celebrate our acquaintance." (Obtain fire paper & pray action)
+"Oh-hoh! Very good, very good indeed! Take this, to celebrate our acquaintance." (Obtain fire paper &amp; pray action)
 "Beast hunting is a sacred practice. May the good blood guide your way."
-Refuse: Nothing happens. He will just bid you farewell and you can talk again with him to cooperate.
+Refuse: Nothing happens. He will just bid you farewell and you can talk again with him to cooperate.</line>
 
-^q"Talk:
+<line>Talk:
 There must be oodles for us to share.
 Talk about the Healing Church:
 "As you know, the Healing Church is the fountainhead of blood healing."
 "Well, I'm a simple hunter, quite unfamiliar with the ins and outs of the institution."
 "But I have heard that the holy medium of blood healing is venerated in the main cathedral. And that councilors of the old church reside in the high stratum of the Cathedral Ward."
-"If you seek blood healing, and the church is willing, you should pay them a visit."
+"If you seek blood healing, and the church is willing, you should pay them a visit."</line>
 
-^q"Talk about Byrgenwerth:
+<line>Talk about Byrgenwerth:
 "Byrgenwerth is an old place of learning. And the tomb of the gods, carved out below Yharnam, should be familiar to every hunter."
 "Well, once a group of young Byrgenwerth scholars discovered a holy medium deep within the tomb."
 "This led to the founding of the Healing Church, and the establishment of blood healing".
 "In this sense, everything sacred in Yharnam can be traced back to Byrgenwerth."
 "But today, the college lies deep within a tangled wood, abandoned and decrepit. And furthermore, the Healing Church has declared Byrgenwerth forbidden ground."
-"It's unclear how many of its scholars remain alive...but only they know the password that allows passage through the gate."
+"It's unclear how many of its scholars remain alive...but only they know the password that allows passage through the gate."</line>
 
-^q"Talk about the Corrupted Vilebloods:
+<line>Talk about the Corrupted Vilebloods:
 "Ah, there's something I want to tell you. A bit of wisdom from the eminent Master Logarius!"
 "Once, a scholar betrayed his fellows at Byrgenwerth...and brought forbidden blood back with him to Cainhurst Castle."
 "It was there that the first of the inhuman Vilebloods was born."
 "The Vilebloods are fiendish creatures who threaten the purity of the Church's blood healing."
-"The Ruler of the Vilebloods is still alive today. And so, to honor my master's wishes, I search, for the path to Cainhurst Castle."
+"The Ruler of the Vilebloods is still alive today. And so, to honor my master's wishes, I search, for the path to Cainhurst Castle."</line>
 
-^q"Talk about the Corrupted Vilebloods again:
+<line>Talk about the Corrupted Vilebloods again:
 "In his time, Master Logarius led his executioners into Cainhurst Castle to cleanse it of the Vilebloods."
 "But all did not go well and Master Logarius became a blessed anchor, guarding us from evil...Tragic, tragic times...that Master Logarius should be abandoned in the accursed domain of the Vilebloods."
-"I must free him, so that he may be properly honored in martyrdom."
+"I must free him, so that he may be properly honored in martyrdom."</line>
 
-^q"Leave:
-I bid you farewell. It has been a pleasure. May the good blood guide your way."
+<line>Leave:
+I bid you farewell. It has been a pleasure. May the good blood guide your way."</line>
 
-^q"Give Unopened Summons:
+<line>Give Unopened Summons:
 "Ah-hah! Is that... the sigil of Cainhurst?"
 "I've heard tell of Cainhurst nobles, and their amusingly pompous invitations."
 "Wonderful! I thank you profusely... I will depart immediately. But first, a token of my gratitude."
 (Gives 'Wheel Hunter Badge' and 'Church Bow (Male) )
-"Ahh, I feel my master's hand at work. Praise the good blood! And let us cleanse these tarnished streets."
+"Ahh, I feel my master's hand at work. Praise the good blood! And let us cleanse these tarnished streets."</line>
 
-^q"After giving 'Unopened Summons':
-It has been an honor, but I must say good-bye. Let us cleanse these tarnished streets. And may the good blood guide your way."
+<line>After giving 'Unopened Summons':
+It has been an honor, but I must say good-bye. Let us cleanse these tarnished streets. And may the good blood guide your way."</line>
 
-^q"Upon Arriving at Vileblood Queen's Chamber after giving 'Unopened Summons':
+<line>Upon Arriving at Vileblood Queen's Chamber after giving 'Unopened Summons':
 "Master, look! I've done it, I've done it! I smashed and pounded and grounded this rotten siren into fleshy pink pulp!"
-"There, you filthy monstrosity! What good's your immortality now! Try stirring up trouble in this sorry state! All mangled and twisted, with every inside on the outside, for all the world to see! He heh hah hah Hah! He heh heh ha ha ha ha!"
+"There, you filthy monstrosity! What good's your immortality now! Try stirring up trouble in this sorry state! All mangled and twisted, with every inside on the outside, for all the world to see! He heh hah hah Hah! He heh heh ha ha ha ha!"</line>
 
-^q"Talking to him in Vileblood Queen's Chamber:
+<line>Talking to him in Vileblood Queen's Chamber:
 "Oh, you, is it? Look at this! Thanks to you, I've done it! Well? Isn't it wonderful?"
-"Now Master can be canonized as a true martyr! Ha ha ha ha ha ha! I've done it, I have!!! Hah h-hah ha ha hah!" (Gives 'Roar')
+"Now Master can be canonized as a true martyr! Ha ha ha ha ha ha! I've done it, I have!!! Hah h-hah ha ha hah!" (Gives 'Roar')</line>
 
-^q"While hostlle in Vileblood Queen's Chamber:
-"Just what is the meaning of this? Why turn your blade on me? You're jealous, aren't you? Unclean wench! Vile monstrosity! Bloody fool! Has the blood gone to your head? Pathetic, as you deserve!"
+<line>While hostlle in Vileblood Queen's Chamber:
+"Just what is the meaning of this? Why turn your blade on me? You're jealous, aren't you? Unclean wench! Vile monstrosity! Bloody fool! Has the blood gone to your head? Pathetic, as you deserve!"</line>
 
-^q"Upon death:
-Pray for Master Logarius... in my stead..."
+<line>Upon death:
+Pray for Master Logarius... in my stead..."</line>
+</dialogue>
+</npc><npc>
+<name>Valtr is a non-player character in Bloodborne. He was added with the Patch 1.07 </name>
 
-$
-H@Valtr is a non-player character in Bloodborne. He was added with the Patch 1.07 
+<description>A Yharnamite's favourite tale tells of a group of constables, who once chased a Beast back to Yharnam, all but one were killed. It was said he killed and ate the Beast in vengeance. This is implied how Valtr earned his title "Beast Eater".</description>
 
-^d"A Yharnamite's favourite tale tells of a group of constables, who once chased a Beast back to Yharnam, all but one were killed. It was said he killed and ate the Beast in vengeance. This is implied how Valtr earned his title "Beast Eater".
+<notes></notes>
 
-L@This character can be found inside the shorcut hut to the right of the first lamp in Forbidden Woods.
+<location lamp="Forbiden_Woods">This character can be found inside the shorcut hut to the right of the first lamp in Forbidden Woods.</location>
 
-^q"Talk:
-Ahh, a new face, are you? And an accomplished hunter... it would appear. *chuckles* I am Valtr, Master of the League. Members of the League cleanse the streets of all the filth that's spread about during the hunt. Like any half-decent hunter ought to, you know? Haven't you seen enough of these wretched beasts, freakish slugs, and mad doctors? Sentence these fiends to death. With the help of your League confederates. What do you say? Why not join the League?
+<dialogue><line>Talk:
+Ahh, a new face, are you? And an accomplished hunter... it would appear. *chuckles* I am Valtr, Master of the League. Members of the League cleanse the streets of all the filth that's spread about during the hunt. Like any half-decent hunter ought to, you know? Haven't you seen enough of these wretched beasts, freakish slugs, and mad doctors? Sentence these fiends to death. With the help of your League confederates. What do you say? Why not join the League?</line>
 
-^q"Edit - Upon joining the League:
-"Now, there is one thing you must know. By the oath of the League, those who bear its rune will see vermin. Vermin writhe deep within all filth, and are the root of man's impurity. All vermin are to be crushed. The League exist to expunge all vermin, ridding us of any trace of human corruption. And so, until we are rid of all vermin, you must continue to hunt and kill. This bloody fate is ours alone. Do not expect the world to grasp our work... But remember, the confederates will always have my blessing... And each other. Always."
+<line>Edit - Upon joining the League:
+"Now, there is one thing you must know. By the oath of the League, those who bear its rune will see vermin. Vermin writhe deep within all filth, and are the root of man's impurity. All vermin are to be crushed. The League exist to expunge all vermin, ridding us of any trace of human corruption. And so, until we are rid of all vermin, you must continue to hunt and kill. This bloody fate is ours alone. Do not expect the world to grasp our work... But remember, the confederates will always have my blessing... And each other. Always."</line>
 
-^q"Join The League:
+<line>Join The League:
 "Yes. As a hunter well should. Commit this to heart."
 Our own Caryll rune, symbol of the League." ( Obtain Impurity) 
 Refuse: Nothing happens. 
@@ -924,36 +954,38 @@ Valtr requests you to reconsider.
 You can talk to him again to join. 
 "The night brims with defiled scum, 
 and is permeated by their rotten stench. 
-Just think, now you're all set to hunt and kill to your heart's content!"
+Just think, now you're all set to hunt and kill to your heart's content!"</line>
 
-^q"When attacked:
+<line>When attacked:
 "Well, how quaint... You scoff at the League? 
 Then you are yourself a beast! A defiled mess of rotten flesh! 
-When you are dead, your rank blood will curdle with vermin!"
+When you are dead, your rank blood will curdle with vermin!"</line>
 
-^q"When player is killed:
+<line>When player is killed:
 Male Character: "Vermin writhe and squirm... You vile lout."
-Female Character: "Vermin writhe and squirm... You no good wench."
+Female Character: "Vermin writhe and squirm... You no good wench."</line>
+</dialogue>
+</npc><npc>
+<name>Young Yharnam Girl is a non-player character in Bloodborne.</name>
 
-$
-H@Young Yharnam Girl is a non-player character in Bloodborne.
+<description>You will meet two girls depending on your choices, they are both the daughters of Viola &amp; Father Gascoigne. She asks that you find her mother, Viola, who has gone to look for Father Gascoigne.</description>
 
-^d"You will meet two girls depending on your choices, they are both the daughters of Viola &amp; Father Gascoigne. She asks that you find her mother, Viola, who has gone to look for Father Gascoigne.
+<notes></notes>
 
-L@This character can be found in Central Yharnam, behind a window.
+<location place="Central_Yharnam">This character can be found in Central Yharnam, behind a window.</location>
 
-^q"First interaction with window:
+<dialogue><line>First interaction with window:
 Who... are you? I don't know your voice, but I know that smell... Are you a hunter? Then, please, will you look for my mum? Daddy never came back from the hunt, and she went to find him, but now she's gone, too... I'm all alone... and scared..."
 Find Girl's Mother: "Really? Oh, thank you! My m-mum wears a red jeweled brooch. It's so big and... and beautiful. You won't miss it. Oh, I mustn't forget. If you find my mum, give her this music box. [Receive Tiny Music Box] ... It plays one of daddy's favorite songs. And when daddy forgets us we play it for him so he remembers. Mum's so silly, running off without it!"
 "My mum wears a red jeweled brooch. It's so big and beautiful. You won't miss it. Oh, and if you find her, give her this music box. Please, I know you can do it."
 Refuse: "Oh, alright... Well th-thanks mister hunter, for talking, at least. Take care, on your hunt."
 "Thanks for chatting. Please be careful out there!"
-After reloading: "Are you that hunter? Can you look for my mum?"
+After reloading: "Are you that hunter? Can you look for my mum?"</line>
 
-^q"After refusing to help:
-If you refuse to help and talk to her after beating Vicar Amelia and triggering nightfall, she cries: "Mum, come home... I'm alone... I'm scared... It's not fair... "
+<line>After refusing to help:
+If you refuse to help and talk to her after beating Vicar Amelia and triggering nightfall, she cries: "Mum, come home... I'm alone... I'm scared... It's not fair... "</line>
 
-^q"After accepting quest to find her mother:
+<line>After accepting quest to find her mother:
 "Hello mister(miss) hunter. Still cant find my mum?"
 [If Brooch is in inventory]
 Give: "Miss Hunter... was it really her?...Mummy...mummy... Don't leave me alone..."
@@ -964,9 +996,9 @@ No:
 Tell of Oedon Chapel: "Yes okay, thank you very much mister hunter! I love you almost as much as mum and dad, and grandad!"
 Tell of Iosefka's Clinic:
 Withhold Information: "Yes, i see... I can wait, I won't be afraid. I know, I do. The morning always comes."
-After turning in the Brooch, idling outside the window for several moments will elicit the whispers of a man, saying "So, call out to your sister...".
+After turning in the Brooch, idling outside the window for several moments will elicit the whispers of a man, saying "So, call out to your sister...".</line>
 
-^q"After directing her to safety, and picking up the ribbon:
+<line>After directing her to safety, and picking up the ribbon:
 (From this point on, it's the Little Yharnam Girl's older sister speaking)"Oh, you haven't by chance... seen my little sister, have you? I told her to look after the house, but she's run off somewhere. She's still quite small, and wears a big white ribbon. Have you seen her out there anywhere?"
 Give Red Messenger Ribbon: "Oh, how did this happen... Why would she ever go outside? At least... I'll have something to remember her by.
 Do Not Give: "Oh, okay then. But if you do see her, would you give me word? She's a small girl, with a big white ribbon. My dear little sister..."
@@ -974,19 +1006,19 @@ After not giving Ribbon and talking again: "Oh, back again? Any news of my siste
 Later heard outside while near window, but without interacting with it:
 "What a perfect ribbon, and now it's mine. I can't wait to try it on."
 Interacting with the window at this point:
-"Oh, it's wonderful..."
+"Oh, it's wonderful..."</line>
+</dialogue>
+</npc><npc>
+<name>Simon, the Harrowed is a non-player character in Bloodborne. He was added with The Old Hunters DLC</name>
 
-$
-H@Simon, the Harrowed is a non-player character in Bloodborne. He was added with The Old Hunters DLC
+<description>Simon is a rather unique character in the world of Bloodborne, having inhabited several different positions in support of and in opposition to the Healing Church, as a Healing Church Hunter. Most likely originating as a simple Yharnam citizen, Simon hailed from the earlier days of the Healing Church's initially glorious (and eventually disturbing) roots. Like many others before and after him, he was a Church Hunter following in the footsteps of Ludwig the Holy Blade who heeded the call to combat the scourge of beasts. Simon admired Ludwig, like most of his time, and saw him as a hero, even after his transformation into a hideously disfigured and grotesque beast. Going by his dialog, it can be inferred that Simon was familiar with Ludwig both in his human years and well after his downfall.</description>
 
-^d"Simon is a rather unique character in the world of Bloodborne, having inhabited several different positions in support of and in opposition to the Healing Church, as a Healing Church Hunter. Most likely originating as a simple Yharnam citizen, Simon hailed from the earlier days of the Healing Church's initially glorious (and eventually disturbing) roots. Like many others before and after him, he was a Church Hunter following in the footsteps of Ludwig the Holy Blade who heeded the call to combat the scourge of beasts. Simon admired Ludwig, like most of his time, and saw him as a hero, even after his transformation into a hideously disfigured and grotesque beast. Going by his dialog, it can be inferred that Simon was familiar with Ludwig both in his human years and well after his downfall.
+<notes>Yet somewhere along the line, Simon grew disillusioned with and possibly even horrified by the Healing Church, and soon aimed to expose its true misdeeds to the rest of the world. Whether it was the hunt, the stalking of citizens who showed no signs of the scourge, or the discovery of the nefarious experiments being conducted in the name of the Healing Church which led to his disillusionment is unknown. At some point, Simon found a way into the Hunter's Nightmare while retaining his sanity, much like the player Hunter, rather than joining the ranks of the countless old hunters consumed by blood who were condemned to an unending hunt for all eternity. His exact goals were uncertain, however Simon likely intended to put an end to the source of the Nightmare.
+However, if the player allows Simon to pursue his quest, once he drew too close to the secrets held within the Nightmare, he catches the attention of the beast garbed assassin of the Healing Church, Brador. Attacked by the man repeatedly, a fatigued and mortally wounded Simon would make his way to the lighthouse hut in the fishing hamlet within the Nightmare, where he would eventually fall to his wounds, but not before imparting his final wishes to a worthy hunter to continue his quest and end the Nightmare once and for all.</notes>
 
-^n"Yet somewhere along the line, Simon grew disillusioned with and possibly even horrified by the Healing Church, and soon aimed to expose its true misdeeds to the rest of the world. Whether it was the hunt, the stalking of citizens who showed no signs of the scourge, or the discovery of the nefarious experiments being conducted in the name of the Healing Church which led to his disillusionment is unknown. At some point, Simon found a way into the Hunter's Nightmare while retaining his sanity, much like the player Hunter, rather than joining the ranks of the countless old hunters consumed by blood who were condemned to an unending hunt for all eternity. His exact goals were uncertain, however Simon likely intended to put an end to the source of the Nightmare.
-However, if the player allows Simon to pursue his quest, once he drew too close to the secrets held within the Nightmare, he catches the attention of the beast garbed assassin of the Healing Church, Brador. Attacked by the man repeatedly, a fatigued and mortally wounded Simon would make his way to the lighthouse hut in the fishing hamlet within the Nightmare, where he would eventually fall to his wounds, but not before imparting his final wishes to a worthy hunter to continue his quest and end the Nightmare once and for all.
+<location lamp="Hunter's_Nightmare">Meet him at the first shortcut in the nightmare that leads back to the Hunter's Nightmare lamp.</location>
 
-L@Meet him at the first shortcut in the nightmare that leads back to the Hunter's Nightmare lamp.
-
-^q"By shortcut back to Hunter’s Nightmare lamp:
+<dialogue><line>By shortcut back to Hunter’s Nightmare lamp:
 You’re a hunter with your sanity, aren’t you?
 Must’ve taken a wrong turn then, eh?
 Well, we’re more alike than you think.
@@ -995,9 +1027,9 @@ You’ve seen them before.
 Aimless, wandering hunters, slavering like beasts.
 This is what the poor fools have to look forward to.
 So, don’t be brash, turn back before it’s too late.
-Unless, you’ve something of an interest in nightmares?
+Unless, you’ve something of an interest in nightmares?</line>
 
-^q"Respond “nightmares are fascinating”:
+<line>Respond “nightmares are fascinating”:
 Ahh, yes, I see…
 You sense a secret within the Nightmare,
 And cannot bear to leave it be.
@@ -1005,15 +1037,15 @@ As if the spirit of Byrgenwerth lives on within you!
 Such inquisitive hunters will relish the Nightmare.
 But beware, secrets are secrets for a reason.
 And some do not wish to see them uncovered.
-Especially when the secrets are particularly unseemly…
+Especially when the secrets are particularly unseemly…</line>
 
-^q"Respond "I've no interest"
+<line>Respond "I've no interest"
 "Yes, as it should be.
 Hunt your beasts, and think no more on the secrets of the night.
 That is the very best a hunter can do.
-Just don't let the blood intoxicate you."
+Just don't let the blood intoxicate you."</line>
 
-^q"If he kills Ludwig:
+<line>If he kills Ludwig:
 "Oh, he's well and truly gone, now.
 A tragic figure. But he will shame himself no longer.
 He died with his ideals untarnished.
@@ -1027,18 +1059,18 @@ Things that some would rather keep secret.
 A pitiful tale of petty arrogance, really.
 High time someone exposed the whole charade."
 "Now, now, go on ahead.
-You seek nightmares, and the secrets within, do you not?"
+You seek nightmares, and the secrets within, do you not?"</line>
 
-^q"At the Research Hall lamp
+<line>At the Research Hall lamp
 Oh, hello. Not a pretty sight, is it?
 The true face of the blood-worshipping, beast-purging Healing Church.
 But that’s not all.
 You seek the secrets field by the Nightmare, do you not?
 Then here’s what you must do.
 Climb the Astral Clocktower, and kill Maria.
-She hides the real secret…
+She hides the real secret…</line>
 
-^q"At the Lighthouse Hut lamp:
+<line>At the Lighthouse Hut lamp:
 Oh, you, I’m afraid, I’ve made a botch of things…
 …I can hear the bell, now…
 …The beast-hide assassin, he’s after me…
@@ -1051,63 +1083,67 @@ Testament to the old sins…
 …Please, bring to an end to the horror…
 …So our forefathers sinned?
 …We hunters cannot bear their weight forever…
-…It isn’t fair, it just isn’t fair…
+…It isn’t fair, it just isn’t fair…</line>
+</dialogue>
+</npc><npc>
+<name>Brador is a non-player character in Bloodborne and is part of The Old Hunters DLC.</name>
 
-$
-H@Brador is a non-player character in Bloodborne and is part of The Old Hunters DLC.
+<description>A Church Assassin, who killed his compatriots and wore their beastly remains as attire, going into hiding in the deeper cells of The Hunter's Nightmare. The Church provided him with a single, soundless bell of death to ensure their secrets would be kept."</description>
 
-^d"A Church Assassin, who killed his compatriots and wore their beastly remains as attire, going into hiding in the deeper cells of The Hunter's Nightmare. The Church provided him with a single, soundless bell of death to ensure their secrets would be kept."
+<notes>Based on his description and the size of his cleric beast attire, we can assume that when the scourge was young, cleric beasts were smaller. Hunters like him would quietly assassinate victims who would transform or who the church knew were bound to transform sooner or later. Eventually as they dabbled more into the old blood, this method became obsolete as beasts became bigger, more dangerous and more public.</notes>
 
-^n"Based on his description and the size of his cleric beast attire, we can assume that when the scourge was young, cleric beasts were smaller. Hunters like him would quietly assassinate victims who would transform or who the church knew were bound to transform sooner or later. Eventually as they dabbled more into the old blood, this method became obsolete as beasts became bigger, more dangerous and more public.
+<location place="The_Hunter's_Nightmare">This character can be found in the prison past the Underground Corpse Pile lamp, in a cell accessed with the Underground Cell Inner Chamber Key.</location>
 
-L@This character can be found in the prison past the Underground Corpse Pile lamp, in a cell accessed with the Underground Cell Inner Chamber Key.
-
-^q"When speaking through cell door
+<dialogue><line>When speaking through cell door
 Are you a hunter? Well, that's very odd.
-Do you hear the toll of the bell?
+Do you hear the toll of the bell?</line>
 
-^q"If selecting "I hear the bell"
+<line>If selecting "I hear the bell"
 Hmph. Liar. Such pettiness will be your undoing.
 The beasts you seek will not be found here.
 Go back to your hunt, and if you have the chance, put this night behind you.
 ...places better left untouched, secrets better left alone...
-...only a fool would so brazenly roam...
+...only a fool would so brazenly roam...</line>
 
-^q"If selecting "I hear nothing"
+<line>If selecting "I hear nothing"
 Very well.
 The beasts you seek will not be found here.
 Go back to your hunt, and if you have the chance, put this night behind you.
 ...places better left untouched, secrets better left alone...
-...only a fool would so brazenly roam...
+...only a fool would so brazenly roam...</line>
 
-^q"Generic dialogue
+<line>Generic dialogue
 "Bear in mind.
 Some places are better left untouched, and some secrets are better left alone.
-...only fools do brazenly roam..."
+...only fools do brazenly roam..."</line>
 
-^q"Speak through cell door after obtaining Underground Cell Inner Chamber Key
+<line>Speak through cell door after obtaining Underground Cell Inner Chamber Key
 "Do you hear this?
 Fear the bell's toll.
 For only death awaits prying eyes,
 and the Church assassins are never far behind.
-[laughs]"
+[laughs]"</line>
 
-^q"After entering cell
+<line>After entering cell
 "Well, well, look who's here.
 Welcome to my quarters. I've never entertained a guest before.
 Are you going to kill me?
 After all you've done, kill me, as if to right your wrongs?
-[laughs]"
+[laughs]"</line>
 
-^q"Generic dialogue
+<line>Generic dialogue
 "What is it? Aren't you going to kill me?
 Or perhaps, beg my forgiveness?
 Well, leave off. What's done is done.
-[laughs]"
+[laughs]"</line>
 
-^q"If killed by Brador
-"Unending death awaits those who pry into the unknown..."
+<line>If killed by Brador
+"Unending death awaits those who pry into the unknown..."</line>
 
-^q"On death
+<line>On death
 "Nothing changes, such is the nature of man...
-[laughs]"
+[laughs]"</line>
+</dialogue></npc>
+    
+<boss></boss>
+</lore>

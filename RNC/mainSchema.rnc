@@ -4,7 +4,7 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = lore
 
-lore = element lore{equipment, area, npc, boss}
+lore = element lore{equipment+, area+, npc+, boss+} #I added the pluses, so we can have multiple of these - ND
 equipment = element equipment{((caryllRune | attire | weapon | firearm | item )?)+}
 
 caryllRune = element caryllRune{runeName, ((description | locationArea | effect | notes | trivia)?)+}
@@ -21,7 +21,11 @@ item = element item{text}
 #item specific elements
 area = element area{text}
 #area specific elements
-npc = element npc{text}
+
+npc = element npc{name, description, notes, location, dialogue?, trivia?}
+name = element name{text}
+dialogue = element dialogue{line+} # the whole dialogue section
+line = element line{text} # each individual discourse
 #npc specific elements
 boss = element boss{text}
 #boss specific elements
