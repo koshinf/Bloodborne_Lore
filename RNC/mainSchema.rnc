@@ -27,7 +27,7 @@ name = element name{text}
 dialogue = element dialogue{line+} # the whole dialogue section
 line = element line{text} # each individual discourse
 #npc specific elements
-boss = element boss{text}
+boss = element boss{name, description, notes?, location, dialogue?, trivia?}
 #boss specific elements
 
 #universal(ish) elements
