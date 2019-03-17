@@ -133,9 +133,11 @@ img.resultsLink {
 /*----------------- TEAM -----------------*/
 
 .teamContainer {
+	background-color: #333;
 	text-align: center;
+	height: 100%;
 	padding: 2em;
-	padding-top: 6em;
+	border-radius: 25px;
 }
 .team {
 	background-color: white;
@@ -145,8 +147,35 @@ img.resultsLink {
 	height: 30em;
 	float: left;
 }
+.team:hover {
+	background-color: #f1f1f1;
+	border: solid;
+}
 img.pictureLink {
 	height:100%;
 	width:100%;
 	display: inline-block;
+}
+
+/*----------------- RESULTS -----------------*/
+
+.resultContainer {
+	display: flex;
+	background-color: #333;
+	justify-content: center;
+	flex-direction: row;
+	border-radius: 25px;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.result {
+	background-color: white;
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	padding-left: 1em;
+	padding-right: 1em;
+	float: left;
 }
