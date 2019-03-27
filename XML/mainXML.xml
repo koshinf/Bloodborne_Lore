@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../RNC/mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <lore>
 <!-- Equipment start -->
@@ -13,7 +13,7 @@
         Rotated anti-clockwise, this caryllRune boosts stamina. The discovery of blood made their dream of evolution
         a reality. Metamorphosis, and the excesses and deviation that followed, was only the beginning..
         </description>
-        <locationArea>
+        <locationArea place ="Forbidden Woods">
         (+10%) is found on a corpse behind two celestial mobs in the Forbidden Woods.
         (+15%) is received after talking to Patches the Spider while in his room, no matter which dialogue option is chosen.
         (+20%) is found in a large chest in the first bonus area of the first layer of Lower Ailing Loran Root Chalice. (h3up6y2d)
@@ -42,7 +42,7 @@
         Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place="Yahar'gul">
         (+5%) found on a corpse in Yahar'gul, Unseen Village near the skeleton slug shooters, behind one of the burning corpses on the left wall leading down to the boss area.
         (+7%) is found in Byrgenwerth to the left of the lamp, near the tree with the brainsucker.
          (+10%) is found in Isz Root Chalice (random chance)
@@ -73,7 +73,7 @@
         "Beast" is one of the early Caryll Runes. as well as one of the first to be deemed forbidden.
         The discovery of blood entailed the discovery of undesirable beasts.
         </description>
-        <locationArea>
+        <locationArea place=" Healing Church">
         (+20) is dropped by a creature (a weaker variety of Beast-possessed Soul) at the bottom of the Healing Church Workshop tower.
         Starting from the lamp at Cathedral Ward: Enter the door to the right that is unlocked after beating the Blood-Starved Beast, take the elevator up and cross the bridge over to the Healing Church Workshop. Run around a walkway outside the tower and drop down where the ledge is broken to get inside. Descend to the bottom by carefully traversing the wooden platforms inside. At the bottom there is a beast (name unknown) that drops the rune. Can easily be killed with molotov cocktails.
         (+50) is dropped by the Suspicious Beggar on top of the windmill in Forbidden Woods, who you can also send to the Oedon Chapel or Iosefka's Clinic.
@@ -97,7 +97,7 @@
         When its implementation failed, the "Embrace" became a forbidden rune, but this knowledge became a foundation of the Healing Church.
         Those who swear this oath take on a ghastly form and enjoy accentuated transformation effects, especially while wielding a beast weapon.
         </description>
-        <locationArea>
+        <locationArea place="Laurence, The First Vicar">
         Defeat Laurence, The First Vicar.
         </locationArea>
         <effect>
@@ -133,7 +133,7 @@
         This rune resonates with servants of the Queen, carrier of the Child of Blood, who yearn for their Queen's blood with little hope of requitement.
         For them, they find solace in "Blood Rapture", that serves as a surrogate for their desires.
         </description>
-        <locationArea>
+        <locationArea place="Shadow of Yharnam">
         (+200) is dropped by the Shadow of Yharnam  boss.
         (+250) is found on dungeons created with Cursed and Defiled Root Chalice (random chance).
         (+300) is dropped by the second hunter in Eileen The Crow's Questline.
@@ -159,7 +159,7 @@
         It strengthens visceral attacks, one of the darker hunter techniques.
         Although the difference is subtle, Runesmith Caryll describes the "Beast" as a horrific and unwelcome instinct deep within the hearts of men, while "Clawmark" is an alluring invitation to accept this very nature.
         </description>
-        <locationArea>
+        <locationArea place="Nightmare Yahar'Gul">
         (+10%) Dropped by the Beast Claw npc in Nightmare Yahar'Gul, Unseen Village after killing Rom, the Vacuous Spider.
         (+20%) Dropped by a beast Gilbert near the Central Yarhnam Lamp after killing Rom, the Vacuous Spider.
         (+30%) Lower Ailing Loran Root Chalice (random chance)
@@ -187,7 +187,7 @@
         Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours
         </description>
-        <locationArea>
+        <locationArea place="Forbidden Woods">
         (+100) Found in Forbidden Woods behind the giant tombstone near the snake heads
         (+200) Found in Nightmare Frontier behind a rock thrower on top of a hill
         (+300) Lower Ailing Loran Root Chalice (random chance)
@@ -214,7 +214,7 @@
         The discovery of blood made their dream of evolution a reality.
         Metamorphosis, and the excesses and deviation that followed, were only the beginning.
         </description>
-        <locationArea>
+        <locationArea place = "Forbidden Woods">
         Forbidden Woods (9 on map).
         Nightmare Frontier in a cave across and to the right of the stone bridge. When facing the giant's back, take a right turn and go down.
         Pthumeru Ihyll Root Chalice (random chance).
@@ -240,7 +240,7 @@
         This rune represents the Healing Church and its ministers.
         Blood ministration is, of course, the pursuit of communion.
         </description>
-        <locationArea>
+        <locationArea place="Cathedral Ward">
         (+1) Cathedral Ward; in a chest directly through the door on your right. This door only opens after you have killed the Blood-starved Beast.
         (+2) Lecture Building
         (+3) Iosefka's Clinic, in a chest after entering from the secret passage in Forbidden Woods
@@ -267,7 +267,7 @@
         Pledgers to this oath are Cainhurst Vilebloods, hunters of blood who find dregs for their Queen in coldblood, particularly in that of hunters.
         Yet the corrupt are heretics in the eyes of the Church, and thus subject to the wrath of the Executioners
         </description>
-        <locationArea>
+        <locationArea place="Cainhurst Castle">
         Secret area after killing Martyr Logarius  at Cainhurst Castle. Wear the Crown of Illusions near the throne to gain access to the hidden room.
         </locationArea>
         <effect>
@@ -294,7 +294,7 @@
         guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place="Forbidden Woods">
         (+100) Lower Hintertomb Root Chalice - Chalice Glyph: **kfwgav9g** (Layer 3),Treasure in | 2xe8g93y FR Lower Hintertomb L1, bonus area before layer boss | w8zxj7h5 (can't remember which layer, but I just found three runes in this chalice)
         (+200) Forbidden Woods - behind two viper pits in a small cave, near the burning horse.
         (+300) Isz Root Chalice - Chalice Glyph: ydknsnh4 (Layer 1 Pre-lamp). Pre-boss area also has Arcane Lake +10% rune.
@@ -318,7 +318,7 @@
         Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place ="Forbidden Woods">
         (+5%) Forbidden Woods, in a creek under some huge entangled roots near a pig. At the bottom of the final elevator shortcut, go down the path of stairs and take a left turn at the sparkling pond, then follow the creek.
         (+7%) Ailing Loran Root Chalice (random chance)
         (+10%) Lower Ailing Loran Root Chalice (random chance)
@@ -349,7 +349,7 @@
         Disillusioned by the limits of human intellect, Master Willem looked
         to beings from higher planes for guidance, and sought to line his brain with eyes in order to elevate his thoughts.
         </description>
-        <locationArea>
+        <locationArea place="Nightmare of Mensis">
         (+50) is obtained in Nightmare of Mensis. Spawn at the first lamp and go directly northeast past the yetis and you will find it on a corpse next to the Mergo's Loft: Base Lamp. You can also spawn at the Mergo's Loft: Base Lamp if you have it unlocked and run back towards the yetis and pick it up.
         (+70) is dropped by Ritual Master Willem in Byrgenwerth if killed at any point in the game.
         (+100) is obtained from a Isz Root Chalice (random chance)
@@ -380,7 +380,7 @@
         Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place="Nightmare Frontier">
         (+5%) Nightmare Frontier, slightly past where Chime Maiden is, climb a narrow cliff.
         (+7%) Ailing Loran Root Chalice (random chance)
         (+10%) Lower Ailing Loran Root Chalice (random chance)
@@ -410,7 +410,7 @@
         Human or no, the oozing blood is a medium of the highest grade, and the essence of the formless Great One.
         Both Oedon, and his inadvertent worshippers, surreptitiously seek the precious blood.
         </description>
-        <locationArea>
+        <locationArea place ="Forbidden Woods">
         (+1) Unlock Iosefka's Clinic as a safe haven and send the young Yharnam girl there. Enter the clinic through the back entrance via the Forbidden Woods and one of the Celestial Mobs will drop this item.
         (+2) Can be obtained in Lower Pthumeru Root Chalice or Sinister Lower Pthumeru Root Chalice (random chance).
         (+3) Dropped by Oedon Chapel Dweller in Cathedral Ward
@@ -441,7 +441,7 @@
         guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place ="Nightmare Frontier">
         +50 - Lower Hintertomb Root Chalice (random chance)
         +100 - Nightmare Frontier, poison swamp before boss door.
         +150 - Isz Root Chalice (random chance)
@@ -466,7 +466,7 @@
         Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours..
         </description>
-        <locationArea>
+        <locationArea place="Upper Catherdral Ward">
         3% - Lower Hintertomb Root Chalice (random chance)
         4% - Upper Cathedral Ward, take a right turn at the top of the stairs above the Lamp.
         5% - Isz Root Chalice (random chance)
@@ -502,7 +502,7 @@
         Ludwig was certain that these playful dancing sprites offered "guidance"
         They could empty Ludwig of his fears at least in the midst of a hunt.
         </description>
-        <locationArea>
+        <locationArea place="Research Hall">
         10% Dropped by Carrion Crow on top floors of Research Hall
         Once you raise the stairs and gain access to the very top part of the rafters, there will be a single crow on a ledge, with its back turned to you, close to the windows. It will drop down as you approach, seemingly escaping, to the platform below with the Enlarged Head NPC and two other crows.
         This rune is the only rune in the game that drops more than once in each subsequent playthrough. In each new game, the crow will drop the same rune.
@@ -526,7 +526,7 @@
         More Blood Echoes gained from visceral attacks.
         Perhaps the "Heir" is a hunter who bears the echoing will of those before him.
         </description>
-        <locationArea>
+        <locationArea place="Tomb of Oedon">
         Tier 1 - 30% bonus - Encounter with Henryk and Eileen the Crow in Tomb of Oedon. Defeat Henryk together with Eileen the Crow and receive the rune. If Eileen the Crow dies during the encounter you need to defeat the hunter to receive the rune.
         Tier 2 - A stronger version(~40%) of the Rune is found in Yahar'gul, The Unseen Village on a corpse near the second Chime Maiden.
         Tier 3 - Pthumeru Ihyll Root Chalice (random chance)
@@ -569,7 +569,7 @@
         These watchmen admonish those who have become addled with blood.
         Be they men or beasts, anyone who has threatened the pledgers of the "Hunter" oath surely has an issue with blood.
         </description>
-        <locationArea>
+        <locationArea place="NULL">
         Earned by completing the Eileen the Crow questline.
         </locationArea>
         <effect>
@@ -592,7 +592,7 @@
         Confederates of The League cooperate with hunters from other worlds, and hunt to discover vermin.
         Vermin writhe within filth, and are the root of man's impurity. Crush all vermin without hesitation.
         </description>
-        <locationArea>
+        <locationArea place="Forbidden Woods">
         Join The League via its leader Valtr, Forbidden Woods - In the hut to the right of the first lamp, that acts as a shortcut.
         </locationArea>
         <effect>
@@ -618,7 +618,7 @@
         Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch Truth.
         Overcome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place="Hemwick Charnel">
         3% - From the lamp at Hemwick Charnel Lane you need to go straight until you reach an iron door. If you didn't open it you need to go open it first. Looking at the iron door you need to go right and follow the path until you come back to the iron door from the other side. Then go straight again until you reach the end of the path and you see some kind of ocean. There will be a corpse on a small ledge with the Lake rune.
         5% - Cursed and Defiled Root Chalice (random chance)
         7% - Pthumeru Ihyll Root Chalice (random chance)
@@ -649,7 +649,7 @@
         Those who swear this oath become a Lumenwood that peers towards the sky, feeding phantasms
         in its luscious bed. Phantasms guide us and lead us to further discoveries.
         </description>
-        <locationArea>
+        <locationArea place="Research Hall">
         Received from Saint Adeline in the Research Hall after finishing her quest line.
         </locationArea>
         <effect>
@@ -675,7 +675,7 @@
         Gain more Blood Echoes.
         The Great Ones that inhabit the nightmare are sympathetic in spirit, and often answer when called upon.
         </description>
-        <locationArea>
+        <locationArea place="Hypogean Gaol">
         In Hypogean Gaol between 2 of the Snatchers near your lantern.
         In Mergo's Loft at the bottom of the spiral staircase where you fought Micolash.
         Stand in front of Mother Brain's eye in Nightmare of Mensis and use the "Make Contact" gesture. (Note: it takes around 25-35 seconds for the rune to appear). To get there, start at the Mergo's Loft Middle Lamp and run up the stairs past the crow dogs and ride the single cage elevator down. As you are riding it down, you will see an open window and you must roll-dive through it. Continue along this path past the enemies until you see a single green lever on a narrow walkway to the right of the little hole you drop through (don't drop down the hole). Pull the lever and a cut-scene will play out with Mother Brain falling through a pit. Now you must leave this area and go back to the first area past the spider mini-bosses and the hunter on the bridge. Once you get here, go down the stairs past the dwarves into the big hall will giant pits in the floor. Go past the single giant armored dwarf and you will see a single green elevator cage next to a huge pit in the ground. Climb the elevator all the way down to the black abyss. You can step out and you will not die. You will hear some breathing sounds and you will faintly see an outline of Mother Brain you dropped earlier. Go up to it and perform the "Make Contact" gesture. Stay in this pose for about 30 seconds, after which your hands will move position and you will receive the final and most powerful "Moon" rune. You are free to kill Mother Brain after this and you will receive a Living String (Chalice Dungeon
@@ -701,7 +701,7 @@
         Human or not, the oozing blood is a medium of the highest grade, and the essence of the formless Great One.
         Both Oedon, and Oedon's inadvertent worshippers, surreptitiously seek the precious blood.
         </description>
-        <locationArea>
+        <locationArea place="Hypogean Gaol">
         (+1) is obtained by killing Adella the Nun at Hypogean Gaol or sending her to Oedon's Chapel and killing her there. A second method is to send her to Iosefka's Clinic and collecting the heir rune from a kin.
         (+2) is obtained by killing Iosefka at Iosefka's Clinic, BEFORE the blood moon. (But you lose one third of the umbilical cord)
         (+3) is obtained from a Pthumeru Ihyll Root Chalice (random chance)
@@ -728,7 +728,7 @@
         The executioners despise the impure Vilebloods, and no matter what the circumstances,
         would never cooperate with the bloodthirsty hunters who serve the undead queen, Annalise.
         </description>
-        <locationArea>
+        <locationArea place="Cathedral Ward">
         If you revisit the statue in Cathedral Ward, outside the entrance to Old Yharnam where you first meet Alfred (after he has killed Annalise), you'll find his inexplicably dead body with the rune.
         This rune can also be attained by killing Alfred after he has killed Annalise
         </locationArea>
@@ -749,7 +749,7 @@
         
         This rune means "Deep Sea" and grants augmented resistance.Great volumes of water serve as a bulwark guarding sleep, and an augur of the eldritch TruthOvercome this hindrance, and seek what is yours.
         </description>
-        <locationArea>
+        <locationArea place="Nightmare Frontier">
         (+100) Lower Hintertomb Root Chalice dungeon. Glyph: qmu2iuhk (layer 1 loot room directly before boss),8jv9v6bc (Layer 1) First bonus room.
         (+200) Nightmare Frontier
         (+300) Lower Ailing Loran Root Chalice dungeon. Glyphs: rie8jhve (Layer 1 Pre-Lamp), s5jj9xs4 (Layer 2 pre-boss)
@@ -778,7 +778,7 @@
         Starts as a large, tough blunt weapon formed of bone, but when extended, the hand quivers as if it were still alive.
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         The Hunter's Nightmare, cave at the end of the blood river to the right after getting out of the building that used to be the shortcut to the Cleric Beast in the main game. Gatling Gun Hunter dropping the Gatling Gun and a Blood-Starved Beast can be also found here. Arm is near the Blood-Starved Beast at the end of the cave.
         </locationArea>
         
@@ -798,7 +798,7 @@
         As flesh is flayed and blood is sprayed, the beast within awakens, and in time, the wielder of this weapon surges with both strength and feverish reverie."
         </description>
         
-        <locationArea>
+        <locationArea place="Ailing Loran Chalice">
         Ailing Loran Chalice: Layer 2 treasure room. Room is on the right when exiting the elevator from first layer boss fight, before the second layers lantern.
         Can be bought from messengers for 34000 echoes after acquisition.
         Can be bought from messengers after co-operation with player who has them. This only occurs in Hunter's dream before fight with Gehrman or Moon Presence. It is not needed to complete any Chalice Dungeons. It is unknown if this is glitch or intentional. Was patched by 1.07 or 1.08.
@@ -821,7 +821,7 @@
         Although this trick weapon allows for adaptive combat, it was later replaced by saws and similar weapons that were more effective at disposing of beasts."
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         The Hunter's Nightmare. After the Blood River, when you pass through the cave with a tick, where you encounter two dogs and a large amount of crows along with an enemy Beast Cutter hunter. Climb the ladder on the left of the pit and instead of going forward, turn to the left and drop down the ledge. There will be a single piece of loot guarded by a Saif Hunter.
         </locationArea>
         
@@ -839,7 +839,7 @@
         This crude weapon relies on brute force and is regrettably inelegant, suggesting that the hunts of the earliest hunters made for horrific affairs, painted in sanguine black and reds."
         </description>
         
-        <locationArea>
+        <locationArea place="Grand Cathedral">
         When walking up the stairs to the nightmare version of the Grand Cathedral, turn left onto a small platform, then roll off and walk down some rough terrain to find the weapon on a corpse.
         </locationArea>
         
@@ -857,7 +857,7 @@
         Splits into two when activated. The weapon's warped blades are forged with siderite, a rare mineral of the heavens. Most effective swift attacks,such as after a quick-stepping."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Can be purchased from the Messengers for 40000 echoes after obtaining the Crow Hunter Badge from Eileen the Crow's quest line.
         Killing Eileen is also a way to get the weapon early in the game.
         While progressing through Eileen's quest, it's possible for her to be killed by Henryk and thus drop the Crow Hunter Badge as a result, although the quest line will end.
@@ -880,7 +880,7 @@
         This is the only effective means of expelling tainted blood, or so Brador, isolated in his cell, continued to believe."
         </description>
         
-        <locationArea>
+        <locationArea place="Underground Prison">
         Obtain the underground cell inner chamber key.
         Return to the underground prison (from the underground corpse pile lamp, go up the stairs and turn left) and open the door to Brador's cell. His cell is the second on the left behind a flight of downward stairs. Kill Brador to obtain the bloodletter.
         Brador will not be hostile in his cell, but will invade the player right outside his cell.
@@ -900,7 +900,7 @@
         Crush the beasts, then burn them - the brute simplicity of the Boom Hammer was favored by hunters with an acute distaste for beasts."
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         The Hunter's Nightmare. Inside a house that looks out of Central Yharnam, the same that is the shortcut to the cleric beast in the main game, where the 10 quicksilver bullets used to be. Be sure to shoot the explosives around the item (or act fast), as the wheelchair huntsman's corpse conceals a delayed molotov set to trigger when you try to grab the Boom Hammer, potential killing you in a huge blast.
         </locationArea>
         
@@ -918,7 +918,7 @@
         Gehrman surely saw the hunt as a dirge of farewell, wishing only that his prey might rest in peace, never again to awaken to another harrowing nightmare. "
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It can be purchased from the Messengers for 60,000 Blood Echoes after defeating Gehrman, the First Hunter and acquiring the Old Hunter Badge from him.
         To make Gehrman fight you, the "Refuse" option must be selected.
         If one accepts his proposal, the game will outright end there and it will be impossible to obtain this weapon in that playthrough (not including the uncanny/lost forms found in the chalice dungeons).
@@ -948,7 +948,7 @@
         However, the rite eats away at the wielder's very essence."
         </description>
         
-        <locationArea>
+        <locationArea place="Cainhurst Castle">
         Join the Cainhurst Vilebloods covenant available at Cainhurst Castle, and then purchase from the Messengers for 50,000 Blood Echoes.
         </locationArea>
         
@@ -970,7 +970,7 @@
         The Church Pick initially serves as a large sword, but when transformed functions as an extended war pick. In spite of its origins, it is a highly practical weapon."
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         The Hunter's Nightmare: Dropped by a hunter wearing Yahar'Gul set (presumably, this is the summonable Old Hunter Defector Antal) in one of the cells that you open with the Underground Cell Key from the Research Hall. To make this battle simple, attack him through the door with a strong R2 attack, then leave the room. He will lose sight of you and his AI will return to a standstill behind the door. Rinse and repeat until dead.
         </locationArea>
         
@@ -990,7 +990,7 @@
         The Holy Moonlight Sword is synonymous with Ludwig, the Holy Blade, but few have ever set eyes on the great blade, and whatever guidance it has to offer, it seems to be of a very private, elusive sort."
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         The Hunter's Nightmare: Found on the Underground Corpse Pile after the fight against Ludwig, The Holy Blade. Ludwig's head will be lying there and you can:
         Kill the head for the sword.
         Wear a piece of any church attire and talk to the head. When prompted, reply "Yes" and you'll get the sword.
@@ -1011,7 +1011,7 @@
         One of the trick weapons of the workshop, commonly used on the hunt. Retains the qualities of an axe, but offers a wider palette of attacks by transforming. Boasts a heavy blunt attack, leading to high rally potential. No matter their pasts, beasts are no more than beasts. Some choose this axe to play the part of executioner."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It's possible to pick this trick weapon as a starting weapon near the beginning of Bloodborne.
         If not chosen, it can instead be purchased from the Messengers after the Hunter has found the Saw Hunter Badge.
         </locationArea>
@@ -1037,7 +1037,7 @@
         A trick weapon typically used by Healing Church hunters. On the one side, an easily handled silver sword. On the other, a giant obtuse stone weapon, characterized by a blunt strike and extreme force of impact. The Church takes a heavy-handed, merciless stance toward the plague of beasts, an irony not lost upon the wielders of this most symbolic weapon."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Can be purchased from the Messengers after acquiring the Sword Hunter Badge.
         </locationArea>
         
@@ -1068,7 +1068,7 @@
         This atypical weapon can only be clasped tight and swung, but a Kos Parasite is said to stimulate phantasms inhabiting a lumenwood"
         </description>
         
-        <locationArea>
+        <locationArea place="Orphan of Kos">
         Dropped by Orphan of Kos
         </locationArea>
         
@@ -1086,7 +1086,7 @@
         Transform to release the power of the wheel and manifest their lingering rage in a show of utter brilliance."
         </description>
         
-        <locationArea>
+        <locationArea place= "Messengers">
         It can be purchased from the Messengers for 13,000 Blood Echoes after acquiring the Wheel Hunter Badge.
         </locationArea>
         
@@ -1112,7 +1112,7 @@
         It exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Can be purchased for 20,000 echoes from the Messengers after obtaining the Radiant Sword Hunter Badge.
         </locationArea>
         
@@ -1143,7 +1143,7 @@
         One day, she abandoned her beloved Rakuyo, casting it into a dark well, when she could stomach it no longer."
         </description>
         
-        <locationArea>
+        <locationArea place="Fishing Hamlet">
         Fishing Hamlet. Get to the bottom of the well. Can be reached from the underground tunnels at the end of the area or via a ladder in the well right away. In that area a Shark Giant will wander around. Fighting him makes a second one appear after the first reaches sufficiently low health. The first giant will walk over near the ladder and scream at the ceiling, causing the second one to drop. The second one drops the weapon.
         Fighting the two of them can be difficult and it is a good idea to use the Shaman Bone Blade to make them fight each other and finish off the weaker one. Molotov cocktails are also very effective against them. If neither is available to you, try to kill the one with the anchor first, as it is significantly harder to dodge.
         One easy way to beat them is use of ranged weapon like Simon's Bowblade if you are a bloodtinge build, and the Holy Moonlight Sword if you are an arcane build.
@@ -1169,7 +1169,7 @@
         The old nobles, long-time imbibers of blood, are no strangers to the sanguine plague, and the disposal of beasts was a discrete task left to their servants, or knights, as they were called for the sake of appearances."
         </description>
         
-        <locationArea>
+        <locationArea place="Cainhurst Castle">
         It's found in a chest located in the entrance hall of Cainhurst Castle, where the Bound Widows are first encountered. When you first enter the room from the main entrance, run towards your two o'clock. The chest will be found in a corner.
         </locationArea>
         
@@ -1188,7 +1188,7 @@
         A trick weapon crafted by the workshop heretics, the Powder Kegs. A prototype weapon serving as a simple firearm and spear, possibly created in imitation of a lost Cainhurst weapon. Lacks any notable functions, saving that it is the only trick weapon with an attached gun. "
         </description>
         
-        <locationArea>
+        <locationArea place="Old Yarnam">
         It can be found inside a hidden building in Old Yharnam. From the area you fight the first NPC Hunter (who wields a saw spear), drop down where the railing is missing in a corner and land on the ledges below. Go into the building and follow the stairs up; eventually you can find it stashed on a corpse tucked away in a hidden nook as you advance.
         Bought from the messengers for 4000 blood echoes after acquiring the Powder Keg Hunter Badge.
         </locationArea>
@@ -1213,7 +1213,7 @@
         The saw, with its set of blood-letting teeth, has become a symbol of the hunt, and only grows in effectiveness the more grotesquely transformed the beast."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It can be acquired as a gift from the Messengers the first time you visit the Hunter's Dream.
         If you don't select it, you may buy it after acquiring the Saw Hunter Badge in the tunnel with the giant pig (below the bridge to Father Gascoigne.)
         </locationArea>
@@ -1243,7 +1243,7 @@
         One of the trick weapons of the workshop, commonly used by those who dedicate themselves to the hunt. This saw, effective at drawing the blood of beasts, transforms into a medium-range spear. The saw, with its set of blood-letting teeth, has become a symbol of the hunt, and only grows in effectiveness the more grotesquely transformed the beast."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Can be bought from the Bath Messengers, after obtaining the Saw Hunter Badge, for 1,000 Blood Echoes.
         Treasure in Central Yharnam Sewer, on the ledge above the dead end with boats. You also need to cut down the corpse hanging from the rafters high above.
         </locationArea>
@@ -1262,7 +1262,7 @@
         But aside from a few close friends, Simon was scoffed at for his choice of arms, for who would dare face the beasts with a measly bow?"
         </description>
         
-        <locationArea>
+        <locationArea place="Fishing Hamlet">
         Fishing Hamlet: Found on the body of Simon the Harrowed next to the Lighthouse Hut lantern after answering the first option at the Hunter's Nightmare shortcut and going through his quest-line. Interact with him as he lies on the ground to obtain the weapon.
         You may also kill Simon the Harrowed at The Hunter's Nightmare or Research Hall to obtain the weapon.
         </locationArea>
@@ -1281,7 +1281,7 @@
         The stake driver allows for high-damage critical attacks, but is difficult to use and leaves its wielder wide open, but none of this should bother a mere Powder Keg."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Obtain Powder Keg Hunter Badge to unlock for purchase at the Messengers for 8,000 Blood Echoes.
         </locationArea>
         
@@ -1303,7 +1303,7 @@
         One of the trick weapons of the workshop, commonly used by hunters on their duties. Sufficiently deadly as a rigid bladed cane, but also serves as a whip when its blade is split into many. Concealing the weapon inside the cane and flogging the beasts with the whip is partly an act of ceremony, an attempt to demonstrate to oneself that the bloodlust of the hunt will never encroach upon the soul."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It can be acquired at the beginning of the game as a gift from the Messengers.
         If not selected, it is later available for purchase from the blood fountain messengers after acquiring the Saw Hunter Badge in the tunnel with the giant pig (below the bridge to Father Gascoigne).
         </locationArea>
@@ -1324,7 +1324,7 @@
         Unfortunately, for reasons untold, the hunters of Archibald's time did not fully take to the device."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Acquire the Spark Hunter Badge by defeating Darkbeast Paarl  to purchase from Messengers.
         Treasure: Yahar'gul, Unseen Village, at the top end of the road. (guarded by 2 Tainted Dogs and a Snatcher during daytime)
         </locationArea>
@@ -1350,7 +1350,7 @@
         These discs, lined with serrated teeth,spin rapidly, thrashing the flesh of beasts into fine shreds."
         </description>
         
-        <locationArea>
+        <locationArea place="Nightmare Church">
         From the Nightmare Church go down the stairs and follow the path. Drop down into the pools of blood of follow the path further until you reach the Cannon Executioner. Follow the left wall and turn down the path, the weapon is at the end.
         </locationArea>
         
@@ -1369,7 +1369,7 @@
         Large prototype firearms fashioned by the workshop heretics, the Powder Kegs. Use of this weapon is equivalent to toting a mounted cannon, complete with its ridiculous weight, staggering kick, and lavish use of Quicksilver Bullets, into battle. Such a monstrosity was doomed from the start, and indeed its development was cut short. Yet, against impossibly gigantic foes, it might be just the thing. "
         </description>
         
-        <locationArea>
+        <locationArea place="Forbidden Woods">
         It's found in the Forbidden Woods inside a big wooden building.
         You need to walk into the building behind the enemy who is firing a large stationary cannon. When you proceed into the building, there will be a Viper Pit Mob guarding the area. Stay above and exit on the opposite end of where you entered. Drop down from the ledge onto the exterior roof. Next, kill the Large Huntsman and go up the ladder. Once back inside the building, follow the narrow wooden walkway to the other side and look for another slightly lower hanging walkway. Drop down and circle around until you find a corpse next a destroyed gear; the Cannon is there, where you can pick it up.
         As of patch 1.02, it can be obtained without killing any bosses by using the Iosefka Jump to get early access to the Forbidden Woods.
@@ -1392,7 +1392,7 @@
         But the men lacked the wits to effectively operate firearms, and the weapon was quietly ushered into permanent storage."
         </description>
         
-        <locationArea>
+        <locationArea place="Research Hall">
         Found after activating the altar elevator to the Research Hall with the Eye Pendant activate the new elevator to go down. The send the elevator back up, which will reveal an altar with Laurence's Skull. Send the elevator down again via the switch and stand at the altar. This will take you down to a hidden chest. Step back onto the altar to go back.
         </locationArea>
         
@@ -1410,7 +1410,7 @@
         Lovingly named after a woman and graced with an intricate design, Evelyns were adored by Cainhurst knights."
         </description>
         
-        <locationArea>
+        <locationArea place="Cainhurst Castle">
         It is found inside a chest in Cainhurst Castle in the library room near the elevator shortcut filled with ghosts (Bound Widow) and barricaded behind tables. You will need to jump from a nearby library staircase to reach the chest.
         Sold by the Messengers after joining the Cainhurst Vilebloods at Cainhurst Castle.
         </locationArea>
@@ -1429,7 +1429,7 @@
         Gratia was a fearsome hunter, and to onlookers, her unrelenting pummelling appeared oddly heroic. No wonder this weapon later assumed her name."
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         In The Hunter's Nightmare, on the body of Gratia inside the last cell on the right, after the Ludwig, the Holy Blade fight.
         </locationArea>
         
@@ -1448,7 +1448,7 @@
         Besides, the beasts of Yharnam can always use a good cleansing."
         </description>
         
-        <locationArea>
+        <locationArea place="Blood Echoes">
         Gilbert will grant you this firearm as a gift after you defeat Father Gascoigne (you actually have to trigger the cathedral ward intro cut scene first) and zone in some way (use a lamp to teleport, exit your game, die, etc.). If you have already defeated Vicar Amelia before you attempt to receive it, he will no longer offer it, forcing you to buy it from the Messenger shop instead.
         It becomes available for purchase for 8000 Blood Echoes from the Bath Messenger after obtaining the Radiant Sword Hunter Badge.
         </locationArea>
@@ -1472,7 +1472,7 @@
         The Gatling Gun boasts exceptional rapid-firing functionality, but is considered a cumbersome weapon, due to its excessive weight and insatiable consumption of Quicksilver Bullets."
         </description>
         
-        <locationArea>
+        <locationArea place="The Hunter's Nightmare">
         Hunter's Nightmare, cave to the right after getting out of the building that used to be the shortcut to the Cleric Beast in the main game. Gattling Gun Hunter drops the weapon. Amygdalan Arm and a Blood-Starved Beast can be also found here.
         </locationArea>
         
@@ -1488,7 +1488,7 @@
         A blunderbuss created at the workshop for the hunters' line of work. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The impact of this highly-effective weapon counters beasts' swift movements, and its wide spread is nigh-on guaranteed to hit the mark."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It's available in the Hunter's Dream at the Bath Messengers. First, you must obtain the Saw Hunter Badge in the sewers next to the Giant Boar on a corpse.
         At the beginning of the game, it's available as a gift from the Messengers if you choose.
         </locationArea>
@@ -1512,7 +1512,7 @@
         Pistol made at the workshop, for hunters stalking beasts. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The pistol is a quicker draw than the blunderbuss, allowing for speedier responses to attacks."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         This is a starting weapon gifted to you by the messengers if you choose.
         Otherwise you can buy it from the Messengers for 1600 Blood Echoes after you find the Saw Hunter Badge in the sewers; it is next to the Giant Boar.
         </locationArea>
@@ -1533,7 +1533,7 @@
         Its fire damage is highly effective against beasts."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It's sold by the Bath Messengers in the Hunter's Dream for 2,000 Blood Echoes after locating it in Old Yharnam.
         At the start of Old Yharnam, follow the "lizard" (Scurrying Beast) and it's in the building you land on the roof of. Beware of the cloaked beast hiding nearby the hunter torch's location.
         </locationArea>
@@ -1556,7 +1556,7 @@
         The blue is fashioned after a lake, and the shield greatly reduces all forms of non-physical damage. " 
         </description>
         
-        <locationArea>
+        <locationArea place="Research Hall">
         Research Hall: The Loch Shield can be seen right when entering on a platform together with one of the crawling experiments. It's obtained after activating the lever to raise the stairs, then dropping and following the path down.
         </locationArea>
         
@@ -1578,7 +1578,7 @@
         Ludwig's Rifle exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Can be purchased for 10,000 echoes from the Messengers. Warp to the Cathedral Ward lamp after defeating the Blood-Starved Beast. Proceed through the right-side exit which will now be open. The Radiant Sword Hunter Badge is found in a chest at the top of the tower.
         </locationArea>
         
@@ -1596,7 +1596,7 @@
         Designed for hunting on narrow streets, this weapon has been optimized to cause perforation wounds, but is unfit for reliably counter attacks."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Purchasable at the messenger bath after acquiring the Firing Hammer Badge.
         </locationArea>
         
@@ -1612,7 +1612,7 @@
         Repeating pistol typically used by Healing Church hunters. Crafted with mostly metal parts and exhibiting a complex design, the repeating pistol fires two shots at once, making it a ravenous consumer of Quicksilver Bullets. Should be used sparingly compared to its workshop counterpart, as the trump card in one's arsenal."
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         Can be purchased from the Messengers for 3000 Blood Echoes after obtaining the Sword Hunter Badge.
         </locationArea>
         
@@ -1632,7 +1632,7 @@
         This gun's firing mechanics may have been inspired by the wheellock mechanism, which used a wheel and several built-in devices to operate a self-igniting firearm.
         </description>
         
-        <locationArea>
+        <locationArea place="Messengers">
         It can be bought for 60,000 Blood Echoes from the Messengers after obtaining the Cosmic Eye Watcher Badge.
         </locationArea>
         
@@ -1654,7 +1654,7 @@
         A common torch formed by wrapping a pine resin-drenched cloth around the end of a long stick. Hunters choose torches not only because the hunt leads them to the darkest nooks, but also because certain creatures they encounter are possessed of a deathly fear of flame"
         </description>
         
-        <locationArea>
+        <locationArea place="Central Yharnam">
         It's found next to the Brick Troll who's banging on a locked gate in Central Yharnam. After passing through the town square with the massive crucified beast, you'll come upon an area with a fountain. There you will find the torch and can sneak behind the Brick Troll to open up a visceral attack in order to safely claim your prize.
         </locationArea>
         
@@ -1674,7 +1674,7 @@
         Shields are nice, but not if they engender passivity."
         </description>
         
-        <locationArea>
+        <locationArea place="Cathedral Ward">
         It's found up the big stairs right after the Cathedral Ward Lantern.
         You can also pick it up as a rare drop from early enemies in the game with wooden shields.
         </locationArea>
