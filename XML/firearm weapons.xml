@@ -17,7 +17,7 @@ If you do own the DLC, this is no longer the case as the Gatling Gun doesn't hav
 Originally designed for use by brawny men with deteriorated brains, not for just any ordinary hunter.
 But the men lacked the wits to effectively operate firearms, and the weapon was quietly ushered into permanent storage."</description>
 
-<location> Found after activating the altar elevator to the Research Hall with the Eye Pendant activate the new elevator to go down. The send the elevator back up, which will reveal an altar with Laurence's Skull. Send the elevator down again via the switch and stand at the altar. This will take you down to a hidden chest. Step back onto the altar to go back.</location>
+<location place="Research Hall"> Found after activating the altar elevator to the Research Hall with the Eye Pendant activate the new elevator to go down. The send the elevator back up, which will reveal an altar with Laurence's Skull. Send the elevator down again via the switch and stand at the altar. This will take you down to a hidden chest. Step back onto the altar to go back.</location>
 
 <trivia> Other notes go here or in the comments.</trivia>
 
@@ -38,7 +38,7 @@ Sold by the Messengers after joining the Cainhurst Vilebloods at Cainhurst Castl
 The hulking hunter woman Simple Gratia, ever hopeless when handling hunter firearms, preferred to knock the lights out of beasts with this hunk of iron, which incidentally caused heavy stagger. 
 Gratia was a fearsome hunter, and to onlookers, her unrelenting pummelling appeared oddly heroic. No wonder this weapon later assumed her name."</description>
 
-<location> In The Hunter's Nightmare, on the body of Gratia inside the last cell on the right, after the Ludwig, the Holy Blade fight.</location>
+<location place="The Hunter's Nightmare"> In The Hunter's Nightmare, on the body of Gratia inside the last cell on the right, after the Ludwig, the Holy Blade fight.</location>
 
 <trivia> Other notes go here or in the comments.</trivia>
 
@@ -65,7 +65,7 @@ Since this item is given as a gift from Gilbert, who later turns into an Old Yha
 It was the weapon of choice of the youngest of Djura's three companions. 
 The Gatling Gun boasts exceptional rapid-firing functionality, but is considered a cumbersome weapon, due to its excessive weight and insatiable consumption of Quicksilver Bullets."</description>
 
-<location> Hunter's Nightmare, cave to the right after getting out of the building that used to be the shortcut to the Cleric Beast in the main game. Gattling Gun Hunter drops the weapon. Amygdalan Arm and a Blood-Starved Beast can be also found here.</location>
+<location place="The Hunter's Nightmare"> Hunter's Nightmare, cave to the right after getting out of the building that used to be the shortcut to the Cleric Beast in the main game. Gattling Gun Hunter drops the weapon. Amygdalan Arm and a Blood-Starved Beast can be also found here.</location>
 
 <trivia> Other notes go here or in the comments.</trivia>
 
@@ -89,7 +89,7 @@ The lever on the top of the Blunderbuss looks like it may operate a breech block
 
 <description> Pistol made at the workshop, for hunters stalking beasts. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The pistol is a quicker draw than the blunderbuss, allowing for speedier responses to attacks."</description>
 
-<location> This is a starting weapon gifted to you by the messengers if you choose.
+<location place="Messengers"> This is a starting weapon gifted to you by the messengers if you choose.
 Otherwise you can buy it from the Messengers for 1600 Blood Echoes after you find the Saw Hunter Badge in the sewers; it is next to the Giant Boar.</location>
 
 <trivia> At the perfect camera angle, you can see the Quicksilver Bullet in the gun's barrel.
@@ -102,7 +102,7 @@ According to the concept art, and Gascoigne's shotgun variant, the Hunter Pistol
 <description> A torch formed by the wrapping a pine resin cloth around the end of a long stick, once used in Old Yharnam. Designed to incinerate beasts and victims touched by the scourge. 
 Its fire damage is highly effective against beasts."</description>
 
-<location> It's sold by the Bath Messengers in the Hunter's Dream for 2,000 Blood Echoes after locating it in Old Yharnam.
+<location place="Messengers"> It's sold by the Bath Messengers in the Hunter's Dream for 2,000 Blood Echoes after locating it in Old Yharnam.
 At the start of Old Yharnam, follow the "lizard" (Scurrying Beast) and it's in the building you land on the roof of. Beware of the cloaked beast hiding nearby the hunter torch's location.</location>
 
 <trivia> It's currently unknown what exactly is the difference between the Hunter's Torch and the regular torch, other than the former does more damage.
@@ -117,7 +117,7 @@ This idea seems more likely of the two since the description of the Hunter's Tor
 Originally used to safeguard the leader presiding over a sacred Healing Church ceremony, and later supplied to tomb prospectors, in particular those exploring the labyrinth of Isz. 
 The blue is fashioned after a lake, and the shield greatly reduces all forms of non-physical damage. " </description>
 
-<location> Research Hall: The Loch Shield can be seen right when entering on a platform together with one of the crawling experiments. It's obtained after activating the lever to raise the stairs, then dropping and following the path down.</location>
+<location place="Research Hall"> Research Hall: The Loch Shield can be seen right when entering on a platform together with one of the crawling experiments. It's obtained after activating the lever to raise the stairs, then dropping and following the path down.</location>
 
 <trivia> Loch is the Irish and Scottish gaelic word for "lake". This reinforces the game's overall concept that bodies of water serve as a bulwark against various elements.
 This shield, compared to the Wooden Shield, is actually competent and can be useful for some battles.
@@ -131,7 +131,7 @@ Still, if you're looking to use a shield, either for protection or for thematic 
 It is said that this rifle was employed by Ludwig, the first hunter of the Church. Its long, heavy barrel makes up in range for what it lacks in reload speed. 
 Ludwig's Rifle exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts."</description>
 
-<location> Can be purchased for 10,000 echoes from the Messengers. Warp to the Cathedral Ward lamp after defeating the Blood-Starved Beast. Proceed through the right-side exit which will now be open. The Radiant Sword Hunter Badge is found in a chest at the top of the tower.</location>
+<location place="Messengers"> Can be purchased for 10,000 echoes from the Messengers. Warp to the Cathedral Ward lamp after defeating the Blood-Starved Beast. Proceed through the right-side exit which will now be open. The Radiant Sword Hunter Badge is found in a chest at the top of the tower.</location>
 
 <trivia> Used by Alfred, Forgotten Madman, Brador and Yahar'gul Hunter in Cathedral Ward.
 The Rifle's folding barrel is a reference to WC-GN230 Back Unit Grenade Launchers from Armored Core, which was equipped by Nine-Ball, and lately became the basis of OGOTO Grenate Launcher used by Berlioz.</trivia>
@@ -141,7 +141,7 @@ The Rifle's folding barrel is a reference to WC-GN230 Back Unit Grenade Launcher
 <description> A rifle engineered by the Oto Workshop, the precursor to the workshop of the heretical Powder Kegs. 
 Designed for hunting on narrow streets, this weapon has been optimized to cause perforation wounds, but is unfit for reliably counter attacks."</description>
 
-<location> Purchasable at the messenger bath after acquiring the Firing Hammer Badge.</location>
+<location place="Messengers"> Purchasable at the messenger bath after acquiring the Firing Hammer Badge.</location>
 
 <trivia> The weapon can still parry attacks but it is harder to do so.</trivia>
 
@@ -149,7 +149,7 @@ Designed for hunting on narrow streets, this weapon has been optimized to cause 
 
 <description> Repeating pistol typically used by Healing Church hunters. Crafted with mostly metal parts and exhibiting a complex design, the repeating pistol fires two shots at once, making it a ravenous consumer of Quicksilver Bullets. Should be used sparingly compared to its workshop counterpart, as the trump card in one's arsenal."</description>
 
-<location> Can be purchased from the Messengers for 3000 Blood Echoes after obtaining the Sword Hunter Badge.</location>
+<location place="Messengers"> Can be purchased from the Messengers for 3000 Blood Echoes after obtaining the Sword Hunter Badge.</location>
 
 <trivia> One of the Church Servants uses this.
 Also used by Iosefka and the Bloody Crow of Cainhurst.
@@ -161,7 +161,7 @@ This gun's firing mechanics may have been inspired by the wheellock mechanism, w
 Also used by Iosefka and the Bloody Crow of Cainhurst.
 This gun's firing mechanics may have been inspired by the wheellock mechanism, which used a wheel and several built-in devices to operate a self-igniting firearm.</description>
 
-<location> It can be bought for 60,000 Blood Echoes from the Messengers after obtaining the Cosmic Eye Watcher Badge.</location>
+<location place="Messengers"> It can be bought for 60,000 Blood Echoes from the Messengers after obtaining the Cosmic Eye Watcher Badge.</location>
 
 <trivia> Rosmarinus is latin for rosemary, which is commonly used as a decorative plant in gardens as pest control. But its more common use is as a spice used for cooking, grown prominently in Mediterranean areas.
 Rosemary was known for potentially being able to strengthen the mind's ability to remember things, as well as recall things once forgotten.
@@ -175,7 +175,7 @@ If you look very carefully on the belt of the Choir set, you'll notice there's a
 
 <description> A common torch formed by wrapping a pine resin-drenched cloth around the end of a long stick. Hunters choose torches not only because the hunt leads them to the darkest nooks, but also because certain creatures they encounter are possessed of a deathly fear of flame"</description>
 
-<location> t's found next to the Brick Troll who's banging on a locked gate in Central Yharnam. After passing through the town square with the massive crucified beast, you'll come upon an area with a fountain. There you will find the torch and can sneak behind the Brick Troll to open up a visceral attack in order to safely claim your prize.</location>
+<location place="Central Yharnam"> t's found next to the Brick Troll who's banging on a locked gate in Central Yharnam. After passing through the town square with the massive crucified beast, you'll come upon an area with a fountain. There you will find the torch and can sneak behind the Brick Troll to open up a visceral attack in order to safely claim your prize.</location>
 
 <trivia> In real life there are many supernatural beliefs regarding the usage of a torch.
 Some believed that a torch could ward off evil spirits/beings, and thus torches in the night were more than a mere means to illuminate a dark path.
@@ -187,7 +187,7 @@ Most importantly, it kept people warm at night, so therefore suddenly feeling a 
 Hunters do not normally employ shields, ineffectual against the strength of the beasts as they tend to be. 
 Shields are nice, but not if they engender passivity."</description>
 
-<location> It's found up the big stairs right after the Cathedral Ward Lantern.
+<location place="Cathedral Ward"> It's found up the big stairs right after the Cathedral Ward Lantern.
 You can also pick it up as a rare drop from early enemies in the game with wooden shields.</location>
 
 ^t" For those who are thinking about using this shield, keep in mind the warning issued in this item's description, "Shields are nice, but not if they engender passivity."
