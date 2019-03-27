@@ -1,5 +1,6 @@
-<?xml-model href="../RNC/mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<lore>
+﻿
+<lore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ xsi:noNamespaceSchemaLocation="npcInfo.xml">
 <!-- NPCs, "</npc><npc>" denotes the beginning of an entry.-->
 <equipment></equipment> 
 <area></area>
@@ -18,7 +19,7 @@ Lady Maria and Annalise are distant relatives.
 In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.</notes>
 
 
-<location place="Forsaken_Castle_Cainhurst">Castle Cainhurst</location>
+<location place="Castle Cainhurst">Castle Cainhurst</location>
 
 <dialogue><line>First time:
 Visitor… I claim no subjects, but here lieth Our throne. Kneel afore us… …or get thee gone.
@@ -69,7 +70,7 @@ Arianna wears the Noble Dress found in Castle Cainhurst indicating she is a desc
 Arianna's Blood has a description alluding to her blood having "forbidden" properties (forbidden according to the Healing Church, ie Vileblood)
 In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.</notes>
 
-<location place="Cathedral_Ward">Cathedral Ward</location>
+<location place="Cathedral Ward">Cathedral Ward</location>
 
 <dialogue><line>Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts, so if that's what you're here for, I'll leave you to your own devices. If that doesn't do it, come back in the morning, darling." - for male hunter.
 "Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts and besides this is no place for ladies. Wouldn't want to drag you down too..." [laughs] - for female hunter.
@@ -105,7 +106,7 @@ One of the other distinguishing features is that the Blood Minister appears to h
 This is a foreshadowing of future events to come.
 The hat worn by the Blood Minister has a similar appearance to what the Old Hunters wore in the past.</notes>
 
-<location place="Iosefka's_Clinic">This character is located in Iosefka's Clinic though he disappears after the opening cinematic.
+<location place="Iosefka's Clinic">This character is located in Iosefka's Clinic though he disappears after the opening cinematic.
 Can be found in hunter's nightmare (DLC), dead hunter that explodes when you come near him</location>
 
 <dialogue>
@@ -138,7 +139,7 @@ Confronting her before killing Rom disrupts her plans and results in the hunter 
 However, if the player comes after the Blood Moon appears, she will have succumbed to madness after imbibing a One Third of Umbilical Cord in a desperate attempt to evolve herself before the night ends.
 Ultimately it ends in failure as her blood remains red upon slaying her instead of the clear color of the the elevated kin.</notes>
 
-<location place="Iosefka's_Clinic" lamp="1st_Floor_Sickroom">Iosefka is found behind a set of double doors, at the top of the steps behind the "1st Floor Sickroom" lantern.</location>
+<location place="Iosefka's Clinic" lamp="1st_Floor_Sickroom">Iosefka is found behind a set of double doors, at the top of the steps behind the "1st Floor Sickroom" lantern.</location>
 
 <dialogue>
 <line>Upon speaking with (real) Iosefka for the first time:
@@ -223,7 +224,7 @@ God I'm nauseous... Have you ever felt this? It's progressing. I can see things.
 Eileen seems to have been a former hunter herself at some point. If you fight Eileen and are killed by her, her dialogue "You still have dreams? ...Tell the little doll I said hello..." indicates that she knows of both the Hunter's Dream and the Plain Doll, suggesting that she was a former hunter trapped in the Dream, much like the players themselves, who managed to break free from cycle of death and awakening. In the encounter with her at the foot of the Grand Cathedral, she mentions that she no longer dreams, and therefore that death is now permanent for her.
 The description of both the Crowfeather Set and the Crow Hunter Badge suggest that Eileen is from a foreign land, not a native Yharnamite; her unique accent may suggest this as well. Her Badge suggests that she is an "outsider from the hinterlands" - that is, areas of countryside away from civilization or beyond known geography, sparsely inhabited and traversed mostly by travelers. Note that this is the only mention of the hinterlands in the game.</notes>
 
-<location lamp="Grand_Cathedral">Location 1: the Central Yharnam Lamp; Location 2: the Cathedral Ward lamp; Location 3: The Tomb of Oedon; Location 4: Fighting the Bloody Crow of Cainhurst at the Grand Cathedral; Location 5: There is a pool of blood, where normally the top Chapel Giant stands -- if you have failed or talked to Eileen after killing the hostile hunter and received her rewards, you may see this blood stain here.</location>
+<location lamp="Grand Cathedral">Location 1: the Central Yharnam Lamp; Location 2: the Cathedral Ward lamp; Location 3: The Tomb of Oedon; Location 4: Fighting the Bloody Crow of Cainhurst at the Grand Cathedral; Location 5: There is a pool of blood, where normally the top Chapel Giant stands -- if you have failed or talked to Eileen after killing the hostile hunter and received her rewards, you may see this blood stain here.</location>
 
 <dialogue>
     <line>Upon speaking with her at the sewers:
@@ -294,7 +295,7 @@ Gilbert describes himself as a "fellow outsider" to the player hunter. This sugg
 From the description of the Flame Sprayer, which is given to the player hunter by Gilbert throughout his quest line, we can assume that Gilbert once worked for the Healing Church as a hunter or huntsman
 Gilbert may have been one of the hunters that burned Old Yharnam to the ground since he gives the player hunter the Flame Sprayer. During the blood moon phase that occurs after killing Rom, Gilbert transforms into a beast similar to the beasts that plague Old Yharnam and the Loran Chalice dungeon. From the description of the Antidote found all over Old Yharnam, the antidote counteracts poison offering short-term relief from the Ashen Blood disease that ravaged Old Yharnam long ago. Ashen blood is similar to poison and the antidote is used by hunters in an attempt to combat the ailment; all beasts from Old Yharnam are capable of poisoning. It is speculated that Gilbert caught this incurable Ashen Blood ailment during the burning of Old Yharnam. This would explain why he transforms into a beast similar to the beasts located in Old Yharnam. As a beast, he is not afraid of flame like the other beasts.</notes>
 
-<location place="Central_Yharnam">Gilbert is found in Central Yharnam, right in front of the Lamp.</location>
+<location place="Central Yharnam">Gilbert is found in Central Yharnam, right in front of the Lamp.</location>
 
 <dialogue><line>Upon speaking with him (First time)：
 "Oh you must be a Hunter, and not one from around here either. I'm Gilbert, a fellow outsider. You must have had a fine time of it. Yarnham has a special way of treating guests. I don't think I can stand if I wanted to, but I'm willing to help, if there's anything that can be done (coughs). This town is cursed. Whatever your reasons might be you should plan a swift exit. Whatever can be gained from this place, it will do more harm than good."</line>
@@ -328,7 +329,7 @@ Save me...
 She has gradual changes in attitude towards the player. She is initially ungrateful, continuing to blame the Hunter for the bad things that have been happening. During the grey sky/night/overcast, she seems to be in a state of despair or madness, eventually only responding with panicked sobs/hysteria. After beating seven bosses[unconfirmed], she is very kind. If you answer "I have my woes" at this point, she will give the Hunter an increasing amount of Sedatives. 1 the first time, 2 the second, 3 the third.
 Upon using the "I have my woes" option 3 times, she will go out and look for more Sedatives, leaving a note to the player on her chair. When she comes back if the same option is used again she will give the player another Sedative and venture off again to find more. Upon returning again to the chapel, the Oedon Chapel Dweller will remark how she was murdered outside. You can venture through the door to the left of the lamp to find her body with remarkable bloodstains around her and one more Sedative on her corpse.</notes>
 
-<location place="Central_Yharnam">Central Yharnam</location>
+<location place="Central Yharnam">Central Yharnam</location>
 
 <dialogue><line>Upon killing dog outside her house:
 Oh, you're a hunter, aren't ya? Then, well, do you know of any safe places?"</line>
@@ -411,7 +412,7 @@ Drops 3x Pungent Blood Cocktail when changed into a Passive Celestial Emissary i
 
 <notes></notes>
 
-<location lamp="Cathedral_Ward">Next to the first lamp in Cathedral Ward</location>
+<location lamp="Cathedral Ward">Next to the first lamp in Cathedral Ward</location>
 <dialogue>
 
 <line>Upon Meeting
@@ -494,7 +495,7 @@ I just wanted to help... people...</line>
 
 <notes></notes>
 
-<location place="Hunter's_Dream">Gehrman is typically found within the Workshop of the Hunter's Dream</location>
+<location place="Hunter's Dream">Gehrman is typically found within the Workshop of the Hunter's Dream</location>
 
 <dialogue><line>Upon first speaking with him:
 Ah-hah, you must be the new hunter. Welcome to the Hunter's Dream. This will be your home, for now. I am... Gehrman, friend to you hunters. You're sure to be in a fine haze about now, but don't think too hard about all of this. Just go out and kill a few beasts. It's for your own good. You know, it's just what hunters do! You'll get used to it..."
@@ -537,7 +538,7 @@ The night, and the dream, were long..."
 
 <notes></notes>
 
-<location place="Lecture_Building">Lecture Hall</location>
+<location place="Lecture Building">Lecture Hall</location>
 
 <dialogue><line>Behind a lantern( Any house w a resident will be temporarily replaced, see location information):
 ...Oh, a hunter of beasts, are you? Glory be. You know not the value you possess.
@@ -627,7 +628,7 @@ That grave is the player's grave from a previous NG cycle; the Doll will mention
 The plain doll is a man-made contraption void of life, but in the Hunter's Dream she is alive and appears to be inhabited by some kind of eldritch being.
 Maria Hunter Set  hints that the Doll, who was made by Gherman, is meant to resemble Lady Maria of the Astral Clocktower. Furthermore, the set states Maria held great admiration for Gehrman, but is unaware of his mania.</notes>
 
-<location place="Hunter's_Dream">Hunter's Dream</location>
+<location place="Hunter's Dream">Hunter's Dream</location>
 
 <dialogue><line>When Interacted with:
 Welcome home, good hunter. What is it you desire?"</line>
@@ -696,7 +697,7 @@ It can be assumed that Djura does not associate with Old Yharnam for any particu
 In some ways, you could consider Old Yharnam to be Djura's utopia of sorts. And he, quite literally, aims to maintain the peace here.
 which raises an important question: who set fire to the crosses at the beginning of the area and around the church?</notes>
 
-<location place="Old_Yharnam">Old Yharnam</location>
+<location place="Old Yharnam">Old Yharnam</location>
 
 <dialogue><line>When entering Old Yharnam:
 "You there, hunter. Didn't you see the warning? Turn back at once."
@@ -755,7 +756,7 @@ Requires healing church clothes to send to Oedon chapel but if you sell, do not 
 Adella will disappear from the game entirely after killing Rom, therefore missing out on a potential caryll rune and gesture. Make sure to talk to her/kill her BEFORE killing Rom.
 If you do not consume 3 vials of Arianna's Blood and talk to her after the Moon is red, she will just giggle manically. (tested on 2 playthroughs)</notes>
 
-<location place="Yahar'gul Unseen_Village">Hypogean Gaol</location>
+<location place="Yahar'gul Unseen Village">Hypogean Gaol</location>
 
 <dialogue><line>Upon entering the room and standing on the stair case, the young woman can be heard saying:
 Please, Leave me be... Don't Take me... Please... Oh, please, dear gods."
@@ -813,7 +814,7 @@ What have I done..." (does not speak if the moon turned red)</line></dialogue>
 He will slowly murder each of the NPCs that the Hunter sends there, although if you talk to him afterward, he'll give you Beast Blood Pellets.
 On arrival, he will kill the first NPC. Afterwards, for every boss you defeat (Chalice bosses included), he will kill another NPC. With each NPC he kills, he will reward you with Beast Blood Pellets when spoken to. The NPCs killed will also drop the items they would have dropped if you had killed them yourself. After killing the last NPC, and talking to him to receive your rewards/gifts, he will vanish when you reload the area. (have not been able to find him after he left). Aggroing him will not change the system by which he kills the survivors.</notes>
 
-<location place="Forbidden_Woods">The Suspicious Beggar can be found in the Forbidden Woods.</location>
+<location place="Forbidden Woods">The Suspicious Beggar can be found in the Forbidden Woods.</location>
 
 <dialogue><line>Forbidden Woods Encounter:
 "Blimey! Don't scare me like that. On a night like this... I took you for a monster."
@@ -867,7 +868,7 @@ When you find him he is praying in front of a statue that seems to be wearing Ex
 He has performed a strange ritual and there is blood on the altar in front of him.
 A close-up of his eyes reveals that his pupils are beginning to "collapse". This is a sign that he will soon fall to beasthood.</notes>
 
-<location place="Cathedral_Ward">This character can first be found at the Cathedral Ward</location>
+<location place="Cathedral Ward">This character can first be found at the Cathedral Ward</location>
 
 <dialogue><line>Talk:
 You're a hunter, aren't you? I knew it. That's precisely how I started out! Oh, beg pardon, you may call me Alfred. Protege of Master Logarius, hunter of Vilebloods. So, what say you? Our prey might differ, but we are hunters, the both of us. Why not cooperate, and discuss the things we've learned?
@@ -938,7 +939,7 @@ Pray for Master Logarius... in my stead..."</line>
 
 <notes></notes>
 
-<location lamp="Forbiden_Woods">This character can be found inside the shorcut hut to the right of the first lamp in Forbidden Woods.</location>
+<location lamp="Forbiden Woods">This character can be found inside the shorcut hut to the right of the first lamp in Forbidden Woods.</location>
 
 <dialogue><line>Talk:
 Ahh, a new face, are you? And an accomplished hunter... it would appear. *chuckles* I am Valtr, Master of the League. Members of the League cleanse the streets of all the filth that's spread about during the hunt. Like any half-decent hunter ought to, you know? Haven't you seen enough of these wretched beasts, freakish slugs, and mad doctors? Sentence these fiends to death. With the help of your League confederates. What do you say? Why not join the League?</line>
@@ -972,7 +973,7 @@ Female Character: "Vermin writhe and squirm... You no good wench."</line>
 
 <notes></notes>
 
-<location place="Central_Yharnam">This character can be found in Central Yharnam, behind a window.</location>
+<location place="Central Yharnam">This character can be found in Central Yharnam, behind a window.</location>
 
 <dialogue><line>First interaction with window:
 Who... are you? I don't know your voice, but I know that smell... Are you a hunter? Then, please, will you look for my mum? Daddy never came back from the hunt, and she went to find him, but now she's gone, too... I'm all alone... and scared..."
@@ -1016,7 +1017,7 @@ Interacting with the window at this point:
 <notes>Yet somewhere along the line, Simon grew disillusioned with and possibly even horrified by the Healing Church, and soon aimed to expose its true misdeeds to the rest of the world. Whether it was the hunt, the stalking of citizens who showed no signs of the scourge, or the discovery of the nefarious experiments being conducted in the name of the Healing Church which led to his disillusionment is unknown. At some point, Simon found a way into the Hunter's Nightmare while retaining his sanity, much like the player Hunter, rather than joining the ranks of the countless old hunters consumed by blood who were condemned to an unending hunt for all eternity. His exact goals were uncertain, however Simon likely intended to put an end to the source of the Nightmare.
 However, if the player allows Simon to pursue his quest, once he drew too close to the secrets held within the Nightmare, he catches the attention of the beast garbed assassin of the Healing Church, Brador. Attacked by the man repeatedly, a fatigued and mortally wounded Simon would make his way to the lighthouse hut in the fishing hamlet within the Nightmare, where he would eventually fall to his wounds, but not before imparting his final wishes to a worthy hunter to continue his quest and end the Nightmare once and for all.</notes>
 
-<location lamp="Hunter's_Nightmare">Meet him at the first shortcut in the nightmare that leads back to the Hunter's Nightmare lamp.</location>
+<location lamp="Hunter's Nightmare">Meet him at the first shortcut in the nightmare that leads back to the Hunter's Nightmare lamp.</location>
 
 <dialogue><line>By shortcut back to Hunter’s Nightmare lamp:
 You’re a hunter with your sanity, aren’t you?
@@ -1092,7 +1093,7 @@ Testament to the old sins…
 
 <notes>Based on his description and the size of his cleric beast attire, we can assume that when the scourge was young, cleric beasts were smaller. Hunters like him would quietly assassinate victims who would transform or who the church knew were bound to transform sooner or later. Eventually as they dabbled more into the old blood, this method became obsolete as beasts became bigger, more dangerous and more public.</notes>
 
-<location place="The_Hunter's_Nightmare">This character can be found in the prison past the Underground Corpse Pile lamp, in a cell accessed with the Underground Cell Inner Chamber Key.</location>
+<location place="The Hunter's Nightmare">This character can be found in the prison past the Underground Corpse Pile lamp, in a cell accessed with the Underground Cell Inner Chamber Key.</location>
 
 <dialogue><line>When speaking through cell door
 Are you a hunter? Well, that's very odd.
