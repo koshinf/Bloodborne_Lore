@@ -1703,7 +1703,7 @@
 <!-- Area end -->
 <!-- Npc start -->
 <npc>
-<name>Vileblood Queen Annalise is a non-player character in Bloodborne. </name>
+<npcName npcList="Annalise_Queen_Of_The_Vilebloods">Vileblood Queen Annalise is a non-player character in Bloodborne. </npcName>
 
 <description>Annalise is the queen and sole survivor of the Vilebloods, vampiric aristocrats born from forbidden blood who once lived in Cainhurst Castle. With the exception of Queen Annalise herself, the Vilebloods were murdered during a genocidal invasion by Logarius and his band of Executioners; Logarius then sealed the queen in an illusionary prison and assumed the role of its warden, repelling any who ventured into the castle and threatened to break the seal.</description>
 
@@ -1758,7 +1758,7 @@ Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.</line
 (Leaving if Blood Dreg was given) We await thy return... This chamber was made not for one alone... For the honour of Cainhurst.</line>
 </dialogue>
 </npc><npc>
-<name>Arianna, Woman of Pleasure is a non-player character in Bloodborne. </name>
+<npcName npcList="Arianna_Woman_Of_The_Night">Arianna, Woman of Pleasure is a non-player character in Bloodborne. </npcName>
 
 <description>A prostitute residing in one of the Cathedral Ward's darker corners. You can speak to her at her home in the Cathedral Ward as soon as you reach the area, but she won't seek sanctuary until you have defeated at least one boss from either Cathedral Ward, Old Yharnam, Hemwick Charnel Lane or Yahar' Gul the Unseen Village.</description>
 
@@ -1787,7 +1787,7 @@ In the banquet hall where the Noble Dress is found, there is a portrait of a wom
 <line>(After killing Micolash, host of the Nightmare, having given birth) "It can't be...this is a nightmare..." [sobs and laughs]</line>
 </dialogue>
 </npc><npc>
-<name>Blood Minister is a non-player character in Bloodborne.</name> 
+<npcName npcList="Blood_Minister">Blood Minister is a non-player character in Bloodborne.</npcName> 
 
 <description>This enigmatic person gives you a contract to sign (which essentially sends you to character creation).
 Once the contract has been officialized, he begins a blood transfusion process using Yharnam blood.
@@ -1815,7 +1815,7 @@ Oh, yes... Paleblood... Well, you've come to the right place. Yharnam is the hom
 Good. All signed and sealed. Now let's begin the transfusion. Oh, don't you worry. Whatever happens... You may think it all a mere bad dream... </line>
 </dialogue>
 </npc><npc>
-<name>Iosefka is a non-player character in Bloodborne and owner of Iosefka's Clinic where the player begins their journey.</name>
+<npcName npcList="Iosefka">Iosefka is a non-player character in Bloodborne and owner of Iosefka's Clinic where the player begins their journey.</npcName>
 
 <description>There are, in fact, two Iosefkas: The real one and an imposter.
 The real one is the one you first meet through the door. She is kind, compassionate and gentle. When the player attacks her door repeatedly she kindly pleads, "Please stop, you are not a beast." If the player manages to access the clinic later in the game through the forbidden woods, a blue alien creature drops Iosefka's blood vial; that is the real Iosefka, but she was changed/experimented on by the impostor. She as the blue alien will take a while to become agro on the hunter.
@@ -1914,7 +1914,7 @@ Oh hello....You're still alive. But I suppose we're nearing the end. I don't ima
 God I'm nauseous... Have you ever felt this? It's progressing. I can see things... I knew it, I'm different. I'm no beast... I... Oh... God, it feels awful... but, it proves that I'm chosen. Don't you see? How they writhe, writhe inside my head... It's... rather... rapturous...'' [Pained yet still Sinister Laughter]</line>
 </dialogue>
 </npc><npc>
-<name>Eileen the Crow is a non-player character in Bloodborne. Wearing a Beak Mask, this hunter is a dual-wield "skill" hunter. </name>
+<npcName npcList="Eileen_The_Crow">Eileen the Crow is a non-player character in Bloodborne. Wearing a Beak Mask, this hunter is a dual-wield "skill" hunter. </npcName>
 
 <description>Eileen is an assassin whose sworn duty is to dispose of other hunters that have been corrupted by their lust for blood. Like the player, she hails from outside Yharnam and is a foreigner to the region, but her presence in the city is driven by an entirely different set of motives; she makes a point of keeping a low profile operating in the shadows, and you may never meet her in the first place if you don't go out of your way to explore. You can start her quest either on the Dry Dock - Rafters in Central Yharnam or to the left of the Oedon Chapel's front entrance in the Cathedral Ward, and your choices after that point will determine her fate. Helping her defeat Henryk in the Tomb of Oedon is the tipping point of her quest - failure to do so before entering the Forbidden Woods for the first time will sometimes result in her becoming your enemy, and will prevent you from receiving any of the successive rewards other than the Crow Hunter Badge. It is best to complete the Tomb of Oeden portion of the quest before progressing further.</description>
 
@@ -1983,7 +1983,7 @@ When Eileen is slain, "...Ahh... you monsters..."
 </dialogue>
 
 </npc><npc>
-<name>Gilbert is a non-player character in Bloodborne. You first meet him in Central Yharnam after ascending the ladder that lowers after pulling the lever. He is located just behind the first Lamp you will find. To speak with him you must approach the window there and press "X".</name>
+<npcName npcList="Gilbert">Gilbert is a non-player character in Bloodborne. You first meet him in Central Yharnam after ascending the ladder that lowers after pulling the lever. He is located just behind the first Lamp you will find. To speak with him you must approach the window there and press "X".</npcName>
 
 <description>Gives Flamesprayer as a gift after killing Father Gascoigne. You have to talk to him before beating Amelia and starting night, as well as after visiting Cathedral Ward at least once. If you don´t obtain it from Gilbert, you can buy it from the Shop after obtaining the Radiant Sword Hunter Badge.
 After the moon turns red (upon killing Rom, the Vacuous Spider), you will find him as a hostile Old Yharnam Beast near his window, drops Clawmark Rune if killed.</description>
@@ -2019,7 +2019,7 @@ Save me...
 *coughing* "</line></dialogue>
 
 </npc><npc>
-<name>The Lonely Old Woman is an NPC in Bloodborne. </name>
+<npcName npcList="Lonely_Old_Woman">The Lonely Old Woman is an NPC in Bloodborne. </npcName>
 
 <description>Old Woman found in Central Yharnam area. Bitter and alone, she seems to begrudge the Hunter.</description>
 
@@ -2052,7 +2052,7 @@ Oh, How did we ever get into this mess *sobs*"
 "It's your father's blood..."</line></dialogue>
 
 </npc><npc>
-<name>Provost Willem is a non-player character in Bloodborne. </name>
+<npcName npcList="Provost_Willem">Provost Willem is a non-player character in Bloodborne. </npcName>
 
 <description>Provost Willem is the head of Byrgenwerth, an academic institute from which the Healing Church originated. He and others scholars discovered a holy medium, deep within the tomb of the gods. Willem's aim is to advance the evolution of humankind and achieve higher planes of thought. Despite Willem's central role in the foundation of the Healing Church and particularly the Choir, their paths ultimately diverged and Byrgenwerth was abandoned by all but a few loyal scholars. Now, at the end of his days and barely even able to speak, he can only sit in his favorite chair and await the arrival of one who can unlock the lake's secret.</description>
 
@@ -2085,7 +2085,7 @@ Master Willem: “By the gods, fear it, Laurence."</line>
 
 </npc>
 <npc>
-<name>Narrow Minded Man or Skeptical Man is an NPC in Bloodborne. </name>
+<npcName npcList="Narrow_Minded_Man">Narrow Minded Man or Skeptical Man is an NPC in Bloodborne. </npcName>
 
 <description>A skeptical man situated in the building directly across from Arianna's home, is incredibly distrustful of hunters."</description>
 
@@ -2104,7 +2104,7 @@ Drops 3x Pungent Blood Cocktail when changed into a Passive Celestial Emissary i
 <line>I'll spare you one nugget of advice. Beware the blind man. They're the biggest seeds at the bottom of the bloody food chain. And he's here acting like he owns the place! He's not to be trusted. What's he want with all those people anyway? That little weasel has a murky past, I'm tellin' ya!"</line>
 </dialogue>
 </npc><npc>
-<name>The Oedon Chapel Dweller is a friendly NPC that lives in the Cathedral Ward. </name>
+<npcName npcList="Chapel_Samaritan">The Oedon Chapel Dweller is a friendly NPC that lives in the Cathedral Ward. </npcName>
 
 <description>He is blind. Upon speaking to him, he tells the Hunter that the incense in the Chapel Ward keeps the beasts away, and he compels the Hunter to advise anybody looking for a safe place to stay the night to come to the Oedon Chapel. Once survivors start arriving, he comments on what he makes of their character, and how willing they are to converse with him.</description>
 
@@ -2187,7 +2187,7 @@ Drops 3x Pungent Blood Cocktail when changed into a Passive Celestial Emissary i
 I just wanted to help... people...</line>
 </dialogue>
 </npc><npc>
-<name>Gehrman is an NPC in Bloodborne. </name>
+<npcName npcList="Old_Hunter_Gehrman">Gehrman is an NPC in Bloodborne. </npcName>
 
 <description>"An old hunter who welcomes and guides new hunters in the dream, what secrets does he hide?."</description>
 
@@ -2229,7 +2229,7 @@ The night, and the dream, were long..."
 </line></dialogue>
 </npc>
 <npc>
-<name>Patches the Spider is a recurring non-player character in the Souls games (called Patches the Hyena and Trusty Patches in previous games), who makes an appearance as a Nightmare Apostle in Bloodborne. </name>
+<npcName npcList="Patches_The_Spider">Patches the Spider is a recurring non-player character in the Souls games (called Patches the Hyena and Trusty Patches in previous games), who makes an appearance as a Nightmare Apostle in Bloodborne. </npcName>
 
 <description>Patches the Spider, like all his Souls counterparts, is an NPC that promises the player character some form of treasure, only to betray them and put them in extreme peril. Once the Hunter escapes that peril (or dies), and confronts Patches, he will beg for forgiveness, and become a merchant. 
 "Remember: no matter the circumstances, there will always be people willing to push you down a hole."</description>
@@ -2309,7 +2309,7 @@ The time has come again I fear. But if the fates smile upon us, we'll soon meet 
 Farewell, dear friend.</line></dialogue>
 
 </npc><npc>
-<name>Plain Doll is a friendly NPC character in Bloodborne who allows you to level up your stats.</name>
+<npcName npcList="Doll">Plain Doll is a friendly NPC character in Bloodborne who allows you to level up your stats.</npcName>
 
 <description>Just a plain doll."</description>
 
@@ -2384,7 +2384,7 @@ The criteria for triggering this event is unknown.(Seems like coming back to the
 "O Flora, of the moon, of the dream. O little ones, O fleeting will of the ancients... Let the hunter be safe, let him(her) find comfort. And let this dream, his(her) captor... foretell a pleasant awakening... be, one day, a fond, distant memory..."</line></dialogue>
 
 </npc><npc>
-<name>Djura is a non-player character in Bloodborne, found in Old Yharnam. </name>
+<npcName npcList="Retired_Hunter_Djura">Djura is a non-player character in Bloodborne, found in Old Yharnam. </npcName>
 
 <description>"An old veteran hunter who is said to possess amazing skill. No one has seen him in many years, and he looks like he's been on his own for some time." </description>
 
@@ -2442,7 +2442,7 @@ which raises an important question: who set fire to the crosses at the beginning
 "It's you... You're the beast... Can't you see what you're doing? It's madness..."</line>
 </dialogue>
 </npc><npc>
-<name>Adella, Nun of the Healing Church is a non-player character in Bloodborne. </name>
+<npcName npcList="Adella_Nun_Of_The_Healing_Church">Adella, Nun of the Healing Church is a non-player character in Bloodborne. </npcName>
 
 <description>A nun of the Healing Church, kidnapped from outside the Cathedral Ward and taken to Yahar-Gul by the sack-toting beasts known as Snatchers on the night of the Hunt.</description>
 
@@ -2504,7 +2504,7 @@ I'll never leave your side..."</line>
 What have I done..." (does not speak if the moon turned red)</line></dialogue>
 
 </npc><npc>
-<name>Transformed Man or The Suspicious Beggar is an NPC in Bloodborne. He can be sent to Iosefka's Clinic or Oedon Chapel. </name>
+<npcName npcList="Afflicted_Beggar">Transformed Man or The Suspicious Beggar is an NPC in Bloodborne. He can be sent to Iosefka's Clinic or Oedon Chapel. </npcName>
 
 <description>The Suspicious Beggar is first discovered, breathless, standing above several mauled bodies and eating one of them. He asks the Hunter if they were responsible for killing the Wolf Beast below the balcony, then thanks them and asks if they know of any safe places. He'll give you two Pungent Blood Cocktails upon answering with a yes. The Suspicious Beggar is a massive Abhorrent Beast in disguise, and when attacked he will transform into his true form.</description>
 
@@ -2556,7 +2556,7 @@ On arrival, he will kill the first NPC. Afterwards, for every boss you defeat (C
 "Rancid beasts, every last one of us..."</line>
 </dialogue>
 </npc><npc>
-<name>Alfred is a non-playable character in Bloodborne. </name>
+<npcName npcList="Alfred_Hunter_Of_Vilebloods">Alfred is a non-playable character in Bloodborne. </npcName>
 
 <description>Although Alfred is a hunter he is wearing the Executioner Garb which suggests that executioners were once used as hunters. Alfred may be an Executioner and a hunter; or the Executioner order was disbanded after Logarius' martyrdom, (there is no chance that Alfred left the order willingly as he expresses deep love for his master and he is willing to take over his duty and hunt down the last Vileblood). In any case, Executioners were used to hunt down individuals possessing the "tainted" blood of the Cainhurst Vilebloods.</description>
 
@@ -2631,7 +2631,7 @@ It has been an honor, but I must say good-bye. Let us cleanse these tarnished st
 Pray for Master Logarius... in my stead..."</line>
 </dialogue>
 </npc><npc>
-<name>Valtr is a non-player character in Bloodborne. He was added with the Patch 1.07 </name>
+<npcName npcList="Valtr">Valtr is a non-player character in Bloodborne. He was added with the Patch 1.07 </npcName>
 
 <description>A Yharnamite's favourite tale tells of a group of constables, who once chased a Beast back to Yharnam, all but one were killed. It was said he killed and ate the Beast in vengeance. This is implied how Valtr earned his title "Beast Eater".</description>
 
@@ -2665,7 +2665,7 @@ Male Character: "Vermin writhe and squirm... You vile lout."
 Female Character: "Vermin writhe and squirm... You no good wench."</line>
 </dialogue>
 </npc><npc>
-<name>Young Yharnam Girl is a non-player character in Bloodborne.</name>
+<npcName npcList="Young_Girl_And_Older_Sister">Young Yharnam Girl is a non-player character in Bloodborne.</npcName>
 
 <description>You will meet two girls depending on your choices, they are both the daughters of Viola &amp; Father Gascoigne. She asks that you find her mother, Viola, who has gone to look for Father Gascoigne.</description>
 
@@ -2708,7 +2708,7 @@ Interacting with the window at this point:
 "Oh, it's wonderful..."</line>
 </dialogue>
 </npc><npc>
-<name>Simon, the Harrowed is a non-player character in Bloodborne. He was added with The Old Hunters DLC</name>
+<npcName npcList="Simon_the_Harrowed">Simon, the Harrowed is a non-player character in Bloodborne. He was added with The Old Hunters DLC</npcName>
 
 <description>Simon is a rather unique character in the world of Bloodborne, having inhabited several different positions in support of and in opposition to the Healing Church, as a Healing Church Hunter. Most likely originating as a simple Yharnam citizen, Simon hailed from the earlier days of the Healing Church's initially glorious (and eventually disturbing) roots. Like many others before and after him, he was a Church Hunter following in the footsteps of Ludwig the Holy Blade who heeded the call to combat the scourge of beasts. Simon admired Ludwig, like most of his time, and saw him as a hero, even after his transformation into a hideously disfigured and grotesque beast. Going by his dialog, it can be inferred that Simon was familiar with Ludwig both in his human years and well after his downfall.</description>
 
@@ -2785,7 +2785,7 @@ Testament to the old sins…
 …It isn’t fair, it just isn’t fair…</line>
 </dialogue>
 </npc><npc>
-<name>Brador is a non-player character in Bloodborne and is part of The Old Hunters DLC.</name>
+<npcName npcList="Brador">Brador is a non-player character in Bloodborne and is part of The Old Hunters DLC.</npcName>
 
 <description>A Church Assassin, who killed his compatriots and wore their beastly remains as attire, going into hiding in the deeper cells of The Hunter's Nightmare. The Church provided him with a single, soundless bell of death to ensure their secrets would be kept."</description>
 
@@ -2846,7 +2846,7 @@ Well, leave off. What's done is done.
 <!-- Npc end -->
 <!-- Boss start -->
 <boss>
-<name>Blood-Starved Beast (血に渇いた獣 Chi ni kawaita kemono lit. "Blood-thirsty Beast"), also known as the Thirsty Beast, is an optional boss in Bloodborne.</name>
+<bossName bossList="Blood-Starved_Beast">Blood-Starved Beast (血に渇いた獣 Chi ni kawaita kemono lit. "Blood-thirsty Beast"), also known as the Thirsty Beast, is an optional boss in Bloodborne.</bossName>
 
 <description>This malformed beast has had all of the skin peeled off its back, making for a truly gruesome sight. Capable of extremely quick and agile attacks, this erratic and unpredictable enemy is a truly formidable foe, whether you choose to face it alone or with other Hunters at your side.    </description>
 
@@ -2863,7 +2863,7 @@ Ailing Loran Chalice (Layer 2 Boss)
 Hunter's Nightmare (DLC), in a cave with the Gatling Gun hunter</location>
 
 </boss><boss>
-<name>Cleric Beast (聖職者の獣 Seishoku-sha no kemono lit. "Cleric Beast") is a Boss in Bloodborne. While optional, it's likely the first boss that most new players encounter.</name>
+<bossName bossList="Cleric_Beast">Cleric Beast (聖職者の獣 Seishoku-sha no kemono lit. "Cleric Beast") is a Boss in Bloodborne. While optional, it's likely the first boss that most new players encounter.</bossName>
 
 <description>The Cleric Beast is an enormous creature with disfigured horns. With high agility and superhuman strength, this boss should not be taken lightly.
 This creature owes its name to a rumor which states that members of the Healing Church would eventually transform into the most hideous beasts.</description>
@@ -2879,7 +2879,7 @@ The fur on his legs looks unusually like fungus and there are nails jammed into 
 <location place="Central Yharnam">Central Yharnam at the far end of the great bridge.</location>
 
 </boss><boss>
-<name>Darkbeast Paarl (黒獣パール Kokujū Pāru lit. "Black Beast Paarl" ) is a Boss in Bloodborne.</name>
+<bossName bossList="Darkbeast_Paarl">Darkbeast Paarl (黒獣パール Kokujū Pāru lit. "Black Beast Paarl" ) is a Boss in Bloodborne.</bossName>
 
 <description>A malformed beast enveloped in blue lightning. With a long body made of only bones, and a wrinkle-covered skull, people say this beast must be very old, very ancient. Or perhaps, it is a descendant of the city of the plague of beasts.</description>
 
@@ -2891,7 +2891,7 @@ While casting his electric explosion Paarl curves his long neck all the way down
 <location place="Yahar'gul Unseen_Village">Hypogean Gaol</location>
 
 </boss><boss>
-<name>Father Gascoigne (ガスコイン神父 Gasukoin shinpu lit. "Father Gascoigne") is a Boss in Bloodborne;</name>
+<bossName bossList="Father_Gascoigne">Father Gascoigne (ガスコイン神父 Gasukoin shinpu lit. "Father Gascoigne") is a Boss in Bloodborne;</bossName>
 
 <description>In beast form, he becomes stronger, faster and more aggressive, at the cost of his sanity. However, later in the game, multiple details come to light that some beasts, perhaps even all, still have a conscience, meaning their humanity isn't completely gone.
 It's possible to use the Tiny Music Box to stun Gascoigne, but mind that can't interrupt his combos this way, and on the third stun he will assume Beast Form regardless of health. In Beast Form, you will be able to stun him one last time before this strategy stops working altogether.
@@ -2920,7 +2920,7 @@ Father Gascoine hates the sewers. If you have summoned him for the fight against
 "What's that smell? ... The sweet blood, oh, it sings to me. It's enough to make a man sick"</line></dialogue>
 
 </boss><boss>
-<name>Gehrman, the First Hunter (最初の狩人ゲールマン Saisho no kariudo Gēruman lit. "Gehrman, the First Hunter") is a Boss in Bloodborne, and one of the three possible final bosses of the game. </name>
+<bossName bossList="Gehrman_The_First_Hunter">Gehrman, the First Hunter (最初の狩人ゲールマン Saisho no kariudo Gēruman lit. "Gehrman, the First Hunter") is a Boss in Bloodborne, and one of the three possible final bosses of the game. </bossName>
 
 <description>"Hm hm hm ha ha ha... Dear oh dear, what was it? The Hunt? The Blood? Or the horrible Dream? Oh, it doesn't matter... It always comes down to the hunters' helper to clean up after these sort of messes." 
 "Tonight... Gehrman joins the hunt...."</description>
@@ -2934,7 +2934,7 @@ Father Gascoine hates the sewers. If you have summoned him for the fight against
 </dialogue>
 
 </boss><boss>
-<name>Micolash, Host of the Nightmare (悪夢の主ミコラーシュ Akumu no shu Mikorāshu lit. "Micolash, Lord of the Nightmare") is a Boss in Bloodborne.</name>
+<bossName bossList="Micolash_Host_Of_The_Nightmare">Micolash, Host of the Nightmare (悪夢の主ミコラーシュ Akumu no shu Mikorāshu lit. "Micolash, Lord of the Nightmare") is a Boss in Bloodborne.</bossName>
 
 <description>"Ahhh Kos... or some say Kosm.  Do you hear our prayers?" </description>
 
@@ -2964,7 +2964,7 @@ Father Gascoine hates the sewers. If you have summoned him for the fight against
 </dialogue>
 
 </boss><boss>
-<name>Martyr Logarius (殉教者ローゲリウス Junkyōsha Rōgeriusu lit. "Martyr Logarius") is a Boss in Bloodborne.</name>
+<bossName bossList="Martyr_Logarius">Martyr Logarius (殉教者ローゲリウス Junkyōsha Rōgeriusu lit. "Martyr Logarius") is a Boss in Bloodborne.</bossName>
 
 <description>"Acts of goodness are not always wise, and acts of evil are not always foolish, but regardless, we shall always strive to be good".
 When asked about the Vilebloods, Alfred offers some insight on Logarius. According to him, Master Logarius led the Executioners in a charge against the Vilebloods at Castle Cainhurst. Alfred implies that Logarius stayed behind while the rest of the Executioners escaped.</description>
@@ -2979,7 +2979,7 @@ The sword that Logarius uses is a kris, an Indonesian sword with unusual curves.
 <location place="Forsaken Castle Cainhurst">Forsaken Cainhurst Castle</location>
 
 </boss><boss>
-<name>The One Reborn (再誕者 Saitansha lit. "The One Reborn") is a Boss in Bloodborne.</name>
+<bossName bossList="One_Reborn">The One Reborn (再誕者 Saitansha lit. "The One Reborn") is a Boss in Bloodborne.</bossName>
 
 <description>A being reborn, as part of the Mensis Ritual, The One Reborn is a colossal undead mass. He is assisted by red Chime Maidens (killable).</description>
 
@@ -2989,7 +2989,7 @@ The One Reborn resembles Nito from Dark Souls and Dark Souls II's The Rotten. Un
 <location place="Yahar'gul Unseen Village">Advent Plaza</location>
 
 </boss><boss>
-<name>Shadow of Yharnam (ヤーナムの影 Yānamu no kage lit. "Shadow of Yharnam") is a Boss in Bloodborne.</name>
+<bossName bossList="Shadow_Of_Yharnam">Shadow of Yharnam (ヤーナムの影 Yānamu no kage lit. "Shadow of Yharnam") is a Boss in Bloodborne.</bossName>
 
 <description>The Shadow of Yharnam consists of three figures shrouded in black robes. As the fight progresses they are revealed to have been infected with the parasitic snakes that infest the woods and undergo gruesome mutations. They share a symbiotic link with the vipers, either transforming their arms to use them as whips or summoning gigantic serpents to devour victims.They are servants of Queen Yharnam, as their name implies. </description>
 
@@ -2997,7 +2997,7 @@ The One Reborn resembles Nito from Dark Souls and Dark Souls II's The Rotten. Un
 As regular enemies at Mergo's Loft Middle.</location>
 
 </boss><boss>
-<name>Vicar Amelia (教区長エミーリア Kyōku-chō Emīria lit. "Vicar Amelia/Emilia") is a Boss in Bloodborne.</name>
+<bossName bossList="Vicar_Amelia">Vicar Amelia (教区長エミーリア Kyōku-chō Emīria lit. "Vicar Amelia/Emilia") is a Boss in Bloodborne.</bossName>
 
 <description>Vicars were the heads of the Healing Church, as is revealed in the item description for the Gold Pendant, which she can be seen clutching in the cutscene, and even in battle after her grotesque transformation. This would make her the last Vicar, who oversaw the Church as Yharnam fell to the beasthood brought upon it by misuse of the Old Blood. As the player finds her, she is seen praying to the altar in the Grand Cathedral which hold a misshapen skull, presumably that of Laurence, the founder of the Healing Church. Here she kneels awaiting her inevitable transformation, praying, clasping her pendant which existed to carry a reminder that had been all but forgotten, and that may have prevented the madness that led Yharnam to ruin before her eyes: Fear the Old Blood.</description>
 
@@ -3022,7 +3022,7 @@ Remain wary of the frailty of men..."</line>
 </dialogue>
 
 </boss><boss>
-<name>Witch of Hemwick (ヘムウィックの魔女 Hemuuikku no majo lit. "Witch of Hemwick") is a Boss in Bloodborne. It is a special variation of the Eye Collector. </name>
+<bossName bossList="Witch_Of_Hemwick">Witch of Hemwick (ヘムウィックの魔女 Hemuuikku no majo lit. "Witch of Hemwick") is a Boss in Bloodborne. It is a special variation of the Eye Collector. </bossName>
 
 <description>'In the outskirts of Yharnam, the city of gravekeeper witches carved by the sunlight, Hemwick. In its depths, an old, gigantic structure and one Old lady lies in wait. Holding suspicious rituals in the deepest of the night, for that very purpose it is said that she gathers the eyeballs of the living. In the city where unwanted corpses would be gathered and disposed of, her outfit might just be befitting of one such place.</description>
 
@@ -3032,7 +3032,7 @@ She propably comes from the Unseen Village as a few of her kin can be found ther
 <location place="Hemwick Charnel Lane">Hemwick Charnel Lane at the very end of this area.</location>
 
 </boss><boss>
-<name>Amygdala (アメンドーズ Amendōzu - "Amendoze") is an optional Great One Boss in Bloodborne.</name>
+<bossName bossList="Amygdala">Amygdala (アメンドーズ Amendōzu - "Amendoze") is an optional Great One Boss in Bloodborne.</bossName>
 
 <description>Amygdala is a monstrous entity with a spider-like body, a short tail and a head which is is very similar to a part of the brain called the Amygdaloid, with many bulbous eyes that bulge when it uses its arcane attack. It has six-fingered hands on its seven arms, and reptilian talons on its two legs.</description>
 
@@ -3045,7 +3045,7 @@ In some medieval philosophy the amygdala was regarded as the seat of the soul bu
 <location place="Nightmare Frontier">Nightmare Frontier, at the bottom near the shortcut lift that is guarded by a Silverbeast.</location>
 
 </boss><boss>
-<name>Celestial Emissary (星界からの使者 Seikai kara no Shisha lit. "Emissary of the Astral world") is a Great One Boss and Chalice Dungeon Boss in Bloodborne.</name>
+<bossName bossList="Celestial_Emissary">Celestial Emissary (星界からの使者 Seikai kara no Shisha lit. "Emissary of the Astral world") is a Great One Boss and Chalice Dungeon Boss in Bloodborne.</bossName>
 
 <description>The Celestial Emissary is initially disguised as one of the numerous Celestial Minions, and its appearance changes very little when it changes phase, other than significant growth in size and eyes glowing cosmic blue.</description>
 
@@ -3065,7 +3065,7 @@ To this extent, when added with the nature of the Orphanage and its relation to 
 <location place="Cathedral Ward">In the Orphanage, in Upper Cathedral Ward (requires Orphanage Key dropped from enemy).</location>
 
 </boss><boss>
-<name>Ebrietas, Daughter of the Cosmos (星の娘、エーブリエタース Hoshi no musume, Ēburietāsu lit. "Ebrietas, Daughter of the Stars") is a boss and a "Great One" in Bloodborne.</name>
+<bossName bossList="Ebrietas_Daughter_Of_The_Cosmos">Ebrietas, Daughter of the Cosmos (星の娘、エーブリエタース Hoshi no musume, Ēburietāsu lit. "Ebrietas, Daughter of the Stars") is a boss and a "Great One" in Bloodborne.</bossName>
 
 <description>One of the eldritch Great Ones, Ebrietas is a monstrous creature that resembles a slug with squid-like tentacles emerging from her back. Her face appears split in half and is covered in strange growths that resemble fungus that surround her vulnerable head (only red flesh is seen, so it is possible that she has no real mouth) but, despite being a Kin (most of them have bulging and globular yellow eyes), she has only two oval shaped green eyes. Ebrietas also possesses a set of skeletal wings that grant her limited flight.</description>
 
@@ -3080,7 +3080,7 @@ Her design is reminiscent of the real-world blue angel sea slug.</notes>
 <location place="Cathedral Ward">Located in the Altar of Despair in Upper Cathedral Ward.</location>
 
 </boss><boss>
-<name>Mergo's Wet Nurse (メルゴーの乳母 Merugō no uba lit. "Mergo's Wet Nurse") is a Great One Boss in Bloodborne, and one of the three possible Final Bosses.</name>
+<bossName bossList="Mergo's_Wet_Nurse">Mergo's Wet Nurse (メルゴーの乳母 Merugō no uba lit. "Mergo's Wet Nurse") is a Great One Boss in Bloodborne, and one of the three possible Final Bosses.</bossName>
 
 <description>Mergo's Wet Nurse is a strange towering creature with six skeletal arms and two black tattered wings. Strangely enough, the appearance of this being appears to be rather Pthumerian, despite its bizarre features, with its long, black, hooded dress and various jewels.</description>
 
@@ -3092,7 +3092,7 @@ The battle is triggered by going near the baby stroller, so it's possible to cir
 
 <location place="Nightmare Of Mensis">Wet Nurse's Lunarium</location>
 </boss><boss>
-<name>Moon Presence (月の魔物 Tsuki no mamono lit. "Moon Demon/Fiend") is an optional final boss in Bloodborne.</name>
+<bossName bossList="Moon_Presence">Moon Presence (月の魔物 Tsuki no mamono lit. "Moon Demon/Fiend") is an optional final boss in Bloodborne.</bossName>
 
 <description>An eldritch being composed of human flesh and bone, with the exception of its head. It's the Great One which created and rules over the Hunter's Dream. Defeating it will result in the "Childhood Beginning's" ending.</description>
 
@@ -3109,7 +3109,7 @@ The Moon Presence may have another name: Flora. the doll has dialogue saying: "O
 <location place="Hunter's_Dream">Hunter's Dream</location>
 
 </boss><boss>
-<name>Rom, the Vacuous Spider (白痴の蜘蛛ロマ Hakuchi no kumo Roma lit. "Roma, the Idiotic Spider") is a Great One Boss in Bloodborne.</name>
+<bossName bossList="Rom_The_Vacuous_Spider">Rom, the Vacuous Spider (白痴の蜘蛛ロマ Hakuchi no kumo Roma lit. "Roma, the Idiotic Spider") is a Great One Boss in Bloodborne.</bossName>
 
 <description>Despite her title, Rom resembles a gigantic pillbug rather than an arachnid. She has a silverfish-like tail and a bulbous body from which vegetation appears to be growing, possibly Coldblood Flowers. Her face resembles a chunk of pumice and is covered in eyes, suggesting its connection to the Great Ones. Rom is initially non-hostile until provoked, at which point will use powerful magic attacks to defend herself.
 Rom is accompanied by creatures known as the Children of Rom. They resemble actual spiders but with the same shaped head and appear to have blades for legs. These spiders are possibly either the literal spawn of Rom or were created in order to defend the creature.</description>
@@ -3123,7 +3123,7 @@ Rom (白痴の蜘蛛ロマ, Roma, the Idiotic Spider) may have been based on the
 <location place="Byrgenwerth">Moonside Lake, accessed from the Lunarium in Byrgenwerth College.</location>
 
 </boss><boss>
-<name>Undead Giant (死体の巨人 lit. "Corpse Giant") is a Chalice Dungeon Boss in Bloodborne.</name>
+<bossName bossList="Undead_Giant">Undead Giant (死体の巨人 lit. "Corpse Giant") is a Chalice Dungeon Boss in Bloodborne.</bossName>
 
 <description>The Undead Giant is a massive humanoid being that has weapons for hands. It has large, fleshy lumps on specific parts of its body that, when attacked, will burst, causing massive damage to the giant.</description>
 
@@ -3132,7 +3132,7 @@ Rom (白痴の蜘蛛ロマ, Roma, the Idiotic Spider) may have been based on the
 <location place="Pthumeru_Labyrinth">Pthumeru Chalice</location>
 
 </boss><boss>
-<name>Merciless Watcher is a Boss in Bloodborne composed of 3 bosses.  The Watcher Chieftain (守り人の長 Mamoribito no naga lit. "Chief of the Guards") and two Merciless Watcher (Zankokuna mamoribito lit. "Merciless Guard"), one carries a sword and the other one carries a Gun.</name>
+<bossName bossList="Merciless_Watcher">Merciless Watcher is a Boss in Bloodborne composed of 3 bosses.  The Watcher Chieftain (守り人の長 Mamoribito no naga lit. "Chief of the Guards") and two Merciless Watcher (Zankokuna mamoribito lit. "Merciless Guard"), one carries a sword and the other one carries a Gun.</bossName>
 
 <description>Watchers are overweight, pudgy, extremely pale Pthumerians who wield a variety of weapons, ranging from firearms to heated blunt objects and lamps. They will sometimes be covering some areas in cloth. Wrapped with chains for an unseen reason, some watchers have face covering cloth and sometimes take the appearance of a hunting party.</description>
 
@@ -3141,7 +3141,7 @@ Rom (白痴の蜘蛛ロマ, Roma, the Idiotic Spider) may have been based on the
 <location place="Pthumeru Labyrinth">Pthumeru Chalice</location>
 
 </boss><boss>
-<name>Watchdog of the Old Lords (旧主の番犬 Kyūshu no banken lit. "Watchdog of the Old Lords")  is a Boss in Bloodborne.</name>
+<bossName bossList="Watchdog_Of_The_Old_Lords">Watchdog of the Old Lords (旧主の番犬 Kyūshu no banken lit. "Watchdog of the Old Lords")  is a Boss in Bloodborne.</bossName>
 
 <description>It is a large, burning, canine creature. It was first revealed in the Chalice Dungeon gameplay video, and currently can only be found within Chalice Dungeons.</description>
 
@@ -3155,7 +3155,7 @@ The defiled version can have up to 28700+ health, making it have the highest hp 
 <location place="Pthumeru Labyrinth">Chalice Dungeon, third boss of the Pthumerian Labyrinth (Pthumerian Chalice Layer 3)</location>
 
 </boss><boss>
-<name>Beast-Possessed Soul (獣憑き Kemonotsuki lit. "Possessed Beast") is a Boss in Bloodborne.</name>
+<bossName bossList="Beast-Possessed_Soul">Beast-Possessed Soul (獣憑き Kemonotsuki lit. "Possessed Beast") is a Boss in Bloodborne.</bossName>
 
 <description>The Beast-possessed Soul is a horned lupine creature capable of using fire elemental attacks, including fireballs, shockwaves, and whips. It can be encountered as a boss in Chalice Dungeons, but one can also be found at the bottom of the Healing Church Workshop.</description>
 
@@ -3165,7 +3165,7 @@ It is similar in appearance to the Loran Cleric found in Aling Loran Chalice.</n
 <location place="Pthumeru_Labyrinth">Central Pthumeru Chalice</location>
 
 </boss><boss>
-<name>Keeper of the Old Lords (旧主の番人 Kyūshu no ban'nin lit. "Watchman of the Old Lords") is a Boss in Bloodborne.</name>
+<bossName bossList="Keeper_Of_The_Old_Lords">Keeper of the Old Lords (旧主の番人 Kyūshu no ban'nin lit. "Watchman of the Old Lords") is a Boss in Bloodborne.</bossName>
 
 <description>Granted eternal life by the ones she obeys, the Keeper of the Old Lords protects the slumbering Great Ones.</description>
 
@@ -3176,21 +3176,21 @@ Eyes can be found within their flames. Similar eyes can be found in the flames o
 <location place="Pthumeru Labyrinth">Central Pthumeru Chalice</location>
 
 </boss><boss>
-<name>Pthumerian Descendant (トゥメル人の末裔 Toumeru hito no matsuei lit. "Pthumerian Descendant") is a Boss in Bloodborne.</name>
+<bossName bossList="Pthumerian_Descendant">Pthumerian Descendant (トゥメル人の末裔 Toumeru hito no matsuei lit. "Pthumerian Descendant") is a Boss in Bloodborne.</bossName>
 
 <description>The Pthumerian Descendant is one of the few surviving members of Pthumerian nobility, the ancient civilization that constructed the labyrinths. The Descendant is a tall, emaciated humanoid and wears tattered robes. Despite its frail appearance, it is incredibly agile and capable of powerful, rapid attacks with the shotel it wields.</description>
 
 <location place="Pthumeru Labyrinth">Central Pthumeru Chalice</location>
 
 </boss><boss>
-<name>Maneater boar is a Boss and an enemy in Bloodborne.</name>
+<bossName bossList="Maneater_Boar">Maneater boar is a Boss and an enemy in Bloodborne.</bossName>
 
 <description>Maneater Boars are pigs that have been affected by the Beast Plague which has increased their size and given them a taste for human flesh. It has also made them much more aggressive and they will relentlessly pursue anything that enters their territory. </description>
 
 <location place="Hintertomb Chalice">Hintertomb Chalice</location> <!-- Do we have a location for the Hintertomb Chalice? I'm not so sure about the last few labyrinth locations either-->
 
 </boss><boss>
-<name>Bloodletting Beast is a Boss in Bloodborne.</name>
+<bossName bossList="Bloodletting_Beast">Bloodletting Beast is a Boss in Bloodborne.</bossName>
 
 <description>The Bloodletting Beast is a gigantic hulking creature. Its back has been split open and its face is heavily scarred and mutilated, although its still retains a humanoid shape. Even with its colossal size, the beast is capable of stretching its arms to reach opponents and its attacks are incredibly fast.
 In the Pthumeru Ihyll Chalice Dungeon, an even more mutilated version of the beast can be encountered. This version lacks a head, although this does not impair its vision, and it is capable of launching parasites out of the wound on its back. When low on health, a gigantic parasite worm will replace its missing head and attempt to bite opponents, inflicting rapid poison.</description>
@@ -3203,7 +3203,7 @@ The gash is also very similar to the split in the Nightmare Headstone.</notes>
 <location place="Pthumeru Labyrinth">Lower Pthumeru Chalice</location>
 
 </boss><boss>
-<name>Brainsucker is an enemy and can also be found as a Chalice Dungeon boss in Bloodborne.</name>
+<bossName bossList="Brainsucker">Brainsucker is an enemy and can also be found as a Chalice Dungeon boss in Bloodborne.</bossName>
 
 <description>The Brainsucker is a humanoid creature dressed in shabby robes, wearing an amulet, and with a pale-blueish appearance with a slender figure, elongated limbs, and a mass of tentacles emerging from its face. Despite its frail appearance, it can run surprisingly fast and attacks with vicious swipes and punches. Often times he is unstaggerable.</description>
 
@@ -3213,7 +3213,7 @@ There are two variants of the Brainsucker. The hooded version is capable of usin
 <location place="Lower Hintertomb Chalice">Lower Hintertomb Chalice</location>
 
 </boss><boss>
-<name>Forgotten Madman is a Boss in Bloodborne.</name>
+<bossName bossList="Forgotten_Madman">Forgotten Madman is a Boss in Bloodborne.</bossName>
 
 <description>The Forgotten Madman is a former member of the Healing Church that has been driven insane in the Hintertomb Labyrinth. He wears the Madman's attire and wields Ludwig's Holy Blade and Ludwig's Rifle. He is also capable of casting the extremely dangerous A Call Beyond and Augur of Ebrietas, which both deal devastating amounts of Arcane damage.
 During the battle, another Hunter named Madman's Escort and wielding a Kirkhammer and Flamesprayer will arrive to support him, turning the until now fair and tough battle into an uneven fight for survival.</description>
@@ -3225,7 +3225,7 @@ Both Madmen have a faint bluish skin color, reminiscent of the local Pthumerians
 <location>The Forgotten Madman is the boss of Lower Hintertomb Chalice</location>
 
 </boss><boss>
-<name>Pthumerian Elder is a Chalice Dungeon Boss in Bloodborne.</name>
+<bossName bossList="Pthumerian_Elder">Pthumerian Elder is a Chalice Dungeon Boss in Bloodborne.</bossName>
 
 <description>This Pthumerian royal is a magical expert with a big bag of tricks. He can change his staff into almost any weapon and many of his attacks have magical secondary effects, fireslashes, explosions, summoning flaming spears underneath you. They can appear in any root chalice dungeon and are a good source of Cold Blood Gems</description>
 
@@ -3235,7 +3235,7 @@ His transforming weapon could be considered a Pthumerian version of a trick weap
 <location place="Lower Hintertomb Chalice">Lower Hintertomb Chalice</location> <!-- What should I put for the location of labyrinths? -->
 
 </boss><boss>
-<name>Abhorrent Beast is a Chalice Dungeon boss in Bloodborne, and is the true form of the Suspicious Beggar.</name>
+<bossName bossList="Abhorrent_Beast">Abhorrent Beast is a Chalice Dungeon boss in Bloodborne, and is the true form of the Suspicious Beggar.</bossName>
 
 <description>A hunched beast with semblance to humans. It has long dark-grey fur and crooked red spikes in its back that surge with electricity, indicating a potential link to the Darkbeasts.</description>
 
@@ -3246,14 +3246,14 @@ He actually elongates his arm like rubber in most attacks, making it difficult t
 <locationplace = "Ailing Loran Chalice">Ailing Loran Chalice</location>
 
 </boss><boss>
-<name>Loran Silverbeast is a Boss in Bloodborne.</name>
+<bossName bossList="Loran_Silverbeast">Loran Silverbeast is a Boss in Bloodborne.</bossName>
 
 <description>The Loran Silverbeast is identical to the regular Silverbeasts found in the Nightmare Frontier and Nightmare of Mensis, although it is significantly stronger.</description>
 
 <location place="Lower Chalice">Lower Loran Chalice</location>
 
 </boss><boss>
-<name>Yharnam, Pthumerian Queen is a Boss in Bloodborne.</name>
+<bossName bossList="Yharnam_Pthumerian_Queen">Yharnam, Pthumerian Queen is a Boss in Bloodborne.</bossName>
 
 <description>Yharnam was the Queen of the ancient Pthumerian civilization and mother to the child Mergo. She wears a white, bloodstained dress with a veil to conceal her face, although she removes it when the player finds her in the Nightmare of Mensis. Like other Pthumerians, she has black eyes with no pupils and skin resembling a shriveled corpse.
 When confronted in the Pthumeru Ihyll Chalice Dungeon, her dress is completely white but becomes bloodier and bloodier as the fight progresses. Her hands are initially chained but she breaks free and wields a dagger in combat. When low on health, she will use her blood to empower her dagger, making it resemble a sword.
@@ -3267,7 +3267,7 @@ Yharnam, Pthumerian Queen can be seen in the Nightmare of Mensis, standing outsi
 <location place="Great Pthumeru Ihyll">Great Pthumeru Ihyll Chalice</location>
 
 </boss><boss>
-<name>Ludwig, The Accursed (醜い獣、ルドウイーク Minikui kemono, Rudouīku lit. "Ludwig, the Unsightly/Hideous Beast") is a Boss in The Old Hunters Expansion for Bloodborne.</name>
+<bossName bossList="Ludwig_The_Holy_Blade">Ludwig, The Accursed (醜い獣、ルドウイーク Minikui kemono, Rudouīku lit. "Ludwig, the Unsightly/Hideous Beast") is a Boss in The Old Hunters Expansion for Bloodborne.</bossName>
 
 <description>He was also the founder of the Healing Church Workshop, and first hunter of the Church. He is also known under his official title; Ludwig, The Holy Blade (聖剣のルドウイーク Seiken no Rudouīku lit. "Ludwig, The Holy Blade"), and adopts this title in the second phase of his fight. </description>
 
@@ -3309,7 +3309,7 @@ Does the nightmare never end?!"</line>
 </dialogue>
 
 </boss><boss>
-<name>Orphan of Kos (ゴースの遺子 Gōsu no ishi lit. "Orphan of Gos") is a Great One Boss in Bloodborne. It was added with The Old Hunters DLC.</name>
+<bossName bossList="Orphan_Of_Kos">Orphan of Kos (ゴースの遺子 Gōsu no ishi lit. "Orphan of Gos") is a Great One Boss in Bloodborne. It was added with The Old Hunters DLC.</bossName>
 
 <description>The orphan appears to be a Human/Great One offspring of the deceased Kos, the Orphan is a tall, skeletal humanoid. Its mouth is permanently fixed in a rictus grin and it constantly screams throughout the fight. A thin membrane is draped across its back like a cape, this transforms into a pair of wings when the Orphan enters its second form.
 "Mercy for the poor wizened child, mercy."</description>
@@ -3323,7 +3323,7 @@ There are many snail women facing the boss gate in a prayer position.</notes>
 <location place="Coast">Coast</location>
 
 </boss><boss>
-<name>Lady Maria of the Astral Clocktower (時計塔のマリア Tokei-tō no Maria lit. "Maria of the Clocktower") is a Boss in Bloodborne. She was added with The Old Hunters DLC. </name>
+<bossName bossList="Lady_Maria_Of_The_Astral_Clocktower">Lady Maria of the Astral Clocktower (時計塔のマリア Tokei-tō no Maria lit. "Maria of the Clocktower") is a Boss in Bloodborne. She was added with The Old Hunters DLC. </bossName>
 
 <description>According to both her equipment and her weapon, Lady Maria of the Astral Clocktower was a citizen of Cainhurst, and is directly related to Queen Annalise. However, she was one of the first hunters to join the nightly hunt, studying under Gehrman, the First Hunter. Despite being a citizen of Cainhurst, who relished in their extravagant uses of blood, she favored her Rakuyo, which required dexterity and skill rather than blood to wield effectively.
 At an unknown point in time, Maria forfeited her beloved weapon, tossing it down a well when she could no longer stomach it, and seemingly killed herself. Her consciousness was then pulled into the Hunter's Nightmare.
@@ -3342,7 +3342,7 @@ Her Rakuyo can be interpreted as mimicking the hands of the Astral Clock. Some o
 </dialogue>
 
 </boss><boss>
-<name>Living Failures (失敗作たち Shippai saku tachi lit. "Failed Creations") is a Boss in Bloodborne. This was added with The Old Hunters DLC.</name>
+<bossName bossList="Living_Failures">Living Failures (失敗作たち Shippai saku tachi lit. "Failed Creations") is a Boss in Bloodborne. This was added with The Old Hunters DLC.</bossName>
 
 <description>The Living Failures are massive, slender, alien-like creatures. They are light bluish in color and their arms are curiously elastic. Although having a humanoid stature, they are severely deformed. Their heads are extremely large and misshaped, appearing to fold over itself and connect to its shoulders. It lacks any recognizable facial features. As they cast Arcane attacks, they get two glowing dot eyes, however these float in front of their face and are not physically connected to their head. Their arms are extremely long, almost being able to touch the floor in a standing position. They have large hands, each with 6 fingers. Altogether, it is approximately 2.5 times as taller than the Hunter. They strongly resemble the Celestial Emissary boss found in the Orphanage as well as the Enlarged Head Patients found throughout the Research Hall. </description>
 
@@ -3354,7 +3354,7 @@ Their meteors (or comets, as they look like they're made of ice) can produce ver
 <location place="Research Hall">Research Hall</location>
 
 </boss><boss>
-<name>Laurence, The First Vicar (初代教区長ローレンス Shodai kyōku-chō Rōrensu lit. "Laurence, The First Vicar") is a Boss in Bloodborne. He was added with The Old Hunters DLC. </name>
+<bossName bossList="Laurence_The_First_Vicar">Laurence, The First Vicar (初代教区長ローレンス Shodai kyōku-chō Rōrensu lit. "Laurence, The First Vicar") is a Boss in Bloodborne. He was added with The Old Hunters DLC. </bossName>
 
 <description>A Cleric Beast, but somehow burning with an inextinguishable flame. Oddly enough, when you first approach it to acquire the Eye Pendant, it has no reaction. Laurence will remain motionless until the player has acquired Laurence's Skull.
 Once Laurence has 40% of his health remaining, he tears himself apart and begins crawling towards the player, destroying his legs in the process. He constantly 'bleeds' lava out of his torso and also gains the ability to spew it from his mouth.</description>

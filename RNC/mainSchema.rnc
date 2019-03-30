@@ -22,13 +22,16 @@ item = element item{text}
 area = element area{text}
 #area specific elements
 
-npc = element npc{name, description, notes, location, dialogue?, trivia?}
-name = element name{text}
+npc = element npc{npcName, description, notes, location, dialogue?, trivia?}
+npcName = element npcName{npcList, text}
 dialogue = element dialogue{line+} # the whole dialogue section
 line = element line{text} # each individual discourse
 #npc specific elements
-boss = element boss{name, description, notes?, location, dialogue?, trivia?}
+boss = element boss{bossName, description, notes?, location, dialogue?, trivia?}
+bossName = element bossName{bossList, text}
 #boss specific elements
+
+
 
 #universal(ish) elements
 description= element description{text}
@@ -51,5 +54,5 @@ keyItemList = attribute keyItemList { "Astral_Clocktower_Key" | "Balcony_Key" | 
 toolList = attribute toolList { "Blacksky_Eye" | "Blood_Gem_Workshop_Tool" | "Empty_Phantasm_Shell" | "Executioner's_Gloves" | "Messenger's_Gift" | "Monocular" | "Old_Hunter_Bone" | "Rune_Workshop_Tool" | "Tiny_Tonitrus" | "A_Call_Beyond" | "Workshop_Haze_Extractor" | "Beast_Roar" | "Choir_Bell" | "Madaras_Whistle" }
 place = attribute place { "Yharnam" | "Hunter's_Dream" | "Chalice_Dungeons" | "Iosefka's_Clinic" | "Central_Yharnam" | "Cathedral_Ward" | "Old_Yharnam" | "Healing_Church_Workshop" | "Upper_Cathedral_Ward" | "Forbidden_Woods" | "Byrgenwerth" | "Hemwick_Charnel_Lane" | "Yahar'gul Unseen_Village" | "Forsaken_Castle_Cainhurst" | "Abandoned_Old_Workshop" | "Nightmare_Frontier" | "Lecture_Building" | "Nightmare_Of_Mensis" | "The_Hunter's_Nightmare" | "Research_Hall" | "Fishing_Hamlet" | "Pthumeru_Labyrinth" | "Ailing_Loran" | "Isz" }
 lamp = attribute lamp { "1st_Floor_Sickroom" | "Central_Yharnam" | "Great_Bridge" | "Tomb_Of_Oedon" | "Cathedral_Ward" | "Grand_Cathedral" | "Old_Yharnam" | "Church_Of_The_Good_Chalice" | "Graveyard_Of_The_Darkbeast" | "Upper_Cathedral_Ward" | "Altar_Of_Despair" | "Lumenflower_Gardens" | "Forbiden_Woods" | "Forbidden_Grave" | "Bygenwerth" | "Moonside_Lake" | "Hemwick_Charnel_Lane" | "Witch's_Abode" | "Advent_Plaza" | "Hypogean_Gaol" | "Yahar'gul_Chapel" | "Logarius's_Seat" | "Vileblood_Queen's_Chamber" | "Abandoned_Old_Workshop" | "Nightmare_Frontier" | "Amygdala's_Chamber" | "Lecture_Building" | "Lecture_Building_2nd_Floor" | "Nightmare_Of_Mensis" | "Mergo's_Loft_Base" | "Mergo's_Loft_Middle" | "Wet_Nurse's_Lunarium" | "Hunter's_Nightmare" | "Nightmare_Church" | "Underground_Corpse_Pile" | "Nightmare_Grand_Cathedral" | "Lumenwood_Garden" | "Astral_Clocktower" | "Fishing_Hamlet" | "Lighthouse_Hut" | "Coast" }
-npcList = attribute npcList { "Annalise_Queen_Of_The_Vilebloods" | "Arianna_Woman_Of_The_Night" | "Blood_Minister" | "Iosefka" | "Eileen_The_Crow" | "Gilbert" | "Lonely_Old_Woman" | "Provost_Willem" | "Narrow_Minded_Man" | "Chapel_Samaritan" | "Old_Hunter_Gehrman" | "Patches_The_Spider" | "Doll" | "Retired_Hunter_Djura" | "Adella_Nun_Of_The_Healing_Church" | "Afflicted_Beggar" | "Alfred_Hunter_Of_Vilebloods" | "Valtr" | "Young_Girl_And_Older_Sister" }
-bossList = attribute bossList { "Abhorrent_Beast" | "Amygdala" | "Beast-Possessed_Soul" | "Blood-Starved_Beast" | "Bloodletting_Beast" | "Celestial_Emissary" | "Cleric_Beast" | "Darkbeast_Paarl" | "Ebrietas_Daughter_Of_The_Cosmos" | "Father_Gascoigne" | "Gehrman_The_First_Hunter" | "Keeper_Of_The_Old_Lords" | "Loran_Darkbeast" | "Loran_Silverbeast" | "Martyr_Logarius" | "Merciless_Watcher" | "Mergo's_Wet_Nurse" | "Micolash_Host_Of_The_Nightmare" | "Moon_Presence" | "One_Reborn" | "Pthumerian_Descendant" | "Pthumerian_Elder" | "Rom_The_Vacuous_Spider" | "Shadow_Of_Yharnam" | "Undead_Giant" | "Vicar_Amelia" | "Watchdog_Of_The_Old_Lords" | "Witch_Of_Hemwick" | "Yharnam_Pthumerian_Queen" | "Ludwig_The_Holy_Blade" | "Orphan_Of_Kos" | "Lady_Maria_Of_The_Astral_Clocktower" | "Living_Failures" | "Laurence_The_First_Vicar" }
+npcList = attribute npcList { "Annalise_Queen_Of_The_Vilebloods" | "Arianna_Woman_Of_The_Night" | "Blood_Minister" | "Iosefka" | "Eileen_The_Crow" | "Gilbert" | "Lonely_Old_Woman" | "Provost_Willem" | "Narrow_Minded_Man" | "Chapel_Samaritan" | "Old_Hunter_Gehrman" | "Patches_The_Spider" | "Doll" | "Retired_Hunter_Djura" | "Adella_Nun_Of_The_Healing_Church" | "Afflicted_Beggar" | "Alfred_Hunter_Of_Vilebloods" | "Valtr" | "Young_Girl_And_Older_Sister"|"Simon_the_Harrowed"|"Brador" }
+bossList = attribute bossList { "Abhorrent_Beast" | "Amygdala" | "Beast-Possessed_Soul" | "Blood-Starved_Beast" | "Bloodletting_Beast" | "Celestial_Emissary" | "Cleric_Beast" | "Darkbeast_Paarl" | "Ebrietas_Daughter_Of_The_Cosmos" | "Father_Gascoigne" | "Gehrman_The_First_Hunter" | "Keeper_Of_The_Old_Lords" | "Loran_Darkbeast" | "Loran_Silverbeast" | "Martyr_Logarius" | "Merciless_Watcher" | "Mergo's_Wet_Nurse" | "Micolash_Host_Of_The_Nightmare" | "Moon_Presence" | "One_Reborn" | "Pthumerian_Descendant" | "Pthumerian_Elder" | "Rom_The_Vacuous_Spider" | "Shadow_Of_Yharnam" | "Undead_Giant" | "Vicar_Amelia" | "Watchdog_Of_The_Old_Lords" | "Witch_Of_Hemwick" | "Yharnam_Pthumerian_Queen" | "Ludwig_The_Holy_Blade" | "Orphan_Of_Kos" | "Lady_Maria_Of_The_Astral_Clocktower" | "Living_Failures" | "Laurence_The_First_Vicar"|"Maneater_Boar"|"Brainsucker"|"Forgotten_Madman" }
