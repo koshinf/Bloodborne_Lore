@@ -214,7 +214,7 @@
         The discovery of blood made their dream of evolution a reality.
         Metamorphosis, and the excesses and deviation that followed, were only the beginning.
         </description>
-        <locationArea place = "Forbidden Woods">
+        <locationArea place = "Forbidden_Woods">
         Forbidden Woods (9 on map).
         Nightmare Frontier in a cave across and to the right of the stone bridge. When facing the giant's back, take a right turn and go down.
         Pthumeru Ihyll Root Chalice (random chance).
@@ -675,8 +675,8 @@
         Gain more Blood Echoes.
         The Great Ones that inhabit the nightmare are sympathetic in spirit, and often answer when called upon.
         </description>
-        <locationArea place="Hypogean Gaol">
-        In Hypogean Gaol between 2 of the Snatchers near your lantern.
+        <locationArea>
+        In <location lamp='Hypogean_Gaol'>Hypogean Gaol</location> between 2 of the Snatchers near your lantern.
         In Mergo's Loft at the bottom of the spiral staircase where you fought Micolash.
         Stand in front of Mother Brain's eye in Nightmare of Mensis and use the "Make Contact" gesture. (Note: it takes around 25-35 seconds for the rune to appear). To get there, start at the Mergo's Loft Middle Lamp and run up the stairs past the crow dogs and ride the single cage elevator down. As you are riding it down, you will see an open window and you must roll-dive through it. Continue along this path past the enemies until you see a single green lever on a narrow walkway to the right of the little hole you drop through (don't drop down the hole). Pull the lever and a cut-scene will play out with Mother Brain falling through a pit. Now you must leave this area and go back to the first area past the spider mini-bosses and the hunter on the bridge. Once you get here, go down the stairs past the dwarves into the big hall will giant pits in the floor. Go past the single giant armored dwarf and you will see a single green elevator cage next to a huge pit in the ground. Climb the elevator all the way down to the black abyss. You can step out and you will not die. You will hear some breathing sounds and you will faintly see an outline of Mother Brain you dropped earlier. Go up to it and perform the "Make Contact" gesture. Stay in this pose for about 30 seconds, after which your hands will move position and you will receive the final and most powerful "Moon" rune. You are free to kill Mother Brain after this and you will receive a Living String (Chalice Dungeon
         </locationArea>
@@ -701,8 +701,8 @@
         Human or not, the oozing blood is a medium of the highest grade, and the essence of the formless Great One.
         Both Oedon, and Oedon's inadvertent worshippers, surreptitiously seek the precious blood.
         </description>
-        <locationArea place="Hypogean Gaol">
-        (+1) is obtained by killing Adella the Nun at Hypogean Gaol or sending her to Oedon's Chapel and killing her there. A second method is to send her to Iosefka's Clinic and collecting the heir rune from a kin.
+        <locationArea>
+        (+1) is obtained by killing Adella the Nun at <location>Hypogean Gaol</location> or sending her to Oedon's Chapel and killing her there. A second method is to send her to Iosefka's Clinic and collecting the heir rune from a kin.
         (+2) is obtained by killing Iosefka at Iosefka's Clinic, BEFORE the blood moon. (But you lose one third of the umbilical cord)
         (+3) is obtained from a Pthumeru Ihyll Root Chalice (random chance)
         </locationArea>
@@ -3243,7 +3243,7 @@ His transforming weapon could be considered a Pthumerian version of a trick weap
 The Beast form also resembles the one from Beast's Embrace rune, it could the reason why the Beggar remained sentient even after the transformation.
 He actually elongates his arm like rubber in most attacks, making it difficult to guess his range.</notes>
 
-<locationplace = "Ailing Loran Chalice">Ailing Loran Chalice</location>
+<location place = "Ailing Loran Chalice">Ailing Loran Chalice</location>
 
 </boss><boss>
 <bossName bossList="Loran_Silverbeast">Loran Silverbeast is a Boss in Bloodborne.</bossName>
