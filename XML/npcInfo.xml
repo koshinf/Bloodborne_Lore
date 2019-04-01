@@ -1,6 +1,7 @@
-﻿
-<lore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- xsi:noNamespaceSchemaLocation="npcInfo.xml">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../RNC/mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<lore>
+
 <!-- NPCs, "</npc><npc>" denotes the beginning of an entry.-->
 <equipment></equipment> 
 <area></area>
