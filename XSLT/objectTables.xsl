@@ -19,8 +19,13 @@
            <xsl:variable name="rootNode" select="."/>
            <!--ebb: This is a local variable (only applies inside this template rule). We need a variable for the root element of your XML input file, because we'll be moving off the XML tree in the for-each loop below.  -->
            <xsl:for-each select="$locations">
-    <h1 id="current()">
-        <!--ebb: I set up an xsl:choose to help deal with the apostrophe in the location name of Yahar'Gul, which complicated my storing it in the location variable above. Note that the value of current() is the specific value being processed in the xsl:for-each loop. It's the same thing as the $i range variable in an XQuery for-loop: for $i in $sequence. -->
+               <xsl:variable name="apos">
+                   <xsl:text>'</xsl:text>
+               </xsl:variable>
+               <h1 id="{tokenize(current(), '\s+')[1]}">
+        <!--ebb: I set up an xsl:choose to help deal with the apostrophe in the location name of Yahar'Gul, which complicated my storing it in the location variable above. Note that the value of current() is the specific value being processed in the xsl:for-each loop. It's the same thing as the $i range variable in an XQuery for-loop: for $i in $sequence. 
+        Note: I wasn't crazy about using the entire name with white spaces in this @id, but it can work as a link target from your map to this portion of the page. I tinkered a bit with tokenize() and just cut off the name before the first space character; to my surprise the tokenize function with [1] (taking the first cut) before a \s+ did a cut on the apostrophe in Yahar'Gul (yay! thanks XPath specs. ). 
+        -->
         <xsl:choose>
             <xsl:when test="current() = 'Yahar'"><xsl:text>Yahar'Gul, Unseen Village</xsl:text>
             </xsl:when>       <xsl:otherwise><xsl:value-of select="current()"/></xsl:otherwise>
