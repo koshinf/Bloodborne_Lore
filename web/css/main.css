@@ -5,6 +5,7 @@
 	text-align: right;
 	background-color: gray;
 	margin: 0 auto;
+	border-bottom: 1em solid #333;
 }
 
 img.header-img {
@@ -12,13 +13,17 @@ img.header-img {
 	height: 20em;
 	border: none;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 /* Body */
 body{
-    background-color:gray;
+    background-image: url("../images/backgroundIMG.jpg");
 	margin: 0;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* Navbar */
