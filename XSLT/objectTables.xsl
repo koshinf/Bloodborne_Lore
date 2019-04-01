@@ -19,6 +19,7 @@
            <xsl:variable name="rootNode" select="."/>
            <!--ebb: This is a local variable (only applies inside this template rule). We need a variable for the root element of your XML input file, because we'll be moving off the XML tree in the for-each loop below.  -->
            <xsl:for-each select="$locations">
+               <!--ebb: Here we are generating a distinct id for each location, by cutting off either the first or the last piece of the name. We have an issue with two places beginning with the word "Nightmare" so we're setting up an xsl:choose to deal with that special case.  -->
     <xsl:variable name="locId">
         <xsl:choose>
             <xsl:when test="contains(current(), 'nightmare')">
@@ -32,14 +33,22 @@
     </xsl:variable>
          <div id="div_{$locId}">      
                <h1 id="{$locId}">
-        <!--ebb: I set up an xsl:choose to help deal with the apostrophe in the location name of Yahar'Gul, which complicated my storing it in the location variable above. Note that the value of current() is the specific value being processed in the xsl:for-each loop. It's the same thing as the $i range variable in an XQuery for-loop: for $i in $sequence. 
-        Note: I wasn't crazy about using the entire name with white spaces in this @id, but it can work as a link target from your map to this portion of the page. I tinkered a bit with tokenize() and just cut off the name before the first space character; to my surprise the tokenize function with [1] (taking the first cut) before a \s+ did a cut on the apostrophe in Yahar'Gul (yay! thanks XPath specs. ). 
+                   <!--ebb: I set up an xsl:choose below this to help deal with the apostrophe in the location name of Yahar'Gul, which complicated my storing it in the location variable above. Note that the value of current() is the specific value being processed in the xsl:for-each loop. It's the same thing as the $i range variable in an XQuery for-loop: for $i in $sequence. 
+      
         -->
-        <xsl:value-of select="current()"/>
+                   
+      <xsl:choose>
+          <xsl:when test="current() = 'yahar'">
+              <xsl:text>Yahar'Gul, Unseen Village </xsl:text>
+          </xsl:when>
+<!--ebb: Below, we process every other location name. Remember, we lower-cased these above in the $locations variable, so with the complex set of functions below, I am tokenizing the location names on white spaces, and upper-casing the first letter of each substring. That will restore the capitalization! You may just want to remove one capitalized word "Of" in your output of h1 elements. -->
+          <xsl:otherwise><xsl:value-of select="for $i in tokenize(current(), '\s+') return concat(substring($i, 1, 1) ! upper-case(.), substring($i, 2)) "/>
+          </xsl:otherwise>
+      </xsl:choose>
     </h1>  
       <section id="caryllRune">
           <h2>Caryll Rune</h2>
-     
+     <!--ebb: You might want to create an HTML table here, by setting the table and its header cells at this level. -->
                <xsl:apply-templates  select="$rootNode//caryllRune[locationArea[contains(. ! lower-case(.) ! normalize-space(.), current())]]"/>
       </section>
       <section id="Attire">
@@ -88,7 +97,7 @@
         <h2><xsl:apply-templates select="runeName"/></h2>
         <h3>Description: </h3>
         <p><xsl:apply-templates select="description/normalize-space(.)"/></p>
-        <!--ebb: My structure here is only suggestive, using a sequence of HTML heading elements for size. You could code this however you wish. add more here to output the trivia, notes, etc.  -->
+        <!--ebb: My structure here is only suggestive, and should be changed to your table structure. You should probably be generating a table row here with table cells to contain the rune name, its description, anything else you want to output at this point. -->
     </xsl:template>   
 
 </xsl:stylesheet>
