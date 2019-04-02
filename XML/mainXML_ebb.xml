@@ -1703,13 +1703,1667 @@
 <!-- Area end -->
 <!-- Npc start -->
 <npc>
+<npcName npcList="Annalise_Queen_Of_The_Vilebloods">Vileblood Queen Annalise is a non-player character in Bloodborne. </npcName>
+
+<description>Annalise is the queen and sole survivor of the Vilebloods, vampiric aristocrats born from forbidden blood who once lived in Cainhurst Castle. With the exception of Queen Annalise herself, the Vilebloods were murdered during a genocidal invasion by Logarius and his band of Executioners; Logarius then sealed the queen in an illusionary prison and assumed the role of its warden, repelling any who ventured into the castle and threatened to break the seal.</description>
+
+<notes>If you select "Kneel" in the circle of candles in front of her and swear an oath, you can join her Covenant: the Cainhurst Vilebloods.
+Upon joining the Covenant you'll receive the Cainhurst Badge, making the Cainhurst Set and Chikage available at the Bath Messenger shop in the Hunter's Dream.
+Offering 1 Blood Dreg awards the "Deep Respect" gesture.
+She will dismiss you if you try approaching and talking to her without kneeling, regardless of whether you are already a Vileblood or no.
+Drops: If killed, will give 4,200 Blood Echoes and Queenly Flesh.
+If killed, she can be revived by taking the Queenly Flesh to the Altar of Despair in Upper Cathedral Ward after defeating Ebrietas, Daughter of the Cosmos.
+Lady Maria and Annalise are distant relatives.
+In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.</notes>
+
+
+<location place="Forsaken_Castle_Cainhurst">Castle Cainhurst</location>
+
+<dialogue><line>First time:
+Visitor… I claim no subjects, but here lieth Our throne. Kneel afore us… …or get thee gone.
+(Not kneeling) Such impudence. Defiled, are We, yet still Queen. We shall not give audience to an ill-mannered beast. Get thee gone.
+(Kneeling) Visitor… Moon-scented hunter… I am Annalise, Queen of Castle Cainhurst. Ruler of the Vilebloods, and sworn enemy of the church. Yet, Our people are murdered, and We are prisoner to this wretched mask. What is it thou’rt in search of?</line>
+
+<line>Swear Oath to the Vilebloods:
+Well, well… An odd hunter thou art indeed… We’ve tired of these piteous nights… Share in Our plight, and take oath against the church. If thou wouldst this path walk… …I prithee partake of my rotted blood.
+(Swear Vileblood Oath) Very well. Drink deep of Our blood. Feel the spreading corruption burn. Now, thou’rt too a Vileblood. We two, the very last on this earth. We await thy return. For the honor of Cainhurst.
+(Refuse) "A wise choice...There is no more to be said...away from mine gaze.
+(Leaving, then returning) "Speak thy mind."
+(Not kneeling) Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.</line>
+
+<line>Giving Blood Dregs:
+Closest of kin, last of Our kind. What is thy wish?
+(Offer Blood Dreg) Thy gift pleases Us. Let this reward be thine. Indulge thyself in Our tainted blood.
+(Leave) We await thy return. For the honour of Cainhurst.</line>
+
+<line>Showing her the Ring of Betrothal:
+Closest of kin, bearer of Our blood. What is thy wish?
+(Propose Marriage) Speak not, those words. We have little need of a consort. Such a path would belike lead to further ruin. Thou'rt dear to Us. We would see no harm befall thee...
+(Propose again) Ahh, still thy honeyed tongue... The thought alone sufficeth. Thy worth is too great. Now, speak no more in the matter.
+(Propose again..again)Honestly!
+(Leave) We await thy return. For the honour of Cainhurst.</line>
+
+<line>When attacking her:
+Enough. If only Our life was so easily forfeit... Grieve not, for Us.
+How sad this is. If only Our life was so easily forfeit...
+(Not kneeling) Kneel.
+(Kneeling) Well, well. Thou wearest a second face. It matters not. Our flesh is undying. Speak thy mind.</line>
+
+<line>After reviving her (killed by player):
+Arrant fool. Vileblood or no, forget not; We are thy Queen. Bend the knee.</line>
+
+<line>After acquiring and creating the Great Pthumeru Ihyll Chalice:
+(Greeting) Closest of kin, last of our kind. I welcome thee. What is thy wish
+(Leaving) We await thy return. For the honour of Cainhurst.
+(Leaving if Blood Dreg was given) We await thy return... This chamber was made not for one alone... For the honour of Cainhurst.</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Arianna_Woman_Of_The_Night">Arianna, Woman of Pleasure is a non-player character in Bloodborne. </npcName>
+
+<description>A prostitute residing in one of the Cathedral Ward's darker corners. You can speak to her at her home in the Cathedral Ward as soon as you reach the area, but she won't seek sanctuary until you have defeated at least one boss from either Cathedral Ward, Old Yharnam, Hemwick Charnel Lane or Yahar' Gul the Unseen Village.</description>
+
+<notes>Arianna falls under the prophecy that is found in Byrgenwerth, "... And when the Great Ones descend, a womb will be blessed with child."
+So, not only does Arianna give birth to a "Child of Blood" like the Queen, the Blood of Arianna also has special properties like the Queen's.
+Arianna wears the Noble Dress found in Castle Cainhurst indicating she is a descendant of the nobles that lived there. (Although it is strange that when the hunter accepts Vileblood rune Queen Annalise says there are only two Vilebloods now, the hunter and herself, never mentioning Arianna at all. Given the properties of her blood and the fact that she wears Noble Dress one may think she is closely related to Vilebloods bloodline. Or maybe only Vilebloods killing other hunters are considered to be true Vilebloods by the Queen and other Vilebloods are of no use and importance to her?)
+Arianna's Blood has a description alluding to her blood having "forbidden" properties (forbidden according to the Healing Church, ie Vileblood)
+In the banquet hall where the Noble Dress is found, there is a portrait of a woman in a crown holding a blonde infant, suggesting a connection between Annalise and Arianna.</notes>
+
+<location place="Cathedral_Ward">Cathedral Ward</location>
+
+<dialogue><line>Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts, so if that's what you're here for, I'll leave you to your own devices. If that doesn't do it, come back in the morning, darling." - for male hunter.
+"Oh, my, what a queer scent... But I'd take it over the stench of blood and beasts any day. What is it, then? I'm off during hunts and besides this is no place for ladies. Wouldn't want to drag you down too..." [laughs] - for female hunter.
+"Oh, thank goodness. You're a hunter, right? Might you know of a safe place? The night is long and I've very little of the incense left... Please, there must be some nice place to run off to?" (Gives option of telling her)
+"Oh, thank you, darling. Maybe I'll see you there!"
+"Oh, hello dear. You weren't lying, this is a safe place. Thank you. I am in your debt." (Gives Curtsy)
+"I'd like to tender my thanks, but I haven't much to offer...all I can give is my blood. But would you even take a whore's blood?"</line>
+
+<line>(If refused, or already carrying special blood): "Oh, you. I'm sorry. I'm afraid I can't help you. Unless you've had a change of heart?"
+"Oh, hello. The whole town's turned, has it? Quite a big family, aren't we? Though I'm afraid I seem to be the black sheep... Back for my blood, I presume."
+"Oh, hello. Come closer. I'm always happy to help."
+</line>
+<line>(after killing Rom, the Vacuous Spider) [hunched over, clutching herself] "Oh, hello there. Forgive me, I'm a bit out of sorts. So, no blood today, okay?"
+"Oh...there's something wrong with me..." [moans]</line>
     
+<line>(After killing Micolash, host of the Nightmare, having given birth) "It can't be...this is a nightmare..." [sobs and laughs]</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Blood_Minister">Blood Minister is a non-player character in Bloodborne.</npcName> 
+
+<description>This enigmatic person gives you a contract to sign (which essentially sends you to character creation).
+Once the contract has been officialized, he begins a blood transfusion process using Yharnam blood.
+The process begins a strange, nightmare-like scenerio involving a Wolf Beast and the first sighting of the Messengers.
+Afterwards, the player character (now officially a Hunter) gets off the operating table, and the night of the hunt is about to begin...</description>
+
+<notes>Blood Minister corpse can be found in hunter's nightmare (DLC). You can locate him in first floor of the house, before you set foot in river of blood. (Dead hunter in wheelchair that explodes when you come near him) Everything checks out, the wheelchair, sleeves, his face and his hat.
+As Gehrman suggested, there are multiple Blood Ministers throughout Yharnam.
+Who they serve, if there are any still alive, is unknown at this point.
+Gehrman also mentions that most Blood Ministers nowadays don't recall the Hunters anymore.
+If the above is true, that would make this particular Blood Minister even more special since he the reason you become a Hunter in the first place.
+This character is more or less identical to some wheelchair enemies encountered throughout Yharnam, although none of them wears the signature hat.
+One of the other distinguishing features is that the Blood Minister appears to have no eyes.
+This is a foreshadowing of future events to come.
+The hat worn by the Blood Minister has a similar appearance to what the Old Hunters wore in the past.</notes>
+
+<location place="Iosefka's_Clinic">This character is located in Iosefka's Clinic though he disappears after the opening cinematic.
+Can be found in hunter's nightmare (DLC), dead hunter that explodes when you come near him</location>
+
+<dialogue>
+<line>Upon Starting the Game:
+Oh, yes... Paleblood... Well, you've come to the right place. Yharnam is the home of blood ministration. You need only unravel its mystery. But, where's an outsider like yourself to begin? Easy, with a bit of Yharnam blood of your own... But first, you'll need a contract...</line>
+
+<line>Character Creation:
+Good. All signed and sealed. Now let's begin the transfusion. Oh, don't you worry. Whatever happens... You may think it all a mere bad dream... </line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Iosefka">Iosefka is a non-player character in Bloodborne and owner of Iosefka's Clinic where the player begins their journey.</npcName>
+
+<description>There are, in fact, two Iosefkas: The real one and an imposter.
+The real one is the one you first meet through the door. She is kind, compassionate and gentle. When the player attacks her door repeatedly she kindly pleads, "Please stop, you are not a beast." If the player manages to access the clinic later in the game through the forbidden woods, a blue alien creature drops Iosefka's blood vial; that is the real Iosefka, but she was changed/experimented on by the impostor. She as the blue alien will take a while to become agro on the hunter.
+Impostor Iosefka is much harsher in the way she speaks and laughs maniacally when she asks the hunter to bring people in. Later in the game if you attack the door, she starts spouting mean words to the player and refuses to talk with you in the aftermath.</description>
+
+<notes>Prior to discovering the Cathedral Ward, Iosefka will repeatedly provide the player with a Iosefka's Blood Vial consumable if the player does not have one. After discovering the Cathedral Ward, "Iosefka" (who is actually the imposter) will encourage the player to send people to her clinic.
+Imposter Iosefka seems to experiment upon, and eventually transform or kill, any survivors sent to her. The number of "aliens" (Celestial Mob) in her clinic changes as survivors are sent. Aliens slain at her clinic will drop the corresponding loot from the NPC they were prior. She will reward the player with Numbing Mist (x2) or Lead Elixir for each NPC sent to her clinic, as well as 1 Insight. If the Suspicious Beggar is sent to her clinic, she will reward the player with 3 Blue Elixir and 2 insight.
+If Iosefka's Clinic is entered from the rear, through the ladder from the caverns in the Forbidden Woods, the imposter will be found in a small room up a flight of stairs. On approaching the base of the stairs, she will ask the player to leave. At this point, she may turn hostile depending on your choice of action:
+If the player climbs to the top of the top of the stairs and approaches her room, she will become hostile. Killing her will make her drop the rune "Oedon Writhe," and her quest line will end
+If the player causes her to become hostile and leaves, she will not be able to talk through the door again, even if the player sends more people to her clinic.
+If the player returns to the Hunter's Dream  without making her hostile, she will close the doors and the player can speak with her at the top of the stairs again. She will tell the player that they are a "smart one" and beg them for more survivors. Her speech at this point alludes to the idea that she is a member of the Choir (who may have gone rogue during the fall of Yharnam since she appears to be doing this out of self-interest).
+When the player re-enters the clinic from the back during the Blood Moon phase and enters the room where she normally turns hostile, she will instead be found laying on a table on her knees, apparently with severe pain. At this point, she is not hostile and can be killed easily. Her dialogue implies that she is pregnant; killing her at this point will yield a very special item, One Third of Umbilical Cord.
+She frequently makes use of Augur of Ebrietas.
+She will use A Call Beyond if her health reaches 30% and if the player stays close to her; this can be staggered and prevented, or you may block it with a shield if you fail to dodge the projectiles.
+The player only meets Iosefka once during the game, before entering the Cathedral Ward.  The Iosefka you speak to after reaching Cathedral Ward is an impostor and a member of the Choir, the upper level of the Healing Church.
+The fake Iosefka, or "Fauxsefka," has taken up residence in the clinic in order to obtain subjects to experiment on. For experimentation purpose, old blood was taken from Ebrietas, Daughter of the Cosmos (or perhaps another kin being), and she will use it on herself, therefore elevating herself into a higher being, if the initial experiments proved to be successful.
+Tests were first performed on the real Iosefka and then anyone else the hunter sends to the clinic which result in their being transformed into Celestial Mobs, a type of kin (an elevated being that ranks above humans but below the Great Ones).
+Confronting her before killing Rom disrupts her plans and results in the hunter killing her.
+However, if the player comes after the Blood Moon appears, she will have succumbed to madness after imbibing a One Third of Umbilical Cord in a desperate attempt to evolve herself before the night ends.
+Ultimately it ends in failure as her blood remains red upon slaying her instead of the clear color of the the elevated kin.</notes>
+
+<location place="Iosefka's_Clinic" lamp="1st_Floor_Sickroom">Iosefka is found behind a set of double doors, at the top of the steps behind the "1st Floor Sickroom" lantern.</location>
+
+<dialogue>
+<line>Upon speaking with (real) Iosefka for the first time:
+Are you... out on the hunt? Then I'm very sorry, but... I cannot open this door. I am Iosefka. The patients here in my clinic must not be exposed to infection. I know that you hunt for us, for our town, but I'm sorry. Please. This is all that I can do." (Gives 'Iosefka's Blood Vial' x1) "Now, go. And good hunting."</line>
+
+<line>Upon speaking with Iosefka when in possession of Iosefka's Blood Vial:
+Are you still in need of something? But I have nothing more to offer. Please, try to understand my position. I can only pray, for a fruitful hunt."</line>
+
+<line>Upon speaking with Iosefka when you are not in possession of Iosefka's Blood Vial:
+You are safe, thank goodness. But I’m afraid nothing will change. I cannot open the door. I’ll do what I can, of course. Perhaps this will help you, if only in some small way. (Gives 'Iosefka's Blood Vial' x1). Now, go. I pray for your safety.</line>
+
+<line>Upon receiving your fourth Iosefka's Blood Vial:
+Ah, you are safe. Thank goodness. But I'm afraid nothing will change my mind. I cannot open the door. I'll do what I can, of course. Perhaps this will help you, if only in some small way. (Gives 'Iosefka's Blood Vial' x1)
+This night is long, but morning always comes. Someone of your caliber won’t fail us, I am certain. And once the night of the hunt ends, we can speak face-to-face. Then I can finally see what you look like. I shouldn’t be thinking this but I am rather looking forward to it. So please, be careful out there.</line>
+
+<line>Upon speaking with Iosefka after receiving your fourth Iosefka's Blood Vial, but you are still in possession of one
+I'm sorry...I have nothing else to offer you. I will pray for your safety. May light shine upon this night, and your fortunes.</line>
+
+<line>If you attack the door while Iosefka is still there:
+Ahh! Ohh!
+[After attacking the door again] Please stop! It's beasts you hunt. Why are you behaving like one? This can't be the real you. Please, stop....
+[Talking to her again, but this time around not attacking the door once more] Are you calm again? Thank goodness. You mustn't let the hunt overcome you. Remember yourself. You are not a beast.</line>
+
+<line>If you ignore Iosefka's pleading and attack the door again:
+You are no more than a beast. I should've known....</line>
+
+<line>Impostor Iosefka (After reaching Cathedral Ward lamp)
+Oh, well, hello....Splendid. Let me ask you a small kindness. You're soon off to hunt, I presume? Then, if you find any survivors, tell them to seek Iosefka's Clinic. Upon my Hippocratic oath, if they are yet human, I will look after them, perhaps even cure them. This sickness, these beasts, they are not to be feared. This time the night is long. I might be trapped here, but I should do something to help. I'll even offer a reward for your co-operation. Tempted? Well, off you go then.
+If you find anyone who’s still human, send them straight to Iosefka clinic. You can assure them, there’s no place safer. Please do me this service.
+Oh, hello. You made it. Find any survivors? Or only beasts? Tell anyone who's human about Iosefka's Clinic. I will take proper care of them. They're in your hands, and soon, mine....</line>
+
+<line>If you send a female NPC to Iosefka's Clinic:
+Oh hello...You're all right. Very good. She's safe with me now, I presume you're to thank? The treatment is going well, stabilized, for the most part. Fascinating, really....Here you are, as promised. (Receive Numbing Mist x2 normally or Lead Elixir x2 if you sent the little Yharnam girl).
+Oh, thank goodness you came....Be a dear, find me some more. [Sinister Laughter]</line>
+
+<line>After sending at least one NPC, but talking to Imposter Iosefka again before sending another NPC:
+There may yet be humans out there. If you find them, send them to Iosefka's Clinic. I endeavor to treat every survivor there is. So please, be a saint.</line>
+
+<line>If you send the Skeptical Man to Iosefka's Clinic:
+Oh hello.....You're safe. What a relief. He's safe with me now. I'm thrilled to have another. Here you are, as promised. (Receive Numbing Mist x2).</line>
+
+<line>After sending three people to Iosefka's Clinic:
+What would I ever do without you? You're really making a difference. [Sinister Laughter]
+If you find any humans, bring them to me. I'm depending on you, brave hunter. [Sinister Laughter]</line>
+
+<line>If you attack the door when Imposter Iosefka is there：
+Ahh! Can't anyone comprehend?! That'll be quite enough of you then. Isn't it time someone put you out of your misery?</line>
+
+<line>Speaking to Imposter Iosefka inside the clinic after a set of doors before the moon is red:
+Ah, moonlit scents....How did you worm your way in here? Well, I won't make any excuses. Would you mind leaving us alone? Things need not change...You'll do the rescuing, and I'll do the saving. But, if you refuse to leave....Ah, well...I always wanted to try my hand on a hunter.... [Sinister Laughter]</line>
+
+<line>If you ignore Imposter Iosefka's warning and enter the room she is located in:
+This won't hurt a bit...I'll soon have you right as rain...
+Hush, hush....Stay still....This won't hurt a bit...I'll soon have you right as rain...Just.....Die.....ENOUGH OF YOU!!! Now, stop that</line>
+
+<line>If you kill Imposter Iosefka before the Blood Moon:
+[In a dying, pained voice] Curse this oblivious fool...</line>
+
+<line>If Imposter Iosefka kills you while hostile:
+[Excited Sinister Laughter] Oh, how exciting! I've never worked on a hunter before...</line>
+
+<line>Speaking to Impostor Iosefka through 1st Floor Sickroom doors after deciding to not make her hostile:
+Oh, hello... Still alive, are you? I need more patients... There aren't many humans left, I know, but find me every last one you can. We must find a way. To surpass our own stupidity. You're one of the bright ones. Don't you see how much this means? [Sinister Laughter] If you find any humans, bring them to me. I'm depending on you, brave hunter. [Exquisitely Sinister Laughter]</line>
+
+<line>After sending the Suspicious Beggar to Iosefka's Clinic:
+Oh hello....You're alive. Good. I've received another patient. This time, I'll be trying old blood. I've achieved much. And I owe it all to you. Take this, as thanks. [Receive Blue Elixir x3]
+Custom made. And cheers, to the discovery of kinship. Doesn't it make you feel warm inside? [Sinister Laughter]
+[If you haven't sent every single NPC to Iosefka's Clinic] Please....find me some more. I'm depending on you, brave hunter. [Sinister Laughter]</line>
+
+<line>After you've sent every single NPC to Iosefka's Clinic:
+Oh hello....You're still alive. But I suppose we're nearing the end. I don't imagine there are any left who haven't turned by now. Tragic, really, but what's to be done....</line>
+
+<line>Speaking to Iosefka inside the clinic after the moon is red:
+God I'm nauseous... Have you ever felt this? It's progressing. I can see things... I knew it, I'm different. I'm no beast... I... Oh... God, it feels awful... but, it proves that I'm chosen. Don't you see? How they writhe, writhe inside my head... It's... rather... rapturous...'' [Pained yet still Sinister Laughter]</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Eileen_The_Crow">Eileen the Crow is a non-player character in Bloodborne. Wearing a Beak Mask, this hunter is a dual-wield "skill" hunter. </npcName>
+
+<description>Eileen is an assassin whose sworn duty is to dispose of other hunters that have been corrupted by their lust for blood. Like the player, she hails from outside Yharnam and is a foreigner to the region, but her presence in the city is driven by an entirely different set of motives; she makes a point of keeping a low profile operating in the shadows, and you may never meet her in the first place if you don't go out of your way to explore. You can start her quest either on the Dry Dock - Rafters in Central Yharnam or to the left of the Oedon Chapel's front entrance in the Cathedral Ward, and your choices after that point will determine her fate. Helping her defeat Henryk in the Tomb of Oedon is the tipping point of her quest - failure to do so before entering the Forbidden Woods for the first time will sometimes result in her becoming your enemy, and will prevent you from receiving any of the successive rewards other than the Crow Hunter Badge. It is best to complete the Tomb of Oeden portion of the quest before progressing further.</description>
+
+<notes>Eileen the Crow is the member of a covenant that hunts down hunters that begin to go insane from bloodlust or begin to turn into beasts themselves. It is unknown if other NPC characters are a part of this covenant.
+Eileen seems to have been a former hunter herself at some point. If you fight Eileen and are killed by her, her dialogue "You still have dreams? ...Tell the little doll I said hello..." indicates that she knows of both the Hunter's Dream and the Plain Doll, suggesting that she was a former hunter trapped in the Dream, much like the players themselves, who managed to break free from cycle of death and awakening. In the encounter with her at the foot of the Grand Cathedral, she mentions that she no longer dreams, and therefore that death is now permanent for her.
+The description of both the Crowfeather Set and the Crow Hunter Badge suggest that Eileen is from a foreign land, not a native Yharnamite; her unique accent may suggest this as well. Her Badge suggests that she is an "outsider from the hinterlands" - that is, areas of countryside away from civilization or beyond known geography, sparsely inhabited and traversed mostly by travelers. Note that this is the only mention of the hinterlands in the game.</notes>
+
+<location lamp="Grand_Cathedral">Location 1: the Central Yharnam Lamp; Location 2: the Cathedral Ward lamp; Location 3: The Tomb of Oedon; Location 4: Fighting the Bloody Crow of Cainhurst at the Grand Cathedral; Location 5: There is a pool of blood, where normally the top Chapel Giant stands -- if you have failed or talked to Eileen after killing the hostile hunter and received her rewards, you may see this blood stain here.</location>
+
+<dialogue>
+    <line>Upon speaking with her at the sewers:
+Oh, a hunter, are ya? And an outsider? What a mess you've been caught up in. And tonight, of all nights."
+Here, to welcome the new hunter." (Gives 'Bold Hunter's Mark' x4)
+Prepare yourself for the worst. There are no humans left. They're all flesh-hungry beasts, now."
+Still lingering about? What's wrong? A hunter, unnerved by a few beasts? Heh heh... No matter."
+"Without fear in our hearts, we're little different from the beasts themselves." (Gives 'Shake off Cape' expression)
+"What are you still doing here? Enough trembling in your boots. A hunter must hunt."</line>
+
+<line>Outside Cathedral Ward:
+Oh, hello there."
+"Perfect timing. I must warn you..."
+"...not to go near the tomb below Oedon Chapel in the Cathedral Ward."
+"Henryk, an old hunter, has gone mad."
+"And he's my mark..." (Gives Shh! gesture)
+"Don't go near the tomb below Oedon Chapel in the Cathedral Ward."
+"I have business there first..." (giggles)</line>
+
+<line>After the Tomb of Oedon hunter fight:
+(Breathing Heavily) "That wasn't necessary of ya."
+"But you have my thanks."
+"We made it with our lives... You're not bad at all."
+"You must have killed Gascoigne as well then."
+"He was falling apart... I'm sure it had to be done."
+"But try to keep your hands clean... The Hunter should hunt Beasts."
+"Leave the hunting of Hunters, to me." (Laughs) (Gives Approval gesture) (Runs away)</line>
+
+<line>At the top of Grand Cathedral steps when friendly:
+"Oh, is that you again?"
+"I'm afraid I've made a bit of a blunder. I'm just going to have a short rest."
+"Oh, don't worry, I've taken blood. Enough to save an old woman."
+"No more dreams for me. This is my last chance."
+"What a fool I am. I'll have to tread carefully."
+"But that thing still lies in wait. Turn back. This is my score to settle." (Gives Wait gesture)
+"My prey lies in wait this way. Turn back. This is my score to settle."</line>
+
+<line>
+After the Grand Cathedral hunter fight:
+"Don't you ever listen to your elders? No matter, you did save my life."
+"I don't seem to be apt for this life anymore... My glory days were long ago now..."
+"Hmmm, I know... Here, for you." (Gives Crow Hunter Badge, Hunter rune)
+"This too is hunters' work, but bears no honor. A burden you may choose to carry."
+"The decision is yours alone. Ahh, my eyes grow heavy..."
+"Let me rest a while... ...I'll be fine, just wait..."
+If slain by player, "You can't go on like this..."</line>
+
+<line>At the Grand Cathedral, when hostile and hunting the player:
+(Laughter) "Few hunters can resist the intoxication of the hunt. Look at you, just the same as all the rest..."
+"The hunters must die... The nightmare must end..."
+"Only I can stop this madness!" (continued laughter)
+When Eileen has been significantly injured, "The beasts cannot be stopped. What good are hunters now?"
+(Yelling) "Your blood is mine! A hunter's blood for me! Your punishment is death! Death to hunters!"
+"Enough of this terrible dream!" (laughter)
+When Eileen is slain, "...Ahh... you monsters..."
+"All hunters must die!" (laughter as her body fades)</line>
+
+</dialogue>
+
+</npc><npc>
+<npcName npcList="Gilbert">Gilbert is a non-player character in Bloodborne. You first meet him in Central Yharnam after ascending the ladder that lowers after pulling the lever. He is located just behind the first Lamp you will find. To speak with him you must approach the window there and press "X".</npcName>
+
+<description>Gives Flamesprayer as a gift after killing Father Gascoigne. You have to talk to him before beating Amelia and starting night, as well as after visiting Cathedral Ward at least once. If you don´t obtain it from Gilbert, you can buy it from the Shop after obtaining the Radiant Sword Hunter Badge.
+After the moon turns red (upon killing Rom, the Vacuous Spider), you will find him as a hostile Old Yharnam Beast near his window, drops Clawmark Rune if killed.</description>
+
+<notes>Upon meeting Gilbert one will notice his odd cough. It is apparent he is sick. He will help the hunter with pieces of information and a weapon until he eventually turns into a beast and becomes hostile.
+Gilbert describes himself as a "fellow outsider" to the player hunter. This suggests that he traveled from another land to Yharnam, in hopes of finding a cure for his incurable ailment. According to him, the "strange blood" bought him time but his incurable disease is slowly taking its toll on him.
+From the description of the Flame Sprayer, which is given to the player hunter by Gilbert throughout his quest line, we can assume that Gilbert once worked for the Healing Church as a hunter or huntsman
+Gilbert may have been one of the hunters that burned Old Yharnam to the ground since he gives the player hunter the Flame Sprayer. During the blood moon phase that occurs after killing Rom, Gilbert transforms into a beast similar to the beasts that plague Old Yharnam and the Loran Chalice dungeon. From the description of the Antidote found all over Old Yharnam, the antidote counteracts poison offering short-term relief from the Ashen Blood disease that ravaged Old Yharnam long ago. Ashen blood is similar to poison and the antidote is used by hunters in an attempt to combat the ailment; all beasts from Old Yharnam are capable of poisoning. It is speculated that Gilbert caught this incurable Ashen Blood ailment during the burning of Old Yharnam. This would explain why he transforms into a beast similar to the beasts located in Old Yharnam. As a beast, he is not afraid of flame like the other beasts.</notes>
+
+<location place="Central_Yharnam">Gilbert is found in Central Yharnam, right in front of the Lamp.</location>
+
+<dialogue><line>Upon speaking with him (First time)：
+"Oh you must be a Hunter, and not one from around here either. I'm Gilbert, a fellow outsider. You must have had a fine time of it. Yarnham has a special way of treating guests. I don't think I can stand if I wanted to, but I'm willing to help, if there's anything that can be done (coughs). This town is cursed. Whatever your reasons might be you should plan a swift exit. Whatever can be gained from this place, it will do more harm than good."</line>
+
+<line>Upon speaking with him (Second time)：
+"Paleblood, you say? Hmm... Never heard of it. But if it's blood you're interested in, you should try the Healing Church. The church controls all knowledge on blood ministration, and all varieties of blood. Across the valley to the East of Yharnam lies the town of the Healing Church, known as the Cathedral Ward. And deep within the Cathedral Ward is the old grand cathedral. ...the birthplace of the Healing Church's special blood, or so they say. *coughs* Yharnamites don't share much with outsiders. Normally, they wouldn't let you near this place, but... The hunt is on tonight. This might be your chance..."</line>
+
+<line>Upon speaking with him (Third time)：
+"Yes, I see... But the great bridge is the only way to the Cathedral Ward. And during the hunt, the bridge is closed... Hmm... You could try the aqueduct? There's a rather, how shall I put it, colorful area south of the great bridge. From there, an aqueduct leads to the Cathedral Ward. *coughs* Not a place you'd normally want to visit, but... I don't imagine you have much of a choice. Do you?"</line>
+
+<line>If you ask again, he will repeat:
+" *coughing* An aqueduct leads from the town, south of the main bridge to the Cathedral Ward. Not a place you'd normally choose to visit, but... Not much of a choice, with the bridge closed.*heavy coughing*"</line>
+
+<line>Speaking with him after entering Oedon Chapel and furthering the Phase to evening (Fourth time)：
+Ahh, you needn’t concern yourself with me. I’m afraid I’m of little help now. But before I… Take this…(he gives you the Flamesprayer) I made no use of it, but perhaps you… What inflicted me was incurable, but this town gave me hope… Their strange blood bought me time. I was most fortunate. Unharmed by the plague of beasts, I can even die human. *coughing* "</line>
+
+<line>Speaking with him later (Fifth time)：
+" coughing
+Why... me... why...
+Dear gods, what have I done?
+Save me, please...
+Save me...
+*coughing* "</line></dialogue>
+
+</npc><npc>
+<npcName npcList="Lonely_Old_Woman">The Lonely Old Woman is an NPC in Bloodborne. </npcName>
+
+<description>Old Woman found in Central Yharnam area. Bitter and alone, she seems to begrudge the Hunter.</description>
+
+<notes>She blames some events on the hunters/outsiders at first. She can be sent to either Iosefka's Clinic or Oedon Chapel after they have been unlocked as safe locations.
+She has gradual changes in attitude towards the player. She is initially ungrateful, continuing to blame the Hunter for the bad things that have been happening. During the grey sky/night/overcast, she seems to be in a state of despair or madness, eventually only responding with panicked sobs/hysteria. After beating seven bosses[unconfirmed], she is very kind. If you answer "I have my woes" at this point, she will give the Hunter an increasing amount of Sedatives. 1 the first time, 2 the second, 3 the third.
+Upon using the "I have my woes" option 3 times, she will go out and look for more Sedatives, leaving a note to the player on her chair. When she comes back if the same option is used again she will give the player another Sedative and venture off again to find more. Upon returning again to the chapel, the Oedon Chapel Dweller will remark how she was murdered outside. You can venture through the door to the left of the lamp to find her body with remarkable bloodstains around her and one more Sedative on her corpse.</notes>
+
+<location place="Central_Yharnam">Central Yharnam</location>
+
+<dialogue><line>Upon killing dog outside her house:
+Oh, you're a hunter, aren't ya? Then, well, do you know of any safe places?"</line>
+
+<line>Upon knocking on her door:
+I've heard, I have. Shutting up indoors isn't always enough. If you hunters got off your arses, we wouldn't be in this mess. You're obligated to help me, you hear? So what'll it be? Are you gonna tell me, or not? "
+"What is it now? I've much better ways to pass the time. Unless... you've found me a nice, safe place?"</line>
+
+<line>Choosing 'No':
+Yeah, I should've known. Ya good-for-nothing... No respect for the elderly is what that is! Yeah, fat lot of good you outsiders do. Go on, admit it, you think we're all mad, don't ya? Well, go and stuff it! I know all yer tricks!"</line>
+
+<line>After going to Oedon Chapel:
+Oh, How did we ever get into this mess *sobs*"
+"Stay away from me. I know all your tricks."</line>
+
+<line>Sedative Dialogue:
+"Hehehehheh... Oh, Welcome home dear. What's wrong? Anything you'd like to tell me? Oh, whats the matter? Are you in a bind again?
+(Choosing 'I have my share of woes.') "Oh, my. You poor thing. But don't you worry. heh... h-heh... This will help you forget. Forget your troubles, forget your cares.... hehehmm heh heh..."
+(Choosing "No") "Oh good. What a relief. But you cant bottle everything up inside. You musn't be afraid to share."</line>
+
+<line>If the Player kills her
+"It's your father's blood..."</line></dialogue>
+
+</npc><npc>
+<npcName npcList="Provost_Willem">Provost Willem is a non-player character in Bloodborne. </npcName>
+
+<description>Provost Willem is the head of Byrgenwerth, an academic institute from which the Healing Church originated. He and others scholars discovered a holy medium, deep within the tomb of the gods. Willem's aim is to advance the evolution of humankind and achieve higher planes of thought. Despite Willem's central role in the foundation of the Healing Church and particularly the Choir, their paths ultimately diverged and Byrgenwerth was abandoned by all but a few loyal scholars. Now, at the end of his days and barely even able to speak, he can only sit in his favorite chair and await the arrival of one who can unlock the lake's secret.</description>
+
+<notes>Talk" to him to gain 2 Insight.
+You cannot speak with Provost Willem, he simply points to the lake.
+Drops 2545 Blood Echoes and Eye Rune if killed, or a Madman's Knowledge if you already have the Rune.
+Master Willem's most important teaching is the adage "Fear the Old Blood". He encourages all the scholars of his college to seek enlightenment and ascension through other methods except using the Old Blood. Laurence wanted to use The Old Blood, which  he believed to be key to mankind's ascension. Master Willem felt betrayed since Laurence didn't follow the "Fear the Old Blood" adage. Laurence later founded the Healing Church and made blood ministration/blood healing the cornerstone of the church.
+According to the Graveguard Set, Provost Willem kept two loyal servants at Bygenwerth. One of them is Dores, who became the graveguard of the forest. The other servant became the password gatekeeper that guards the gate in cathedral ward which leads to the forbidden forest.
+Master Willem's teachings in the College of Byrgenwerth eventually branched out and inspired the development of many organizations, such as The Healing Church, The Choir and The School of Mensis. From the description of the Blindfold Cap, elite members of the healing church, the choir, payed homage to Master Willem's teachings by wearing this cap. According to the Student Set, the healing church borrows heavily its design.
+When attacked he bleeds "shimmering blood", a blood type also found in to Rom, The Vacuous Spider.
+He has stalks growing out of the flesh on his back. The growths and the flesh can be mistaken for candles and molten wax.
+The growths have a luminous, plantlike quality and they may be a variant of the plants growing out of Rom's back.
+If the Beast Roar is used within distance of him he will jerk and turn towards where it was used (Tested once)
+If he is talked to after the above is done he will no longer point towards Rom, The Vacuous Spider.
+The growths that appear on his back are similar to that of cordyceps fungi, a type of fungus that can affect the brain of its host insects.
+Also these growths are similar to - and may be a primitive form of - what Ebrietas, Daughter of the Cosmos grows on her head. 
+If you kill him, he seems to be aggressively cursing someone or something, without saying a word, of course.</notes>
+
+<location place="Byrgenwerth">This character can be found at Byrgenwerth College, in a rocking chair at the Lunarium.</location>
+
+<dialogue>
+    <line>Laurence: “Master Willem, I've come to bid you farewell.”
+Master Willem: “Oh, I know, I know. You think now, to betray me.”
+Laurence:“No, but you will never listen. I tell you, I will not forget our adage.”
+Master Willem: “...We are born of the blood, made men by the blood, undone by the blood. Our eyes are yet to open..."
+Master Willem &amp; Laurence: "Fear the old blood."
+Laurence: “I must take my leave.”
+Master Willem: “By the gods, fear it, Laurence."</line>
+</dialogue>
+
 </npc>
+<npc>
+<npcName npcList="Narrow_Minded_Man">Narrow Minded Man or Skeptical Man is an NPC in Bloodborne. </npcName>
+
+<description>A skeptical man situated in the building directly across from Arianna's home, is incredibly distrustful of hunters."</description>
+
+<notes>After Arianna has asked for somewhere safe to go and is sent to the location provided the Skeptical Man will ask the Hunter what their deal is and what location they should go to. The Skeptical Man will go to the location OPPOSITE of what he is told. For example if the Hunter tells him to go to the Oedon Chapel  he will go to Iosefka's Clinic.
+If you wish for him to survive safely with the other NPC's tell him to go to Iosefka's Clinic and he will arrive at the Oedon Chapel instead.
+Once in Oedon Chapel, he frequently dispenses bits of advice that are all hints. However, the truth is usually the exact opposite of what he says, with the exception of the advice he dispenses about the Suspicious Beggar. 
+Drops 118 Blood Echoes and 3x Pungent Blood Cocktail if killed.
+Drops 3x Pungent Blood Cocktail when changed into a Passive Celestial Emissary in Iosefka Clinic</notes>
+
+<location lamp="Tomb_Of_Oedon">Oedon Chapel</location>
+
+<dialogue><line>Ah you, the swindlin' offcomer. Did you really think that'd work? There's no fooling me. Now, off with ya, you heard me? Go away! I can't stand the stench of your lyin' breath."</line>
+
+<line>I'll spare you one nugget of advice. Beware the lady of the night. I can see it in her eyes. She deeply resents the young saint. She hears people whisper. She knows what people think of her. Yes, she despises the saint for having what she doesn't. Bloody wench, they shoulda moved her on ages ago."</line>
+
+<line>I'll spare you one nugget of advice. Beware the blind man. They're the biggest seeds at the bottom of the bloody food chain. And he's here acting like he owns the place! He's not to be trusted. What's he want with all those people anyway? That little weasel has a murky past, I'm tellin' ya!"</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Chapel_Samaritan">The Oedon Chapel Dweller is a friendly NPC that lives in the Cathedral Ward. </npcName>
+
+<description>He is blind. Upon speaking to him, he tells the Hunter that the incense in the Chapel Ward keeps the beasts away, and he compels the Hunter to advise anybody looking for a safe place to stay the night to come to the Oedon Chapel. Once survivors start arriving, he comments on what he makes of their character, and how willing they are to converse with him.</description>
+
+<notes></notes>
+
+<location lamp="Central_Yharnam">Next to the first lamp in Cathedral Ward</location>
+<dialogue>
+
+<line>Upon Meeting
+"...Hmm? Oh... you must be... a hunter. Very sorry, the incense must've masked your scent. Good, good. I've been waiting for one of your ilk. These hunts have everyone all locked up inside. Waiting for it to end... It always does, always has, y'know. Since forever. But it won't end very nicely, not this time. Even some folks hiding inside are going'bad. The screams of womenfolk, the stench of blood, the snarls of beasts... none of em's too uncommon now. Yharnam's done fer. I tell ya. But if you spot anyone with their wits about 'em... Tell'em about this here Oedon Chapel. They'll be safe here. The incense wards off the beasts. Spread the word... tell 'em to come on over. If you wouldn't mind... Hee hee..."</line>
+
+<line>Talk x2
+"I know I shouldn't be askin' you, but... If you happen upon someone while hunting, tell'em about this here Oedon Chapel. If they seem worth being told, that is... Oh, and I do sincerely hope they are... hee hee hee hee hee..."</line>
+
+<line>Talk x3
+"Ahh, the hunter. Alive and well, are ya? This here's a safe place. Stay as long as you like. But... next time you're out on a hunt, remember what I asked. If you find any sane survivors, tell'em to seek shelter at Oedon Chapel. 'Cause there's nothing to fear here... Ha hah ha!"</line>
+
+<line>Talk x4	
+"If you find any sane survivors, well, send them along to Oedon Chapel, will ya? Hee hee hee..."</line>
+
+<line>After Lonely Old Dear arrive to Oedon Chapel
+"Ahh, kind hunter. Thank you. So, that lady, you told'er about this place? Well, she.. she actually talks to me! Well, only now and then, and she don't mince words... But... she's a kind one, I can tell. A good woman! Hee hee..."</line>
+
+<line>After Arianna arrive to Oedon Chapel
+"Ahh, kind hunter. Thank you. So, that lady, you told'er about this place? Well, she.. she actually talks to me! Well, only now and then, and she don't mince words... But... she's a kind one, I can tell. A good woman! Hee hee..."</line>
+
+<line>After Narrow Minded Man arrive to Oedon Chapel
+"Ahh, the hunter! Thank you. So, that old man, you told'im about this place, right? Well, he don't offer me much in the way of conversation, but still... I'd rather see'im alive anyhow..."</line>
+
+<line>After Sister Adella arrive to Oedon Chapel
+"Ahh, the hunter! Thank you. So, that 'oly woman, you told'er about this  place, right? Well, she don't offer me much in the way of conversation, but still... I'd rather see'er alive anyhow..."</line>
+
+<line>After all four above NPCs made it to the Oedon Chapel
+"And...I sort of hoped that, my asking you, turned out to, you know, help 'em out in the end... I've never been of any use to anyone, you see... Just, happy about it, is all... ha, ha!"</line>
+
+<line>Talking after sending everyone to the Chapel
+"Ahh, the hunter. Alive and well, at that! Another one you sent made it here safe and sound. This place is a haven now, for so many. Thanks to you. I'm...overjoyed, really. That you'd even give me the time o' day! I don't suppose there's anybody out there worth savin' anymore. But you did all ya could, and so many owe you so much. Amazing, really. Not'cause you're a hunter, but because you're you. Hee hee hee... Makes me think, once dawn breaks, maybe I can just, you know, start-over. Makes it easier to bear all o'this, you see? You've made life easier. Thank you."
+"If you please, kind hunter... When the night of the hunt passes, s'pose, we could be friends, maybe? Now, I know I hardly deserve it, but... Well, I had to just, ask, you know? Heh... Out of line, yes, perhaps so, but, well... Give it a throught, if you wouldn't mind, o'course... Hee hee hee..."</line>
+
+<line>After Afflicted Beggar arrive to Oedon Chapel
+"Ahh, the hunter. Alive and well, at that! Another one you sent made it here safe and sound. This place is a haven now, for so many. Thanks to you. I'm... overjoyed, really. That you'd even give me the time o'day!"</line>
+
+<line>When Lonely Old Dear dies
+"Oh, kind hunter... The old girl, the old girl you sent over... She's dead... Killed stone dead... Why... Musta been a beast, right? ...Or, d'ya think someone out there could've... I... I... just don't... ahh... Well, I do know. It's my fault. All mine..."</line>
+
+<line>Talking after someone has died
+"Was it a beast? ...Or, could someone from outside've come in and...? I just... don't... know..."</line>
+
+<line>When Arianna dies
+"Oh, kind hunter... The lady, the lady you sent over... She's dead... Killed stone dead..."</line>
+
+<line>When Narrow Minded Man dies
+"Oh, kind hunter... The old man, the old man you sent over... He's dead... Killed stone dead..."</line>
+
+<line>When Sister Adella dies
+"Oh, kind hunter... The 'oly women, the 'oly women you sent over... She's dead...Killed stone dead..."</line>
+
+<line>When all NPCs die
+"Oh, kind hunter... How did this happen? A beast, here... why...? It's my fault. Savaged and eaten, every one, and it's all my fault... Gods, please, I'm sorry, so sorry..."</line>
+
+<line>Talking after NPCs die
+"I only wanted to help... Just once in my life... They told me it would never work... My mum always told me, everybody kept telling me... I should've know, I should've... Gods, please, I'm sorry, so sorry..."</line>
+
+<line>Talk to him during Blood moon phase
+"There ain't a peep to be heard, not in the whole town... I doubt there's any more out there... God save us... Yharnam's done for..."</line>
+
+<line>Talking after Blood Moon phase
+"There ain't no more survivors, there can't be... Yharnam's done for..."</line>
+
+<line>Attacking him
+"Uuuh! Eek! Please, no more! It's my fault, I know, so... help me, please... Please, just stop... Stop, please!"</line>
+
+<line>Continue attacking him
+"Stop! Please!
+"I'm beggin' ya stop..."
+"What's the- Why!"
+"Please, good hunter!"</line>
+
+<line>Upon death
+I just wanted to help... people...</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Old_Hunter_Gehrman">Gehrman is an NPC in Bloodborne. </npcName>
+
+<description>"An old hunter who welcomes and guides new hunters in the dream, what secrets does he hide?."</description>
+
+<notes></notes>
+
+<location place="Hunter's_Dream">Gehrman is typically found within the Workshop of the Hunter's Dream</location>
+
+<dialogue><line>Upon first speaking with him:
+Ah-hah, you must be the new hunter. Welcome to the Hunter's Dream. This will be your home, for now. I am... Gehrman, friend to you hunters. You're sure to be in a fine haze about now, but don't think too hard about all of this. Just go out and kill a few beasts. It's for your own good. You know, it's just what hunters do! You'll get used to it..."
+"This was once a safe haven for hunters. A workshop where hunters used blood to enhance their weapons and flesh. We don't have as many tools as we once did, but... You're welcome to use whatever you find. (Whispers) ...Even the doll, should it please you..."</line>
+
+<line>After killing Father Gascoigne:
+The moon is close. It will be a long hunt tonight. If the beasts loom large, and threaten to crush your spirits, seek the Holy Chalice. As every hunter before you has. A Holy Chalice will reveal the tomb of the gods, ...where hunters partake in communion..."
+"Most of the Holy Chalices lie deep within the tomb of the gods. And the few that found their way to the surface... Were lost again in the hands of men. But if the old hunter tales remain true... ...one of the Holy Chalices is worshipped in the valley hamlet. Yet the town is in disarray... It was burned and abandoned, for fear of the scourge, home now only to beasts. The perfect place for a hunter, wouldn't you say?"</line>
+
+<line>Outside his house if one has 15 Insight or above and Amelia is met:
+Oh, Laurence... what's taking you so long... I've grown too old for this, of little use now, I'm afraid..."</line>
+
+<line>After defeating the Blood-starved Beast and recovering the Pthumeru Chalice:
+The Healing Church, and the Blood Ministers who belong to it...were once guardians of the hunters, in the times of the hunter...Ludwig. They worked, and forged weapons, in their unique workshop. Today, most ministers don't recall the hunters. And so, heed the message of your forebears. Ascend to Oedon Chapel."</line>
+
+<line>Outside his house after defeating Rom, The Vacuous Spider:
+Oh, Laurence... Master Willem... Somebody help me... Unshackle me please, anybody... I've had enough of this dream... The night blocks all sight... Oh, somebody, please... "</line>
+
+<line>After killing Mergo's Wet Nurse:
+Good Hunter, you've done well, the night is near its end. Now I will show you mercy. You will die, forget the dream, and awake under the morning sun. You will be freed from this terrible Hunter's Dream."</line>
+
+<line>If accepted his request:
+Farewell, my keen hunter. Fear the blood."</line>
+
+<line>If refused his request or attacked him at the Great Tree:
+Dear, oh dear. What was it? The Hunt? The Blood? Or the horrible dream? Oh, it doesn't matter... It always comes down to the Hunter's helper to clean up after these sort of messes. Tonight, Gehrman joins the hunt..."</line>
+
+<line>If killed by Gehrman:
+You must accept your death, be freed from the night."</line>
+
+<line>Upon Death:
+The night, and the dream, were long..."
+</line></dialogue>
+</npc>
+<npc>
+<npcName npcList="Patches_The_Spider">Patches the Spider is a recurring non-player character in the Souls games (called Patches the Hyena and Trusty Patches in previous games), who makes an appearance as a Nightmare Apostle in Bloodborne. </npcName>
+
+<description>Patches the Spider, like all his Souls counterparts, is an NPC that promises the player character some form of treasure, only to betray them and put them in extreme peril. Once the Hunter escapes that peril (or dies), and confronts Patches, he will beg for forgiveness, and become a merchant. 
+"Remember: no matter the circumstances, there will always be people willing to push you down a hole."</description>
+
+<notes></notes>
+
+<location place="Lecture_Building">Lecture Hall</location>
+
+<dialogue><line>Behind a lantern( Any house w a resident will be temporarily replaced, see location information):
+...Oh, a hunter of beasts, are you? Glory be. You know not the value you possess.
+...But, more's the pity...
+The hours of the night are many, and the beasts more than I can count. A veritable hunt unending!
+Not even death offers solace, and the blood imbibes you. Ha, a most frightful fate, oh my.
+But I'm willing to do you a kindness.
+Step lightly round to the right of the great cathedral, and seek an ancient, shrouded church.
+...The gift of the godhead will grant you strength...
+Yes, I'm unquestionably certain, heheh...(gives Tonsil stone)</line>
+
+<line>Talk again:
+Not even death offers solace, and the blood imbibes you. Seek you the ancient, shrouded church hidden to the right of the main cathedral. ...The gift of the godhead will grant you strength...</line>
+
+<line>Cutscene in the shrouded church:
+Heh heh heh heh...Oh Amygdala, oh Amygdala...
+Have mercy on the poor bastard...Hah hah hah!</line>
+
+<line>Behind the door in Lecture Building 1F:
+(laughs)
+What a joy it is, to behold the divine.
+It must be such a pleasure. You're in my debt, you know.
+You're in nigh on a beast of the field, but here you are, treading a measure with the gods.</line>
+
+<line>Talk again:
+Heh heh...Are your feet as fat as your wits?
+Oh, cease this dithering! Take the plunge! Throw yourself to the wolves!...Heh heh heh...</line>
+
+<line>Talk again:
+Hah hah hah! Don't dally, you lucky scamp! The gift of the godhead
+cometh! Heh heh heh... yes... Ha hah!</line>
+
+<line>When confronted from behind after being ambushed by him and killing Amygdala (Even if still alive he says this):
+Oh, this cannot be, you cannot be... No, you didn't... ...How did this come to pass?
+Hmph! Now, wait just a moment... Do you think ill of me, me?</line>
+
+<line>No":
+Indeed, I should think not! I shared with you a thing most secret. Now you're witness to a miracle, and all the stronger for it! You should appreciate it, if you've a grain of gratitude in you! Heh heh... yes, appreciate it! Hah hah hah!</line>
+
+<line>Of course I think ill of you!":
+Oh, it pains me to hear it. You've made yourself a misreckoning. I shared with you a thing most secret. Now you're witness to a miracle, and all the stronger for it! It's plain as a pikestaff. Now, say in my heart, you were as a lamb to my God. Well, you weren't to know, and it wasn't for you to know. All's well, that ends well, I say. laughs</line>
+
+<line>Either way he gives a Rune as a peace offering of sorts:
+No matter. Such details are trifling. We're fast friends by now. Let this express what words cannot.*gives Anti-Clockwise Metamorphosis rune*Oh, doubt me not, sweet compeer. What is friendship, but a chance encounter? laughs
+Ah, well met. My apologies, but I feel a profound thought occurring... On the good grace of a certain god, and the way he meted out his love. *laughs*</line>
+
+<line>After killing Amygdala new dialogue appears:
+Ahh, well met. This is a most pleasing encounter. You see, I must depart
+erelong. My god is lost to me, so I must away to find another.
+If the fates are kind, out paths may cross again. Sooner still, if you were
+to take the leap... Heh heh heh... Hah hah hah!</line>
+
+<line>Talk again:
+Oh, think not of poor Amygdala. Upon that piteous bastard, you
+bestowed salvation. Heh heh... All's well, that ends well... Heh heh heh...</line>
+
+<line>Talk again:
+Oh, think not of poor Amygdala. Upon that piteous bastard, you bestowed salvation.</line>
+
+<line>Upon Dying:
+Ergh, that was uncharitably done... That was uncharitably done, dear friend...</line>
+
+<line>Encounter in Chalice Dungeons:
+Aah! The sight of you is as balm to my eyes!
+Truly, you are an indubitable, irrefutable friend!
+And, my dear compeer, I vow once more to ease your burden!</line>
+
+<line>Leave:
+The time has come again I fear. But if the fates smile upon us, we'll soon meet again.
+Farewell, dear friend.</line></dialogue>
+
+</npc><npc>
+<npcName npcList="Doll">Plain Doll is a friendly NPC character in Bloodborne who allows you to level up your stats.</npcName>
+
+<description>Just a plain doll."</description>
+
+<notes>The plain doll comes to life, and can be interacted with after you gain 1 Insight.
+If your insight drops back down to zero she will turn back into an inanimate doll. You can still level up but not talk to her.
+If given the Small Hair Ornament the doll will shed a Tear Stone, which may be used to gain a droplet that can fit in any gem slot.
+She will gesture back if you do a gesture in front of her. Different gestures yield different responses.
+The Plain Doll can sometimes be found at two other spots:
+Near the Hunter's Nightmare gravestone.
+Will sometimes recite the prose, blessing the hunter, while praying at the gravestone.
+Near a grave to the right and slightly behind of where you spawn, on a small clearing.
+Only in NG+ and beyond, if you've submitted to Gehrman and witnessed the Yharnam Sunrise.
+That grave is the player's grave from a previous NG cycle; the Doll will mention a hunter she previously knew lies there (will say he or she depending on your character's gender).
+The plain doll is a man-made contraption void of life, but in the Hunter's Dream she is alive and appears to be inhabited by some kind of eldritch being.
+Maria Hunter Set  hints that the Doll, who was made by Gherman, is meant to resemble Lady Maria of the Astral Clocktower. Furthermore, the set states Maria held great admiration for Gehrman, but is unaware of his mania.</notes>
+
+<location place="Hunter's_Dream">Hunter's Dream</location>
+
+<dialogue><line>When Interacted with:
+Welcome home, good hunter. What is it you desire?"</line>
+
+<line>Awakened from sleep:
+Ahh, Welcome home, good hunter. I must have drifted off... What is it you desire?"</line>
+
+<line>Upon channeling:
+Very well, let the echoes become your strength. Let me stand close. Now shut your eyes..."</line>
+
+<line>Leaving:
+Farewell, good hunter. May you find your worth in the waking world."</line>
+
+<line>Talk during beginning:
+Hello, good hunter. I am a doll, here in this dream to look after you. Honorable hunter, pursue the echoes of blood, and I will channel them into your strength. You will hunt beasts... and I will be here for you, to embolden your sickly spirit."
+"Did you speak with Gehrman? He was a hunter long, long ago, but now serves only to advise them. He is obscure, unseen in the dreaming world. Still, he stays here, in this dream... ...such is his purpose..."
+"Ahh, the little ones, inhabitants of the dream... They find hunters like yourself, worship, and serve them. Speak words, they do not, but still, aren't they sweet?"</line>
+
+<line>Talk during early-game:
+"Over time, countless hunters have visited this dream. The graves here stand in their memory. It all seems so long ago now..."</line>
+
+<line>Talk during mid-game:
+"Hunters have told me about the church. About the gods, and their love. But... do the gods love their creations? I am a doll, created by you humans. Would you ever think to love me? Of course... I do love you. Isn't that how you've made me?"</line>
+
+<line>Talk after Yharnam Sunrise ending(At lone gravestone)
+This grave stands in memory of a hunter I once knew. Though enchanted by the dream, he/she remain strong, and eventually saw the light of dawn. …I pray you have found meaning, and comfort, in the waking world."</line>
+
+<line>Talk during late-game:
+Good hunter... Your presence somehow soothes... I sense the ancient echoes, they course your veins..."</line>
+
+<line>Talk at end-game:
+Good hunter, you have come... Dawn will soon break... This night, and this dream, will end. Gehrman awaits you, at the foot of the great tree. Go on, good hunter..."</line>
+
+<line>Gifting a Small Hair Ornament:
+What... what is this? I-I can't remember, not a thing, only... I feel... A yearning... something I've never felt before... What's happening to me? Ahh... Tell me hunter, could this be joy? Ahh..."</line>
+
+<line>After defeating Lady Maria (The Old Hunters DLC) after reloading the Hunter's Dream twice:
+Good hunter. This may sound strange, but... Have I somehow changed? Moments ago, from some place, perhaps deep within, I sensed a liberation from heavy shackles. Not that I would know... How passing strange... [chuckle]"
+After defeating Orphan of Kos (The Old Hunters DLC) but before attacking the black shadow:
+Oh, good hunter. I can hear Gehrman sleeping. On any other night, he'd be restless. But on this night, he sounds so very calm. ...perhaps something has eased his suffering"</line>
+
+<line>Yharnam Sunrise:
+Farewell, good hunter. May you find your worth in the waking world."</line>
+
+<line>Honouring Wish:
+And so, the hunt begins."</line>
+
+<line>Moon Presence:
+Are you cold? Oh, Good Hunter."</line>
+
+<line>Hidden message:
+The plain doll will sometimes utter a prose that blesses the hunter when they pass by, without being interacted with. This may happen either when she's in front of the house or at the back of the house.
+If interacted with afterwards, the plain doll will say the very same lines as when she's waked by the hunter, as if she were unconscious while uttering the prose. One can tell since she also makes the noise as when her sleep is disturbed.
+The criteria for triggering this event is unknown.(Seems like coming back to the Hunter's Dream with a vast amount of echos can help on getting this dialogue)
+"O Flora, of the moon, of the dream. O little ones, O fleeting will of the ancients... Let the hunter be safe, let him(her) find comfort. And let this dream, his(her) captor... foretell a pleasant awakening... be, one day, a fond, distant memory..."</line></dialogue>
+
+</npc><npc>
+<npcName npcList="Retired_Hunter_Djura">Djura is a non-player character in Bloodborne, found in Old Yharnam. </npcName>
+
+<description>"An old veteran hunter who is said to possess amazing skill. No one has seen him in many years, and he looks like he's been on his own for some time." </description>
+
+<notes>Djura, to some extent, caters to the beasts that inhabit Old Yharnam.
+Djura's dialogue suggests that as a hunter, he struggles with an ethical dilemma regarding beasts, and the slaying of them, in general.
+It is a Hunter's job to slay beasts, but Djura more than likely had an epiphany at some point in his career in which he realized that every beast was once a person, and thus, killing beasts is akin to killing humans.
+It can be assumed that Djura does not associate with Old Yharnam for any particular emotional reasons. It is likely that he chooses to defend this place, of all other places, because it is remote and unimportant in the world. In his dialogue, he suggests that the beasts here do not bother anyone, and thus shouldn't be bothered in return.
+In some ways, you could consider Old Yharnam to be Djura's utopia of sorts. And he, quite literally, aims to maintain the peace here.
+which raises an important question: who set fire to the crosses at the beginning of the area and around the church?</notes>
+
+<location place="Old_Yharnam">Old Yharnam</location>
+
+<dialogue><line>When entering Old Yharnam:
+"You there, hunter. Didn't you see the warning? Turn back at once."
+"Old Yharnam, burned and abandoned by men, is now home only to beasts."
+"They are of no harm to those above. Turn back..."
+"...or the hunter will face the hunt."</line>
+
+<line>When progressing through Old Yharnam:
+"...You are a skilled hunter."
+"Adept, merciless, half-cut with blood. As the best hunters are."
+"Which is why I must stop you!"</line>
+
+<line>When friendly:
+"Well, well... How did you get in here? Ah, it's no matter."
+"What brings you to Old Yharnam? I've no interest in matters further up, but you must not disturb this place."
+"The beasts do not venture above, and mean no harm to anyone."
+"If you still insist on hunting them, then I will hunt you first. You understand me?"</line>
+
+<line>When the player chooses to spare the beasts:
+"Yes, very good. I no longer dream, but I was once a hunter, too."
+"There's nothing more horrific than a hunt. In case you've failed to realize..."
+"The things you hunt, they're not beasts. They're people."
+"One day, you will see... Hmm, it's time you got going..."
+"But first, a farewell gift. I have no use for it anyway." (Gives Powder Keg Hunter Badge, Brush Off Dust gesture)
+"What is it? Surely I need not repeat myself. Go, I say."
+"You have the whole night to dream. Make the best of it."</line>
+
+<line>When the player attacks an enemy in the area in front of the tower after sparing the beasts:
+"Heheh, you devious rat! The makings of a true hunter, this lass!"
+"Very well. Then there's no need to hold back! The beasts will feast tonight!"</line>
+
+<line>When the player chooses to hunt the beasts:
+"Of course, I thought as much."
+"You are a true hunter. Which is why I must stop you!"</line>
+
+<line>When the player attacks him while he is friendly:
+"Is it the blood, or are you just raving mad?"
+"When the frail of heart join the fray...the hunter becomes the hunted!"</line>
+
+<line>Upon killing you:
+"I should think you still have dreams? Well, next time you dream, give some thought to the hunt, and its purpose."</line>
+
+<line>Upon death:
+"It's you... You're the beast... Can't you see what you're doing? It's madness..."</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Adella_Nun_Of_The_Healing_Church">Adella, Nun of the Healing Church is a non-player character in Bloodborne. </npcName>
+
+<description>A nun of the Healing Church, kidnapped from outside the Cathedral Ward and taken to Yahar-Gul by the sack-toting beasts known as Snatchers on the night of the Hunt.</description>
+
+<notes>Is unavailable anytime after the paleblood moon occurs. ( Before the one reborn boss fight )
+She is known to kill other rescued NPCs, such as Arianna, if you accept Arianna's blood more than 3 times while Adella is in the church.
+Whenever you talk to Arianna while Adella is also in the Chapel Adella will look over to the two of you talking.
+Adella may suddenly disappear from Oedon Chapel after sending her there. It is currently unknown why this can happen.
+Requires healing church clothes to send to Oedon chapel but if you sell, do not fear Gascoigne clothes also work
+Adella will disappear from the game entirely after killing Rom, therefore missing out on a potential caryll rune and gesture. Make sure to talk to her/kill her BEFORE killing Rom.
+If you do not consume 3 vials of Arianna's Blood and talk to her after the Moon is red, she will just giggle manically. (tested on 2 playthroughs)</notes>
+
+<location place="Yahar'gul_Unseen_Village">Hypogean Gaol</location>
+
+<dialogue><line>Upon entering the room and standing on the stair case, the young woman can be heard saying:
+Please, Leave me be... Don't Take me... Please... Oh, please, dear gods."
+"Oh, merciful gods, help me..."/ "In the name of the Healing Church, cleanse us of this horrible dream..."</line>
+
+<line>While telling her about a safe place:
+Ahh, by your garb... the Healing Church...
+You've come to save me...Ahh!
+Thank you, dear saint!
+I have no words to express my relief...
+You could take this, at least.
+It's sure to please an upstanding member of the church like you.
+Ahh, thank you so much. Dear gods...
+Thank you so much.
+I was seized on the street by a hulking brute in the Cathedral Ward and locked up here.
+There were many others, but they've been taken away...
+And I've heard moans, echoes in the distance, ever since...
+So, the hunt is on tonight?
+Then the streets are perilous... And every door will be shut tight...
+Perhaps it isn't my place to ask, but...
+Do you know somehwhere that might take me in?
+Oh, thank you so much.
+I'll set out as soon as I can.
+I pray for success on your hunt.
+Kind hunter.</line>
+
+<line>Talk in the Cathedral Ward:
+Oh, brave hunter, you are alive.
+Thank you very much.
+The town is in disarray, but there are still people here.
+Together, we await the help of the Healing Church.
+I cannot begin to express my gratitude to you.
+The only thing I can offer... Is my own lowly blood.
+If it would suffice...
+(Refuse) Forgive me, I... I should have known better. What would a brave hunter do with lowly blood like mine? Please, forget I even asked.
+(Receive) Yes, of course. Come in close... Now, take my blood...</line>
+
+<line>After the moon turns red (and if you consumed Blood of Arianna 4 or more times):
+"Tee hee... My sweet hunter..."
+"Your blood is tainted..."
+"I can't ha... I can't help myself... hahaha haha..."</line>
+
+<line>After Killing the Player：
+I'll never leave your side..."</line>
+
+<line>Upon death:
+What have I done..." (does not speak if the moon turned red)</line></dialogue>
+
+</npc><npc>
+<npcName npcList="Afflicted_Beggar">Transformed Man or The Suspicious Beggar is an NPC in Bloodborne. He can be sent to Iosefka's Clinic or Oedon Chapel. </npcName>
+
+<description>The Suspicious Beggar is first discovered, breathless, standing above several mauled bodies and eating one of them. He asks the Hunter if they were responsible for killing the Wolf Beast below the balcony, then thanks them and asks if they know of any safe places. He'll give you two Pungent Blood Cocktails upon answering with a yes. The Suspicious Beggar is a massive Abhorrent Beast in disguise, and when attacked he will transform into his true form.</description>
+
+<notes>If sent to the Oedon Chapel:
+He will slowly murder each of the NPCs that the Hunter sends there, although if you talk to him afterward, he'll give you Beast Blood Pellets.
+On arrival, he will kill the first NPC. Afterwards, for every boss you defeat (Chalice bosses included), he will kill another NPC. With each NPC he kills, he will reward you with Beast Blood Pellets when spoken to. The NPCs killed will also drop the items they would have dropped if you had killed them yourself. After killing the last NPC, and talking to him to receive your rewards/gifts, he will vanish when you reload the area. (have not been able to find him after he left). Aggroing him will not change the system by which he kills the survivors.</notes>
+
+<location place="Forbidden_Woods">The Suspicious Beggar can be found in the Forbidden Woods.</location>
+
+<dialogue><line>Forbidden Woods Encounter:
+"Blimey! Don't scare me like that. On a night like this... I took you for a monster."
+"Oh, thank the stars, you're fairly normal... Was it you put down that awful beast?"
+"Oh, that thing had me be trembling, frozen in me boots. And then you came along."
+"Well... if you're a hunter... then..."
+"Would you know of any safe havens?"</line>
+
+<line>If sent to Oedon Chapel or Iosefka's Clinic:
+"Well... I will be! Thank you!"
+"It's about time I made a move. I can't very well stay out on me own..."
+"Oh you've given me hope... Terribly kind of you."
+"Take this. It's all I can offer as thanks." (gives Pungent Blood Cocktail)
+"Thank you. It's about time I made a move."
+"I can't very well stay out on me own..."</line>
+
+<line>If withheld locations:
+"Oh yeah, of course not... I should've known."
+"This whole place's falling apart, once again..."
+"It's the curse of Yharnam..."</line>
+
+<line>Oedon Chapel Encounter:
+"Ah, hello again."
+"I owe this to you. It's a wonderful place."
+"They even let beggars like myself in!"
+"What's better, we keep our distance, don't step on anyone's toes, right?"
+"The way proper Yharnamites ought to live!"
+"Oh, let me share something with you."
+"My secret stash. Really prime stuff..."
+"Ah, hello again."
+"I really do owe you a terrible lot."
+"Finding me such a nice place to live."
+"This is a smashing place."
+"it's everything Yharnam ever had, and more!"</line>
+
+<line>After the transformation:
+"Oh, you are a sick puppy! You drink the blood of half the town, and now this! And you talk of beasts? You hunters are the real killers!"
+"Have you got a screw loose? Or is it your... animal intuition"
+"You hunters have got more blood on your hands."
+"Die! Die, die! Hunters are killers, nothing less! You call ME a beast? A Beast!? What would you know? I didn't ask for this!"
+"Rancid beasts, every last one of us..."</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Alfred_Hunter_Of_Vilebloods">Alfred is a non-playable character in Bloodborne. </npcName>
+
+<description>Although Alfred is a hunter he is wearing the Executioner Garb which suggests that executioners were once used as hunters. Alfred may be an Executioner and a hunter; or the Executioner order was disbanded after Logarius' martyrdom, (there is no chance that Alfred left the order willingly as he expresses deep love for his master and he is willing to take over his duty and hunt down the last Vileblood). In any case, Executioners were used to hunt down individuals possessing the "tainted" blood of the Cainhurst Vilebloods.</description>
+
+<notes>Alfred completely tears the queen's body to pieces and this is most likely because he knew that she was undead and would not die from normal wounds.
+When summoned to fight the Blood-Starved Beast, he wields a Kirkhammer. However, when he murders the Queen, he uses a Logarius' Wheel
+When you find him he is praying in front of a statue that seems to be wearing Executioner's set.
+He has performed a strange ritual and there is blood on the altar in front of him.
+A close-up of his eyes reveals that his pupils are beginning to "collapse". This is a sign that he will soon fall to beasthood.</notes>
+
+<location place="Cathedral_Ward">This character can first be found at the Cathedral Ward</location>
+
+<dialogue><line>Talk:
+You're a hunter, aren't you? I knew it. That's precisely how I started out! Oh, beg pardon, you may call me Alfred. Protege of Master Logarius, hunter of Vilebloods. So, what say you? Our prey might differ, but we are hunters, the both of us. Why not cooperate, and discuss the things we've learned?
+Cooperate:
+"Oh-hoh! Very good, very good indeed! Take this, to celebrate our acquaintance." (Obtain fire paper &amp; pray action)
+"Beast hunting is a sacred practice. May the good blood guide your way."
+Refuse: Nothing happens. He will just bid you farewell and you can talk again with him to cooperate.</line>
+
+<line>Talk:
+There must be oodles for us to share.
+Talk about the Healing Church:
+"As you know, the Healing Church is the fountainhead of blood healing."
+"Well, I'm a simple hunter, quite unfamiliar with the ins and outs of the institution."
+"But I have heard that the holy medium of blood healing is venerated in the main cathedral. And that councilors of the old church reside in the high stratum of the Cathedral Ward."
+"If you seek blood healing, and the church is willing, you should pay them a visit."</line>
+
+<line>Talk about Byrgenwerth:
+"Byrgenwerth is an old place of learning. And the tomb of the gods, carved out below Yharnam, should be familiar to every hunter."
+"Well, once a group of young Byrgenwerth scholars discovered a holy medium deep within the tomb."
+"This led to the founding of the Healing Church, and the establishment of blood healing".
+"In this sense, everything sacred in Yharnam can be traced back to Byrgenwerth."
+"But today, the college lies deep within a tangled wood, abandoned and decrepit. And furthermore, the Healing Church has declared Byrgenwerth forbidden ground."
+"It's unclear how many of its scholars remain alive...but only they know the password that allows passage through the gate."</line>
+
+<line>Talk about the Corrupted Vilebloods:
+"Ah, there's something I want to tell you. A bit of wisdom from the eminent Master Logarius!"
+"Once, a scholar betrayed his fellows at Byrgenwerth...and brought forbidden blood back with him to Cainhurst Castle."
+"It was there that the first of the inhuman Vilebloods was born."
+"The Vilebloods are fiendish creatures who threaten the purity of the Church's blood healing."
+"The Ruler of the Vilebloods is still alive today. And so, to honor my master's wishes, I search, for the path to Cainhurst Castle."</line>
+
+<line>Talk about the Corrupted Vilebloods again:
+"In his time, Master Logarius led his executioners into Cainhurst Castle to cleanse it of the Vilebloods."
+"But all did not go well and Master Logarius became a blessed anchor, guarding us from evil...Tragic, tragic times...that Master Logarius should be abandoned in the accursed domain of the Vilebloods."
+"I must free him, so that he may be properly honored in martyrdom."</line>
+
+<line>Leave:
+I bid you farewell. It has been a pleasure. May the good blood guide your way."</line>
+
+<line>Give Unopened Summons:
+"Ah-hah! Is that... the sigil of Cainhurst?"
+"I've heard tell of Cainhurst nobles, and their amusingly pompous invitations."
+"Wonderful! I thank you profusely... I will depart immediately. But first, a token of my gratitude."
+(Gives 'Wheel Hunter Badge' and 'Church Bow (Male) )
+"Ahh, I feel my master's hand at work. Praise the good blood! And let us cleanse these tarnished streets."</line>
+
+<line>After giving 'Unopened Summons':
+It has been an honor, but I must say good-bye. Let us cleanse these tarnished streets. And may the good blood guide your way."</line>
+
+<line>Upon Arriving at Vileblood Queen's Chamber after giving 'Unopened Summons':
+"Master, look! I've done it, I've done it! I smashed and pounded and grounded this rotten siren into fleshy pink pulp!"
+"There, you filthy monstrosity! What good's your immortality now! Try stirring up trouble in this sorry state! All mangled and twisted, with every inside on the outside, for all the world to see! He heh hah hah Hah! He heh heh ha ha ha ha!"</line>
+
+<line>Talking to him in Vileblood Queen's Chamber:
+"Oh, you, is it? Look at this! Thanks to you, I've done it! Well? Isn't it wonderful?"
+"Now Master can be canonized as a true martyr! Ha ha ha ha ha ha! I've done it, I have!!! Hah h-hah ha ha hah!" (Gives 'Roar')</line>
+
+<line>While hostlle in Vileblood Queen's Chamber:
+"Just what is the meaning of this? Why turn your blade on me? You're jealous, aren't you? Unclean wench! Vile monstrosity! Bloody fool! Has the blood gone to your head? Pathetic, as you deserve!"</line>
+
+<line>Upon death:
+Pray for Master Logarius... in my stead..."</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Valtr">Valtr is a non-player character in Bloodborne. He was added with the Patch 1.07 </npcName>
+
+<description>A Yharnamite's favourite tale tells of a group of constables, who once chased a Beast back to Yharnam, all but one were killed. It was said he killed and ate the Beast in vengeance. This is implied how Valtr earned his title "Beast Eater".</description>
+
+<notes></notes>
+
+<location lamp="Forbiden_Woods">This character can be found inside the shorcut hut to the right of the first lamp in Forbidden Woods.</location>
+
+<dialogue><line>Talk:
+Ahh, a new face, are you? And an accomplished hunter... it would appear. *chuckles* I am Valtr, Master of the League. Members of the League cleanse the streets of all the filth that's spread about during the hunt. Like any half-decent hunter ought to, you know? Haven't you seen enough of these wretched beasts, freakish slugs, and mad doctors? Sentence these fiends to death. With the help of your League confederates. What do you say? Why not join the League?</line>
+
+<line>Edit - Upon joining the League:
+"Now, there is one thing you must know. By the oath of the League, those who bear its rune will see vermin. Vermin writhe deep within all filth, and are the root of man's impurity. All vermin are to be crushed. The League exist to expunge all vermin, ridding us of any trace of human corruption. And so, until we are rid of all vermin, you must continue to hunt and kill. This bloody fate is ours alone. Do not expect the world to grasp our work... But remember, the confederates will always have my blessing... And each other. Always."</line>
+
+<line>Join The League:
+"Yes. As a hunter well should. Commit this to heart."
+Our own Caryll rune, symbol of the League." ( Obtain Impurity) 
+Refuse: Nothing happens. 
+Valtr requests you to reconsider.
+You can talk to him again to join. 
+"The night brims with defiled scum, 
+and is permeated by their rotten stench. 
+Just think, now you're all set to hunt and kill to your heart's content!"</line>
+
+<line>When attacked:
+"Well, how quaint... You scoff at the League? 
+Then you are yourself a beast! A defiled mess of rotten flesh! 
+When you are dead, your rank blood will curdle with vermin!"</line>
+
+<line>When player is killed:
+Male Character: "Vermin writhe and squirm... You vile lout."
+Female Character: "Vermin writhe and squirm... You no good wench."</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Young_Girl_And_Older_Sister">Young Yharnam Girl is a non-player character in Bloodborne.</npcName>
+
+<description>You will meet two girls depending on your choices, they are both the daughters of Viola &amp; Father Gascoigne. She asks that you find her mother, Viola, who has gone to look for Father Gascoigne.</description>
+
+<notes></notes>
+
+<location place="Central_Yharnam">This character can be found in Central Yharnam, behind a window.</location>
+
+<dialogue><line>First interaction with window:
+Who... are you? I don't know your voice, but I know that smell... Are you a hunter? Then, please, will you look for my mum? Daddy never came back from the hunt, and she went to find him, but now she's gone, too... I'm all alone... and scared..."
+Find Girl's Mother: "Really? Oh, thank you! My m-mum wears a red jeweled brooch. It's so big and... and beautiful. You won't miss it. Oh, I mustn't forget. If you find my mum, give her this music box. [Receive Tiny Music Box] ... It plays one of daddy's favorite songs. And when daddy forgets us we play it for him so he remembers. Mum's so silly, running off without it!"
+"My mum wears a red jeweled brooch. It's so big and beautiful. You won't miss it. Oh, and if you find her, give her this music box. Please, I know you can do it."
+Refuse: "Oh, alright... Well th-thanks mister hunter, for talking, at least. Take care, on your hunt."
+"Thanks for chatting. Please be careful out there!"
+After reloading: "Are you that hunter? Can you look for my mum?"</line>
+
+<line>After refusing to help:
+If you refuse to help and talk to her after beating Vicar Amelia and triggering nightfall, she cries: "Mum, come home... I'm alone... I'm scared... It's not fair... "</line>
+
+<line>After accepting quest to find her mother:
+"Hello mister(miss) hunter. Still cant find my mum?"
+[If Brooch is in inventory]
+Give: "Miss Hunter... was it really her?...Mummy...mummy... Don't leave me alone..."
+Do Not Give:
+"Yes, okay. I can wait. Mum knows I'm very brave, and you're very kind. I'll be a good girl. I promise"
+No:
+"Oh, okay. But isn't there something I can do? Maybe mum and dad are stuck out there, waiting for me to come to them. What do you think, mister(miss) hunter?"
+Tell of Oedon Chapel: "Yes okay, thank you very much mister hunter! I love you almost as much as mum and dad, and grandad!"
+Tell of Iosefka's Clinic:
+Withhold Information: "Yes, i see... I can wait, I won't be afraid. I know, I do. The morning always comes."
+After turning in the Brooch, idling outside the window for several moments will elicit the whispers of a man, saying "So, call out to your sister...".</line>
+
+<line>After directing her to safety, and picking up the ribbon:
+(From this point on, it's the Little Yharnam Girl's older sister speaking)"Oh, you haven't by chance... seen my little sister, have you? I told her to look after the house, but she's run off somewhere. She's still quite small, and wears a big white ribbon. Have you seen her out there anywhere?"
+Give Red Messenger Ribbon: "Oh, how did this happen... Why would she ever go outside? At least... I'll have something to remember her by.
+Do Not Give: "Oh, okay then. But if you do see her, would you give me word? She's a small girl, with a big white ribbon. My dear little sister..."
+After not giving Ribbon and talking again: "Oh, back again? Any news of my sister?"
+Later heard outside while near window, but without interacting with it:
+"What a perfect ribbon, and now it's mine. I can't wait to try it on."
+Interacting with the window at this point:
+"Oh, it's wonderful..."</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Simon_the_Harrowed">Simon, the Harrowed is a non-player character in Bloodborne. He was added with The Old Hunters DLC</npcName>
+
+<description>Simon is a rather unique character in the world of Bloodborne, having inhabited several different positions in support of and in opposition to the Healing Church, as a Healing Church Hunter. Most likely originating as a simple Yharnam citizen, Simon hailed from the earlier days of the Healing Church's initially glorious (and eventually disturbing) roots. Like many others before and after him, he was a Church Hunter following in the footsteps of Ludwig the Holy Blade who heeded the call to combat the scourge of beasts. Simon admired Ludwig, like most of his time, and saw him as a hero, even after his transformation into a hideously disfigured and grotesque beast. Going by his dialog, it can be inferred that Simon was familiar with Ludwig both in his human years and well after his downfall.</description>
+
+<notes>Yet somewhere along the line, Simon grew disillusioned with and possibly even horrified by the Healing Church, and soon aimed to expose its true misdeeds to the rest of the world. Whether it was the hunt, the stalking of citizens who showed no signs of the scourge, or the discovery of the nefarious experiments being conducted in the name of the Healing Church which led to his disillusionment is unknown. At some point, Simon found a way into the Hunter's Nightmare while retaining his sanity, much like the player Hunter, rather than joining the ranks of the countless old hunters consumed by blood who were condemned to an unending hunt for all eternity. His exact goals were uncertain, however Simon likely intended to put an end to the source of the Nightmare.
+However, if the player allows Simon to pursue his quest, once he drew too close to the secrets held within the Nightmare, he catches the attention of the beast garbed assassin of the Healing Church, Brador. Attacked by the man repeatedly, a fatigued and mortally wounded Simon would make his way to the lighthouse hut in the fishing hamlet within the Nightmare, where he would eventually fall to his wounds, but not before imparting his final wishes to a worthy hunter to continue his quest and end the Nightmare once and for all.</notes>
+
+<location lamp="Hunter's_Nightmare">Meet him at the first shortcut in the nightmare that leads back to the Hunter's Nightmare lamp.</location>
+
+<dialogue><line>By shortcut back to Hunter’s Nightmare lamp:
+You’re a hunter with your sanity, aren’t you?
+Must’ve taken a wrong turn then, eh?
+Well, we’re more alike than you think.
+This is the Hunter’s Nightmare, where hunters end up when drunk with blood.
+You’ve seen them before.
+Aimless, wandering hunters, slavering like beasts.
+This is what the poor fools have to look forward to.
+So, don’t be brash, turn back before it’s too late.
+Unless, you’ve something of an interest in nightmares?</line>
+
+<line>Respond “nightmares are fascinating”:
+Ahh, yes, I see…
+You sense a secret within the Nightmare,
+And cannot bear to leave it be.
+As if the spirit of Byrgenwerth lives on within you!
+Such inquisitive hunters will relish the Nightmare.
+But beware, secrets are secrets for a reason.
+And some do not wish to see them uncovered.
+Especially when the secrets are particularly unseemly…</line>
+
+<line>Respond "I've no interest"
+"Yes, as it should be.
+Hunt your beasts, and think no more on the secrets of the night.
+That is the very best a hunter can do.
+Just don't let the blood intoxicate you."</line>
+
+<line>If he kills Ludwig:
+"Oh, he's well and truly gone, now.
+A tragic figure. But he will shame himself no longer.
+He died with his ideals untarnished.
+He was a true hero, and earnt that much, at least.
+Here, this is Ludwig's guiding Light.
+The blinding thread, that lead, and mislead, that consummate hero.
+The poor brute."
+"Do you know why the Hunters are drawn to this Nightmare?
+Because it sprouted from their very misdeeds.
+Things that some would rather keep secret.
+A pitiful tale of petty arrogance, really.
+High time someone exposed the whole charade."
+"Now, now, go on ahead.
+You seek nightmares, and the secrets within, do you not?"</line>
+
+<line>At the Research Hall lamp
+Oh, hello. Not a pretty sight, is it?
+The true face of the blood-worshipping, beast-purging Healing Church.
+But that’s not all.
+You seek the secrets field by the Nightmare, do you not?
+Then here’s what you must do.
+Climb the Astral Clocktower, and kill Maria.
+She hides the real secret…</line>
+
+<line>At the Lighthouse Hut lamp:
+Oh, you, I’m afraid, I’ve made a botch of things…
+…I can hear the bell, now…
+…The beast-hide assassin, he’s after me…
+…Again and again…
+…It never ends…
+…Please, I need you to do something…
+…This village is the true secret.
+Testament to the old sins…
+…It feeds this Hunter’s Nightmare…
+…Please, bring to an end to the horror…
+…So our forefathers sinned?
+…We hunters cannot bear their weight forever…
+…It isn’t fair, it just isn’t fair…</line>
+</dialogue>
+</npc><npc>
+<npcName npcList="Brador">Brador is a non-player character in Bloodborne and is part of The Old Hunters DLC.</npcName>
+
+<description>A Church Assassin, who killed his compatriots and wore their beastly remains as attire, going into hiding in the deeper cells of The Hunter's Nightmare. The Church provided him with a single, soundless bell of death to ensure their secrets would be kept."</description>
+
+<notes>Based on his description and the size of his cleric beast attire, we can assume that when the scourge was young, cleric beasts were smaller. Hunters like him would quietly assassinate victims who would transform or who the church knew were bound to transform sooner or later. Eventually as they dabbled more into the old blood, this method became obsolete as beasts became bigger, more dangerous and more public.</notes>
+
+<location lamp="Hunter's_Nightmare">This character can be found in the prison past the Underground Corpse Pile lamp, in a cell accessed with the Underground Cell Inner Chamber Key.</location>
+
+<dialogue><line>When speaking through cell door
+Are you a hunter? Well, that's very odd.
+Do you hear the toll of the bell?</line>
+
+<line>If selecting "I hear the bell"
+Hmph. Liar. Such pettiness will be your undoing.
+The beasts you seek will not be found here.
+Go back to your hunt, and if you have the chance, put this night behind you.
+...places better left untouched, secrets better left alone...
+...only a fool would so brazenly roam...</line>
+
+<line>If selecting "I hear nothing"
+Very well.
+The beasts you seek will not be found here.
+Go back to your hunt, and if you have the chance, put this night behind you.
+...places better left untouched, secrets better left alone...
+...only a fool would so brazenly roam...</line>
+
+<line>Generic dialogue
+"Bear in mind.
+Some places are better left untouched, and some secrets are better left alone.
+...only fools do brazenly roam..."</line>
+
+<line>Speak through cell door after obtaining Underground Cell Inner Chamber Key
+"Do you hear this?
+Fear the bell's toll.
+For only death awaits prying eyes,
+and the Church assassins are never far behind.
+[laughs]"</line>
+
+<line>After entering cell
+"Well, well, look who's here.
+Welcome to my quarters. I've never entertained a guest before.
+Are you going to kill me?
+After all you've done, kill me, as if to right your wrongs?
+[laughs]"</line>
+
+<line>Generic dialogue
+"What is it? Aren't you going to kill me?
+Or perhaps, beg my forgiveness?
+Well, leave off. What's done is done.
+[laughs]"</line>
+
+<line>If killed by Brador
+"Unending death awaits those who pry into the unknown..."</line>
+
+<line>On death
+"Nothing changes, such is the nature of man...
+[laughs]"</line>
+</dialogue></npc>
 <!-- Npc end -->
 <!-- Boss start -->
 <boss>
-    
+<bossName bossList="Blood-Starved_Beast">Blood-Starved Beast (血に渇いた獣 Chi ni kawaita kemono lit. "Blood-thirsty Beast"), also known as the Thirsty Beast, is an optional boss in Bloodborne.</bossName>
+
+<description>This malformed beast has had all of the skin peeled off its back, making for a truly gruesome sight. Capable of extremely quick and agile attacks, this erratic and unpredictable enemy is a truly formidable foe, whether you choose to face it alone or with other Hunters at your side.    </description>
+
+<notes>This boss fight is optional, but it is necessary if you wish to do any of the Pthumeru Chalices, Hintertomb Chalices or accessing Hypogean Gaol for befriending Djura.
+In the church after Djura in Old Yharnam, there is a crucified Blood-Starved Beast hanging in the center of the room.
+The Beast Patients beneath this corpse have formed a circle around her and they are chanting.
+On the altar several gold embossments depict The Moon Presence. It is of course concealed and you'll have to look closely.
+The limbs of Blood-starved Beast very much resemble the tails of The Moon Presence.
+When she perform her "poison explosion" she can mimic the form of Manus' horns with her flaps.</notes>
+
+<location place="Old_Yharnam">Old Yharnam in a ruined church at the bottom of the area.
+Hintertomb Chalice (Final Boss)
+Ailing Loran Chalice (Layer 2 Boss)
+Hunter's Nightmare (DLC), in a cave with the Gatling Gun hunter</location>
+
+</boss><boss>
+<bossName bossList="Cleric_Beast">Cleric Beast (聖職者の獣 Seishoku-sha no kemono lit. "Cleric Beast") is a Boss in Bloodborne. While optional, it's likely the first boss that most new players encounter.</bossName>
+
+<description>The Cleric Beast is an enormous creature with disfigured horns. With high agility and superhuman strength, this boss should not be taken lightly.
+This creature owes its name to a rumor which states that members of the Healing Church would eventually transform into the most hideous beasts.</description>
+
+<notes>The Cleric Beast's design appears to be inspired by the legend of a supernatural creature known as a "wendigo."
+The legend of the wendigo states that it grew in size depending on how many humans it had eaten. Since Brador wears the skin of a Cleric Beast, yet it's small enough for Brador to comfortably wear as clothing, that might mean that Cleric Beasts start off small at first. Even more chilling, if this is true, that means this particular Cleric Beast you fight on the Great Bridge has eaten many humans and thus grew to an enormous size.
+Its horns, which are very misshapen, are a trademark of this particular creature.
+The music score of the Cleric Beast fight is the same as the one used for the "Project Beast" trailer, albeit with minor modifications.
+At the beginning of the game, when you climb the ladder that leads to Gilbert, you hear an unknown creature screeching loudly throughout the city. This is a foreshadow to new players, warning them of terrible things that lurk in the city. In this case, the loud screech belongs to the Cleric Beast, who continues to screech loudly while it tries to kill you.
+The Cleric Beast shares similar characteristics to Manus, Father of the Abyss from Dark Souls; they both have red eyes on their horns and their left arm is larger than their right.
+The fur on his legs looks unusually like fungus and there are nails jammed into his legs.</notes>
+
+<location place="Central_Yharnam">Central Yharnam at the far end of the great bridge.</location>
+
+</boss><boss>
+<bossName bossList="Darkbeast_Paarl">Darkbeast Paarl (黒獣パール Kokujū Pāru lit. "Black Beast Paarl" ) is a Boss in Bloodborne.</bossName>
+
+<description>A malformed beast enveloped in blue lightning. With a long body made of only bones, and a wrinkle-covered skull, people say this beast must be very old, very ancient. Or perhaps, it is a descendant of the city of the plague of beasts.</description>
+
+<notes>Archibald was fond of the sparks emitted from the Darkbeast, and so he created Tonitrus and Bolt Paper to replicate the sparks.
+Paarl is Afrikaans for "pearl", paarl is based on the Dutch word for pearl, "parel".
+If you've fought him at least once before you can find Paarl poised, looking at the nightmare gate like a cat ready to pounce. Paarl is also wagging his tail and making growling noises that sound a lot like that of a lion.
+While casting his electric explosion Paarl curves his long neck all the way down then swings it back across his back. The animation is so dramatic that it would cause whiplash in any real living animal.</notes>
+
+<location place="Yahar'gul_Unseen_Village">Hypogean Gaol</location>
+
+</boss><boss>
+<bossName bossList="Father_Gascoigne">Father Gascoigne (ガスコイン神父 Gasukoin shinpu lit. "Father Gascoigne") is a Boss in Bloodborne;</bossName>
+
+<description>In beast form, he becomes stronger, faster and more aggressive, at the cost of his sanity. However, later in the game, multiple details come to light that some beasts, perhaps even all, still have a conscience, meaning their humanity isn't completely gone.
+It's possible to use the Tiny Music Box to stun Gascoigne, but mind that can't interrupt his combos this way, and on the third stun he will assume Beast Form regardless of health. In Beast Form, you will be able to stun him one last time before this strategy stops working altogether.
+His equipment set reveals that his clothing had a "pungent beastly smell," indicating that his transformation had been slow and ate away at his humanity over time.
+Even though his equipment set is actually above-average when dealing with fire damage, Father Gascoigne is still weak against fire damage.
+This is an indicator of just how far the beast plague has taken its toll on Father Gascoigne; he's become more beast-like over time.</description>
+
+<notes>In the Alpha version, he muttered "Umbasa" upon killing the player, a reference to one of From Software's games, "Demon's Souls".
+If you summon Father Gascoigne for the Cleric Beast boss fight and you happen to have the Tiny Music Box, using it will make Father Gascoigne give you an unimpressed grunt or a small chuckle.
+Gascoigne's surname is based off Irish origin. His dialogue, "beasts all over the shop" is also based off from an Irish colloquialism.
+As his attire description reveals, the title "Father" is actually a reference to his literal paternal status: he has 2 daughters, both of which still hope for his return after the hunt. 
+However, it could also point to Gascoigne's Irish connections, as priests in Ireland are colloquially referred to as "Father", think calling someone "Sir".
+Also, Gascoigne can use his firearm even while his axe is transformed.
+Normally players cannot use firearms when the Hunter Axe is transformed, giving Gascoigne a unique characteristic amongst many Hunters and Old Hunters.
+Father Gascoine hates the sewers. If you have summoned him for the fight against the Cleric Beast, any attempts to lead him near the sewers will result in him using his Silencing Blank and leaving. Effectively wasting your Insight.</notes>
+
+<location place="Central_Yharnam">Father Gascoigne can be found at the end of Central Yharnam.</location>
+
+<dialogue><line>During the intro 
+"...Beasts all over the shop... You'll be one of them, sooner or later..." </line>
+
+<line>Upon killing the player 
+"Too Proud to show your true face eh? But what a sporting hunt, it was!" </line>
+
+<line>When entering phase 2 (and only the first time you enter phase 2) 
+"What's that smell? ... The sweet blood, oh, it sings to me. It's enough to make a man sick"</line></dialogue>
+
+</boss><boss>
+<bossName bossList="Gehrman_The_First_Hunter">Gehrman, the First Hunter (最初の狩人ゲールマン Saisho no kariudo Gēruman lit. "Gehrman, the First Hunter") is a Boss in Bloodborne, and one of the three possible final bosses of the game. </bossName>
+
+<description>"Hm hm hm ha ha ha... Dear oh dear, what was it? The Hunt? The Blood? Or the horrible Dream? Oh, it doesn't matter... It always comes down to the hunters' helper to clean up after these sort of messes." 
+"Tonight... Gehrman joins the hunt...."</description>
+
+<notes>When killed, Gehrman raises his arms in an almost perfect "make contact" gesture, before falling to his knees, looking to his hands and then falling forward. It should also be noted that Lady Maria of the Astral Clocktower shares this same action upon death (with the exception of groaning rather than speaking final words).</notes>
+
+<location place="Hunter's_Dream">Hunter's Dream</location>
+
+<dialogue>
+    <line>See Gehrman's NPC page.</line>
+</dialogue>
+
+</boss><boss>
+<bossName bossList="Micolash_Host_Of_The_Nightmare">Micolash, Host of the Nightmare (悪夢の主ミコラーシュ Akumu no shu Mikorāshu lit. "Micolash, Lord of the Nightmare") is a Boss in Bloodborne.</bossName>
+
+<description>"Ahhh Kos... or some say Kosm.  Do you hear our prayers?" </description>
+
+<notes>The body found after defeating The One Reborn (Advent Plaza at end of Yahar'gul) wears a Mensis Cage just like that of Micolash.  It is also the portal by which the Hunter enters the Lecture Hall 2nd Floor which leads to Nightmare of Mensis.  Given that Micolash is the "Host of the Nightmare", it is likely that this corpse is his actual body in the waking world.</notes>
+
+<location place="Nightmare_Of_Mensis">Nightmare of Mensis</location>
+
+<dialogue><line>Ahh, Kos, or some say Kosm... Do you hear our prayers?"</line>
+
+<line>"No, we shall not abandon the dream."</line>
+
+<line>No one can catch us! No one can stop us now! [cackling]."</line>
+
+<line>Ah hah hah ha! Ooh! Majestic! A hunter is a hunter, even in a dream. But, alas, not too fast! The nightmare swirls and churns unending!"</line>
+
+<line>As you once did for the vacuous Rom, grant us eyes, grant us eyes. Plant eyes on our brains, to cleanse our beastly idiocy."</line>
+
+<line>The grand lake of mud, hidden now, from sight."</line>
+
+<line>The cosmos, of course!"</line>
+
+<line>Let us sit about, and speak feverishly. Chatting into the wee hours of..."</line>
+
+<line>New ideas, of the higher plane!"</line>
+
+<line>Now I'm waking up, I'll forget everything..."</line>
+</dialogue>
+
+</boss><boss>
+<bossName bossList="Martyr_Logarius">Martyr Logarius (殉教者ローゲリウス Junkyōsha Rōgeriusu lit. "Martyr Logarius") is a Boss in Bloodborne.</bossName>
+
+<description>"Acts of goodness are not always wise, and acts of evil are not always foolish, but regardless, we shall always strive to be good".
+When asked about the Vilebloods, Alfred offers some insight on Logarius. According to him, Master Logarius led the Executioners in a charge against the Vilebloods at Castle Cainhurst. Alfred implies that Logarius stayed behind while the rest of the Executioners escaped.</description>
+
+<notes>His sword is very similar in design to the Soulbrandt, a blade from Demon's Souls.
+His scythe on the other hand is a replica of the one conjured by Pthumerian Elder.
+Logarius is likely connected to the The Emperor Tarot Card.
+The Sword of Logarius  much resembles The Drake Sword from DS1 . 
+Like The Drake Sword it is very broad at the hilt and the edge is slightly curved, like a flamberge. The colors are different.
+The sword that Logarius uses is a kris, an Indonesian sword with unusual curves.</notes>
+
+<location place="Forsaken_Castle_Cainhurst">Forsaken Cainhurst Castle</location>
+
+</boss><boss>
+<bossName bossList="One_Reborn">The One Reborn (再誕者 Saitansha lit. "The One Reborn") is a Boss in Bloodborne.</bossName>
+
+<description>A being reborn, as part of the Mensis Ritual, The One Reborn is a colossal undead mass. He is assisted by red Chime Maidens (killable).</description>
+
+<notes>The arena of this boss and the placement of the Chime Maidens is reminiscent of the Tower Knight and the archers in Demon's Souls; furthermore, Tower Knight's weak spot is his legs while this boss is entirely constructed from leg parts.
+The One Reborn resembles Nito from Dark Souls and Dark Souls II's The Rotten. Undead amalgams first appeared in Demons' Souls.</notes>
+
+<location place="Yahar'gul_Unseen_Village">Advent Plaza</location>
+
+</boss><boss>
+<bossName bossList="Shadow_Of_Yharnam">Shadow of Yharnam (ヤーナムの影 Yānamu no kage lit. "Shadow of Yharnam") is a Boss in Bloodborne.</bossName>
+
+<description>The Shadow of Yharnam consists of three figures shrouded in black robes. As the fight progresses they are revealed to have been infected with the parasitic snakes that infest the woods and undergo gruesome mutations. They share a symbiotic link with the vipers, either transforming their arms to use them as whips or summoning gigantic serpents to devour victims.They are servants of Queen Yharnam, as their name implies. </description>
+
+<location place="Forbidden_Woods">At the very end/bottom of the Forbidden Woods.
+As regular enemies at Mergo's Loft Middle.</location>
+
+</boss><boss>
+<bossName bossList="Vicar_Amelia">Vicar Amelia (教区長エミーリア Kyōku-chō Emīria lit. "Vicar Amelia/Emilia") is a Boss in Bloodborne.</bossName>
+
+<description>Vicars were the heads of the Healing Church, as is revealed in the item description for the Gold Pendant, which she can be seen clutching in the cutscene, and even in battle after her grotesque transformation. This would make her the last Vicar, who oversaw the Church as Yharnam fell to the beasthood brought upon it by misuse of the Old Blood. As the player finds her, she is seen praying to the altar in the Grand Cathedral which hold a misshapen skull, presumably that of Laurence, the founder of the Healing Church. Here she kneels awaiting her inevitable transformation, praying, clasping her pendant which existed to carry a reminder that had been all but forgotten, and that may have prevented the madness that led Yharnam to ruin before her eyes: Fear the Old Blood.</description>
+
+<notes>After defeating her and interacting with the altar, it will be night time.
+Her dialogues can be heard before triggering the fight if the player stands at the top of the stairs and listens closely.
+Vicar Amelia shares her boss theme with the Cleric Beast, presumably because both Amelia and the Cleric Beast were once members of clergy and got turned into beasts.
+Intrestingly enough, Vicar Amelia also makes a re-appearance in the Old Hunter's DLC as a Church Hunter.  She is wearing the white garbed Church hunter by the Surgery Alter after you defeat Ludwig the Accursed, while also chanting the same chant when you first encounter her in the Grand Cathedral.  Becareful when you approach her, as another Church Hunter is hiding and waiting to ambush.</notes>
+
+<location place="Cathedral_Ward">In Cathedral Ward, inside the Grand Cathedral.</location>
+
+<dialogue>
+<line>Remain wary of the frailty of men. Their wills are weak, minds young.
+Were it not for fear, death would go unlamented.
+Seek the old blood.
+Let us pray, let us wish... to partake in communion.
+Let us partake in communion... and feast upon the old blood.
+Our thirst for blood satiates us, soothes our fears.
+Seek the old blood.
+But beware the frailty of men. Their wills are weak, minds young.
+The foul beasts will dangle nectar and lure the meek into the depths."
+Remain wary of the frailty of men..."</line>
+</dialogue>
+
+</boss><boss>
+<bossName bossList="Witch_Of_Hemwick">Witch of Hemwick (ヘムウィックの魔女 Hemuuikku no majo lit. "Witch of Hemwick") is a Boss in Bloodborne. It is a special variation of the Eye Collector. </bossName>
+
+<description>'In the outskirts of Yharnam, the city of gravekeeper witches carved by the sunlight, Hemwick. In its depths, an old, gigantic structure and one Old lady lies in wait. Holding suspicious rituals in the deepest of the night, for that very purpose it is said that she gathers the eyeballs of the living. In the city where unwanted corpses would be gathered and disposed of, her outfit might just be befitting of one such place.</description>
+
+<notes>Despite the boss's name, there are actually two witches, which are visually identical.
+She propably comes from the Unseen Village as a few of her kin can be found there (this is supported by the fact that there are two Witches of Hemwick). This theory is supported by the removed eyeballs too for the description of the item suggests that the victim could be still alive in the time of the removal.</notes>
+
+<location place="Hemwick_Charnel_Lane">Hemwick Charnel Lane at the very end of this area.</location>
+
+</boss><boss>
+<bossName bossList="Amygdala">Amygdala (アメンドーズ Amendōzu - "Amendoze") is an optional Great One Boss in Bloodborne.</bossName>
+
+<description>Amygdala is a monstrous entity with a spider-like body, a short tail and a head which is is very similar to a part of the brain called the Amygdaloid, with many bulbous eyes that bulge when it uses its arcane attack. It has six-fingered hands on its seven arms, and reptilian talons on its two legs.</description>
+
+<notes>It's similar to the large enemies who attempt to grab the Hunter with portals, but lighter in color, and lacking tentacles on its head.
+Amygdala (plural: Amygdalae) means "Almond" in Latin and "Almond" or "Almond Tree" in Greek (ἀμυγδάλη).
+An Amygdala is a bilateral neural structure set deep within the limbic system of the brain. It is thought to be responsible for learning and organizing fear responses. Amygdalectomy - surgical removal of this structure - is associated with reduced capacity to learn memories related to fear and behaving fearfully.
+The shape of Amygdala's head (and the heads of the other beings of similar appearance) roughly corresponds with the shape of this region in the brain
+In some medieval philosophy the amygdala was regarded as the seat of the soul but also a medium for "animal spirits". Within the amygdala a balance is struck between the rational desires of the soul and the fleshy, animalistic wants of the body.</notes>
+
+<location place="Nightmare_Frontier">Nightmare Frontier, at the bottom near the shortcut lift that is guarded by a Silverbeast.</location>
+
+</boss><boss>
+<bossName bossList="Celestial_Emissary">Celestial Emissary (星界からの使者 Seikai kara no Shisha lit. "Emissary of the Astral world") is a Great One Boss and Chalice Dungeon Boss in Bloodborne.</bossName>
+
+<description>The Celestial Emissary is initially disguised as one of the numerous Celestial Minions, and its appearance changes very little when it changes phase, other than significant growth in size and eyes glowing cosmic blue.</description>
+
+<notes>While there is very little information on it, this Great One is revealed in the DLC to have been created by experimentation by the Healing Church, who used the orphans they captured as a sort of think tank.
+They would have their patients imbibe in water, apparently infested with otherworldly microscopic life that congealed the brain fluid (taken as the generation of the "eyes on the inside"), and listen for the sound of the ocean due to the Great Ones being linked to it by the Church in the past.
+This would present itself in the form of a sort of "sticky" sound, which was labeled as the sound of water said to come from the depths of the ocean, and was thought to be the voice of a sort of celestial attendant that guided those with enough brain fluid "eyes" to revelation.
+Though most people pass it off as Kin, the boss is confirmed to be a Great One, as the trophy describes it as such.
+No Celestial Minions spawn during the fight in Isz Gravestone.
+The fight with the Living Failures, who themselves are collapsed and unstable versions of this boss, is fought on the crosswalk above the Lumenflower Gardens.
+This location is called the Lumenwood Garden, further linking the two bosses and linking them both to the "lumen plants" they rise from, and possibly explaining the Milkweed Rune's anticlimactic name.
+While the method of creating the being is implied through the DLC, there are few theories to explain the origins of this boss, though some of them are listed here.
+One prevalent theory is that the being was created from scratch, and as the name implies, exists to serve as a link for the human race to commune with Ebrietas and other otherworldly life.
+Another possibility is that this boss was an orphan who became a crossbreed kin from the experiments of the Healing Church, and eventually became a Great One through revelation of the higher planes. In terms of this origin, it is likely that it still serves as a means of communication to Ebrietas.
+The fact that it drops the second highest tier Communion Rune, and by the rune's description, the Celestial Emissary could be the source of paleblood for the Church.
+To this extent, when added with the nature of the Orphanage and its relation to the Choir (and that you encounter the leader of the School of Mensis and the lead vicar of the Church), one could extrapolate that this being could be the leader of the Orphanage, and by extension the Choir.</notes>
+
+<location place="Cathedral_Ward">In the Orphanage, in Upper Cathedral Ward (requires Orphanage Key dropped from enemy).</location>
+
+</boss><boss>
+<bossName bossList="Ebrietas_Daughter_Of_The_Cosmos">Ebrietas, Daughter of the Cosmos (星の娘、エーブリエタース Hoshi no musume, Ēburietāsu lit. "Ebrietas, Daughter of the Stars") is a boss and a "Great One" in Bloodborne.</bossName>
+
+<description>One of the eldritch Great Ones, Ebrietas is a monstrous creature that resembles a slug with squid-like tentacles emerging from her back. Her face appears split in half and is covered in strange growths that resemble fungus that surround her vulnerable head (only red flesh is seen, so it is possible that she has no real mouth) but, despite being a Kin (most of them have bulging and globular yellow eyes), she has only two oval shaped green eyes. Ebrietas also possesses a set of skeletal wings that grant her limited flight.</description>
+
+<notes>The fact that this being is the conduit between the Church and the Great Ones, coupled with the appellation "daughter" and her appearance, possibly shows that she is the first Celestial Child. Like most of the Kin she has gray blood but is able to spit a red fluid, similar to human blood, that inflicts Frenzy.
+When the player finds her she seems to be mourning at the Altar of Despair, which appears to be the corpse of a fallen great one that resembles Rom.
+The object of the Healing Church's worship, Ebrietas communes only with the highest members of the Church, guiding them in the ways of Blood Ministration. She is one of the Great Ones who was left behind in the old labyrinth, eventually discovered by the Healing Church. The Healing Church later founded the Choir to protect and study her. She is the only Great One that wants to coexist with humans.
+"Ebrietas" is the name of a species of butterflies (Ebrietas), which is fitting as she was massive wings to relocate herself in battle. More interestingly though, is that it is also Latin for "inebriation", or drunkenness. This could imply that Ebrietas is the source of the "Old Blood", harvested by the Healing Church.
+Ebrietas can be partially summoned using the Augur of Ebrietas. However, this does not actually do anything to her body, and works after her death. While this is likely an oversight, it could lend credence to the idea that the Great Ones do not die, but are displaced back to their higher dimensional existences until they find a medium to return (the land of Isz) to this world. If that is true, the augur does not summon the boss herself, but her truest form is called upon to generate a representation of her form.
+She resembles the Celestial Children. The implication is that they are the result of the Choir trying to give Ebrietas a surrogate child to make her stop mourning.
+Her design is reminiscent of the real-world blue angel sea slug.</notes>
+
+<location place="Cathedral_Ward">Located in the Altar of Despair in Upper Cathedral Ward.</location>
+
+</boss><boss>
+<bossName bossList="Mergo's_Wet_Nurse">Mergo's Wet Nurse (メルゴーの乳母 Merugō no uba lit. "Mergo's Wet Nurse") is a Great One Boss in Bloodborne, and one of the three possible Final Bosses.</bossName>
+
+<description>Mergo's Wet Nurse is a strange towering creature with six skeletal arms and two black tattered wings. Strangely enough, the appearance of this being appears to be rather Pthumerian, despite its bizarre features, with its long, black, hooded dress and various jewels.</description>
+
+<notes>She has one of two One Third of the Umbilical Cord's in the game that don't require correct actions to be taken at set times. The other being in the Abandoned Workshop.
+After Mergo's Wet Nurse dies, the lullaby stops and the baby starts crying. However, using the Tiny Music Box makes the baby laugh before it goes silent.
+After defeating her you can also go back the direction you entered, and Queen Yharnam, who was previously sobbing, will bow her head in thanks and vanish.
+Mergo's Wet Nurse, along with Moon Presence, are the only two bosses that give the message "Nightmare Slain" instead of the normal "Prey Slaughtered" (or the Japanese message "You Hunted"). However, it could also be argued that the "Nightmare Slain" message doesn't appear until Mergo's crying stops, implying that the Nightmare was Mergo. The DLC increases this number to three with the Orphan of Kos.
+The battle is triggered by going near the baby stroller, so it's possible to circle around the whole arena without starting the fight, as long as you stay a certain distance away from the stroller.</notes>
+
+<location place="Nightmare_Of_Mensis">Wet Nurse's Lunarium</location>
+</boss><boss>
+<bossName bossList="Moon_Presence">Moon Presence (月の魔物 Tsuki no mamono lit. "Moon Demon/Fiend") is an optional final boss in Bloodborne.</bossName>
+
+<description>An eldritch being composed of human flesh and bone, with the exception of its head. It's the Great One which created and rules over the Hunter's Dream. Defeating it will result in the "Childhood Beginning's" ending.</description>
+
+<notes>One of the Great Ones in Bloodborne, the Moon Presence controls and manipulates all that resides within the Hunter's Dream. The Moon Presence's origin is largely unknown, but its first known appearance to humanity was to Laurence, who summoned it for unknown reasons. Evidenced by the note located on the upper floor of the Lecture Building, the Moon Presence also has a connection to Paleblood.
+"The nameless moon presence beckoned by Laurence and his associates. Paleblood."
+Before being encountered by the Hunter, the Moon Presence had bound Gehrman, the First Hunter to the Hunter's Dream, an outlet seemingly used by the Moon Presence to further its own desires, mainly involving the killing of the other Great Ones. Whether or not this has to deal with halting the Scourge of the Beast and the slaughter of other Great Ones is unknown. However, a note found on the upper floor of the Lecture Hall lends legitimacy to the idea that the Moon Presence is actively seeking out and trying to eliminate other Great Ones.
+"Hunt the Great Ones, Hunt the Great Ones."
+The appearance of Moon Presence resembles Nyarlathotep from various novels written by H.P. Lovecraft.
+The Moon Presence, along with Mergo's Wet Nurse, are the only two bosses that give the message "Nightmare Slain" instead of the normal "Prey Slaughtered" (or the Japanese message "You Hunted"). In the DLC, this number increases to three with Orphan of Kos.
+The song playing during the first phase of the fight is based on the Nameless Song from Dark Souls.
+The Moon Presence may clutch its face right before it begins to thrash. This could indicate a headache or that it's blinding herself.
+The Moon Presence may have another name: Flora. the doll has dialogue saying: "O Flora, of the moon, of the dream", and there is no other character named flora that the doll could know of that's related to the moon and the dream. this may also imply that the Moon presence is supposed to be female, as flora is a girl's name.</notes>
+
+<location place="Hunter's_Dream">Hunter's Dream</location>
+
+</boss><boss>
+<bossName bossList="Rom_The_Vacuous_Spider">Rom, the Vacuous Spider (白痴の蜘蛛ロマ Hakuchi no kumo Roma lit. "Roma, the Idiotic Spider") is a Great One Boss in Bloodborne.</bossName>
+
+<description>Despite her title, Rom resembles a gigantic pillbug rather than an arachnid. She has a silverfish-like tail and a bulbous body from which vegetation appears to be growing, possibly Coldblood Flowers. Her face resembles a chunk of pumice and is covered in eyes, suggesting its connection to the Great Ones. Rom is initially non-hostile until provoked, at which point will use powerful magic attacks to defend herself.
+Rom is accompanied by creatures known as the Children of Rom. They resemble actual spiders but with the same shaped head and appear to have blades for legs. These spiders are possibly either the literal spawn of Rom or were created in order to defend the creature.</description>
+
+<notes>Rom, the Vacuous Spider controls the barrier that prevents normal Yharnamites from seeing the true horrors around them, such as the Lesser Amygdalas crawling around the Cathedral Ward. Rom was once a scholar of Byrgenwerth whom at some point went through metamorphosis into a Kin Great One courtesy of Kos, according to dialogue given by Micolash.
+"The Byrgenwerth spider hides all manner of rituals and keeps our lost master from us. A terrible shame. It makes my head shudder uncontrollably." - Note from library area just beyond the Tomb of Oedon.
+"The spider hides all manner of rituals, certain to reveal nothing, for true enlightenment need not be shared."  - Note from the second floor of Byrgenwerth.
+"Ahh, Kos or some say Kosm... Do you hear our prayers? As you once did for the vacuous Rom, grant us eyes, grant us eyes." - Micolash, Host of the Nightmare.
+Rom (白痴の蜘蛛ロマ, Roma, the Idiotic Spider) may have been based on the novel "The Idiot" by Fyodor Dostoevsky.</notes>
+
+<location place="Byrgenwerth">Moonside Lake, accessed from the Lunarium in Byrgenwerth College.</location>
+
+</boss><boss>
+<bossName bossList="Undead_Giant">Undead Giant (死体の巨人 lit. "Corpse Giant") is a Chalice Dungeon Boss in Bloodborne.</bossName>
+
+<description>The Undead Giant is a massive humanoid being that has weapons for hands. It has large, fleshy lumps on specific parts of its body that, when attacked, will burst, causing massive damage to the giant.</description>
+
+<notes>The face of this miserable being reveals similarities with both Church Giants and Church Servants, suggesting that all these towering creatures belong to the same unholy kind. Its face is the only clue about this connection because the rest of its body is twisted and rotten beyond recognition due to the crude surgery that grafted blades and firearms to its arms.</notes>
+
+<location place="Pthumeru_Labyrinth">Pthumeru Chalice</location>
+
+</boss><boss>
+<bossName bossList="Merciless_Watcher">Merciless Watcher is a Boss in Bloodborne composed of 3 bosses.  The Watcher Chieftain (守り人の長 Mamoribito no naga lit. "Chief of the Guards") and two Merciless Watcher (Zankokuna mamoribito lit. "Merciless Guard"), one carries a sword and the other one carries a Gun.</bossName>
+
+<description>Watchers are overweight, pudgy, extremely pale Pthumerians who wield a variety of weapons, ranging from firearms to heated blunt objects and lamps. They will sometimes be covering some areas in cloth. Wrapped with chains for an unseen reason, some watchers have face covering cloth and sometimes take the appearance of a hunting party.</description>
+
+<notes>In some of the Test Chalice Dungeons, the player can encounter sleeping Merciless Watchers. this sleeping animation is unused as none the Merciless Watchers in the retail Chalice Dungeons ever use the sleeping animation.</notes>
+
+<location place="Pthumeru_Labyrinth">Pthumeru Chalice</location>
+
+</boss><boss>
+<bossName bossList="Watchdog_Of_The_Old_Lords">Watchdog of the Old Lords (旧主の番犬 Kyūshu no banken lit. "Watchdog of the Old Lords")  is a Boss in Bloodborne.</bossName>
+
+<description>It is a large, burning, canine creature. It was first revealed in the Chalice Dungeon gameplay video, and currently can only be found within Chalice Dungeons.</description>
+
+<notes>The Watchdog has several eyes inside its skull.
+The Watchdog has molars, consistent with both dogs and humans. Its still not determined what it started out as.
+It has 5 fingers and 3 toes. In the hind legs the tibia and fibula are exposed.
+The Watchdog has a powerful exoskeleton made from bone and unknown parts.
+The Watchdog belongs to a group of crocodile like monsters inspired by Berserk's Beast of Darkness - read here.
+The defiled version can have up to 28700+ health, making it have the highest hp out of any boss in BloodBorne, and the highest hp out of any boss in the SoulsBorne series.</notes>
+
+<location place="Pthumeru_Labyrinth">Chalice Dungeon, third boss of the Pthumerian Labyrinth (Pthumerian Chalice Layer 3)</location>
+
+</boss><boss>
+<bossName bossList="Beast-Possessed_Soul">Beast-Possessed Soul (獣憑き Kemonotsuki lit. "Possessed Beast") is a Boss in Bloodborne.</bossName>
+
+<description>The Beast-possessed Soul is a horned lupine creature capable of using fire elemental attacks, including fireballs, shockwaves, and whips. It can be encountered as a boss in Chalice Dungeons, but one can also be found at the bottom of the Healing Church Workshop.</description>
+
+<notes>The Beast-possessed Soul is the only enemy that can be healed with the Choir Bell.
+It is similar in appearance to the Loran Cleric found in Aling Loran Chalice.</notes>
+
+<location place="Pthumeru_Labyrinth">Central Pthumeru Chalice</location>
+
+</boss><boss>
+<bossName bossList="Keeper_Of_The_Old_Lords">Keeper of the Old Lords (旧主の番人 Kyūshu no ban'nin lit. "Watchman of the Old Lords") is a Boss in Bloodborne.</bossName>
+
+<description>Granted eternal life by the ones she obeys, the Keeper of the Old Lords protects the slumbering Great Ones.</description>
+
+<notes>Keepers have at least 8 eyes in their head, with pupils and irises. Their eyes resemble those of Amygdala.
+Their armor resembles a spider's web and eyes can be found within the gaps. This makes it resemble Amygdala's head.
+Eyes can be found within their flames. Similar eyes can be found in the flames of Boom Hammer Hunter.</notes>
+
+<location place="Pthumeru_Labyrinth">Central Pthumeru Chalice</location>
+
+</boss><boss>
+<bossName bossList="Pthumerian_Descendant">Pthumerian Descendant (トゥメル人の末裔 Toumeru hito no matsuei lit. "Pthumerian Descendant") is a Boss in Bloodborne.</bossName>
+
+<description>The Pthumerian Descendant is one of the few surviving members of Pthumerian nobility, the ancient civilization that constructed the labyrinths. The Descendant is a tall, emaciated humanoid and wears tattered robes. Despite its frail appearance, it is incredibly agile and capable of powerful, rapid attacks with the shotel it wields.</description>
+
+<location place="Pthumeru_Labyrinth">Central Pthumeru Chalice</location>
+
+</boss><boss>
+<bossName bossList="Maneater_Boar">Maneater boar is a Boss and an enemy in Bloodborne.</bossName>
+
+<description>Maneater Boars are pigs that have been affected by the Beast Plague which has increased their size and given them a taste for human flesh. It has also made them much more aggressive and they will relentlessly pursue anything that enters their territory. </description>
+
+<location place="Hintertomb_Chalice">Hintertomb Chalice</location>
+
+</boss><boss>
+<bossName bossList="Bloodletting_Beast">Bloodletting Beast is a Boss in Bloodborne.</bossName>
+
+<description>The Bloodletting Beast is a gigantic hulking creature. Its back has been split open and its face is heavily scarred and mutilated, although its still retains a humanoid shape. Even with its colossal size, the beast is capable of stretching its arms to reach opponents and its attacks are incredibly fast.
+In the Pthumeru Ihyll Chalice Dungeon, an even more mutilated version of the beast can be encountered. This version lacks a head, although this does not impair its vision, and it is capable of launching parasites out of the wound on its back. When low on health, a gigantic parasite worm will replace its missing head and attempt to bite opponents, inflicting rapid poison.</description>
+
+<notes>His japanese name (獣血の主) means "Host of the Beast Blood".
+Because of the skull in The Grand Cathedral, the Headless Bloodletting Beast was once speculated to be Laurence, an apprentice of Master Willem and the founder of the Healing Church. This turns out to be not the case.
+The gash on his back looks almost identical to the horns of Manus, Father of the Abyss (dark souls dlc).
+The gash is also very similar to the split in the Nightmare Headstone.</notes>
+
+<location place="Pthumeru_Labyrinth">Lower Pthumeru Chalice</location>
+
+</boss><boss>
+<bossName bossList="Brainsucker">Brainsucker is an enemy and can also be found as a Chalice Dungeon boss in Bloodborne.</bossName>
+
+<description>The Brainsucker is a humanoid creature dressed in shabby robes, wearing an amulet, and with a pale-blueish appearance with a slender figure, elongated limbs, and a mass of tentacles emerging from its face. Despite its frail appearance, it can run surprisingly fast and attacks with vicious swipes and punches. Often times he is unstaggerable.</description>
+
+<notes>The Brainsucker is capable of a dangerous grab attack that damages the player and drains two of their Insight; a tentacle will emerge from its head, which it will use to impale the Hunter’s skull, in which it will literally begin imbibing the player's brain and draining their knowledge.
+There are two variants of the Brainsucker. The hooded version is capable of using magic attacks that paralyze the player and leave them vulnerable to a grab. They are Kin, which means that their blood is gray instead of red and are weak to bolt.</notes>
+
+<location place="Hintertomb_Chalice">Lower Hintertomb Chalice</location>
+
+</boss><boss>
+<bossName bossList="Forgotten_Madman">Forgotten Madman is a Boss in Bloodborne.</bossName>
+
+<description>The Forgotten Madman is a former member of the Healing Church that has been driven insane in the Hintertomb Labyrinth. He wears the Madman's attire and wields Ludwig's Holy Blade and Ludwig's Rifle. He is also capable of casting the extremely dangerous A Call Beyond and Augur of Ebrietas, which both deal devastating amounts of Arcane damage.
+During the battle, another Hunter named Madman's Escort and wielding a Kirkhammer and Flamesprayer will arrive to support him, turning the until now fair and tough battle into an uneven fight for survival.</description>
+
+<notes>The Madman's Escort will use the clap gesture if you are slain.
+The Madman himself uses the conviction gesture if he wins.
+Both Madmen have a faint bluish skin color, reminiscent of the local Pthumerians.</notes>
+
+<location>The Forgotten Madman is the boss of Lower Hintertomb Chalice</location>
+
+</boss><boss>
+<bossName bossList="Pthumerian_Elder">Pthumerian Elder is a Chalice Dungeon Boss in Bloodborne.</bossName>
+
+<description>This Pthumerian royal is a magical expert with a big bag of tricks. He can change his staff into almost any weapon and many of his attacks have magical secondary effects, fireslashes, explosions, summoning flaming spears underneath you. They can appear in any root chalice dungeon and are a good source of Cold Blood Gems</description>
+
+<notes>They have a cane that looks like a darker version of the Threaded Cane. They tap it when teleporting which could be its function.
+His transforming weapon could be considered a Pthumerian version of a trick weapon, suggesting Gehrman was not the first to invent this type of weapon.</notes>
+
+<location place="Hintertomb_Chalice">Lower Hintertomb Chalice</location> <!-- What should I put for the location of labyrinths? -->
+
+</boss><boss>
+<bossName bossList="Abhorrent_Beast">Abhorrent Beast is a Chalice Dungeon boss in Bloodborne, and is the true form of the Suspicious Beggar.</bossName>
+
+<description>A hunched beast with semblance to humans. It has long dark-grey fur and crooked red spikes in its back that surge with electricity, indicating a potential link to the Darkbeasts.</description>
+
+<notes>His lightning coated body suggested him being a Darkbeast, as both him and Paarl are coated with lightning, while the mace Tonitrus is modeled after the Darkbeasts.
+The Beast form also resembles the one from Beast's Embrace rune, it could the reason why the Beggar remained sentient even after the transformation.
+He actually elongates his arm like rubber in most attacks, making it difficult to guess his range.</notes>
+
+<location place = "Ailing_Loran">Ailing Loran Chalice</location>
+
+</boss><boss>
+<bossName bossList="Loran_Silverbeast">Loran Silverbeast is a Boss in Bloodborne.</bossName>
+
+<description>The Loran Silverbeast is identical to the regular Silverbeasts found in the Nightmare Frontier and Nightmare of Mensis, although it is significantly stronger.</description>
+
+<location place="Ailing_Loran">Lower Loran Chalice</location>
+
+</boss><boss>
+<bossName bossList="Yharnam_Pthumerian_Queen">Yharnam, Pthumerian Queen is a Boss in Bloodborne.</bossName>
+
+<description>Yharnam was the Queen of the ancient Pthumerian civilization and mother to the child Mergo. She wears a white, bloodstained dress with a veil to conceal her face, although she removes it when the player finds her in the Nightmare of Mensis. Like other Pthumerians, she has black eyes with no pupils and skin resembling a shriveled corpse.
+When confronted in the Pthumeru Ihyll Chalice Dungeon, her dress is completely white but becomes bloodier and bloodier as the fight progresses. Her hands are initially chained but she breaks free and wields a dagger in combat. When low on health, she will use her blood to empower her dagger, making it resemble a sword.
+Perhaps her most disturbing feature is her pregnancy, the child in her womb (Mergo) constantly cries throughout the battle and is even capable of paralyzing the player with its cries. </description>
+
+<notes>The city of Yharnam was named after her.
+Queen Yharnam is first seen after defeating Rom, the Vacuous Spider, gazing up at the red moon.
+The red stains on her dress suggests Mergo, her baby, was taken from her before being born. This, along with the fact that she's handcuffed indicates all of this happened against her will. The purpose of this atrocity seems to be making Mergo cry and drawing the Moon close to the world (as seen in the cutscene after defeating Rom) in order to attract and make contact with the Old Ones.
+Yharnam, Pthumerian Queen can be seen in the Nightmare of Mensis, standing outside the building where Mergo's Wet Nurse is fought. If the player returns to her after killing the boss she will bow to The Hunter, before disappearing, as a sign of gratitude for freeing or perhaps avenging her baby from the Wet Nurse.</notes>
+
+<location place="Pthumeru_Labyrinth">Great Pthumeru Ihyll Chalice</location>
+
+</boss><boss>
+<bossName bossList="Ludwig_The_Holy_Blade">Ludwig, The Accursed (醜い獣、ルドウイーク Minikui kemono, Rudouīku lit. "Ludwig, the Unsightly/Hideous Beast") is a Boss in The Old Hunters Expansion for Bloodborne.</bossName>
+
+<description>He was also the founder of the Healing Church Workshop, and first hunter of the Church. He is also known under his official title; Ludwig, The Holy Blade (聖剣のルドウイーク Seiken no Rudouīku lit. "Ludwig, The Holy Blade"), and adopts this title in the second phase of his fight. </description>
+
+<notes>New dialogue will be triggered upon speaking to him after his defeat while wearing the chest piece from either the Executioner's, White Church, Black Church, Gascoigne's, Tomb Prospector or Choir Sets
+Ludwig was named after Ludwig Von Beethoven, the composer of Moonlight Sonata, suggesting Ludwig's affinity with the Moon.
+Judging from the way he hold his sword, Ludwig appears to be left-handed.
+While most beasts are wolflike in nature, Ludwig is horselike in his deformities, and the only beast to have such a unique appearance.
+Much like the Abhorrent Beast the Afflicted Beggar turns into, Ludwig still retains his cognitive functions and the ability to speak.
+The Guidance rune was discovered by Ludwig and is directly associated with him. There is also a theme regarding the rallying mechanic and Ludwig himself. Since rallying is the act of recovering health by attacking, shortly after being attacked, this could perhaps be what ultimately fuelled his bloodlust. Even the Holy Moonlight Sword itself possesses high rally potential. It can also even be theorized that since Ludwig calls his sword his true mentor, the sword itself was that which transcribed the Guidance rune unto him.</notes>
+
+<location lamp="Hunter's_Nightmare">The Hunter's Nightmare</location>
+
+<dialogue>
+<line>Dialogue after Ludwig reaches half of his health bar:
+"Aah, you were at my side, all along.
+My true mentor...
+My guiding moonlight..."</line>
+
+<line>Dialogue after defeating Ludwig while NOT wearing Church Hunter attire:
+"Good hunter, have you seen the thread of light?
+Just a hair, a fleeting thing, yet I clung to it, steeped as I was in the stench of blood and beasts.
+I never wanted to know, what it really was. Really, I didn't."
+(He will then proceed to wail and howl wildly until you kill him, or speak to him while wearing Church Hunter attire.)</line>
+
+<line>Dialogue after defeating Ludwig while wearing Church Hunter attire:
+"Good Hunter of the Church,
+Have you seen the light?
+Are my Church Hunters the honorable spartans I hoped they would be?
+(Answer yes)
+Ah, good...that is a relief.
+To know I did not suffer such denigration for nothing.
+Thank you kindly. Now I may sleep in peace.
+Even in this darkest of nights, I see...the moonlight..."
+(Answer no)
+Oh, my.
+Just as I feared.
+Then a beast-possessed degenerate was I, as my detractors made eminently clear
+Does the nightmare never end?!"</line>
+</dialogue>
+
+</boss><boss>
+<bossName bossList="Orphan_Of_Kos">Orphan of Kos (ゴースの遺子 Gōsu no ishi lit. "Orphan of Gos") is a Great One Boss in Bloodborne. It was added with The Old Hunters DLC.</bossName>
+
+<description>The orphan appears to be a Human/Great One offspring of the deceased Kos, the Orphan is a tall, skeletal humanoid. Its mouth is permanently fixed in a rictus grin and it constantly screams throughout the fight. A thin membrane is draped across its back like a cape, this transforms into a pair of wings when the Orphan enters its second form.
+"Mercy for the poor wizened child, mercy."</description>
+
+<notes>Once slain, attack the black spirit on top of Kos to get "Nightmare Slain", and complete the DLC.
+The Orphan has a connection to Gehrman. After you defeat The Orphan, The Doll will say: "Oh, good hunter. I can hear Gehrman sleeping. On any other night, he'd be restless. But on this night, he sounds so very calm. ...perhaps something has eased his suffering"
+The first and second forms are NOT kin, so kin related gems do nothing.
+After defeating the Orphan and slaying the black spirit—the "Sweet Child of Kosm"—floating atop the corpse of Kosm, the rain will stop and the moon will disappear.
+There are many snail women facing the boss gate in a prayer position.</notes>
+
+<location lamp="Coast">Coast</location>
+
+</boss><boss>
+<bossName bossList="Lady_Maria_Of_The_Astral_Clocktower">Lady Maria of the Astral Clocktower (時計塔のマリア Tokei-tō no Maria lit. "Maria of the Clocktower") is a Boss in Bloodborne. She was added with The Old Hunters DLC. </bossName>
+
+<description>According to both her equipment and her weapon, Lady Maria of the Astral Clocktower was a citizen of Cainhurst, and is directly related to Queen Annalise. However, she was one of the first hunters to join the nightly hunt, studying under Gehrman, the First Hunter. Despite being a citizen of Cainhurst, who relished in their extravagant uses of blood, she favored her Rakuyo, which required dexterity and skill rather than blood to wield effectively.
+At an unknown point in time, Maria forfeited her beloved weapon, tossing it down a well when she could no longer stomach it, and seemingly killed herself. Her consciousness was then pulled into the Hunter's Nightmare.
+Gehrman held a curious mania about her, even after she disappeared. The Doll was based on her, down to her facial features, yet, sadly, lacked her personality, leaving Gehrman bitter.</description>
+
+<notes>Killing her triggers additional dialogue with the Plain Doll, further fueling the connection between the two.
+She has a special visceral attack animation, in which she will hug the player character before removing her hand from their chest. What triggers it is currently unknown.
+Some of the blue lights turn out to be snowflakes. Such snowflakes where also detected during the meteor shower of The Living Failures.
+Lady Maria's attire displays a golden salamander
+Her Rakuyo can be interpreted as mimicking the hands of the Astral Clock. Some of her stances also seem to imitate the hands of a clock.</notes>
+
+<location lamp="Astral_Clocktower">Astral Clocktower</location>
+
+<dialogue>
+<line>A corpse, should be left well alone. Oh, I know very well how the secrets beckon so sweetly. Only an honest death will cure you now. Liberate you from your wild curiosity."</line>
+</dialogue>
+
+</boss><boss>
+<bossName bossList="Living_Failures">Living Failures (失敗作たち Shippai saku tachi lit. "Failed Creations") is a Boss in Bloodborne. This was added with The Old Hunters DLC.</bossName>
+
+<description>The Living Failures are massive, slender, alien-like creatures. They are light bluish in color and their arms are curiously elastic. Although having a humanoid stature, they are severely deformed. Their heads are extremely large and misshaped, appearing to fold over itself and connect to its shoulders. It lacks any recognizable facial features. As they cast Arcane attacks, they get two glowing dot eyes, however these float in front of their face and are not physically connected to their head. Their arms are extremely long, almost being able to touch the floor in a standing position. They have large hands, each with 6 fingers. Altogether, it is approximately 2.5 times as taller than the Hunter. They strongly resemble the Celestial Emissary boss found in the Orphanage as well as the Enlarged Head Patients found throughout the Research Hall. </description>
+
+<notes>The theme of Living Failure loosely resembles Seath's theme from King's Field, as well as Mars, Bringer of War by Gustav Holst.
+Killing the boss at the very second a Living Failure is spawning can sometimes leave that Failure alive to walk around, attack and perform all of the boss's abilities, even the Meteor Storm. (it will have a set amount of health, though not visible when damaging it)
+Killing a Failure while it is casting arcane missiles can leave a black blotch in the sky with no projectiles coming from it.
+Their meteors (or comets, as they look like they're made of ice) can produce very tiny snowflake crystals. Extreme close-up required.</notes>
+
+<location place="Research_Hall">Research Hall</location>
+
+</boss><boss>
+<bossName bossList="Laurence_The_First_Vicar">Laurence, The First Vicar (初代教区長ローレンス Shodai kyōku-chō Rōrensu lit. "Laurence, The First Vicar") is a Boss in Bloodborne. He was added with The Old Hunters DLC. </bossName>
+
+<description>A Cleric Beast, but somehow burning with an inextinguishable flame. Oddly enough, when you first approach it to acquire the Eye Pendant, it has no reaction. Laurence will remain motionless until the player has acquired Laurence's Skull.
+Once Laurence has 40% of his health remaining, he tears himself apart and begins crawling towards the player, destroying his legs in the process. He constantly 'bleeds' lava out of his torso and also gains the ability to spew it from his mouth.</description>
+
+<notes>Laurence was the first Cleric Beast ever, as according to Laurence's Skull.
+Beast Laurence was destined to reunite with his human skull, but it's unknown if he attacks out of rage or despair or simple mindless aggression.
+One of the scholars at Byrgenwerth. The discovery of the old blood inspired Laurence, who believed the healing properties of the old blood were of divine nature, and was the ideal medium to transcend humanity through transfusing it into human bodies. Despite this, Provost Willem held distrust towards the substance, believing the material to be far too dangerous. Given that the Beast rune of Caryll is transcribed by him personally from the sound of a labyrinth beast, it could be that the nature of beasts was already known to Willem, and that he found the risk too high.</notes>
+
+<location lamp="Hunter's_Nightmare">Hunter's Nightmare</location>
 </boss>
 <!-- Boss end -->
 </lore>
-
