@@ -162,9 +162,9 @@ img.pictureLink {
 	display: inline-block;
 }
 
-/*----------------- RESULTS -----------------*/
+/*----------------- MAP -----------------*/
 
-.resultContainer {
+.mapContainer {
 	display: flex;
 	background-color: #333;
 	justify-content: center;
@@ -176,15 +176,15 @@ img.pictureLink {
 	padding-right: 1em;
 	margin-bottom: 2em;
 }
-.result {
+.iFrameContainer {
 	background-color: white;
 	margin: auto;
 	width: 90%;
 	height: 90%;
-	padding-left: 1em;
-	padding-right: 1em;
-	float: left;
+	padding: 1em;
+	
 }
+
 
 /*----------------- XSLT HTML -----------------*/
 
