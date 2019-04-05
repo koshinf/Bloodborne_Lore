@@ -5,6 +5,7 @@
 	text-align: right;
 	background-color: gray;
 	margin: 0 auto;
+	border-bottom: 1em solid #333;
 }
 
 img.header-img {
@@ -12,13 +13,17 @@ img.header-img {
 	height: 20em;
 	border: none;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 /* Body */
 body{
-    background-color:gray;
+    background-image: url("../images/backgroundIMG.jpg");
 	margin: 0;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* Navbar */
@@ -157,9 +162,9 @@ img.pictureLink {
 	display: inline-block;
 }
 
-/*----------------- RESULTS -----------------*/
+/*----------------- MAP -----------------*/
 
-.resultContainer {
+.mapContainer {
 	display: flex;
 	background-color: #333;
 	justify-content: center;
@@ -169,12 +174,68 @@ img.pictureLink {
 	margin-right: 2em;
 	padding-left: 1em;
 	padding-right: 1em;
+	margin-bottom: 2em;
 }
-.result {
+.iFrameContainer {
 	background-color: white;
 	margin: auto;
 	width: 90%;
 	height: 90%;
+	padding: 1em;
+	
+}
+
+
+/*----------------- XSLT HTML -----------------*/
+
+.dataDataContainer {
+	display: flex;
+	background-color: #333;
+	justify-content: center;
+	flex-direction: row;
+	border-radius: 25px;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 2em;
+}
+.d {
+	background-color: #f1f1f1;
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	padding-left: 1em;
+	padding-right: 1em;
+	float: left;
+}
+
+.loreType {
+	text-align: center;
+	font-size: 2em; 
+	color: white;
+	padding: .1em;
+	background-color: #333;
+	width:100%;	
+}
+
+.dataLoc{
+	text-align: center;
+	font-size: 4em; 
+	background-color: #f1f1f1;
+}
+
+.dataCont{
+	background-color: #333;
+	height: 100%;
+	padding: 1em;
+	margin-bottom: 1em;
+	display: flex;
+}
+
+.data{
+	background-color: white;
+	width: 33%;
 	padding-left: 1em;
 	padding-right: 1em;
 	float: left;
