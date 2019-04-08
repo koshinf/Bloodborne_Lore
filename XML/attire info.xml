@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../RNC/mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<lore>
 <name>Beak Mask is a Head Armor (Attire) in Bloodborne. It is part of the Crowfeather Set.</name>
 
 <description>Wood-carved mask of Eileen the Crow, Hunter of Hunters. The beak contains incense to mask scents of blood and beast." 
@@ -9,7 +11,7 @@ rather than impose a blasphemous Yharnam burial service upon them,
 with the hope that former compatriots might be returned to the skies, 
 and find rest in a hunter's dream. "</description>
 
-<location place ="Messengers">Bath Messengers in the Hunter's Dream after obtaining the Crow Hunter Badge.</location>
+<location place ="Hunter's_Dream">Bath Messengers in the Hunter's Dream after obtaining the Crow Hunter Badge.</location>
 
 ^n"Resembles the mask of a seventeenth century plague doctor. 
 Plague doctors also kept aromatic items in the beak of the mask 
@@ -24,7 +26,7 @@ the importance of early prevention of the scourge, achieved by disposing of vict
 and even potential victims, before signs of sickness manifest themselves. 
 Their black attire is synonymous with fear, and that peculiar Yharnam madness."</description>
 
-<location place ="Cathedreal Ward">Buy the Hunter Chief Emblem to gain access to the Grand Cathedral's round plaza in Cathedral Ward. 
+<location place ="Cathedral_Ward">Buy the Hunter Chief Emblem to gain access to the Grand Cathedral's round plaza in Cathedral Ward. 
 That is the locked gate up the stairs past the first Reaper.
 From the door, go left, past the enemy with the Flamesprayer, 
 and to an alley where several enemies will attack you as you talk to NPCs in windows. 
@@ -271,7 +273,7 @@ A single hole allows one to peek out with a single eye, which is probably all th
 owner had. The iron helm is passed down among masters of the League. Valtr had in fact lost the ability 
 to see Vermin long ago."</description>
 
-<location place=Valtr">Dropped by Valtr, the leader of The League after consuming 5 Vermin and speaking with him. Reloading 
+<location place="Valtr">Dropped by Valtr, the leader of The League after consuming 5 Vermin and speaking with him. Reloading 
 the area in any way causes Valtr to disappear, leaving behind the helm in his place.</location>
 
 ^n"Fairly similar to the helmet used by Ned Kelly, an Australian outlaw from the 19 century.
@@ -590,7 +592,7 @@ They take great pride even in the blood-stained corpses of beasts that they leav
 
 ^n" The knight set changes its look depending on the gender of your character.
 There's actually a small dagger on your character's back when you equip these clothes.
-Relevant lore theories can be found under The Mysteries of Cainhurst Garb & Architecture.
+Relevant lore theories can be found under The Mysteries of Cainhurst Garb &amp; Architecture.
 
 $
 <name> Madman Garb</name>
@@ -755,7 +757,7 @@ and there is no such rank in the Healing Church."</description>
 <description>Manchettes of Dores, graveguard of the Forbidden Woods. 
 His pale countenance mimics the labyrinth watchers. Willem kept two loyal servants back at Byrgenwerth. When they were sent into the labyrinth. they encountered the eldritch Truth. and went mad. One became the password gatekeeper, while Dores became a graveguard of the forest. 
 Both remained loyal, even in madness."</description>
-<locationplace="Forbbiden Woods">Forbidden Woods</locationplace>
+<location place="Forbbiden Woods">Forbidden Woods</location>
 
 <name>Hunter Gloves</name>
 
@@ -788,7 +790,7 @@ Truth oft resembles madness, inaccessible to the dull of mind. Those who go mad 
 The taciturn old hunter Henryk was once partners with Father Gascoigne, 
 and though they were a fierce and gallant duo, their partnership led to Henryk's tragically long life. 
 Henryk's unique yellow garb is resistant to bolt and will be of great help to any hunter who has inherited the onus of the hunt."</description>
-<location place="Tomb of Oedon">Tomb of Oedon</locationplace>
+<location place="Tomb of Oedon">Tomb of Oedon</location>
 
 <name>Butcher Gloves</name>
 
@@ -1004,7 +1006,7 @@ The fable is a favorite among Yahrnamites, who are partial to any stories of pom
 <description>Old Hunter Garb decorated with brass trinkets 
 At the time, some hunters believed that certain metals would ward off beast blood. 
 On a night of the hunt, it is no wonder that people would resort to superstition." </description>
-<location place="Research Hall">Research Hall</locationplace>
+<location place="Research Hall">Research Hall</location>
 
 <name>Harrowed Trousers</name>
 
@@ -1032,3 +1034,4 @@ up the right leg," and this led to the double-wrapped belt. "</description>
 "This Eastern warrior pursued a beast for honorable revenge, then became a hunter of the League. 
 But when he stared straight into impurity, it drove him mad."</description>
 <location place="The Hunter's Nightmare">The Hunter's Nightmare</location>
+</lore>
