@@ -11,7 +11,7 @@ caryllRune = element caryllRune{runeName, ((description | locationArea | effect 
 runeName = element runeName{runeList, text}
 
 attire = element attire{attireName, ((description | locationArea | effect | notes | trivia)?)+}
-attireName = element attireName{attireList, attireSet, text}
+attireName = element attireName{attireList, attireSet?, text}
 
 weapon = element weapon{weaponName, ((description | locationArea | notes | trivia)?)+}
 weaponName = element weaponName{weaponList, text}
