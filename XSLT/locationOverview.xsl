@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<!--<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math"
     exclude-result-prefixes="xs math"
     xmlns:exslt="http://exslt.org/common"
-    xmlns="http://www.w3.org/1999/xhtml"
-    version="3.0">
+    xmlns="http://www.w3.org/1999/html"
+    version="1.0">
     
-    <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
-        omit-xml-declaration="yes"/>
+    <xsl:output method="html" encoding="utf-8" doctype-system="about:legacy-compat"
+        omit-xml-declaration="yes"/>-->
+<xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
-    <xsl:param name="pQString" as="xs:string" select="'?id=Cathedral_Ward'"/>
+    <xsl:output method="html"/>
+    
+    <xsl:param name="pQString" />
+    
     
     <!-- Above we have our Param variable. I will figure out how to run XSLT clientside,
          but if I don't, we can still generate pages by plugging IDs in.
          Just type in a location id to test it!-->
     
-    <xsl:variable name="locationID" as="xs:string" select="substring-after($pQString,'=')"/>
+    <xsl:variable name="locationID" select="substring-after($pQString,'=')"/>
     
     <!-- below is a variable storing the location title. I'm lazy and this gets used alot, so I'd prefer to just type in a var name -->
     
-    <xsl:variable name="locationTitle" as="xs:string" select="string-join(tokenize($locationID, '_'),' ')"/>
+    <xsl:variable name="locationTitle" select="translate($locationID, '_',' ')"/>
     
     <!-- DEFINE KEYS -->
     
@@ -40,7 +45,7 @@
     
     <xsl:template match="/">
         
-        <html xmlns="http://www.w3.org/1999/xhtml">
+        <!--<html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title><xsl:value-of select="$locationTitle"/></title>
                 <meta charset="UTF-8" />
@@ -53,9 +58,9 @@
                             }
                         </style>
 
-            </head>
+            </head>-->
             
-            <body>
+            <div>
                 <ul id="nav">
                     <li class="navButton"><a href="index.html" class="active">Home</a></li>
                     <li class="navButton"><a href="aboutGame.html">About Game</a></li>
@@ -107,18 +112,18 @@
                     </div>
                 </div>
                 
-            </body>
+            </div>
             
-        </html>   
+        <!--</html>  -->
         
     </xsl:template>
     
     <!-- DATA BLOCK TEMPLATES -->
     
-    <xsl:template match="key('currentRune',$locationID)" mode="dataBlock">
-        
+    <!--<xsl:template match="key('currentRune',$locationID)" mode="dataBlock">-->
+    <xsl:template match="caryllRune" mode="dataBlock">
         <div class="dataCont"><!-- Data Container -->
-            <div class="data"><p><strong><xsl:apply-templates select="string-join(tokenize(runeName/@runeList, '_'),' ')"/></strong></p></div>
+            <div class="data"><p><strong><xsl:apply-templates select="translate(runeName/@runeList, '_',' ')"/></strong></p></div>
             <div class="data"><!-- Data Location -->
                 <p><strong>Location: </strong><xsl:value-of select="$locationTitle"/></p>
             </div>
@@ -135,10 +140,10 @@
         
     </xsl:template>
     
-    <xsl:template match="key('currentAttire',$locationID)" mode="dataBlock">
-        
+    <!--<xsl:template match="key('currentAttire',$locationID)" mode="dataBlock">-->
+        <xsl:template match="attire" mode="dataBlock">
         <div class="dataCont"><!-- Data Container -->
-            <div class="data"><p><strong><xsl:apply-templates select="string-join(tokenize(attireName/@attireList, '_'),' ')"/></strong></p></div>
+            <div class="data"><p><strong><xsl:apply-templates select="translate(attireName/@attireList, '_',' ')"/></strong></p></div>
             <div class="data"><!-- Data Location -->
                 <p><strong>Location: </strong> <xsl:value-of select="$locationTitle"/></p>
             </div>
@@ -157,10 +162,10 @@
         
     </xsl:template>
     
-    <xsl:template match="key('currentWeapon',$locationID)" mode="dataBlock">
-        
+    <!--<xsl:template match="key('currentWeapon',$locationID)" mode="dataBlock">-->
+    <xsl:template match="weapon" mode="dataBlock">
         <div class="dataCont"><!-- Data Container -->
-            <div class="data"><p><strong><xsl:apply-templates select="string-join(tokenize(weaponName/@weaponList, '_'),' ')"/></strong></p></div>
+            <div class="data"><p><strong><xsl:apply-templates select="translate(weaponName/@weaponList, '_',' ')"/></strong></p></div>
             <div class="data"><!-- Data Location -->
                 <p><strong>Location: </strong> <xsl:value-of select="$locationTitle"/></p>
             </div>
@@ -177,10 +182,10 @@
         
     </xsl:template>
     
-    <xsl:template match="key('currentFirearm',$locationID)" mode="dataBlock">
-        
+    <!--<xsl:template match="key('currentFirearm',$locationID)" mode="dataBlock">-->
+    <xsl:template match="firearm" mode="dataBlock">
         <div class="dataCont"><!-- Data Container -->
-            <div class="data"><p><strong><xsl:apply-templates select="string-join(tokenize(firearmName/@firearmList, '_'),' ')"/></strong></p></div>
+            <div class="data"><p><strong><xsl:apply-templates select="translate(firearmName/@firearmList, '_',' ')"/></strong></p></div>
             <div class="data"><!-- Data Location -->
                 <p><strong>Location: </strong> <xsl:value-of select="$locationTitle"/></p>
             </div>
@@ -201,10 +206,10 @@
     
     <!--<xsl:template match="key('currentArea',$locationID)" mode="dataBlock"></xsl:template>-->
     
-    <xsl:template match="key('currentNPC',$locationID)" mode="dataBlock">
-        
+    <!--<xsl:template match="key('currentNPC',$locationID)" mode="dataBlock">-->
+        <xsl:template match="npc" mode="dataBlock">
         <div class="dataCont"><!-- Data Container -->
-            <div class="data"><p><strong><xsl:apply-templates select="string-join(tokenize(npcName/@npcList, '_'),' ')"/></strong></p></div>
+            <div class="data"><p><strong><xsl:apply-templates select="translate(npcName/@npcList, '_',' ')"/></strong></p></div>
             <div class="data"><!-- Data Location -->
                 <p><strong>Location: </strong> <xsl:value-of select="$locationTitle"/></p>
                 <p><strong>Description:</strong><xsl:apply-templates select="description"/>
@@ -221,10 +226,10 @@
         
     </xsl:template>
     
-    <xsl:template match="key('currentBoss',$locationID)" mode="dataBlock">
-        
+    <!--<xsl:template match="key('currentBoss',$locationID)" mode="dataBlock">-->
+        <xsl:template match="boss" mode="dataBlock">
         <div class="dataCont"><!-- Data Container -->
-            <div class="data"><p><strong><xsl:apply-templates select="string-join(tokenize(bossName/@bossList, '_'),' ')"/></strong></p></div>
+            <div class="data"><p><strong><xsl:apply-templates select="translate(bossName/@bossList, '_',' ')"/></strong></p></div>
             <div class="data"><!-- Data Location -->
                 <p><strong>Location: </strong> <xsl:value-of select="$locationTitle"/></p>
                 <p><strong>Description:</strong><xsl:apply-templates select="description"/>
@@ -243,13 +248,23 @@
     
     <xsl:template match="dialogue/line" mode="quotations">
         
-        <xsl:variable name="tokens" select=" tokenize(./text(),'\n\r?')"/>
+        <xsl:variable name="tokens">
+            
+            <xsl:call-template name="tokenizeString">
+                
+                <xsl:with-param name="list" select="./text()"/>
+                
+                <xsl:with-param name="delimiter" select="'\n\r?'"/>
+                
+            </xsl:call-template>
+            
+        </xsl:variable>
         
         <xsl:for-each select="$tokens">
             
             <p>
                 
-                <i><xsl:sequence select="."/></i>
+                <i><xsl:value-of select="current()"/></i>
                 
             </p>
         </xsl:for-each>
@@ -260,13 +275,23 @@
     
     <xsl:template match="notes" mode="notes">
         
-        <xsl:variable name="tokens" select=" tokenize(./text(),'\n\r?')"/>
+        <xsl:variable name="tokens">
+            
+            <xsl:call-template name="tokenizeString">
+                
+                <xsl:with-param name="list" select="./text()"/>
+                
+                <xsl:with-param name="delimiter" select="'\n\r?'"/>
+                
+            </xsl:call-template>
+            
+        </xsl:variable>
         
         <xsl:for-each select="$tokens">
             
             <p>
                 
-                <xsl:sequence select="."/>
+                <xsl:value-of select="current()"/>
                 
             </p>
         </xsl:for-each>
@@ -274,5 +299,65 @@
         
         
     </xsl:template>
+    
+    <xsl:template name="tokenizeString" xml:space="default">
+        
+        <!--passed template parameter -->
+        
+        <xsl:param name="list"/>
+        
+        <xsl:param name="delimiter"/>
+        
+        <xsl:choose>
+            
+            <xsl:when test="contains($list, $delimiter)">               
+                
+                <color>
+                    
+                    <!-- get everything in front of the first delimiter -->
+                    
+                    <xsl:value-of select="substring-before($list,$delimiter)"/>
+                    
+                </color>
+                
+                <xsl:call-template name="tokenizeString">
+                    
+                    <!-- store anything left in another variable -->
+                    
+                    <xsl:with-param name="list" select="substring-after($list,$delimiter)"/>
+                    
+                    <xsl:with-param name="delimiter" select="$delimiter"/>
+                    
+                </xsl:call-template>
+                
+            </xsl:when>
+            
+            <xsl:otherwise>
+                
+                <xsl:choose>
+                    
+                    <xsl:when test="$list = ''">
+                        
+                        <xsl:text/>
+                        
+                    </xsl:when>
+                    
+                    <xsl:otherwise>
+                        
+                        <color>
+                            
+                            <xsl:value-of select="$list"/>
+                            
+                        </color>
+                        
+                    </xsl:otherwise>
+                    
+                </xsl:choose>
+                
+            </xsl:otherwise>
+            
+        </xsl:choose>
+        
+    </xsl:template>  
     
 </xsl:stylesheet>

@@ -1,8 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-
-=======
->>>>>>> d14c59c46060243a5ee723777548301174a21515
 <?xml-model href="../RNC/mainSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <lore>
 <!-- Equipment start -->
