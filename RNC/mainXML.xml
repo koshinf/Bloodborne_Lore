@@ -2440,7 +2440,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Large prototype firearms fashioned by the workshop heretics, the Powder Kegs. Use of this weapon is equivalent to toting a mounted cannon, complete with its ridiculous weight, staggering kick, and lavish use of Quicksilver Bullets, into battle. Such a monstrosity was doomed from the start, and indeed its development was cut short. Yet, against impossibly gigantic foes, it might be just the thing. "
         </description>
         
-        <locationArea>
+        <locationArea><location place="Forbidden_Woods">
         It's found in the Forbidden Woods inside a big wooden building.
         You need to walk into the building behind the enemy who is firing a large stationary cannon. When you proceed into the building, there will be a Viper Pit Mob guarding the area. Stay above and exit on the opposite end of where you entered. Drop down from the ledge onto the exterior roof. Next, kill the Large Huntsman and go up the ladder. Once back inside the building, follow the narrow wooden walkway to the other side and look for another slightly lower hanging walkway. Drop down and circle around until you find a corpse next a destroyed gear; the Cannon is there, where you can pick it up.
         As of patch 1.02, it can be obtained without killing any bosses by using the Iosefka Jump to get early access to the Forbidden Woods.
@@ -2463,7 +2463,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         But the men lacked the wits to effectively operate firearms, and the weapon was quietly ushered into permanent storage."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Research_Hall">
         Found after activating the altar elevator to the Research Hall with the Eye Pendant activate the new elevator to go down. The send the elevator back up, which will reveal an altar with Laurence's Skull. Send the elevator down again via the switch and stand at the altar. This will take you down to a hidden chest. Step back onto the altar to go back.
         </location></locationArea>
         
@@ -2481,7 +2481,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Lovingly named after a woman and graced with an intricate design, Evelyns were adored by Cainhurst knights."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Forsaken_Castle_Cainhurst">
         It is found inside a chest in Cainhurst Castle in the library room near the elevator shortcut filled with ghosts (Bound Widow) and barricaded behind tables. You will need to jump from a nearby library staircase to reach the chest.
         Sold by the Messengers after joining the Cainhurst Vilebloods at Cainhurst Castle.
         </location></locationArea>
@@ -2500,7 +2500,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Gratia was a fearsome hunter, and to onlookers, her unrelenting pummelling appeared oddly heroic. No wonder this weapon later assumed her name."
         </description>
         
-        <locationArea>
+        <locationArea><location lamp="Hunter's_Nightmare">
         In The Hunter's Nightmare, on the body of Gratia inside the last cell on the right, after the Ludwig, the Holy Blade fight.
         </location></locationArea>
         
@@ -2519,7 +2519,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Besides, the beasts of Yharnam can always use a good cleansing."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         Gilbert will grant you this firearm as a gift after you defeat Father Gascoigne (you actually have to trigger the cathedral ward intro cut scene first) and zone in some way (use a lamp to teleport, exit your game, die, etc.). If you have already defeated Vicar Amelia before you attempt to receive it, he will no longer offer it, forcing you to buy it from the Messenger shop instead.
         It becomes available for purchase for 8000 Blood Echoes from the Bath Messenger after obtaining the Radiant Sword Hunter Badge.
         </location></locationArea>
@@ -2543,7 +2543,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         The Gatling Gun boasts exceptional rapid-firing functionality, but is considered a cumbersome weapon, due to its excessive weight and insatiable consumption of Quicksilver Bullets."
         </description>
         
-        <locationArea>
+        <locationArea><location lamp="Hunter's_Nightmare">
         Hunter's Nightmare, cave to the right after getting out of the building that used to be the shortcut to the Cleric Beast in the main game. Gattling Gun Hunter drops the weapon. Amygdalan Arm and a Blood-Starved Beast can be also found here.
         </location></locationArea>
         
@@ -2559,7 +2559,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         A blunderbuss created at the workshop for the hunters' line of work. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The impact of this highly-effective weapon counters beasts' swift movements, and its wide spread is nigh-on guaranteed to hit the mark."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         It's available in the Hunter's Dream at the Bath Messengers. First, you must obtain the Saw Hunter Badge in the sewers next to the Giant Boar on a corpse.
         At the beginning of the game, it's available as a gift from the Messengers if you choose.
         </location></locationArea>
@@ -2583,7 +2583,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Pistol made at the workshop, for hunters stalking beasts. Hunter firearms are specially crafted to employ Quicksilver Bullets fused with the wielder's own blood, boosting damage against beasts. The pistol is a quicker draw than the blunderbuss, allowing for speedier responses to attacks."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         This is a starting weapon gifted to you by the messengers if you choose.
         Otherwise you can buy it from the Messengers for 1600 Blood Echoes after you find the Saw Hunter Badge in the sewers; it is next to the Giant Boar.
         </location></locationArea>
@@ -2604,7 +2604,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Its fire damage is highly effective against beasts."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Old_Yharnam">
         It's sold by the Bath Messengers in the Hunter's Dream for 2,000 Blood Echoes after locating it in Old Yharnam.
         At the start of Old Yharnam, follow the "lizard" (Scurrying Beast) and it's in the building you land on the roof of. Beware of the cloaked beast hiding nearby the hunter torch's location.
         </location></locationArea>
@@ -2627,8 +2627,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         The blue is fashioned after a lake, and the shield greatly reduces all forms of non-physical damage. " 
         </description>
         
-        <locationArea>
-        Research Hall: The Loch Shield can be seen right when entering on a platform together with one of the crawling experiments. It's obtained after activating the lever to raise the stairs, then dropping and following the path down.
+        <locationArea><location place="Research_Hall">        Research Hall: The Loch Shield can be seen right when entering on a platform together with one of the crawling experiments. It's obtained after activating the lever to raise the stairs, then dropping and following the path down.
         </location></locationArea>
         
         <trivia>
@@ -2649,7 +2648,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Ludwig's Rifle exhibits several departures from the workshop's design, suggesting that the Church anticipated much larger inhuman beasts."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         Can be purchased for 10,000 echoes from the Messengers. Warp to the Cathedral Ward lamp after defeating the Blood-Starved Beast. Proceed through the right-side exit which will now be open. The Radiant Sword Hunter Badge is found in a chest at the top of the tower.
         </location></locationArea>
         
@@ -2667,7 +2666,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Designed for hunting on narrow streets, this weapon has been optimized to cause perforation wounds, but is unfit for reliably counter attacks."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         Purchasable at the messenger bath after acquiring the Firing Hammer Badge.
         </location></locationArea>
         
@@ -2683,7 +2682,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Repeating pistol typically used by Healing Church hunters. Crafted with mostly metal parts and exhibiting a complex design, the repeating pistol fires two shots at once, making it a ravenous consumer of Quicksilver Bullets. Should be used sparingly compared to its workshop counterpart, as the trump card in one's arsenal."
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         Can be purchased from the Messengers for 3000 Blood Echoes after obtaining the Sword Hunter Badge.
         </location></locationArea>
         
@@ -2703,7 +2702,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         This gun's firing mechanics may have been inspired by the wheellock mechanism, which used a wheel and several built-in devices to operate a self-igniting firearm.
         </description>
         
-        <locationArea>
+        <locationArea><location place="Hunter's_Dream">
         It can be bought for 60,000 Blood Echoes from the Messengers after obtaining the Cosmic Eye Watcher Badge.
         </location></locationArea>
         
@@ -2725,9 +2724,9 @@ But when he stared straight into impurity, it drove him mad."</description>
         A common torch formed by wrapping a pine resin-drenched cloth around the end of a long stick. Hunters choose torches not only because the hunt leads them to the darkest nooks, but also because certain creatures they encounter are possessed of a deathly fear of flame"
         </description>
         
-        </location><locationArea>
+        <locationArea><location place="Central_Yharnam">
         It's found next to the Brick Troll who's banging on a locked gate in Central Yharnam. After passing through the town square with the massive crucified beast, you'll come upon an area with a fountain. There you will find the torch and can sneak behind the Brick Troll to open up a visceral attack in order to safely claim your prize.
-        </locationArea>
+        </locationArea></location>
         
         <trivia>
         In real life there are many supernatural beliefs regarding the usage of a torch.
@@ -2745,8 +2744,7 @@ But when he stared straight into impurity, it drove him mad."</description>
         Shields are nice, but not if they engender passivity."
         </description>
         
-        <locationArea>
-        It's found up the big stairs right after the Cathedral Ward Lantern.
+        <locationArea><location lamp="Cathedral_Ward">        It's found up the big stairs right after the Cathedral Ward Lantern.
         You can also pick it up as a rare drop from early enemies in the game with wooden shields.
         </location></locationArea>
         
