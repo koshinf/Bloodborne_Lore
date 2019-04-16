@@ -1,7 +1,12 @@
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
+        	
             <title><!-- Map Location here -->Forbidden Woods</title>
+        	<script type="text/javascript">
+            window.onload = alert('Bloop Blorp things happened here');
+        </script>
+        	<script type="text/javascript" src="showHide.js">/**/</script>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="stylesheet" type="text/css" href="css/main.css"/>
@@ -11,15 +16,28 @@
                         box-sizing: border-box;
                         }
                     </style>
+        	<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px"; 
+  document.getElementById("demo").style.color = "purple";
+  document.getElementById("demo").style.backgroundColor = "green";        
+  
+}
+
+</script>
+        	
                 
         </head>
         
         <body>
-		
+        	
+        	<button type="button" onclick="myFunction()">Click Me!</button>
             <!-- Start actual page -->
             <div class="dataDataContainer" style="margin-top: 2em;">
 			<div class="d">
-				
+				<button type="button"
+					onclick="document.getElementById('demo').innerHTML = Date()">
+					Click me to display Date and Time.</button>
 				<div class="dataLoc"><!-- This should be the location where someone clicks on the map -->Forbidden Woods</div>
 					
 					<div class="loreType"> <p><!-- Item/NPC/Weapon/Boss/Caryll Rune --> Caryll Rune</p> </div>

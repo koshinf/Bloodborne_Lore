@@ -16,6 +16,18 @@ img.header-img {
     margin: 0 auto;
 }
 
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif ;
+}
+
+h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif ;
+}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif ;
+}
+
 /* Body */
 body{
     background-image: url("../images/backgroundIMG.jpg");
