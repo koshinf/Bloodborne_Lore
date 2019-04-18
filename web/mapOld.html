@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Map</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	
+    	<link rel="stylesheet" type="text/css" href="css/main.css">
+			<!--#include virtual="ssi/favicon.html" -->
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+		</style>
+		
+    </head>
+		
+    <body>
+		<!--#include virtual="ssi/navbanner.html" -->
+    	<script>
+    	
+    	function goTo(locationID)
+    	{
+    	
+    	document.getElementById('resultsFrame').src=("http://bloodborne.newtfire.org/fetchResults.html?id=" + locationID);
+    	
+    	}
+    	</script>
+    	
+    	<div class="header">
+			<img class ="header-img" src="images/banner.jpg"/>
+		</div>
+		
+		<div class="mapContainer" style="margin-top: 1em;">
+			
+			
+			<h1 style="color: white;"> Interactive Map of Yharnam </h1>
+			
+			
+			<!-- These dimensions are 35% of the original -->
+			<svg xmlns="http://www.w3.org/2000/svg" height="486" width="1750">
+				<g transform="translate(0 0)">
+					<image height="486" width="864" xlink:href="images/bloodborneMap.jpg"/>
+					<rect width="50" height="50" fill="red" x="40" y="100" opacity=".0" onclick="goTo('Forsaken_Castle_Cainhurst')" cursor="pointer"/>
+					<rect width="75" height="25" fill="red" x="3" y="265" opacity=".0" onclick="goTo('Byrgenwerth')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="181" y="260" opacity=".0" onclick="goTo('Forbidden_Woods')" cursor="pointer"/>
+					<rect width="50" height="50" fill="red" x="208" y="120" opacity=".0" onclick="goTo('Hemwick_Charnel_Lane')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="230" y="450" opacity=".0" onclick="goTo('Central_Yharnam')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="312" y="175" opacity=".0" onclick="goTo('Cathedral_Ward')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="428" y="390" opacity=".0" onclick="goTo('Old_Yharnam')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="526" y="150" opacity=".0" onclick="goTo('Lecture_Building')" cursor="pointer"/>
+					<rect width="53" height="50" fill="red" x="567" y="293" opacity=".0" onclick="goTo('Yahar\'gul_Unseen_Village')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="665" y="92" opacity=".0" onclick="goTo('Nightmare_Of_Mensis')" cursor="pointer"/>
+					<rect width="60" height="37" fill="red" x="753" y="385" opacity=".0" onclick="goTo('Nightmare_Frontier')" cursor="pointer"/>
+				</g>
+			</svg>
+			<div style="text-align: center;">
+			<p>Bloodborne Map by Reddit user <a style="text-decoration: none;" href="https://www.reddit.com/r/bloodborne/comments/343qww/complete_map_of_bloodborne/">Hypn0tyk</a></p>
+			
+				<p style="color: white;"><b>Also, visit some of these places!</b></p>
+				
+				<p style="color: white;  cursor: pointer;"onclick="goTo('Hunter\'s_Dream')">Hunter's Dream</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Iosefka\'s_Clinic')">Iosefka's Clinic</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Healing_Church_Workshop')">Healing Church Workshop</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Upper_Cathedral_Ward')">Upper Cathedral Ward</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Abandoned_Old_Workshop')">Abandoned Old Workshop</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Research_Hall')">Research Hall</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Fishing_Hamlet')">Fishing Hamlet</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Pthumeru_Labyrinth')">Pthumeru Labyrinth</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Ailing_Loran')">Ailing Loran</p>
+				<p style="color: white;  cursor: pointer;" onclick="goTo('Hintertomb_Chalice')">Hintertomb Chalice</p>
+			
+			</div>
+		</div>
+		
+		<div class="mapContainer" style="margin-top: 2em;">
+			<h1 style="color: white;"> iFrame </h1>
+			<div class="iFrameContainer">
+				<iframe src="http://bloodborne.newtfire.org/fetchResults.html?id=Cathedral_Ward" width="1100" height="300" id="resultsFrame"></iframe>
+			</div>
+		</div>
+
+    </body>

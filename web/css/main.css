@@ -145,8 +145,24 @@ img.resultsLink {
 }
 
 /*----------------- ABOUT GAME -----------------*/
-
-
+ 
+ #left {
+	float: left;
+	display: flex;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	padding: 1em;
+ }
+ #right {
+	float: right;
+	display: flex;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	padding: 1em;
+ }
+ 
 /*----------------- TEAM -----------------*/
 
 .teamContainer {

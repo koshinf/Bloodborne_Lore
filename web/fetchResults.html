@@ -1,85 +1,36 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        
+        <script src="saxon/SaxonJS.min.js"></script>
         <script type="text/javascript">
-            
-            //This code is almost 100% from W3 Schools!
-            //https://www.w3schools.com/xml/xsl_client.asp
-            //I only edited it to accept parameters.
-            function loadXMLDoc(filename)
-            {
-                if (window.ActiveXObject)
-                {
-                    xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-                    
-                    //this doesn't seem to run.
-                }
-                else
-                {
-                    xhttp = new XMLHttpRequest();
-                    
-                    //opera and Edge run this
-                    
-                }
-            xhttp.open("GET", filename, false);
-            
-            try {xhttp.responseType = "document";} 
-            //the above try statement used to have msxml-document, but that's not a valid value, switched out for document
-            catch(err) {} // Helping IE11
-            
-            xhttp.send("");
-            
-            return xhttp.responseXML;
-            }
-            
-            
-            
-            function displayResult()
-            {
-                var url = window.location.href;
-                
-                getTitle(url);
-                
-                var queryString = url.split("?")[1];
-                //the directories below have been slightly edited to accomodate for the github directory.
-                xml = loadXMLDoc("../XML/mainXML.xml");
-                xsl = loadXMLDoc("../XSLT/locationOverview.xsl");
-                // code for IE
-                if (window.ActiveXObject || xhttp.responseType == "msxml-document")
-                {
-                    ex = xml.transformNode(xsl);
-                    //ex.addParameter("pQString",queryString); maybe this would cause problems, shutting it down for now.
-                    document.getElementById("example").innerHTML = ex;
-                    
-                    //this doesn't really run, so no debugging for this.
-                }
-                // code for Chrome, Firefox, Opera, etc.
-                
-                else if (document.implementation && document.implementation.createDocument)
-                {
-                xsltProcessor = new XSLTProcessor();
-                xsltProcessor.importStylesheet(xsl); 
-                //xsltProcessor.setParameter(null,"pQString",queryString); THIS is throwing an error, and is causing problems for the whole page.
-                resultDocument = xsltProcessor.transformToFragment(xml, document);
-                resultDocument = xsltProcessor.transformToFragment(xml, document);
-                
-                window.alert(resultDocument);
-                
-                
-                document.getElementById("example").appendChild(resultDocument);
-                
-                }
-            }
-            
-            function getTitle(url)
-           {
+            /*window.onload = SaxonJS.transform({
+                                stylesheetLocation: "XSLT/locationOverviewSJS.sef",
+                                sourceLocation: "XML/mainXML.xml",
+                                stylesheetParams: pQString = window.location.href
+                                });*/
+                                
+           
 
+           function getTitle()
+           {
+           
+           var raw = window.location.href;
+           
+           var url = raw.replace("%27","\'")
+           
+           document.getElementById("queryString").innerHTML = url;
+           
            var queryString = url.split("=")[1];
            
            var newTitle = queryString.replace("_"," ");
            
            document.title = newTitle;
+           
+           SaxonJS.transform({
+                                stylesheetLocation: "XSLT/locationPaneSJS.sef",
+                                sourceLocation: "XML/mainXML.xml",
+                                stylesheetParams: pQString = window.location.href
+                                });
            
            }
         </script>
@@ -94,9 +45,11 @@
                             }
                         </style>
     </head>
-    <body onload="displayResult()">
+    <body id="bodyDiv" onload="getTitle()">
         
-        <div id="example"></div>
+        <div class="dataLoc">Loading...</div>
+        <div id="queryString"></div>
+        
     </body>
 
 </html>
