@@ -5,3 +5,5 @@
 * Determine which areas are Waking World, Dream, or Nightmare and compare amount
 * maybe more?
 
+http://bloodborne.newtfire.org/
+
