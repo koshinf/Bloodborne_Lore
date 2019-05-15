@@ -8,7 +8,7 @@ Developers:
 * Frank Koshinskie: @koshinf
 * Nathan Dietz: @NADGIT
 * Donald Denne: @SparkTheDragon
-* 
+
 Date of Evaluation: 2019-05-15
 Evaluated by: Elisa Beshero-Bondar: @ebeshero
 
